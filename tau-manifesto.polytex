@@ -77,7 +77,7 @@ About the author
 
 Michael Hartl is an educator and entrepreneur. He is the founder of the \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial project}, which teaches \href{http://rubyonrails.org/}{Ruby on Rails} web development through the \href{http://www.railstutorial.org/book}{\emph{Ruby on Rails Tutorial} book} and \href{http://www.railstutorial.org/}{tutorial screencasts}. Previously, he taught theoretical and computational physics at the \href{http://www.caltech.edu/}{California Institute of Technology} (Caltech) for six years, where he received the Lifetime Achievement Award for Excellence in Teaching in 2000. Michael is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://resolver.caltech.edu/CaltechETD:etd-05222003-161626}{Ph.D. in Physics} from \href{http://www.caltech.edu/}{Caltech}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} program.
 
-Michael knows 51 digits of $\pi$, i.e., fifty decimal places---approximately 48 more than Matt Groening. He is currently working on memorizing 52 digits of $\tau$.
+Michael knows 51 digits of $\pi$, i.e., fifty decimal places---approximately 48 more than Matt Groening. He is currently working on memorizing 53 digits of $\tau$.\footnote{It doesn't round off right if you truncate after 52 digits. But you probably figured that out already.}
 
 \end{document}
 
