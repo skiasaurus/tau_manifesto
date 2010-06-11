@@ -1,0 +1,11 @@
+*.html
+cache/*
+ruby-on-rails-tutorial.tex
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.swp
+.DS_Store
+images/figures/*
