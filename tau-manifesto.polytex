@@ -19,7 +19,7 @@ Books have been written. I mean, \emph{books!} Some poor dudes memorize dozens, 
 \caption{This poor bastard memorized pi to 50 decimal places.\label{fig:michael_hartl}}
 \end{figure}
 
-As mathematician Bob Palais observed in his delightful article \emph{Pi is Wrong!}, $\pi$ is wrong. As he argued, and as this manifesto will thoroughly prove, the correct number is actually $2\pi$. But even the plucky Professor Palais couldn't quite bring himself to take the idea fully seriously, instead introducing a weird three-legged symbol for $2\pi$ (Fig), which he called ``one turn''. As we'll see, the description is prescient, but the symbol, lamentably, is D.O.A. 
+As mathematician Bob Palais observed in his delightful article ``$\pi$ is Wrong!'',\footnote{Palais, Robert. ``$\pi$ is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8.} $\pi$ is wrong. As he argued, and as this manifesto will prove, the correct number is actually $2\pi$. But even the plucky Professor Palais couldn't quite bring himself to take the idea fully seriously, introducing a weird three-legged symbol for $2\pi$ (Fig), which he called ``one turn''. As we'll see, the description is prescient, but the symbol, lamentably, is D.O.A. 
 
 The $\tau$ manifesto is dedicated to the proposition that when someone says ``$\pi$ is wrong'', the proper response is ``No, \emph{really}.'' And the correct number, tragically known as $2\pi$, deserves a proper name. The $\tau$ manifesto proposes that this name---as I hope you will not be surprised to learn---should be~$\tau$.
 
@@ -29,17 +29,17 @@ The $\tau$ manifesto is dedicated to the proposition that when someone says ``$\
   % subsection why_tau (end)
 
 \begin{enumerate}
-  \item $\tau$ has no serious conflicts with current usage.\footnote{In programming terms, there are no serious namespace clashes.} The symbol~$\tau$ is used for, e.g., \emph{strain} in mechanical engineering and \emph{proper time} in special and general relativity, but there is no common conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.}
+  \item \textbf{No serious conflicts.} $\tau$ has no serious conflicts with current usage.\footnote{In programming terms, there are no serious namespace clashes.} The symbol~$\tau$ is used for, e.g., \emph{strain} in mechanical engineering and \emph{proper time} in special and general relativity, but there is no universal conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.} 
   
-  \item $\tau$ is typographically similar to $\pi$, thereby evoking the proper image of a circle constant. (Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be.)
+  \item \textbf{Physical resemblance.} $\tau$ is typographically similar to $\pi$, thereby evoking the proper image of a circle constant. (Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be.)
   
-  \item As we shall see momentarily, $\tau$ represents one \emph{turn} of a circle. The English word ``turn'' comes from the Greek word for ``lathe'': \emph{tornos}. Or, as the Greeks would put it: 
+  \item \textbf{Etymology.} In the context of radian angle measure, $\tau$ represents one \emph{turn} of a circle. The root of the English word ``turn'' is the Greek word for ``lathe'', \emph{tornos}---or, as the Greeks would put it: 
   
-\[ \tau o\rho\nu o\varsigma \]
+\[ \tau \acute{o}\rho\nu o\varsigma \]
   
 \end{enumerate}
 
-I'm going to go out on a limb here and say: \emph{Q.E.D., bitches!}
+Looking at the first letter of that Greek lathe, I'm going to go out on a limb here and say: \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
 
 % section the_most_important_number_in_mathematics (end)
 
@@ -67,15 +67,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 \[ e^{i\tau} = 1 \]
 
 
-This is $\tau$. It is the true circle constant. After seeing how awesome $\tau$ is, $\pi$ will seem lame and old-fashioned.\footnote{\emph{Pi is Wrong!} by Bob Palais.}
+This is $\tau$. It is the true circle constant. After seeing how awesome $\tau$ is, $\pi$ will seem lame and old-fashioned.
 
 \section{Puns}
 
-We come now to the final objection: ``What about puns?'', I hear you cry. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ offers its own pregnant possibilities. After all, once you have accepted $\tau$ism, you will become a $\tau$ist like me. It is not that $\tau$ is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half~$\tau$, to be exact. This is the true nature of the~$\tau$.
+We come now to the final objection: ``What about puns?'', I hear you cry. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ itself is pregnant with possibilities. After all, once you have accepted $\tau$ism, you will become a $\tau$ist like me. It is not $\tau$ that is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half~$\tau$, to be exact. This is the true nature of the~$\tau$.
 
 About the author
 
-Michael Hartl is an educator and entrepreneur. He is the founder of the \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial project}, which produces the \href{http://www.railstutorial.org/book}{\emph{Ruby on Rails Tutorial} book} and \href{http://www.railstutorial.org/}{video screencasts} to teach web development using the popular \href{http://rubyonrails.org/}{Ruby on Rails} web framework. Previously, he taught theoretical and computational physics at the \href{http://www.caltech.edu/}{California Institute of Technology} (Caltech) for six years, where he received the Lifetime Achievement Award for Excellence in Teaching in 2000. Michael is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://resolver.caltech.edu/CaltechETD:etd-05222003-161626}{Ph.D. in Physics} from \href{http://www.caltech.edu/}{Caltech}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} program.
+Michael Hartl is an educator and entrepreneur. He is the founder of the \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial project}, which teaches \href{http://rubyonrails.org/}{Ruby on Rails} web development through the \href{http://www.railstutorial.org/book}{\emph{Ruby on Rails Tutorial} book} and \href{http://www.railstutorial.org/}{tutorial screencasts}. Previously, he taught theoretical and computational physics at the \href{http://www.caltech.edu/}{California Institute of Technology} (Caltech) for six years, where he received the Lifetime Achievement Award for Excellence in Teaching in 2000. Michael is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://resolver.caltech.edu/CaltechETD:etd-05222003-161626}{Ph.D. in Physics} from \href{http://www.caltech.edu/}{Caltech}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} program.
 
 Michael knows 51 digits of $\pi$, i.e., fifty decimal places---approximately 48 more than Matt Groening. He is currently working on memorizing 52 digits of $\tau$.
 
