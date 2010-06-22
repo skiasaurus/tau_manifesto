@@ -120,6 +120,10 @@ body #book {
   border: 1px solid #666;
 }
 
+#book .figure img.math {
+  border: none;
+}
+
 #book .displaymath {
   text-align: center;
   margin-top: 1em;
