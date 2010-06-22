@@ -10,13 +10,23 @@
 \section{The most important number} % (fold)
 \label{sec:the_most_important_number}
 
-Let $\tau = 2\pi$---this is the \emph{Tau Manifesto} in a nutshell.
+Let $\tau = 2\pi$---this is the essence of the $\tau$ \emph{manifesto}.
+
+
+pro-$\pi$ propaganda.
+
+\begin{figure}
+\begin{center}
+\image{images/figures/google-pi-day.gif}
+\end{center}
+\caption{The Google logo on March 14, 2010.\label{fig:google-pi-day}}
+\end{figure}
 
 
 This is $\tau$. It is the true circle constant. After seeing how awesome $\tau$ is, $\pi$ will seem lame and old-fashioned.
 
 
-As mathematician Bob Palais observed in his delightful article ``$\pi$ is Wrong!'',\footnote{Palais, Robert. ``$\pi$ is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8.} $\pi$ is wrong. As he argued, and as this manifesto will prove, the correct number is actually $2\pi$. Tone seems to be one of ``It's too bad they didn't define $\pi$ differently.'' Fuck that; just introduce a new symbol, a \emph{real} symbol, one pronounceable even to the uninitiated and supported by current typesetting systems.
+As mathematician Bob Palais observed in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8.} $\pi$ is wrong. As he argued, and as this manifesto will prove, the correct number is actually $2\pi$. Tone seems to be one of ``It's too bad they didn't define $\pi$ differently.'' Fuck that; just introduce a new symbol, a \emph{real} symbol, one pronounceable even to the uninitiated and supported by current typesetting systems.
 
 But even the plucky Professor Palais couldn't quite bring himself to take the idea fully seriously;  instead of using a proper Greek letter, he used a weird three-legged symbol for $2\pi$ (Fig), which he called ``one turn''. As we'll see, the description is prescient, but the symbol, lamentably, is D.O.A. 
 
@@ -24,7 +34,7 @@ But even the plucky Professor Palais couldn't quite bring himself to take the id
 \begin{center}
 \includegraphics{images/figures/palais-tau.png}
 \end{center}
-\caption{The strange symbol used for $\tau$ in ``$\pi$ is Wrong!''.\label{fig:palais-tau}}
+\caption{The strange symbol used for $\tau$ in ``$\pi$ Is Wrong!''.\label{fig:palais-tau}}
 \end{figure}
 
 Perhaps it takes a physicist's pragmatism $h$ with $\hbar$ by writing
@@ -42,11 +52,13 @@ Books have been written. I mean, \emph{books!} Some poor dudes memorize dozens, 
 \begin{center}
 \image{images/figures/michael_hartl.jpg}
 \end{center}
-\caption{This poor bastard memorized $\pi$ to 50 decimal places.\label{fig:michael_hartl}}
+\caption{This poor bastard once memorized $\pi$ to 50 decimal places.\label{fig:michael_hartl}}
 \end{figure}
 
 
-The $\tau$ manifesto is dedicated to the proposition that when someone says ``$\pi$ is wrong'', the proper response is ``No, \emph{really}.'' And the correct number, tragically known as $2\pi$, deserves a proper name. The $\tau$ manifesto proposes that this name---as I hope you will not be surprised to learn---should be~$\tau$.
+The $\tau$ manifesto is dedicated to the proposition that the proper response to ``$\pi$ is wrong'' is ``No, \emph{really}.'' And the correct number, tragically known as $2\pi$, deserves a proper name. The $\tau$ manifesto proposes that this name---as I hope you will not be surprised to learn---should be~$\tau$.
+
+
 
   \subsection{Why tau?} % (fold)
   \label{sec:why_tau}
@@ -108,7 +120,7 @@ Radians involve
 
 Can write as
 
-\[ \theta = f\,\frac{C}{r} \]
+\[ \theta = f\,\frac{C}{r} \equiv f\tau \]
 
 \begin{figure}
 \begin{center}
@@ -169,12 +181,17 @@ it's rearranged
 Five fundamental numbers. Fine:
 
 
-\[ e^{i\tau} = 1 + 0 \]
+\[ e^{i\tau} + 0 = 1 \]
 
 Voil\`{a}!
 
 \section{Circular area} % (fold)
 \label{sec:circular_area}
+
+\[ A = \pi r^2 \]
+
+
+Seems like the exception, but is really the coup de gr\^{a}ce.
 
 \[ v \propto t \]
 
@@ -196,11 +213,26 @@ Voil\`{a}!
 \[ K = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2 \]
 
 
+\begin{figure}
+\begin{center}
+\image{images/figures/circular-area.png}
+\end{center}
+\caption{Calculating the area of a circle.\label{fig:circular-area}}
+\end{figure}
+
+\[ dA = C\,dr \]
+
+\noindent But for a circle the circumference is proportional to the radius:
+
 \[ C \propto r \]
+
+\noindent The constant of proportionality is $\tau$:
 
 \[ C = \tau r \]
 
-\[ A = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2 \]
+\noindent The area of the full circle can then be calculated by integrating the differential element of area:
+
+\[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2 \]
 
 
 
