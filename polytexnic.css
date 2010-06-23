@@ -40,8 +40,17 @@ body #book {
   text-align: center;
 }
 
+#book h3.date {
+  text-align: center;
+}
+
+
 #book a {
   color: #002f72;
+  text-decoration: underline;
+}
+
+#book a.ref {
   text-decoration: none;
 }
 
