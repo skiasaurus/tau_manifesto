@@ -19,7 +19,7 @@ Only they didn't.  As mathematician Bob Palais noted in the article ``$\pi$ Is W
   \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \]
 
-\noindent Unfortunately, this definition is off by a factor of two. A circle is the set of points a fixed distance---the \emph{radius}---from a given point, so the most natural definition for the circle constant uses $r$ in place of $D = 2r$:
+\noindent Unfortunately, this definition is off by a factor of two. A circle is the set of points a fixed distance---the \emph{radius}---from a given point, so the most natural definition for the circle constant uses $r$ in place of $D$:
 
 \[
   \mathrm{circle\ constant} = \frac{C}{r}
@@ -188,9 +188,9 @@ Since complex exponentials correspond to rotations in the complex plane, this ca
 \begin{enumerate}
   \item \emph{No serious conflicts.} The symbol~$\tau$ is used for, e.g., \emph{strain} in mechanical engineering and \emph{proper time} in special and general relativity, but there is no universal conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.} 
   
-  \item \emph{Physical resemblance.} $\tau$ is typographically similar to $\pi$, thereby evoking the proper image of a circle constant. Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be.\footnote{Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.}
+  \item \emph{Physical resemblance.} $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant.\footnote{Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.}
   
-  \item \emph{Etymology.} We have seen that, geometrically, $\tau$ represents one \emph{turn} of a circle. Now, the root of the English word ``turn'' is the Greek word for ``lathe'', \emph{tornos}---or, as the Greeks would put it: 
+  \item \emph{Etymology.} We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle. In this context, consider that the root of the English word ``turn'' is the Greek word for ``lathe'', \emph{tornos}---or, as the Greeks would put it: 
   
 \[ \tau \acute{o}\rho\nu o\varsigma \]
   
@@ -261,12 +261,12 @@ We come now to the final objection: ``What about puns?'', I hear you cry. I know
 
 \section{Conclusion}
 
-We are followers of $\tau$ism, and June 28---$\tau$ Day---is our holiday: our holy day.\footnote{Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} I hope you will join us in celebrating!
+We are followers of the $\tau$, and June 28---$\tau$ Day---is our holiday: $\tau$ism's holy day.\footnote{Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} I hope you will join us in celebrating!
 
 \\
 
 \textbf{About the author}
 
-\emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is an educator and entrepreneur. An experienced web developer, he is currently working on the  \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial} project; previously, he taught theoretical and computational physics at the \href{http://www.caltech.edu/}{California Institute of Technology}, where he received the Lifetime Achievement Award for Excellence in Teaching. Michael knows 51 digits of $\pi$---i.e., fifty decimal places---approximately 48 more than \href{http://en.wikipedia.org/wiki/Matt_Groening}{Matt Groening}. He is currently working on memorizing 53 digits of $\tau$.\footnote{It doesn't round off right if you truncate after 52 digits. But you probably figured that out already.}
+\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is an educator and entrepreneur. An experienced programmer, he is currently working on the  \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial} project to teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at the \href{http://www.caltech.edu/}{California Institute of Technology}, where he received the Lifetime Achievement Award for Excellence in Teaching. Michael knows 51 digits of $\pi$---i.e., fifty decimal places---approximately 48 more than \href{http://en.wikipedia.org/wiki/Matt_Groening}{Matt Groening}. He is now working on memorizing 53 digits of $\tau$.\footnote{It doesn't round off right if you truncate after 52 digits. But you probably figured that out already.}
 \end{document}
 
