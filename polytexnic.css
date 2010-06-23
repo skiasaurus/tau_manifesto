@@ -329,3 +329,11 @@ body #book {
 #book .navigation .next_page {
   float: right;
 }
+
+#book ol {
+  margin-bottom: 2em;
+}
+
+#book ol li {
+  margin-bottom: 1em;
+}
