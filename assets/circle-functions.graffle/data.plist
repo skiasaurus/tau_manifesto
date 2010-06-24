@@ -56,8 +56,8 @@
 			<integer>40</integer>
 			<key>Points</key>
 			<array>
-				<string>{347.5, 224}</string>
-				<string>{240.5, 223}</string>
+				<string>{347.5, 225.25}</string>
+				<string>{240.5, 225}</string>
 			</array>
 			<key>Rotation</key>
 			<real>90</real>
@@ -1285,7 +1285,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-06-23 16:45:35 -0700</string>
+	<string>2010-06-23 23:56:18 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
@@ -1370,7 +1370,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{108, 87.5}, {369, 367}}</string>
+		<string>{{103.5, 0}, {369, 367}}</string>
 		<key>Zoom</key>
 		<real>2</real>
 		<key>ZoomValues</key>
