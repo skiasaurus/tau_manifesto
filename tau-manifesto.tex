@@ -51,7 +51,7 @@ The \emph{Tau Manifesto} is dedicated to the proposition that the proper respons
   \tau \equiv \frac{C}{r} = 6.2831853071796586\ldots
 \]
 
-\noindent This symbol is neither confusing nor absurd. The rest of this manifesto is will show that the \emph{number} $\tau$ is the correct choice, and will show through usage (\hyperref[sec:the_nature_of_the_circle]{Section~}\ref{sec:the_nature_of_the_circle}) and direct argumentation (\hyperref[sec:why_tau]{Section~}\ref{sec:why_tau}) that the \emph{letter} $\tau$ is a natural choice as well.
+\noindent This symbol is neither confusing nor absurd. The rest of this manifesto is will show that the \emph{number} $\tau$ is the correct choice, and will show through usage (\hyperref[sec:the_number_tau]{Section~}\ref{sec:the_number_tau}) and direct argumentation (\hyperref[sec:why_tau]{Section~}\ref{sec:why_tau}) that the \emph{letter} $\tau$ is a natural choice as well.
 
  \subsection{A powerful enemy} % (fold)
 
@@ -75,8 +75,8 @@ Truly, defenders of $\tau$ face a mighty opponent. And yet, we have a powerful a
 
 % section the_most_important_number (end)
 
-\section{The nature of the circle} % (fold)
-\label{sec:the_nature_of_the_circle}
+\section{The number tau} % (fold)
+\label{sec:the_number_tau}
 
 If you look through the equations of mathematics, you will find that the combination $2\pi$ occurs (if you are a $\pi$-partisan) with alarming frequency. For example, consider integrals over all angles in polar coordinates:
 
@@ -84,14 +84,33 @@ If you look through the equations of mathematics, you will find that the combina
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta
 \]
 
-\noindent 
+\noindent The same factor of $2\pi$ occurs in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{normal distribution}:
 
+\[
+  \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\]
 
-and you see...
+\noindent It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula}:
 
-But the best demonstration ...
+\[
+  f(a) = \frac{1}{2\pi i}\int\frac{f(z)}{z-a}\,dz
+\]
 
-Students of trigonometry learn special angles (\hyperref[fig:degree-angles]{Figure~}\ref{fig:degree-angles}).
+\noindent ``$\pi$ Is Wrong'' contains many more examples, and the lesson is clear: there's something suspicious about $\pi$, and something natural about $2\pi$. To get to the bottom of the mystery, we must consider the nature of the circle, and especially the nature of \emph{angle}.
+
+  \subsection{The nature of angle} % (fold)
+  \label{sec:the_nature_of_angle}
+
+There is an intimate relationship between circles and \emph{angles}, as shown in \hyperref[fig:angle-arclength]{Figure~}\ref{fig:angle-arclength}. Although the lines in the figure cut off different lengths of arc (i.e., different \emph{arclengths}) from two concentric circles with different radii, the angle~$\theta$ is the same in each case. The problem of angle measurement is to create a system that captures this arclength- and radius-invariance.
+
+\begin{figure}
+\begin{center}
+\image{images/figures/angle-arclength.png}
+\end{center}
+\caption{An angle $\theta$ with two concentric circles.\label{fig:angle-arclength}}
+\end{figure}
+
+Perhaps the most elementary angle system is \emph{degrees}, which arbitrarily breaks a circle into 360 equal parts. One result of this system is the set of special angles familiar to students of trigonometry (\hyperref[fig:degree-angles]{Figure~}\ref{fig:degree-angles}). 
 
 \begin{figure}
 \begin{center}
@@ -100,25 +119,23 @@ Students of trigonometry learn special angles (\hyperref[fig:degree-angles]{Figu
 \caption{Some important angles, in degrees.\label{fig:degree-angles}}
 \end{figure}
 
-Degrees break circles arbitrarily into 360 equal parts. More natural is to note that, since 
+A more fundamental system of angle measure involves a direct comparison of the arclength $s$ with the radius $r$. Although the arclengths in \hyperref[fig:angle-arclength]{Figure~}\ref{fig:angle-arclength} differ, the lengths grow proportional to the radius, so that the \emph{ratio} of the arclength to the radius is the same for each:
 
- \subsection{Radian angle measure} % (fold)
- \label{sec:radian_angle_measure}
- 
- % subsection radian_angle_measure (end)
+\[
+s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}
+\]
 
-\begin{figure}
-\begin{center}
-\image{images/figures/angle-arclength.png}
-\end{center}
-\caption{The arclengths $s$ and radii $r$ differ, but since $s\propto r$ the ratios are the same.\label{fig:angle-arclength}}
-\end{figure}
-
-The arclengths differ, but the \emph{ratio} of the arclength to the radius is the same for each. This suggests the following definition of \emph{radian angle measure}:
+\noindent This suggests the following definition of \emph{radian angle measure}:
 
 \[ \theta = \frac{s}{r} \]
 
-If you recall high-school trig, you probably have the special angles shown in \hyperref[fig:pi-angles]{Figure~}\ref{fig:pi-angles} floating around in your brain. I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.
+\noindent This definition has the required properties of arclength- and radius-independence, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+
+\[
+  \frac{d}{d\theta}\sin\theta = \cos\theta \mathrm{\ \ \ \ (only\ when\ } \theta\mathrm{\ is\ in\ radians)}
+\]
+
+Naturally, the special angles in \hyperref[fig:degree-angles]{Figure~}\ref{fig:degree-angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in \hyperref[fig:pi-angles]{Figure~}\ref{fig:pi-angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
 \begin{figure}
 \begin{center}
@@ -127,7 +144,7 @@ If you recall high-school trig, you probably have the special angles shown in \h
 \caption{Some important angles, in $\pi$-radians.\label{fig:pi-angles}}
 \end{figure}
 
-We now begin to see just how ridiculous $\pi$ is. For a moment's reflection shows that the so-called ``special'' angles are simply  \emph{rational fractions} of a full circle, as shown in \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}.
+\noindent We now begin to see just how ridiculous $\pi$ is, for a moment's reflection shows that the so-called ``special'' angles are simply  \emph{rational fractions} of a full circle, as shown in \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}.
 
 \begin{figure}
 \begin{center}
@@ -140,8 +157,7 @@ We now begin to see just how ridiculous $\pi$ is. For a moment's reflection show
 
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau \]
 
-\noindent Notice how naturally $\tau$ falls out of this analysis. The resulting diagram of angles---shown in \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles}---is a powerful argument in favor of $\tau$.
-Indeed, upon comparing \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} with \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}, I consider it decisive.
+\noindent Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, the resulting diagram of angles---shown in \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles}---will shake your faith to its core. Although there are other arguments in $\tau$'s favor, \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} may be the most striking. Indeed, upon comparing \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} with \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}, I consider it decisive.
 
 \begin{figure}
 \begin{center}
@@ -150,11 +166,9 @@ Indeed, upon comparing \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} wi
 \caption{Some important angles, in radians.\label{fig:tau-angles}}
 \end{figure}
 
-One turn.
+We see from \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} the genius of Bob Palais' description of ``one turn'' for the circle constant: $\tau$ is the radian angle measure for one \emph{turn} of a circle. Moreover, note that with $\tau$ there is \emph{nothing to memorize}; the radian angle measure for an eighth of a circle---one slice of pizza---is simply $\tau$/8. We also see from \hyperref[fig:pi-angles]{Figure~}\ref{fig:pi-angles} where those pesky factors of $2\pi$ come from: one turn of a circle is $2\pi$. These unnecessary factors of $2$ are annoying in themselves, but far more serious is their tendency to \emph{disappear} when divided by any even number. The absurd results, such as $\pi$/2 for a \emph{quarter} circle, obscure the underlying relationship between angular measure and the circle constant.
 
-No memorization.
-
-To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ in trigonometry, I simply ask you to view \hyperref[fig:pi-angles]{Figure~}\ref{fig:pi-angles}, \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}, and \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} through the eyes of a child. You will see that, from the perspective of a beginner, \emph{using $\pi$ instead of $\tau$ is a pedagogical disaster.}
+To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ when teaching trigonometry, I simply ask you to view \hyperref[fig:pi-angles]{Figure~}\ref{fig:pi-angles}, \hyperref[fig:angle-fractions]{Figure~}\ref{fig:angle-fractions}, and \hyperref[fig:tau-angles]{Figure~}\ref{fig:tau-angles} through the eyes of a child. You will see that, from the perspective of a beginner, \emph{using $\pi$ instead of $\tau$ is a pedagogical disaster.}
 
   \subsection{The circle functions} % (fold)
   \label{sec:the_circle_functions}
@@ -189,6 +203,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 % section radian_angle_measure (end)
 
+   \subsection{Euler's formula} % (fold)
+   \label{sec:euler_s_formula}
+   
+   % subsection euler_s_formula (end)
+
 Can write
 
 \[ e^{i\theta} = \cos\theta + i\sin\theta \]
@@ -212,6 +231,10 @@ Since complex exponentials correspond to rotations in the complex plane, this ca
 
 \noindent As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle.
 
+    \subsubsection{``The most amazing equation''} % (fold)
+    \label{sec:_the_most_amazing_equation_}
+    
+    % subsubsection _the_most_amazing_equation_ (end)
 
 Of course, Euler's formula is traditionally written in terms of $\pi$:
 
@@ -222,11 +245,11 @@ Of course, Euler's formula is traditionally written in terms of $\pi$:
 
 \[ e^{i\pi} + 1 = 0 \]
 
-\noindent At this point, the expositor usually makes some grandiose statement about how Euler's formula relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers of mathematics''. Alert readers might then complain that Euler's formula with $\tau$ relates only four of those five. For any such whiners out there, I offer this:
+\noindent At this point, the expositor usually makes some grandiose statement about how Euler's formula relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers of mathematics''. Alert readers might then complain that Euler's formula with $\tau$ relates only \emph{four} of those five since it's missing $0$. For any such whiners in the audience, I offer this:
 
 \[ e^{i\tau} + 0 = 1 \]
 
-\noindent So there.
+\noindent So there. :-)
 
 \section{Why tau?} % (fold)
 \label{sec:why_tau}
