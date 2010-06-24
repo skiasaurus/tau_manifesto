@@ -173,14 +173,16 @@ To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ 
   \subsection{The circle functions} % (fold)
   \label{sec:the_circle_functions}
 
+Although I consider that the argument for $\tau$ is now won, it doesn't hurt to run up the score a little, so let's consider the important elementary functions $\sin\theta$ and $\cos\theta$. Known as the ``circle functions''  because they give the coordinates of a point on the \emph{unit circle} (\hyperref[fig:circle-functions]{Figure~}\ref{fig:circle-functions}), sine and cosine are the fundamental functions of trigonometry.
 
 \begin{figure}
 \begin{center}
 \image{images/figures/circle-functions.png}
 \end{center}
-\caption{Coordinates on the unit circle.\label{fig:sine-with-tau}}
+\caption{Coordinates on the unit circle.\footnote{A unit circle is a circle whose diameter---no, wait, \emph{radius}---is equal to~$1$.}\label{fig:circle-functions}}
 \end{figure}
 
+Let's examine the graphs of the circle functions to better understand their behavior. You'll notice from \hyperref[fig:sine-with-tau]{Figure~}\ref{fig:sine-with-tau} and \hyperref[fig:cosine-with-tau]{Figure~}\ref{fig:cosine-with-tau} that both functions are \emph{periodic} with period $T$.\footnote{I swear I'm not stacking the deck here; $T$ really is the usual letter in this context.} As shown in \hyperref[fig:sine-with-tau]{Figure~}\ref{fig:sine-with-tau}, the sine function $\sin\theta$ starts at zero, reaches a maximum at a quarter period, passes through zero at a half period, reaches a minimum at three-quarters of a period, and returns to zero after one full period. Meanwhile, the cosine function $\cos\theta$ starts at a maximum, has a minimum at one-half period, and passes through zero at the quarter periods (\hyperref[fig:cosine-with-tau]{Figure~}\ref{fig:cosine-with-tau}). For reference, both figures show the values of $\theta$ (in radians) for each special point.
 
 \begin{figure}
 \begin{center}
@@ -196,9 +198,14 @@ To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ 
 \caption{Important points for $\cos\theta$ in terms of the period $T$.\label{fig:cosine-with-tau}}
 \end{figure}
 
+Of course, since sine and cosine both return to their starting values after one full turn of the circle, we have $T = \tau$---the circle functions have periods equal to the circle constant. As a result, the ``special'' values are utterly natural: the value of $\theta$ for, e.g., a half period is just $\tau$/2, and so on. In fact, when making \hyperref[fig:sine-with-tau]{Figure~}\ref{fig:sine-with-tau}, I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs at a half period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  
+\[
+  \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14
+\]
+
+\noindent That's right: I was astonished to discover that \emph{I had already forgotten that $\tau$/2 is sometimes called ``$\pi$''.} Perhaps this even happened to you just now. Welcome to my world.
+
   % subsection the_circle_functions (end)
 
 % section radian_angle_measure (end)
@@ -267,13 +274,13 @@ Of course, there's no need to justify introducing a new variable; there's no arg
 \end{enumerate}
 
 
-It's essential to understand that $\pi$ is not a \emph{convention} in the sense of electrostatic charge; it's a \emph{symbol} for a \emph{number}. The \emph{Tau Manifesto} merely argues for another symbol representing a \emph{different} number. In contrast to overturning (say) the sign convention for electrostatics, which would require rewriting every textbook on physics and electrical engineering, we can switch to $\tau$ ``at runtime'' (as programmers might say) simply by starting our discussion with ``Let $\tau = 2\pi$\ldots''\footnote{In fact, papers in general relativity often include just such a statement in the introduction: ``We work in units where $G = c = 1$.''} Changing over to $\tau$ is thus a matter of purely mechanical substitution, completely robust and indeed fully reversible; the conversion
+It's essential to understand that $\pi$ is not a \emph{convention} in the sense of electrostatic charge; it's a \emph{symbol} for a \emph{number}. The \emph{Tau Manifesto} merely argues for another symbol representing a \emph{different} number. In contrast to overturning (say) the sign convention for electrostatics, which would require rewriting every textbook on physics and electrical engineering, we can switch to $\tau$ ``at runtime'' (as programmers might say) simply by starting our discussion with ``Let $\tau = 2\pi$\ldots''\footnote{In fact, papers in general relativity often include just such a statement in the introduction: ``We work in units where $G = c = 1$.''} Moreover, changing over to $\tau$ when using legacy textbooks is a matter of purely mechanical substitution, completely robust and indeed fully reversible; the conversion
 
 \[
   \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau
 \]
 
-\noindent allows us to change back and forth between the two on the fly. (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a symbol for one-half $\tau$, it seems unlikely that anyone would see fit to invent one.)
+\noindent allows us to change back and forth between the two on the fly. (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a separate symbol for $\tau$/2, it seems unlikely that anyone would see fit to introduce one.)
 
 \section{The coup de gr\^{a}ce} % (fold)
 \label{sec:circular_area}
