@@ -356,7 +356,7 @@ We see that even in this case, where $\pi$ supposedly shines, in fact there is a
 \section{Why tau?} % (fold)
 \label{sec:why_tau}
 
-Having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well; after a few sections, you may even have forgotten that it was first introduced in this very manifesto. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, or $\omega$? What's so special about $\tau$? Allow me to offer the following reasons, in order of increasing strength:
+Having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well; after a few sections, you may even have forgotten that it was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, or $\omega$? What's so special about $\tau$? Allow me to offer the following reasons, in order of increasing strength:
 
 \begin{enumerate}
   \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for, e.g., \emph{strain} in mechanical engineering and \emph{proper time} in special and general relativity, there is no universal conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.} 
