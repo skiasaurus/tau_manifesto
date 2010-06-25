@@ -392,7 +392,7 @@ Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau r^2$
     
     % subsubsection quod_erat_demonstrandum (end)
 
-We set out in this manifesto to show that $\tau$ is the proper circle constant. Since the formula for circular area was just about the best argument $\pi$ had going for it, I'm going to go out on a limb here and say: \href{http://en.wikipedia.org/wiki/Q.E.D.}{Q.E.D.}
+We set out in this manifesto to show that $\tau$ is the true circle constant. Since the formula for circular area was just about the best argument $\pi$ had going for it, I'm going to go out on a limb here and say: \href{http://en.wikipedia.org/wiki/Q.E.D.}{Q.E.D.}
 
 % section circular_area (end)
 
@@ -408,7 +408,7 @@ Allow me to offer the following arguments, in order of increasing strength:
   
   \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant.\footnote{Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.}
   
-  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'', \emph{tornos}---or, as the Greeks would put it: \[ \tau \acute{o}\rho\nu o\varsigma. \] Your head has just exploded again.
+  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe,'' \emph{tornos}---or, as the Greeks would put it: \[ \tau \acute{o}\rho\nu o\varsigma. \] Your head has just exploded again.
 \end{enumerate}
 
 Looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say again:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
