@@ -51,7 +51,37 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{227, 445}, {30.8718, 43}}</string>
+			<string>{{121.186, 158}, {242.5, 242.5}}</string>
+			<key>Class</key>
+			<string>ShapedGraphic</string>
+			<key>ID</key>
+			<integer>54</integer>
+			<key>ImageID</key>
+			<integer>9</integer>
+			<key>Shape</key>
+			<string>Rectangle</string>
+			<key>Style</key>
+			<dict>
+				<key>fill</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+				<key>stroke</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>Bounds</key>
+			<string>{{226, 445}, {30.8718, 43}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -81,7 +111,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{49.7647, 260}, {20.2353, 43}}</string>
+			<string>{{49.7647, 261}, {20.2353, 43}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -504,9 +534,10 @@
 	<key>HPages</key>
 	<integer>1</integer>
 	<key>ImageCounter</key>
-	<integer>9</integer>
+	<integer>10</integer>
 	<key>ImageLinkBack</key>
 	<array>
+		<dict/>
 		<dict/>
 		<dict/>
 		<dict/>
@@ -518,6 +549,7 @@
 	</array>
 	<key>ImageList</key>
 	<array>
+		<string>image9.gif</string>
 		<string>image8.eps</string>
 		<string>image7.eps</string>
 		<string>image6.eps</string>
@@ -564,7 +596,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-06-24 18:39:31 -0700</string>
+	<string>2010-06-24 18:38:41 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
@@ -635,7 +667,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{607, 178}, {887, 903}}</string>
+		<string>{{397, 110}, {887, 903}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
