@@ -17,7 +17,7 @@ Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the m
   \subsection{A modest proposal} % (fold)
   \label{sec:a_modest_proposal}
 
-We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of the circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
+We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of a circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
 
 
 \[
@@ -36,8 +36,7 @@ Although he argues persuasively in favor of the above definition, even the pluck
   \pi \equiv \frac{C}{r}.
 \]
 
-\noindent Given how deeply entrenched $\pi$ is in its current form, this redefinition is a complete nonstarter; it suggests, with a wistful tone, a ``\emph{wouldn't it have been nice if\ldots}'' sentiment that has no chance of real-world usage---thereby \emph{approaching} the truth but stopping short when the implications become too uncomfortable.\footnote{George Orwell called this phenomenon \href{http://en.wikipedia.org/wiki/Crimestop}{\emph{crimestop}}.} Of course, using $\pi$ in the manner above would be hopelessly confusing, so ultimately Dr. Palais does introduce a separate symbol for the circle constant, which he calls ``one turn''.  As we'll see, the description is prescient, but the symbol, lamentably, is absurd (Figure~\ref{fig:palais-tau}).\footnote{Why propose an absurd symbol that has no chance of ever being used in a serious context? As I said: \href{http://en.wikipedia.org/wiki/Crimestop}{\emph{crimestop}}.}
-
+\noindent Given how deeply entrenched $\pi$ is in its current form, this redefinition is a complete nonstarter; it suggests, with a wistful tone, a ``\emph{wouldn't it have been nice if\ldots}'' sentiment that has no chance of real-world usage. Of course, using $\pi$ in the manner above would be hopelessly confusing, so ultimately Professor Palais does introduce a separate symbol for the circle constant, which he calls ``one turn''.  As we'll see, the description is prescient, but the symbol, lamentably, is absurd (Figure~\ref{fig:palais-tau}).
 
 \begin{figure}
 \begin{center}
@@ -56,7 +55,7 @@ The \emph{Tau Manifesto} is dedicated to the proposition that the proper respons
 
  \subsection{A powerful enemy} % (fold)
 
-Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``$\pi$ Day'' 2010 the \href{http://www.google.com/}{Google} home page \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google-pi-day}).  
+Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``$\pi$ Day'' 2010 \href{http://www.google.com/}{Google} \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google-pi-day}).  
 
 \begin{figure}
 \begin{center}
@@ -71,7 +70,7 @@ Meanwhile, some people memorize dozens, hundreds, even \emph{thousands} of digit
 \begin{center}
 %= insert_futurama_video
 \end{center}
-\caption{\href{#sec:about_the_author}{Michael Hartl} proves \href{http://en.wikipedia.org/wiki/Matt_Groening}{Matt Groening} wrong by reciting $\pi$ to 50 decimal places.\footnote{This is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from ``The Simpsons'' and especially ``Futurama'' to help her students get over their math anxiety; she is also the maintainer of the \href{http://www.mathsci.appstate.edu/~sjg/futurama/}{Futurama Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{Futurama} is back! New episodes are currently airing on Comedy Central at 10pm~/~9c. :-)}\label{fig:futurama_video}}
+\caption{\href{#sec:about_the_author}{Michael Hartl} proves \href{http://en.wikipedia.org/wiki/Matt_Groening}{Matt Groening} wrong by reciting $\pi$ to 50 decimal places.\footnote{This is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from ``The Simpsons'' and especially ``Futurama'' to help her students get over their math anxiety; she is also the maintainer of the \href{http://www.mathsci.appstate.edu/~sjg/futurama/}{Futurama Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{Futurama} is back! New episodes are currently airing Thursday nights on Comedy Central at 10pm~/~9c. :-)}\label{fig:futurama_video}}
 \end{figure}
 
 Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful ally---for the truth is on our side.
@@ -107,12 +106,12 @@ Since the diameter of a circle is twice its radius, numerically $\tau$ is simply
 
 \noindent There are many more examples, and the lesson is clear: there's something seemingly inevitable about $2\pi$.
 
-To get to the bottom of this mystery, we must return to first principles by considering the nature of the circle, and especially the nature of \emph{angle}. Although much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
+To get to the bottom of this mystery, we must return to first principles by considering the nature of the circle, and especially the nature of \emph{angle}. Although much of this material may be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
   \subsection{The nature of angle} % (fold)
   \label{sec:the_nature_of_angle}
 
-There is an intimate relationship between circles and \emph{angles}, as shown in Figure~\ref{fig:angle-arclength}. The lines in the figure cut off different lengths of arc (or \emph{arclengths}) from each of two concentric circles with different radii, but the angle~$\theta$ (theta) is the same in each case. The task of angle measurement is to create a system that captures this arclength- and radius-invariance.
+There is an intimate relationship between circles and \emph{angles}, as shown in Figure~\ref{fig:angle-arclength}. Since the concentric circles in Figure~\ref{fig:angle-arclength} have different radii, the lines in the figure cut off different lengths of arc (or \emph{arclengths}), but the angle~$\theta$ (theta) is the same in each case. In other words, the size of the angle does not depend on the radius of the circle used to define the arc. The principal task of angle measurement is to create a system that captures this radius-invariance.
 
 \begin{figure}
 \begin{center}
@@ -140,7 +139,7 @@ s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 
 \[ \theta \equiv \frac{s}{r}. \]
 
-\noindent This definition has the required properties of arclength- and radius-independence, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+\noindent This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
 
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians).}
@@ -212,7 +211,7 @@ Let's examine the graphs of the circle functions to better understand their beha
 \caption{Important points for $\cos\theta$ in terms of the period $T$.\label{fig:cosine-with-tau}}
 \end{figure}
 
-Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have $T = \tau$, i.e., the circle functions have periods equal to the circle constant. As a result, the ``special'' values are utterly natural: the value of $\theta$ for half a period is just $\tau$/2, and so on. In fact, when making Figure~\ref{fig:sine-with-tau}, I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs at a half period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
+Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have $T = \tau$, i.e., the circle functions have periods equal to the circle constant. As a result, the ``special'' values are utterly natural: the value of $\theta$ for a quarter of a period is just $\tau$/4, and so on. In fact, when making Figure~\ref{fig:sine-with-tau}, I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs after half a period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
 
 \[
   \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14.
@@ -229,7 +228,7 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 
 I would be remiss in this manifesto not to address \emph{Euler's identity}, ``the most beautiful equation in mathematics''. This identity involves \emph{complex exponentiation}, which is deeply connected both to the circle functions and to the geometry of the circle itself.
 
-Depending on the route chosen, the following equation can be taken either as a theorem or as a definition; either way, it is quite remarkable:
+Depending on the route chosen, the following equation can be either be proved as a theorem or taken as a definition; either way, it is quite remarkable:
 
 \[ e^{i\theta} = \cos\theta + i\sin\theta. \]
 
@@ -268,7 +267,7 @@ Of course, Euler's identity is traditionally written in terms of $\pi$:
 
 \[ e^{i\pi} + 1 = 0. \]
 
-\noindent (Where does that minus sign come from? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots}) At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. For any such whiners in the audience, let me note that, since $\sin\tau = 0$, we were already there:
+\noindent (What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots}) At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. For any such whiners in the audience, let me note that, since $\sin\tau = 0$, we were already there:
 
 \[ e^{i\tau} = 1 + 0. \]
 
@@ -277,7 +276,7 @@ Of course, Euler's identity is traditionally written in terms of $\pi$:
 \section{Circular area: the coup de gr\^{a}ce} % (fold)
 \label{sec:circular_area}
 
-If you arrived here as a $\pi$ believer, you must by now be questioning your faith. $\tau$ is so natural, its meaning so transparent---is there no example where $\pi$ shines through in all its radiant glory? A memory stirs---yes, there is such a formula---it is the formula for circular area! Behold:
+If you arrived here as a $\pi$ believer, you must by now be questioning your faith. $\tau$ seems so natural, its meaning so transparent---is there no example where $\pi$ shines through in all its radiant glory? A memory stirs---yes, there is such a formula---it is the formula for circular area! Behold:
 
 \[ A = \pi r^2. \]
 
@@ -320,8 +319,7 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 
 \[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
 
-    \subsubsection{Kinetic energy} % (fold)
-    \label{sec:kinetic_energy}
+    \subsubsection{Energy of motion} % (fold)
 
 \href{http://en.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} found that the force on an object is proportional to its acceleration:
 
@@ -331,7 +329,7 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 
 \[ F = m a. \]
 
-\noindent The energy of motion, or \emph{kinetic energy}, is  the total work done in accelerating the mass to velocity $v$:
+\noindent The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
 
 \[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
 
@@ -345,7 +343,7 @@ Having seen several examples of simple quadratic forms in physics, you may by no
 \begin{center}
 \image{images/figures/circular-area.png}
 \end{center}
-\caption{Breaking down a circle into rings.\footnote{This is a physicist's diagram. A mathematician would probably use $\Delta r$, limits, and \href{http://en.wikipedia.org/wiki/Big_O_notation#Little-o_notation}{little-o notation}, which are more rigorous but less intuitive.}\label{fig:circular-area}}
+\caption{Breaking down a circle into rings.\footnote{This is a physicist's diagram. A mathematician would probably use $\Delta r$, limits, and \href{http://en.wikipedia.org/wiki/Big_O_notation#Little-o_notation}{little-o notation}, an approach that is more rigorous but less intuitive.}\label{fig:circular-area}}
 \end{figure}
 
 
@@ -366,7 +364,7 @@ As seen in Figure~\ref{fig:circular-area}, the area of a circle can be calculate
 
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
 
-If you were still a $\pi$-partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of 2. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a triangle with base $C$ and height $r$. Using the formula for triangular area then gives
+If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of 2. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a triangle with base $C$ and height $r$. Using the formula for triangular area then gives
 
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
@@ -404,11 +402,11 @@ The true test of any notation is usage; having seen $\tau$ used throughout this 
 Allow me to offer the following arguments, in order of increasing strength:
 
 \begin{enumerate}
-  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ has multiple duties; for example, $\pi$ is used for the \href{http://en.wikipedia.org/wiki/Prime-counting_function}{prime-counting function} in number theory.} 
+  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage.\footnote{With a global namespace, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.} 
   
   \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant.\footnote{Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.}
   
-  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe,'' \emph{tornos}---or, as the Greeks would put it: \[ \tau \acute{o}\rho\nu o\varsigma. \] Your head has just exploded again.
+  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \] Your head has just exploded again.
 \end{enumerate}
 
 Looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say again:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
@@ -416,17 +414,17 @@ Looking at the first letter of that Greek lathe, I'm going to have to whip out m
   \subsection{Frequently Asked Questions} % (fold)
   \label{sec:faq}
 
-Over the past couple years, I have heard many arguments against the wrongness of $\pi$ and against the correctness of $\tau$,\footnote{Among other things, the article ``$\pi$ Is Wrong'' pops up on \href{http://news.ycombinator.com/news}{Hacker News} every once in a while, and I've been known to frequent the  \href{http://news.ycombinator.com/item?id=912082}{comments section}.} so before concluding our discussion allow me to address some of the most frequently asked questions.
+Over the years, I have heard many arguments against the wrongness of $\pi$ and against the correctness of $\tau$,\footnote{Among other things, the article ``$\pi$ Is Wrong'' pops up on \href{http://news.ycombinator.com/news}{Hacker News} every once in a while, and I've been known to frequent the  \href{http://news.ycombinator.com/item?id=912082}{comments section}.} so before concluding our discussion allow me to address some of the most frequently asked questions.
 
 \begin{itemize}
 
-  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious undercurrent. $\pi$ is \emph{really}, \emph{truly} wrong: setting the circle constant to the circumference over the diameter is a terribly awkward and confusing convention. Although I would love to see the mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:the_nature_of_angle}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait---I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
+  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. $\pi$ is \emph{really}, \emph{truly} wrong: setting the circle constant to the circumference over the diameter is a terribly awkward and confusing convention. Although I would love to see the mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:the_nature_of_angle}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait---I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
 
-  \item \textbf{How do I start using $\tau$ instead of $\pi$?} \\ The next time you write a mathematical paper, simply write ``For convenience, we set $\tau = 2\pi$'', and then proceed as usual. Indeed, papers in general relativity often contain this sort of statement in the introduction: ``We work in units where $G=c=1$.'' The way to get people to start using $\tau$ is to start using it yourself.
+  \item \textbf{How do I start using $\tau$ instead of $\pi$?} \\ The next time you do anything mathematical, simply say ``For convenience, we set $\tau = 2\pi$'', and then proceed as usual. (Of course, this might just prompt the question, ``Why would you want to do that?'' I admit it would be nice to have a place to point to. If only someone would write, say, a \emph{manifesto} on the subject\ldots) The way to get people to start using $\tau$ is to start using it yourself. 
 
-  \item \textbf{Do you really expect people to use $\tau$?} \\ I would certainly love to see $\tau$ get traction outside of internet screeds, and perhaps this will happen, but the beauty part is that you don't have to wait for everyone else; you can just start by saying ``Let $\tau = 2\pi$'' and you're off to the races.
+  \item \textbf{Do you really expect people to use $\tau$?} \\ I would certainly love to see $\tau$ get traction outside of internet screeds, and perhaps this will happen, but the great part is that you don't have to wait for everyone else; you can just start by saying ``Let $\tau = 2\pi$'' and you're off to the races. 
   
-  \item \textbf{Won't using $\tau$ confuse people?} \\ If you are smart enough to understand radian angle measure, you are smart enough to understand $\tau$---and why $\tau$ is better. Also, there's nothing confusing about saying ``Let $\tau = 2\pi$''; understood narrowly, it's just a simple substitution.
+  \item \textbf{Won't using $\tau$ confuse people?} \\ If you are smart enough to understand radian angle measure, you are smart enough to understand $\tau$---and why $\tau$ is better. Also, there's nothing confusing about ``Let $\tau = 2\pi$''; understood narrowly, it's just a simple substitution.
 
   \item \textbf{Wouldn't we have to rewrite all the textbooks?} \\ No. It is true that some conventions, though unfortunate, are effectively irreversible. For example, Benjamin Franklin's choice for the signs of electric charges leads to electric current being positive, even though the charge carriers themselves are negative---thereby cursing electrical engineers with confusing minus signs ever since. To change this convention \emph{would} require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used---minus signs having a tendency to cancel, and all. In contrast, we can switch from $\pi$ to $\tau$ ``at runtime'' (as programmers might say), since it's purely a matter of mechanical substitution, completely robust and indeed fully reversible: the conversion \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau \] allows us to change back and forth between the two on the fly. (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a separate symbol for $\tau$/2, it seems unlikely that anyone would see fit to introduce one.).
   
@@ -450,9 +448,9 @@ There is one question I skipped in the section above, but it is one that I must 
 
 \noindent If you have arrived at this question, it means that you have accepted the truth of the arguments against $\pi$, and you are now ready to take the final leap.
 
-Of course it matters. \emph{The circle constant is important.} It is a \href{http://en.wikipedia.org/wiki/Theory_of_forms}{Platonic Form}; it is woven into the fabric of the Universe. People care enough about it to write entire \emph{books} on the subject, to celebrate it on a particular day every year, and to memorize \emph{tens of thousands if its digits}. It's precisely because it matters so much that it's hard to admit that the present convention is wrong. I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the present world-record holder, that he just recited 67,891 digits of one half of the true circle constant? 
+Of course it matters. \emph{The circle constant is important.} It is a \href{http://en.wikipedia.org/wiki/Theory_of_forms}{Platonic Form}; it is woven into the fabric of the Universe. People care enough about it to write entire \emph{books} on the subject, to celebrate it on a particular day every year, and to memorize \emph{tens of thousands if its digits}. I care enough to write a whole manifesto, and you care enough to read it. It's precisely because it matters so much that it's hard to admit that the present convention is wrong. I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the present world-record holder, that he just recited 67,891 digits of one half of the true circle constant? 
 
-The argument that ``it makes no difference'' which circle constant we use is a \href{http://en.wikipedia.org/wiki/Denial}{psychological attempt to avoid the truth}; indeed, I have found that the people who assert most strenuously that it makes no difference are exactly the ones with the deepest emotional attachment to $\pi$. These are the people who celebrate $\pi$ Day and wax rhapsodic about Euler's identity. (No judgment here; I used to be one of them.) But you can't have it both ways; either defining the proper circle constant matters, in which case you must come to terms with the deficiencies of $\pi$ and the superiority of $\tau$, or it doesn't, in which case you have to explain how you ever came to own that $\pi$ shirt hanging in your closet.
+The argument that ``it makes no difference'' which circle constant we use is a \href{http://en.wikipedia.org/wiki/Denial}{psychological attempt to avoid the truth}; indeed, I have found that the people who assert most strenuously that it makes no difference are exactly the ones with the deepest emotional attachment to $\pi$. These are the people who celebrate $\pi$ Day and wax rhapsodic about Euler's identity. (There is no judgment here; I used to be one of them.) But you can't have it both ways; either defining the proper circle constant matters, in which case you must come to terms with the deficiencies of $\pi$ and the superiority of $\tau$, or it doesn't, in which case you have to explain how you ever came to own that $\pi$ shirt hanging in your closet.
 
 \emph{It is time to let $\pi$ go.} I loved $\pi$ once; I really did. Today, although I bear it no ill will, I can no longer pretend that it deserves special recognition. It is true that $\pi$'s threads are woven throughout the fabric of mathematics, but this is for \emph{historical} reasons, not for logical ones. $\pi$ is not one of the most important numbers in mathematics; it is one half of one of the most important numbers. The mathematical significance of $\pi$ is that it is one-half $\tau$.
 
@@ -461,9 +459,9 @@ The argument that ``it makes no difference'' which circle constant we use is a \
     
     % subsection change_is_gonna_come (end)
 
-So, if $\pi$ is wrong, why haven't we changed over to something else? The technical barriers to switching are low; as noted in Section~\ref{sec:faq}, changing conventions is a matter of simple substitution. Moreover, switching is a \href{http://en.wikipedia.org/wiki/Private_good}{\emph{private good}}; you (or your students) can benefit from the proper convention without having to convert everyone else. We might even view it as a teaching opportunity: ``\emph{Exercise for the student:} convert the equations in the textbook from $\pi$ to $\tau$ and discover that even high-and-mighty mathematical geniuses can get something really important really wrong.''
+So, if $\pi$ is wrong, why haven't we changed over to something else? The technical barriers to switching are low; as noted in Section~\ref{sec:faq}, changing conventions is a matter of simple substitution. Moreover, switching is a \href{http://en.wikipedia.org/wiki/Private_good}{\emph{private good}}; you (or your students) can benefit from the proper convention without having to convert everyone else. We might even view it as a teaching opportunity: ``\emph{Exercise for the student:} convert the equations in the textbook from $\pi$ to $\tau$ and discover that even mathematical geniuses can get something really important really wrong.''
 
-Inertia is certainly a part of the explanation, but that can't be the full story, either, for $\pi$ continues to be used even by those who have recognized its deficiencies. The real reason even these people use $\pi$ is because they are \emph{afraid}---they know that, since \emph{other} people believe in $\pi$, they may be mocked and ridiculed if they question the $\pi$ orthodoxy. And if not for that, they will be mocked and ridiculed for \emph{even caring}. I say, \emph{stop being afraid}. Those who mock you for questioning $\pi$ are wrong, and those who mock you for caring are hypocrites. So what are you afraid of? No one ever got burned at the stake for questioning $\pi$---not in this century, anyway. :-)
+Inertia is certainly a part of the explanation, but that can't be the full story, either, for $\pi$ continues to be used even by those who have recognized its deficiencies. The real reason even these people use $\pi$ is that they are \emph{afraid}---they know that, since \emph{other} people believe in the primacy of $\pi$, they may be mocked and ridiculed if they question the $\pi$ orthodoxy. And if not for that, they will be mocked and ridiculed for \emph{even caring}. I say, \emph{stop being afraid}. Those who mock you for questioning $\pi$ are wrong, and those who mock you for caring are hypocrites. So what are you afraid of? No one ever got burned at the stake for questioning $\pi$---not in this century, anyway. :-)
 
 Of course, there is one more reason we haven't switched away from $\pi$: the lack of a good candidate to replace it. As we have seen in this manifesto, the true circle constant is the ratio of the circumference not to the diameter, but to the radius. This number needs a name, and I hope you will join me in calling it ``$\tau$'':
 
@@ -483,7 +481,7 @@ Of course, there is one more reason we haven't switched away from $\pi$: the lac
 \subsection{Tau Day} % (fold)
 \label{sec:tau_day}
 
-Inspired by the impressive (though lamentable) success of ``$\pi$ Day'', the \emph{Tau Manifesto} was first launched on June 28, 2010---i.e., 6/28, or $\tau$ Day. And of course the manifesto itself lives at \href{http://tauday.com/}{tauday.com}.
+Inspired by the impressive (though lamentable) success of ``$\pi$ Day'', the \emph{Tau Manifesto} was launched on June 28, 2010---i.e., 6/28, or $\tau$ Day. And of course the manifesto itself lives at \href{http://tauday.com/}{tauday.com}.
 
 $\tau$ Day is $\tau$ism's holiday, its holy day---it is a day for celebrating and rejoicing in all things mathematical and true.\footnote{Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} For $\tau$ Day 2010, one way you can celebrate is by spreading word of this manifesto. For $\tau$ Day 2011, I'm hoping for bigger things. ;-) And in the mean time, I have several exciting $\tau$-related projects planned. If you would like to receive updates about $\tau$ and the \emph{Tau Manifesto}, including notifications about any possible $\tau$ Day events, you should join the \emph{Tau Manifesto} mailing list below. (I promise not to spam you; that would violate the spirit of the $\tau$. :-)
 
