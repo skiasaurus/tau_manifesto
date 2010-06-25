@@ -501,29 +501,6 @@
 				</dict>
 			</dict>
 		</dict>
-		<dict>
-			<key>Bounds</key>
-			<string>{{121, 159}, {240, 240}}</string>
-			<key>Class</key>
-			<string>ShapedGraphic</string>
-			<key>ID</key>
-			<integer>3</integer>
-			<key>Shape</key>
-			<string>Circle</string>
-			<key>Style</key>
-			<dict>
-				<key>fill</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-				<key>shadow</key>
-				<dict>
-					<key>Draws</key>
-					<string>NO</string>
-				</dict>
-			</dict>
-		</dict>
 	</array>
 	<key>GridInfo</key>
 	<dict/>
@@ -596,7 +573,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-06-24 18:38:41 -0700</string>
+	<string>2010-06-25 11:36:52 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
@@ -667,7 +644,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{397, 110}, {887, 903}}</string>
+		<string>{{223, 161}, {887, 903}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
