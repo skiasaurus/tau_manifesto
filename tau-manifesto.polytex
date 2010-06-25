@@ -56,7 +56,7 @@ The \emph{Tau Manifesto} is dedicated to the proposition that the proper respons
 
  \subsection{A powerful enemy} % (fold)
 
-Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion $\pi$ has spread even to the highest levels of geekdom; for example, on ``$\pi$ Day'' 2010 the \href{http://www.google.com/}{Google} home page \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google-pi-day}).  
+Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``$\pi$ Day'' 2010 the \href{http://www.google.com/}{Google} home page \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google-pi-day}).  
 
 \begin{figure}
 \begin{center}
@@ -87,7 +87,7 @@ Since the diameter of a circle is twice its radius, numerically $\tau$ is simply
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
 
-\noindent The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{normal distribution}:
+\noindent The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution}:
 
 \[
   \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}.
@@ -107,7 +107,7 @@ Since the diameter of a circle is twice its radius, numerically $\tau$ is simply
 
 \noindent There are many more examples, and the lesson is clear: there's something seemingly inevitable about $2\pi$.
 
-To get to the bottom of this mystery, we must consider the nature of the circle, and especially the nature of \emph{angle}. Although much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
+To get to the bottom of this mystery, we must return to first principles by considering the nature of the circle, and especially the nature of \emph{angle}. Although much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
   \subsection{The nature of angle} % (fold)
   \label{sec:the_nature_of_angle}
@@ -130,7 +130,7 @@ Perhaps the most elementary angle system is \emph{degrees}, which arbitrarily br
 \caption{Some special angles, in degrees.\label{fig:degree-angles}}
 \end{figure}
 
-A more fundamental system of angle measure involves a direct comparison of the arclength $s$ with the radius $r$. Although the lengths in Figure~\ref{fig:angle-arclength} differ, the arclength grows in proportion to the radius, so the \emph{ratio} of the arclength to the radius is the same for each:
+A more fundamental system of angle measure involves a direct comparison of the arclength $s$ with the radius $r$. Although the lengths in Figure~\ref{fig:angle-arclength} differ, the arclength grows in proportion to the radius, so the \emph{ratio} of the arclength to the radius is the same in each case:
 
 \[
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
@@ -176,6 +176,11 @@ Naturally, the special angles in Figure~\ref{fig:degree-angles} can be expressed
 \end{figure}
 
 Although there are many other arguments in $\tau$'s favor, Figure~\ref{fig:tau-angles} may be the most striking. Indeed, upon comparing Figure~\ref{fig:tau-angles} with Figure~\ref{fig:angle-fractions}, I consider it decisive. We also see from Figure~\ref{fig:tau-angles} the genius of Bob Palais' description of the circle constant as ``one turn'': $\tau$ is the radian angle measure for one \emph{turn} of a circle. Moreover, note that with $\tau$ there is \emph{nothing to memorize}: the radian angle measure for an eighth of a circle is simply $\tau$/8, and so on. Finally, by comparing Figure~\ref{fig:pi-angles} with Figure~\ref{fig:tau-angles}, we see where those pesky factors of $2\pi$ come from: one turn of a circle is $1\tau$, but $2\pi$. Numerically they are equal, but conceptually they are quite distinct.
+
+    \subsubsection{The ramifications} % (fold)
+    \label{sec:the_ramifications}
+    
+    % subsubsection the_ramifications (end)
 
 The unnecessary factors of $2$ arising from the use of $\pi$ are annoying enough by themselves, but far more serious is their tendency to \emph{cancel} when divided by any even number. The absurd results, such as $\pi$/2 for a \emph{quarter} circle, obscure the underlying relationship between angle measure and the circle constant. To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ when teaching trigonometry, I simply ask you to view Figure~\ref{fig:pi-angles}, Figure~\ref{fig:angle-fractions}, and Figure~\ref{fig:tau-angles} through the eyes of a child. You will see that, from the perspective of a beginner, \emph{using $\pi$ instead of $\tau$ is a pedagogical disaster.}
 
@@ -382,6 +387,11 @@ Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau r^2$
 \caption{Some common quadratic forms.\label{table:quadratic_forms}}
 \end{table}
 
+    \subsubsection{Quod erat demonstrandum} % (fold)
+    \label{sec:quod_erat_demonstrandum}
+    
+    % subsubsection quod_erat_demonstrandum (end)
+
 We set out in this manifesto to show that $\tau$ is the proper circle constant. Since the formula for circular area was just about the best argument $\pi$ had going for it, I'm going to go out on a limb here and say: \href{http://en.wikipedia.org/wiki/Q.E.D.}{Q.E.D.}
 
 % section circular_area (end)
@@ -389,7 +399,9 @@ We set out in this manifesto to show that $\tau$ is the proper circle constant. 
 \section{Why tau?} % (fold)
 \label{sec:why_tau}
 
-The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. After a few sections, you may even have forgotten that $\tau$ was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, or $\omega$? What's so special about $\tau$? Allow me to offer the following arguments, in order of increasing strength:
+The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. After reading a few sections, you may even have forgotten that $\tau$ was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, $\epsilon$, or $\omega$? What's so special about $\tau$?
+
+Allow me to offer the following arguments, in order of increasing strength:
 
 \begin{enumerate}
   \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage.\footnote{Minor clashes are OK; after all, physicists manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ has multiple duties; for example, $\pi$ is used for the \href{http://en.wikipedia.org/wiki/Prime-counting_function}{prime-counting function} in number theory.} 
@@ -436,13 +448,13 @@ There is one question I skipped in the section above, but it is one that I must 
   \item \textbf{Who cares whether we use $\pi$ or $\tau$? It doesn't really matter.}
 \end{itemize}
 
-\noindent If you have arrived at this question, it means that you have accepted the truth of the arguments against $\pi$, and you are now ready to take the final step.
+\noindent If you have arrived at this question, it means that you have accepted the truth of the arguments against $\pi$, and you are now ready to take the final leap.
 
-Of course it matters. \emph{The circle constant is important.} People care enough about it to write entire \emph{books} on the subject, to celebrate it on a particular day every year, and to memorize \emph{tens of thousands if its digits}. It's precisely because it matters so much that it's hard to admit that the present convention is wrong. I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the present world-record holder, that he just recited 67,891 digits of one half of the true circle constant? 
+Of course it matters. \emph{The circle constant is important.} It is a \href{http://en.wikipedia.org/wiki/Theory_of_forms}{Platonic Form}; it is woven into the fabric of the Universe. People care enough about it to write entire \emph{books} on the subject, to celebrate it on a particular day every year, and to memorize \emph{tens of thousands if its digits}. It's precisely because it matters so much that it's hard to admit that the present convention is wrong. I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the present world-record holder, that he just recited 67,891 digits of one half of the true circle constant? 
 
 The argument that ``it makes no difference'' which circle constant we use is a \href{http://en.wikipedia.org/wiki/Denial}{psychological attempt to avoid the truth}; indeed, I have found that many of the people who assert that it makes no difference \emph{also have a deep emotional attachment to $\pi$}. These are the people who celebrate $\pi$ Day and wax rhapsodic about Euler's identity. (No judgment here; I used to be one of them.) But you can't have it both ways; either defining the proper circle constant matters, in which case you must come to terms with the deficiencies of $\pi$ and the superiority of $\tau$, or it doesn't, in which case you have to explain how you ever came to own that $\pi$ shirt hanging in your closet.
 
-\emph{It is time to let $\pi$ go.} I loved $\pi$ once; I really did. Today, although I bear it no ill will, I can no longer pretend that it deserves special recognition. $\pi$ is not one of the most important numbers in mathematics; it is one half of one of the most important numbers.
+\emph{It is time to let $\pi$ go.} I loved $\pi$ once; I really did. Today, although I bear it no ill will, I can no longer pretend that it deserves special recognition. $\pi$ is not one of the most important numbers in mathematics; it is one half of one of the most important numbers. Simply put, $\pi$ is one-half $\tau$.
 
     \subsection{Change is gonna come} % (fold)
     \label{sec:change_is_gonna_come}
