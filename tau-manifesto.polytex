@@ -403,7 +403,7 @@ Allow me to offer the following arguments in favor of $\tau$, appearing in order
   
   \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage. With a global namespace and only so many letters to go around, minor conflicts are inevitable, but that's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. (Even $\pi$ has multiple uses, such as the \href{http://mathworld.wolfram.com/PrimeCountingFunction.html}{prime-counting function} and \href{http://www.chem.purdue.edu/gchelp/howtosolveit/Solutions/osmoticpressure.html}{osmotic pressure}.)
   
-  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. The number of ``legs'' isn't quite right, since it looks like $\pi$ should be $2\tau$ instead of the other way 'round.\footnote{Of course, Bob Palais' symbol has a similar problem: as a sort of three-legged $\pi$, the symbol in Figure~\ref{fig:palais-tau} seems more naturally to be $3\pi$/$2$ rather than $2\pi$. (If you come across any four-legged letters, please let me know.)} But having $\tau$ look like one-half $\pi$ is a small price to pay for the fourth and final reason\ldots
+  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. Unfortunately, the number of ``legs'' isn't quite right, since it looks like $\pi$ should be $2\tau$ instead of the other way 'round.\footnote{Of course, Bob Palais' symbol has a similar problem: as a sort of three-legged $\pi$, the symbol in Figure~\ref{fig:palais-tau} seems more naturally to be $3\pi$/$2$ rather than $2\pi$. (If you come across any four-legged letters, please let me know.)} But having $\tau$ look like one-half $\pi$ is a small price to pay for the fourth and final reason\ldots
 %
   
   \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \]
@@ -419,9 +419,9 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
 \begin{itemize}
 
-  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. Setting the circle constant to the circumference over the diameter is an awkward and confusing convention. Although I would love to see mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:circles_and_angles}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait---I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
+  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. Setting the circle constant equal to the circumference over the diameter is an awkward and confusing convention. Although I would love to see mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:circles_and_angles}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait, I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
 
-  \item \textbf{What's wrong with the symbol from ``$\pi$ Is Wrong!''?} \\ There are two main issues.\footnote{These problems aren't necessarily fatal, and the \emph{Tau Manifesto} reserves the right to support Palais' symbol if these issues ever get fixed.} The first is that it is highly non-standard. Although this means that it doesn't \emph{conflict} with any current usage, that's a \href{http://en.wikipedia.org/wiki/Pyrrhic_victory}{Pyrrhic victory}, since it also means that the symbol doesn't exist in any current typesetting or word-processing systems.\footnote{There's a hack for defining Palais' symbol in the \LaTeX\ typesetting system, but even this doesn't always work: the \emph{Tau Manifesto} was prepared with the help of \href{http://en.wikipedia.org/wiki/Texvc}{Wikipedia's \LaTeX\ math processor}, and it still chokes on the symbol from Figure~\ref{fig:palais-tau}.} This presents a high barrier to adoption. Second, the name ``one turn'', though descriptive, doesn't work in some common contexts. For example, saying that a quarter circle has radian angle measure ``one quarter turn'' sounds great, but ``turn over four'' sounds awkward, and ``the area of a circle is one-half turn r squared'' sounds downright odd. Letting $\tau = \mathrm{\ turn}$ leads to much more natural phrasing, such as ``the area of a circle is one-half tau r squared.''
+  \item \textbf{What's wrong with the symbol from ``$\pi$ Is Wrong!''?} \\ There are two main issues.\footnote{These problems aren't necessarily fatal, and the \emph{Tau Manifesto} reserves the right to support Palais' symbol if these issues ever get fixed.} The first is that it is highly non-standard. Although this means that it doesn't \emph{conflict} with any current usage, that's a \href{http://en.wikipedia.org/wiki/Pyrrhic_victory}{Pyrrhic victory}, since it also means that the symbol doesn't exist in any current typesetting or word-processing systems.\footnote{There's a hack for defining Palais' symbol in the \LaTeX\ typesetting system (which is how Palais' himself did it), but even this doesn't always work: the \emph{Tau Manifesto} was prepared with the help of \href{http://en.wikipedia.org/wiki/Texvc}{Wikipedia's \LaTeX\ math processor}, and it still chokes on the symbol from Figure~\ref{fig:palais-tau}.} This presents a high barrier to adoption. Second, the name ``one turn'', though descriptive, doesn't work in some common contexts. For example, saying that a quarter circle has radian angle measure ``one quarter turn'' sounds great, but ``turn over four'' sounds awkward, and ``the area of a circle is one-half turn r squared'' sounds downright odd. Letting $\tau = \mathrm{\ turn}$ leads to much more natural phrasing, such as ``the area of a circle is one-half tau r squared.''
 
   \item \textbf{How do I start using $\tau$ instead of $\pi$?} \\ The next time you do anything mathematical, simply say ``For convenience, we set $\tau = 2\pi$'', and then proceed as usual. (Of course, this might just prompt the question, ``Why would you want to do that?'' I admit it would be nice to have a place to point to. If only someone would write, say, a \emph{manifesto} on the subject\ldots) The way to get people to start using $\tau$ is to start using it yourself. 
 
@@ -440,7 +440,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   % subsection faq (end)
 
-\section{Tau Day}
+\section{Embrace the tau}
 
 We have seen in this manifesto that the true circle constant is the ratio of the circumference not to the diameter, but to the radius. This number needs a name, and I hope you will join me in calling it $\tau$:
 
@@ -457,19 +457,26 @@ We have seen in this manifesto that the true circle constant is the ratio of the
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
 
-The \emph{Tau Manifesto} launched on $\tau$ Day: June 28, 2010. $\tau$ Day is a day for celebrating and rejoicing in all things mathematical and true. If you would like to receive updates about $\tau$, including notifications about possible future $\tau$ Day events, please join the \emph{Tau Manifesto} mailing list below.
+  \subsection{Tau Day} % (fold)
+  \label{sec:tau_day}
+  
+  % subsection tau_day (end)
+
+The \emph{Tau Manifesto} first launched on $\tau$ Day: June 28, 2010. $\tau$ Day is a day for celebrating and rejoicing in all things mathematical and true. If you would like to receive updates about $\tau$, including notifications about possible future $\tau$ Day events, please join the \emph{Tau Manifesto} mailing list below.
+
+Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$.
+
 
 % (Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.)
 
-% Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$.
 
 
 %= insert_signup_form
 
-    \subsubsection{Acknowledgments} % (fold)
-    \label{sec:acknowledgments}
+  \subsection{Acknowledgments} % (fold)
+  \label{sec:acknowledgments}
     
-I'd like to thank \href{http://www.math.utah.edu/~palais/}{Bob Palais} for helpful comments and for being a good sport. I'd also like to thank \href{http://techiferous.com/}{Wyatt Greene} for his extraordinarily helpful feedback. Among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
+I'd like to thank \href{http://www.math.utah.edu/~palais/}{Bob Palais} for writing ``$\pi$ Is Wrong!'', a paper that I consider to be required reading on this subject. I don't remember how deep my suspicions about $\pi$ ran before I encountered that article, but ``$\pi$ Is Wrong!'' definitely opened my eyes, and every section of the \emph{Tau Manifesto} owes it a debt of gratitude. I'd also like to thank Bob for his helpful comments on this manifesto, and especially for being such a good sport about it. Finally, I'd like to thank \href{http://techiferous.com/}{Wyatt Greene} for his extraordinarily helpful feedback; among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
 
     % subsubsection acknowledgments (end)
 
