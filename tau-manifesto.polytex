@@ -261,7 +261,7 @@ Of course, Euler's identity is traditionally written in terms of $\pi$:
 
 \noindent (What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
 
-At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. For any such whiners in the audience, let me note that, since $\sin\tau = 0$, we were already there:
+At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. Allow me to address this by noting that, since $\sin\tau = 0$, we were already there:
 
 \[ e^{i\tau} = 1 + 0. \]
 
