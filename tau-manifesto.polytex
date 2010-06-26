@@ -10,7 +10,7 @@
 \section{The circle constant} % (fold)
 \label{sec:the_circle_constant}
 
-Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. (``$\pi$ Is Wrong!'' is available online at \href{http://www.math.utah.edu/~palais/pi.html}{Bob Palais' pi page}.)} $\pi$ \emph{is wrong}. It's time to set things right.
+Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. (``$\pi$ Is Wrong!'' is available online at \href{http://www.math.utah.edu/~palais/pi.html}{Bob Palais' pi page}.) Many of the arguments in the \emph{Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''} $\pi$ \emph{is wrong}. It's time to set things right.
 
 % Surely, defining this constant properly is a task that the great mathematicians of history should---nay, \emph{must}---have gotten right\ldots only they didn't. 
 
@@ -104,7 +104,7 @@ Since the diameter of a circle is twice its radius, numerically $\tau$ is simply
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n}.
 \]
 
-\noindent There are many more examples, and the lesson is clear: there's something seemingly inevitable about $2\pi$.
+\noindent There are many more examples,\footnote{See ``$\pi$ Is Wrong!'' for a list of other formulas involving $2\pi$. Or just start browsing Wikipedia math pages. :-)} and the lesson is clear: there's something seemingly inevitable about $2\pi$.
 
 To get to the bottom of this mystery, we must return to first principles by considering the nature of the circle, and especially the nature of \emph{angle}. Although much of this material may be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
