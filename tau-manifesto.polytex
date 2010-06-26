@@ -209,7 +209,7 @@ Let's examine the graphs of the circle functions to better understand their beha
 \caption{Important points for $\cos\theta$ in terms of the period $T$.\label{fig:cosine-with-tau}}
 \end{figure}
 
-Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have $T = \tau$, i.e., the circle functions have periods equal to the circle constant. As a result, the ``special'' values are utterly natural: the value of $\theta$ for a quarter-period is just $\tau$/4, and so on. In fact, when making Figure~\ref{fig:sine-with-tau}, I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs after half a period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
+Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have $T = \tau$; i.e., the circle functions have periods equal to the circle constant. As a result, the ``special'' values are utterly natural: the value of $\theta$ for a quarter-period is just $\tau$/4, and so on. In fact, when making Figure~\ref{fig:sine-with-tau}, I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs after half a period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
 
 \[
   \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14.
@@ -407,7 +407,7 @@ Allow me to offer the following arguments in favor of $\tau$, appearing in order
   
   \item \emph{$\tau$ exists.} \\ The letter $\tau$ already exists in current typesetting and word-processing systems, so there is no need to wait for a new symbol to be added before making a switch.
   
-  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage. With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ is used for the prime-counting function and for osmotic pressure.
+  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage. With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. (Even $\pi$ is used for the prime-counting function and for osmotic pressure.)
   
   \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. (If you come across any four-legged letters, please let me know.)
   
@@ -444,38 +444,17 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   % subsection faq (end)
 
-\section{Embrace the tau}
+\section{Tau Day}
 
-There is one question I skipped in the section above, but it is one that I must address---indeed, it may be the question \emph{most} frequently asked by those who have studied the arguments and have absorbed their implications. It might even be rattling around inside your brain at this very moment---a question, together with a desperate assertion:
+Inspired by the impressive success of ``$\pi$ Day'', the \emph{Tau Manifesto} launched on the morning of June 28, 2010: $\tau$ Day. This is a day for celebrating and rejoicing in all things mathematical and true. (Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.) If you would like to receive updates about $\tau$, including notifications about possible future $\tau$ Day events, please join the \emph{Tau Manifesto} mailing list below.
 
-\begin{itemize}
-  \item \textbf{Who cares whether we use $\pi$ or $\tau$? It doesn't really matter.}
-\end{itemize}
-
-\noindent If you have arrived at this question, it means that you have accepted the truth of the arguments against $\pi$, and you are now ready to take the final leap.
-
-Of course it matters. \emph{The circle constant is important.} It is a \href{http://en.wikipedia.org/wiki/Theory_of_forms}{Platonic Form}; it is woven into the fabric of the Universe. People care enough about it to write entire \emph{books} on the subject, to celebrate it on a particular day every year, and to memorize \emph{tens of thousands if its digits}. I care enough to write a whole manifesto, and you care enough to read it. It's precisely because it matters so much that it's hard to admit that the present convention is wrong. I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the present world-record holder, that he just recited 67,891 digits of one half of the true circle constant? 
-
-The argument that ``it makes no difference'' which circle constant we use is a \href{http://en.wikipedia.org/wiki/Denial}{psychological attempt to avoid the truth}; indeed, I have found that the people who assert most strenuously that it makes no difference are exactly the ones with the deepest emotional attachment to $\pi$. These are the people who celebrate $\pi$ Day and wax rhapsodic about Euler's identity. (There is no judgment here; I used to be one of them.) But you can't have it both ways; either defining the proper circle constant matters, in which case you must come to terms with the deficiencies of $\pi$ and the superiority of $\tau$, or it doesn't, in which case you have to explain how you ever came to own that $\pi$ shirt hanging in your closet.
-
-\emph{It is time to let $\pi$ go.} I loved $\pi$ once, too; I really did. Today, although I bear it no ill will, I can no longer pretend that it deserves special recognition. It is true that $\pi$'s threads are woven into the fabric of mathematics, but this is for \emph{historical} reasons, not for logical ones. $\pi$ is not one of the most important numbers in mathematics; it is one half of one of the most important numbers. The mathematical significance of $\pi$ is that it is one-half $\tau$.
-
-    \subsection{Change is gonna come} % (fold)
-    \label{sec:change_is_gonna_come}
-    
-    % subsection change_is_gonna_come (end)
-
-So, if $\pi$ is wrong, why haven't we changed over to something else? The technical barriers to switching are low; as noted in Section~\ref{sec:faq}, changing conventions is a matter of simple substitution. Moreover, switching is a \href{http://en.wikipedia.org/wiki/Private_good}{\emph{private good}}; you (or your students) can benefit from the proper convention without waiting for everyone else to convert. We might even view it as a teaching opportunity: ``\emph{Exercise for the student:} convert the equations in the textbook from $\pi$ to $\tau$ and discover that even mathematical geniuses can get something really important really wrong.''
-
-Inertia is certainly a part of the explanation, but that can't be the full story, either, for $\pi$ continues to be used even by those who have recognized its deficiencies. The real reason even these people use $\pi$ is that they are \emph{afraid}---they know that, since \emph{other} people believe in the primacy of $\pi$, they may be mocked and ridiculed if they question the $\pi$ orthodoxy. And if not for that, they will be mocked and ridiculed for \emph{even caring}. I say: \emph{Stop being afraid.} Those who mock you for questioning $\pi$ are wrong, and those who mock you for caring are hypocrites. So what are you really afraid of? No one ever got burned at the stake for questioning $\pi$---not in this century, anyway. :-)
-
-Of course, there is one more reason we haven't yet switched away from $\pi$: the lack of a good candidate to replace it. As we have seen in this manifesto, the true circle constant is the ratio of the circumference not to the diameter, but to the radius. This number needs a name, and I hope you will join me in calling it $\tau$:
+We have seen in this manifesto that the true circle constant is the ratio of the circumference not to the diameter, but to the radius. This number needs a name, and I hope you will join me in calling it $\tau$:
 
 \[
   \mathrm{circle\ constant} = \tau \equiv \frac{C}{r}.
 \]
 
-\noindent The usage is natural, the motivation is clear, and the implications are profound. Plus, the logo is really cool (Figure~\ref{fig:tauism}).
+\noindent The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool graphic (Figure~\ref{fig:tauism}).
 
 \begin{figure}
 \begin{center}
@@ -484,16 +463,18 @@ Of course, there is one more reason we haven't yet switched away from $\pi$: the
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
 
-\subsection{Tau Day} % (fold)
-\label{sec:tau_day}
 
-Inspired by the impressive (though lamentable) success of ``$\pi$ Day'', the \emph{Tau Manifesto} launched on the morning of June 28, 2010---i.e., 6/28, or $\tau$ Day. And of course the manifesto itself lives at \href{http://tauday.com/}{tauday.com}.
+% Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$.
 
-$\tau$ Day is $\tau$ism's holiday, its holy day---it is a day for celebrating and rejoicing in all things mathematical and true.\footnote{Indeed, 6/28 is a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} For $\tau$ Day 2010, one way you can celebrate is by spreading word of this manifesto. For $\tau$ Day 2011, I'm hoping for bigger things. ;-) And in the mean time, I have several exciting $\tau$-related projects planned. If you would like to receive updates about $\tau$ and the \emph{Tau Manifesto}, including notifications about any possible $\tau$ Day events, you should join the \emph{Tau Manifesto} mailing list below. (I promise not to spam you; that would violate the spirit of the $\tau$. :-)
-
-Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$.
 
 %= insert_signup_form
+
+    \subsubsection{Acknowledgments} % (fold)
+    \label{sec:acknowledgments}
+    
+I'd like to thank \href{http://www.math.utah.edu/~palais/}{Bob Palais} for helpful comments and for being a good sport. I'd also like to thank \href{http://techiferous.com/}{Wyatt Greene} for his extraordinarily helpful feedback. If you need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
+
+    % subsubsection acknowledgments (end)
 
     \subsubsection{About the author} % (fold)
     \label{sec:about_the_author}
