@@ -401,22 +401,22 @@ We set out in this manifesto to show that $\tau$ is the true circle constant. Si
 
 The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. After reading a few sections, you may even have forgotten that $\tau$ was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, for example, or $\omega$? What's so great about $\tau$?
 
-  \subsection{Three arguments} % (fold)
-  \label{sec:three_arguments}
-  
-  % subsection three_arguments (end)
+  \subsection{Four arguments} % (fold)
 
 Allow me to offer the following arguments in favor of $\tau$, appearing in order of increasing strength:
 
 \begin{enumerate}
-  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage.\footnote{With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ is used for the prime-counting function and for osmotic pressure.} 
   
-  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion.\footnote{Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.}
+  \item \emph{$\tau$ exists.} \\ The letter $\tau$ already exists in current typesetting and word-processing systems, so there is no need to wait for a new symbol to be added before making a switch.
+  
+  \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage. With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ is used for the prime-counting function and for osmotic pressure.
+  
+  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. Of course, in that case $\pi$ would have the right definition, and we wouldn't have this manifesto.
   
   \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \] (Your head has just exploded again.)
 \end{enumerate}
 
-The first argument is weak, but it is a necessary prerequisite. The second argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association rather than fighting it. The third argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
+The first two arguments are weak by themselves, but they are important prerequisites. The third argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association rather than fighting it. The final argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
 
   \subsection{Frequently Asked Questions} % (fold)
   \label{sec:faq}
