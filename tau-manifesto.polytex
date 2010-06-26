@@ -12,8 +12,6 @@
 
 Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. (``$\pi$ Is Wrong!'' is available online at \href{http://www.math.utah.edu/~palais/pi.html}{Bob Palais' pi page}.) Many of the arguments in the \emph{Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''} $\pi$ \emph{is wrong}. It's time to set things right.
 
-% Surely, defining this constant properly is a task that the great mathematicians of history should---nay, \emph{must}---have gotten right\ldots only they didn't. 
-
   \subsection{A modest proposal} % (fold)
   \label{sec:a_modest_proposal}
 
@@ -399,7 +397,7 @@ We set out in this manifesto to show that $\tau$ is the true circle constant. Si
 \section{Why tau?} % (fold)
 \label{sec:why_tau}
 
-The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. After reading a few sections, you may even have forgotten that $\tau$ was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, for example, or $\omega$? What's so great about $\tau$?
+The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, for example, or $\omega$? What's so great about $\tau$?
 
   \subsection{Four arguments} % (fold)
 
@@ -411,9 +409,10 @@ Allow me to offer the following arguments in favor of $\tau$, appearing in order
   
   \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage. With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm. Even $\pi$ is used for the prime-counting function and for osmotic pressure.
   
-  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be.
+  \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. Unfortunately, the number of ``legs'' isn't quite right: it would be poetic if we could write $\pi = 2\tau$, but it wasn't meant to be. (If you come across any four-legged letters, please let me know.)
   
-  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \] (Your head has just exploded again.)
+  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle---and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \]
+  
 \end{enumerate}
 
 The first two arguments are weak by themselves, but they are important prerequisites. The third argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association rather than fighting it. The final argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
@@ -425,7 +424,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
 \begin{itemize}
 
-  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. $\pi$ is \emph{really}, \emph{truly} wrong: setting the circle constant to the circumference over the diameter is a terribly awkward and confusing convention. Although I would love to see the mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:the_nature_of_angle}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait---I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
+  \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. $\pi$ is \emph{really}, \emph{truly} wrong: setting the circle constant to the circumference over the diameter is a terribly awkward and confusing convention. Although I would love to see mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:the_nature_of_angle}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi$/8. Wait---I meant $\pi$/4. See what I mean? It's madness---sheer, unadulterated madness.
 
   \item \textbf{How do I start using $\tau$ instead of $\pi$?} \\ The next time you do anything mathematical, simply say ``For convenience, we set $\tau = 2\pi$'', and then proceed as usual. (Of course, this might just prompt the question, ``Why would you want to do that?'' I admit it would be nice to have a place to point to. If only someone would write, say, a \emph{manifesto} on the subject\ldots) The way to get people to start using $\tau$ is to start using it yourself. 
 
@@ -437,7 +436,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
   
   \item \textbf{Why does this subject interest you?} \\ First, as a truth-seeker I care about correctness of explanation. Second, as a pedagogue I care about clarity of exposition. Third, as a hacker I love a nice hack. Fourth, as a student of history and human nature I am amazed that the absurdity of $\pi$ and the beauty of $\tau$ were lying in plain sight for centuries. Moreover, the people who missed the true circle constant are among the most rational and intelligent people ever to live. What else might be staring us in the face, just waiting for us to discover it?
   
-  \item \textbf{Are you, like, a crazy person? Or maybe an Aspie?} \\ That's really none of your business, but no and no. Apart from my \href{http://www.vibramfivefingers.com/}{unusual shoes}, I am to all external appearances normal in every way. You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
+  \item \textbf{Are you, like, a crazy person?} \\ That's really none of your business, but no. Apart from my \href{http://www.vibramfivefingers.com/}{unusual shoes}, I am to all external appearances normal in every way. You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
   
   \item \textbf{What about puns?} \\ We come now to the final objection. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ itself is pregnant with possibilities. $\tau$ism says: it is not $\tau$ that is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half $\tau$, to be exact. This is the true nature of the~$\tau$. But we must remember that $\tau$ism is based on reason, not on faith: $\tau$ists are never $\pi$ous.
 
