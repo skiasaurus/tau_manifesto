@@ -401,7 +401,12 @@ We set out in this manifesto to show that $\tau$ is the true circle constant. Si
 
 The true test of any notation is usage; having seen $\tau$ used throughout this manifesto, I hope you need little convincing that it serves its role well. After reading a few sections, you may even have forgotten that $\tau$ was first introduced in this very document. But for a constant as fundamental as $\tau$ it would be nice to have some deeper reasons for our choice. Why not $\alpha$, for example, or $\omega$? What's so great about $\tau$?
 
-Allow me to offer the following arguments, in order of increasing strength:
+  \subsection{Three arguments} % (fold)
+  \label{sec:three_arguments}
+  
+  % subsection three_arguments (end)
+
+Allow me to offer the following arguments in favor of $\tau$, appearing in order of increasing strength:
 
 \begin{enumerate}
   \item \emph{$\tau$ is available.} \\ Although $\tau$ is used for certain specific variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no universal conflicting usage.\footnote{With a global namespace and only so many letters to go around, minor conflicts are inevitable, but it's OK: physicists, for example, manage to use $e$ both for the natural number and for the charge on an electron without causing apparent harm.} 
