@@ -28,7 +28,7 @@ We begin repairing the damage wrought by $\pi$ by first understanding the notori
   \mathrm{circle\ constant} \equiv \frac{C}{r}.
 \]
 
-In ``$\pi$ Is Wrong!'', Professor Palais argues persuasively in favor of this definition, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience.\footnote{Indeed, many of the arguments in this manifesto are simply expanded versions of the arguments in ``$\pi$ Is Wrong!''.} Professor Palais calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais-tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
+In ``$\pi$ Is Wrong!'', Professor Palais argues persuasively in favor of this definition, and in my view he deserves principal credit for identifying this issue and bringing it to a broader audience. Professor Palais calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais-tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
 
 \begin{figure}
 \begin{center}
@@ -72,7 +72,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \section{The number tau} % (fold)
 \label{sec:the_number_tau}
 
-Since the diameter of a circle is twice its radius, numerically $\tau$ is simply $2\pi$. It is therefore of great interest to discover that, as noted in ``$\pi$ Is Wrong!'', the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
+Since the diameter of a circle is twice its radius, numerically $\tau$ is simply $2\pi$. It is therefore of great interest to discover that  the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
 
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
@@ -96,7 +96,7 @@ Since the diameter of a circle is twice its radius, numerically $\tau$ is simply
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n}.
 \]
 
-\noindent There are many more examples, and the lesson is clear: there's something special about $2\pi$.
+\noindent As noted in ``$\pi$ Is Wrong!'', there are many more examples, and the lesson is clear: there's something special about $2\pi$.
 
 To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although much of this material may be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
@@ -178,9 +178,7 @@ The unnecessary factors of $2$ arising from the use of $\pi$ are annoying enough
   \subsection{The circle functions} % (fold)
   \label{sec:the_circle_functions}
 
-***Although the arguments .
-
-We begin by considering the important elementary functions $\sin\theta$ and $\cos\theta$ from the perspective of $\tau$. Known as the ``circle functions''  because they give the coordinates of a point on the \emph{unit circle} (Figure~\ref{fig:circle-functions}), sine and cosine are the fundamental functions of trigonometry.
+Although radian angle measure provides some of the most compelling arguments for the true circle constant, it's worth comparing the virtues of $\pi$ and $\tau$ in some other contexts as well. We begin by considering the important elementary functions $\sin\theta$ and $\cos\theta$. Known as the ``circle functions''  because they give the coordinates of a point on the \emph{unit circle} (Figure~\ref{fig:circle-functions}), sine and cosine are the fundamental functions of trigonometry.
 
 \begin{figure}
 \begin{center}
