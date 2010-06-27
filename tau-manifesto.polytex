@@ -241,7 +241,7 @@ Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:
 \noindent Since complex exponentials correspond to rotations in the complex plane, this can also be stated as follows:
 
 \begin{center}
-\emph{The complex exponential of the circle constant is one turn.}
+\emph{The complex exponential of one turn is 1.}
 \end{center}
 
 \\
