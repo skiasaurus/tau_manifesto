@@ -220,7 +220,7 @@ Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:
 In words, this equation makes the following fundamental observation: 
 
 \begin{center}
-\emph{The exponential of the imaginary unit times the circle constant is unity.}
+\emph{The complex exponential of the circle constant is unity.}
 \end{center} 
 
 ~\\
