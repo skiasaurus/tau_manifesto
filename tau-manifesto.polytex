@@ -238,10 +238,10 @@ Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:
 
 \\
 
-\noindent Since complex exponentials correspond to rotations in the complex plane, this can also be stated as follows:
+\noindent Since $e^{i\theta}$ corresponds to a rotation by $\theta$ in the complex plane, this can also be stated as follows:
 
 \begin{center}
-\emph{Rotation by one turn is 1.}
+\emph{A rotation by one turn is 1.}
 \end{center}
 
 \\
