@@ -223,7 +223,7 @@ In words, this equation makes the following fundamental observation:
 \emph{The complex exponential of the circle constant is unity.}
 \end{center} 
 
-~\\
+\\
 
 \noindent Since $e^{i\theta}$ corresponds to a rotation by $\theta$ in the complex plane, this can also be stated as follows:
 
@@ -231,7 +231,7 @@ In words, this equation makes the following fundamental observation:
 \emph{A rotation by one turn is 1.}
 \end{center}
 
-~\\
+\\
 
 \noindent As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. Indeed, the identification of $\tau = $ ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
 
