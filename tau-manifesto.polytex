@@ -53,7 +53,7 @@ Before proceeding with the demonstration that $\tau$ is the natural choice for t
 \caption{The Google logo on March 14, 2010 (``Pi Day'').\label{fig:google_pi_day.}}
 \end{figure}
 
-Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 50 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{This is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from ``The Simpsons'' and especially ``Futurama'' to help her students get over their math anxiety; she is also the maintainer of the \href{http://www.mathsci.appstate.edu/~sjg/futurama/}{Futurama Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{Futurama} is back! New episodes are currently airing Thursday nights on Comedy Central at 10pm~/~9c.)}
+Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 50 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{This is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from ``The Simpsons'' and especially ``Futurama'' to help her students get over their math anxiety; she is also the maintainer of the \href{http://www.mathsci.appstate.edu/~sjg/futurama/}{Futurama Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{Futurama} is back! New episodes are currently airing Thursday nights on Comedy Central at 10/9c.)}
 
 \begin{figure}
 \begin{center}
@@ -85,11 +85,10 @@ in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \[
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
 \]
-and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} evaluated at even integers:
-% (written in terms of the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}):
+and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} evaluated at even integers:\footnote{Here \emph{B}$_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
 
 \[
-  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{(2\pi)^{2n}}{2(2n)!}\,B_n.
+  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{(2\pi)^{2n}}{2(2n)!}\,B_n.\qquad n = 1, 2, 3\ldots
 \]
 
 There are many more examples, and the lesson is clear: there's something special about $2\pi$. To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although it's likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
