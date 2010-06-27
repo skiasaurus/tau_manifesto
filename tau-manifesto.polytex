@@ -16,13 +16,10 @@ Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the m
   \label{sec:a_modest_proposal}
 
 We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of a circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
-
-
 \[
   \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \]
-
-\noindent Unfortunately, this definition is off by a factor of two in the denominator. Since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, the most natural definition for the circle constant uses $r$ in place of $D$:
+Unfortunately, this definition is off by a factor of two in the denominator. Since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, the most natural definition for the circle constant uses $r$ in place of $D$:
 
 \[
   \mathrm{circle\ constant} \equiv \frac{C}{r}.
@@ -73,32 +70,28 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \label{sec:the_number_tau}
 
 Since the diameter of a circle is twice its radius, the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
-
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
-
-\noindent The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution}:
-
+The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution}:
 \[
   \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}.
 \]
-
-\noindent It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula},
-
+It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula},
 \[
   f(a) = \frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\,dz,
 \]
-
-\noindent and again in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity}:
+in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
+\[
+  z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
+\]
+and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} evaluated at even integers (written in terms of the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}):
 
 \[
-  z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n}.
+  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{(2\pi)^{2n}}{2(2n)!}\,B_n.
 \]
 
-\noindent There are many more examples, and the lesson is clear: there's something special about $2\pi$.
-
-To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although much of this material may be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
+There are many more examples, and the lesson is clear: there's something special about $2\pi$. To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although it's likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
   \subsection{Circles and angles} % (fold)
   \label{sec:circles_and_angles}
@@ -126,12 +119,10 @@ A more fundamental system of angle measure involves a direct comparison of the a
 \[
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 \]
-
-\noindent This suggests the following definition of \emph{radian angle measure}:
+This suggests the following definition of \emph{radian angle measure}:
 
 \[ \theta \equiv \frac{s}{r}. \]
-
-\noindent This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+ This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
 
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians).}
@@ -153,11 +144,10 @@ Naturally, the special angles in Figure~\ref{fig:degree-angles} can be expressed
 \caption{The ``special'' angles are fractions of a full circle.\label{fig:angle-fractions}}
 \end{figure}
 
-\noindent Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle-fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arclength in terms of the fraction~\emph{f} of the full circumference:
+Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle-fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arclength in terms of the fraction~\emph{f} of the full circumference:
 
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau. \]
-
-\noindent Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, I fear that the resulting diagram of special angles---shown in Figure~\ref{fig:tau-angles}---will shake your faith to its very core. 
+ Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, I fear that the resulting diagram of special angles---shown in Figure~\ref{fig:tau-angles}---will shake your faith to its very core. 
 
 \begin{figure}
 \begin{center}
@@ -208,8 +198,7 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 \[
   \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14.
 \]
-
-\noindent That's right: I was astonished to discover that \emph{I had already forgotten that $\tau$/2 is sometimes called ``$\pi$''.} Perhaps this even happened to you just now. Welcome to my world.
+ That's right: I was astonished to discover that \emph{I had already forgotten that $\tau$/2 is sometimes called ``$\pi$''.} Perhaps this even happened to you just now. Welcome to my world.
 
   % subsection the_circle_functions (end)
 
@@ -223,14 +212,12 @@ I would be remiss in this manifesto not to address \emph{Euler's identity}, ``th
 Depending on the route chosen, the following equation can be either be proved as a theorem or taken as a definition; either way, it is quite remarkable:
 
 \[ e^{i\theta} = \cos\theta + i\sin\theta. \]
-
-\noindent Known as \emph{Euler's formula} (after \href{http://en.wikipedia.org/wiki/Leonhard_Euler}{Leonard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
+Known as \emph{Euler's formula} (after \href{http://en.wikipedia.org/wiki/Leonhard_Euler}{Leonard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
 
 Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:
 
 \[ e^{i\tau} = 1. \]
-
-\noindent In words, this equation makes the following fundamental observation: 
+In words, this equation makes the following fundamental observation: 
 
 \begin{center}
 \emph{The exponential of the imaginary unit times the circle constant is unity.}
@@ -251,30 +238,21 @@ Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:
     \subsubsection{Not the most beautiful equation} % (fold)
 
 Of course, the traditional form of Euler's identity is written in terms of $\pi$:
-
-
 \[ e^{i\pi} = -1. \]
-
-\noindent But that minus sign is so ugly that the formula is almost always rearranged immediately, yielding the traditional version of Euler's identity:
-
+But that minus sign is so ugly that the formula is almost always rearranged immediately, yielding the traditional version of Euler's identity:
 \[ e^{i\pi} + 1 = 0. \]
-
-\noindent (What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
+(What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
 
 At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. Allow me to address this by noting that, since $\sin\tau = 0$, we were already there:
-
 \[ e^{i\tau} = 1 + 0. \]
-
-\noindent This formula, without rearrangement, actually \emph{does} relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+This formula, without rearrangement, actually \emph{does} relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
 \section{Circular area: the coup de gr\^{a}ce} % (fold)
 \label{sec:circular_area}
 
 If you arrived here as a $\pi$ believer, you must by now be questioning your faith. $\tau$ is so natural, its meaning so transparent---is there no example where $\pi$ shines through in all its radiant glory? A memory stirs---yes, there is such a formula---it is the formula for circular area! Behold:
-
 \[ A = \pi r^2. \]
-
-\noindent We see here $\pi$, unadorned, in one of the most important equations of mathematics---a formula first proved by \href{Archimedes}{Archimedes} himself. Order is restored! And yet, the name of this section sounds ominous\ldots If this equation is $\pi$'s crowning glory, how can it also be the \href{http://en.wikipedia.org/wiki/Coup_de_grace}{\emph{coup de gr\^{a}ce}}?
+We see here $\pi$, unadorned, in one of the most important equations of mathematics---a formula first proved by \href{Archimedes}{Archimedes} himself. Order is restored! And yet, the name of this section sounds ominous\ldots If this equation is $\pi$'s crowning glory, how can it also be the \href{http://en.wikipedia.org/wiki/Coup_de_grace}{\emph{coup de gr\^{a}ce}}?
 
 
   \subsection{Quadratic forms} % (fold)
@@ -288,12 +266,10 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 \href{http://en.wikipedia.org/wiki/Galileo_Galilei}{Galileo Galilei} found that the velocity of an object falling in a uniform gravitational field is proportional to the time fallen:
 
 \[ v \propto t. \]
-
-\noindent The constant of proportionality is the gravitational acceleration \emph{g}:
+The constant of proportionality is the gravitational acceleration \emph{g}:
 
 \[ v = g t. \]
-
-\noindent Since velocity is the derivative of position, we can calculate the distance fallen by integration:
+Since velocity is the derivative of position, we can calculate the distance fallen by integration:
 
 \[ y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^2. \]
 
@@ -304,12 +280,10 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 \href{http://en.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} found that the external force required to stretch a spring is proportional to the distance stretched:
 
 \[ F \propto x. \]
-
-\noindent The constant of proportionality is the spring constant $k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
+The constant of proportionality is the spring constant $k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
 
 \[ F = k x. \]
-
-\noindent The potential energy in a spring is then equal to the work done by the external force:
+The potential energy in a spring is then equal to the work done by the external force:
 
 \[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
 
@@ -318,12 +292,10 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 \href{http://en.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} found that the force on an object is proportional to its acceleration:
 
 \[ F \propto a. \]
-
-\noindent The constant of proportionality is the mass $m$:
+The constant of proportionality is the mass $m$:
 
 \[ F = m a. \]
-
-\noindent The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
+The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
 
 \[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
 
@@ -349,12 +321,10 @@ As seen in Figure~\ref{fig:circular-area}, the area of a circle can be calculate
 \noindent Now, the circumference of a circle is proportional to its radius:
 
 \[ C \propto r. \]
-
-\noindent The constant of proportionality is $\tau$:
+The constant of proportionality is $\tau$:
 
 \[ C = \tau r. \]
-
-\noindent The area of the circle is then the integral over all rings:
+The area of the circle is then the integral over all rings:
 
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
 
@@ -363,8 +333,7 @@ If you were still a $\pi$ partisan at the beginning of this section, your head h
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
 \]
-
-\noindent There is simply no avoiding that factor of a half  (Table~\ref{table:quadratic_forms}).
+There is simply no avoiding that factor of a half  (Table~\ref{table:quadratic_forms}).
 
 \begin{table}
 \begin{center}
@@ -447,8 +416,7 @@ We have seen in this manifesto that the true circle constant is the ratio of the
 \[
   \mathrm{circle\ constant} = \tau \equiv \frac{C}{r}.
 \]
-
-\noindent The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool graphic (Figure~\ref{fig:tauism}).
+The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool graphic (Figure~\ref{fig:tauism}).
 
 \begin{figure}
 \begin{center}
