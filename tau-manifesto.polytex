@@ -239,7 +239,7 @@ In words, this equation makes the following fundamental observation:
 
 Of course, the traditional form of Euler's identity is written in terms of $\pi$:
 \[ e^{i\pi} = -1. \]
-But that minus sign is so ugly that the formula is almost always rearranged immediately, yielding the traditional version of Euler's identity:
+But that minus sign is so ugly that the formula is almost always rearranged immediately, yielding a slightly more attractive equation:
 \[ e^{i\pi} + 1 = 0. \]
 (What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
 
