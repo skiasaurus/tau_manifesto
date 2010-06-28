@@ -122,13 +122,11 @@ s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 This suggests the following definition of \emph{radian angle measure}:
 
 \[ \theta \equiv \frac{s}{r}. \]
-This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. 
+This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
 
-% For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
-% 
-% \[
-%   \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
-% \]
+\[
+  \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
+\]
 
 Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in Figure~\ref{fig:pi_angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
