@@ -227,7 +227,7 @@ In words, this equation makes the following fundamental observation:
 
 \\
 
-\noindent Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex number by an angle $\theta$ in the complex plane, which suggests a second interpretation of Euler's identity. Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by $\tau$ returns it to its original location. In other words,
+Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex number by an angle $\theta$ in the complex plane, which suggests a second interpretation of Euler's identity. Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by $\tau$ returns it to its original location. In other words,
 
 \begin{center}
 \emph{A rotation by one turn is 1.}
