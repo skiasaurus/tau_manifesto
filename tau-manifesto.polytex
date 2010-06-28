@@ -122,11 +122,13 @@ s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 This suggests the following definition of \emph{radian angle measure}:
 
 \[ \theta \equiv \frac{s}{r}. \]
- This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+This definition has the required property of radius-invariance, and it leads to elegant formulas throughout mathematics. 
 
-\[
-  \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
-\]
+% For example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+% 
+% \[
+%   \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
+% \]
 
 Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in Figure~\ref{fig:pi_angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
@@ -225,15 +227,17 @@ In words, this equation makes the following fundamental observation:
 
 \\
 
-\noindent Since $e^{i\theta}$ corresponds to a rotation by $\theta$ in the complex plane, this can also be stated as follows:
+\noindent Since multiplying by $e^{i\theta}$ corresponds to rotating a complex number by an angle $\theta$ in the complex plane, and since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, this can also be stated as follows:
 
 \begin{center}
-\emph{A rotation by one turn is 1.}
+\emph{A rotation by one turn is the identity transformation.}
 \end{center}
 
 \\
 
-\noindent As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. Indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
+\noindent In other words, rotating a complex number by one full turn brings it back to its original location. As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. 
+
+% Indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
 
     \subsubsection{Not the most beautiful equation} % (fold)
 
@@ -396,7 +400,9 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   % \item \textbf{Do you really expect people to use $\tau$?} \\ I would certainly love to see $\tau$ get traction outside of internet screeds, and perhaps this will happen, but the great part is that you don't have to wait for everyone else; you can just start by saying ``Let $\tau = 2\pi$'' and you're off to the races.
   
-  \item \textbf{Wouldn't we have to rewrite all the textbooks?} \\ No. It is true that some conventions, though unfortunate, are effectively irreversible. For example, Benjamin Franklin's choice for the signs of electric charges leads to electric current being positive, even though the charge carriers themselves are negative---thereby cursing electrical engineers with confusing minus signs ever since. To change this convention \emph{would} require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used, especially since minus signs have a tendency to cancel. In contrast, we can switch from $\pi$ to $\tau$ ``at runtime'' (as programmers might say), since it's purely a matter of mechanical substitution, completely robust and indeed fully reversible: the conversion \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau \] allows us to change back and forth between the two on the fly. (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a separate symbol for $\tau$/2, it seems unlikely that anyone would see fit to introduce one.)
+  \item \textbf{Isn't it too late to switch? Wouldn't all the textbooks need to be rewritten?} \\ No on both counts. It is true that some conventions, though unfortunate, are effectively irreversible. For example, Benjamin Franklin's choice for the signs of electric charges leads to electric current being positive, even though the charge carriers themselves are negative---thereby cursing electrical engineers with confusing minus signs ever since. To change this convention \emph{would} require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used, especially since minus signs have a tendency to cancel. In contrast, while \emph{redefining} $\pi$ is effectively impossible, we can \emph{switch} from $\pi$ to $\tau$ ``at runtime'' (as programmers might say), since it's purely a matter of mechanical substitution, completely robust and indeed fully reversible: the conversion \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau \] allows us to change back and forth between the two on the fly. The switch from $\pi$ to $\tau$ can happen incrementally; it need not happen all at once.
+
+% (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a separate symbol for $\tau$/2, it seems unlikely that anyone would see fit to introduce one.)
 
   \item \textbf{Won't using $\tau$ confuse people, especially students?} \\  If you are smart enough to understand radian angle measure, you are smart enough to understand $\tau$---and  why $\tau$ is actually \emph{less} confusing than $\pi$. Also, there's nothing intrinsically difficult about saying ``Let $\tau = 2\pi$''; understood narrowly, it's just a simple substitution. Finally, we can embrace the situation as a teaching opportunity: the wrongness of $\pi$ is \emph{interesting}, and students can engage with the material by converting the equations in their textbooks from $\pi$ to $\tau$. They will discover in the process that even great mathematicians are sometimes wrong.
 
