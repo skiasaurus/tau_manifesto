@@ -239,13 +239,13 @@ Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex nu
 
     \subsubsection{Not the most beautiful equation} % (fold)
 
-Of course, the traditional form of Euler's identity is written in terms of $\pi$:
+Of course, the traditional form of Euler's identity is written in terms of $\pi$ instead of $\tau$. To derive it, we start by evaluating Euler's formula at $\theta = \pi$, which yields
 \[ e^{i\pi} = -1. \]
-But that minus sign is so ugly that the formula is almost always rearranged immediately, yielding a slightly more attractive equation:
+But that minus sign is so ugly that the formula is almost always rearranged immediately, giving the following ``beautiful'' equation:
 \[ e^{i\pi} + 1 = 0. \]
 (What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
 
-At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. Allow me to address this by noting that, since $\sin\tau = 0$, we were already there:
+At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's formula with $\tau$ relates only \emph{four} of those five. We can address this objection by noting that, since $\sin\tau = 0$, we were already there:
 \[ e^{i\tau} = 1 + 0. \]
 This formula, without rearrangement, actually \emph{does} relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
