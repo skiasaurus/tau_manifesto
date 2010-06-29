@@ -37,7 +37,7 @@ In ``$\pi$ Is Wrong!'', Professor Palais argues persuasively in favor of this de
 The \emph{Tau Manifesto} is dedicated to the proposition that the proper response to ``$\pi$ is wrong'' is ``No, \emph{really}.'' And the true circle constant deserves a proper name. As you may have guessed by now, the \emph{Tau Manifesto} proposes that this name should be the Greek letter $\tau$ (tau):
 
 \[
-  \tau \equiv \frac{C}{r} = 6.283185307\ldots
+  \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
 
 Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$ is the correct choice, and we will show through usage (Section~\ref{sec:the_number_tau} and Section~\ref{sec:circular_area}) and by direct argumentation (Section~\ref{sec:why_tau}) that the \emph{letter} $\tau$ is a natural choice as well.
