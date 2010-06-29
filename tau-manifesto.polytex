@@ -12,8 +12,8 @@
 
 Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in the \emph{Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online \href{http://www.math.utah.edu/~palais/pi.html}{here}.} $\pi$ \emph{is wrong}. It's time to set things right.
 
-  \subsection{A fun (but serious) proposal} % (fold)
-  \label{sec:a_fun_serious_proposal}
+  \subsection{A serious (but fun) proposal} % (fold)
+  \label{sec:a_serious_but_fun_proposal}
 
 We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of a circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
 \[
