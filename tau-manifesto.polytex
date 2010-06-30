@@ -19,7 +19,7 @@ We begin repairing the damage wrought by $\pi$ by first understanding the notori
 \[
   \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \]
-This number has many remarkable properties---among other things, it is both \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}} and \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}---and its presence in mathematical formulas is widespread. It therefore particularly unfortunate that the definition of $\pi$ is off by a factor of two in the denominator.
+This number has many remarkable properties---among other things, it is both \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}} and \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}---and its presence in mathematical formulas is widespread. It is thus particularly unfortunate that the definition of $\pi$ is off by a factor of two in the denominator.
 
 Since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
 \[
