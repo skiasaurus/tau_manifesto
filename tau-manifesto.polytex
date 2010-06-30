@@ -27,7 +27,7 @@ Since a circle is the set of points a fixed distance---the \emph{radius}---from 
 \]
 Because the diameter of a circle is twice its radius, this number is numerically equal to $2\pi$. Like $\pi$, it is both irrational and transcendental, and we will soon see that its presence in mathematics is ubiquitous. We will also see that the consequences of using the wrong definition are severe.
 
-In the article ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of this second definition for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
+In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of this second definition for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
 
 \begin{figure}
 \begin{center}
