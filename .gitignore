@@ -9,3 +9,4 @@ tau-manifesto.tex
 *.swp
 .DS_Store
 images/figures/*
+images/math/*

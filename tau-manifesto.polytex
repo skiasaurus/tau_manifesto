@@ -74,9 +74,16 @@ Since the diameter of a circle is twice its radius, the number $\tau$ can also b
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
-The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution}:
+The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution},
 \[
-  \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}.
+  \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}},
+\]
+and in the \href{http://mathworld.wolfram.com/FourierTransform.html}{Fourier transform},
+\[
+  f(x) = \int_{-\infty}^\infty F(k) e^{2\pi ikx}\,dk 
+\]
+\[
+    F(k) = \int_{-\infty}^\infty f(x) e^{-2\pi ikx}\,dx.
 \]
 It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula},
 \[
@@ -86,7 +93,7 @@ in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \[
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
 \]
-and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} evaluated at positive even integers:\footnote{Here \emph{B}$_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
+and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} at positive even integers:\footnote{Here \emph{B}$_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
 
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{(2\pi)^{2n}}{2(2n)!}\,B_n.\qquad n = 1, 2, 3, \ldots
