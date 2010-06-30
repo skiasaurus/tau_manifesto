@@ -19,13 +19,15 @@ We begin repairing the damage wrought by $\pi$ by first understanding the notori
 \[
   \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \]
-Unfortunately, this definition is off by a factor of two in the denominator. Since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, the most natural definition for the circle constant uses $r$ in place of $D$:
+This number has many remarkable properties---among other things, it is both \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}} and \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}---and its presence in mathematical formulas is widespread. It therefore particularly unfortunate that the definition of $\pi$ is off by a factor of two in the denominator.
 
+Since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
 \[
   \mathrm{circle\ constant} \equiv \frac{C}{r}.
 \]
+Because the diameter of a circle is twice its radius, this number is numerically equal to $2\pi$. Like $\pi$, it is both irrational and transcendental, and we will soon see that its presence in mathematics is ubiquitous. We will also see that the consequences of using the wrong definition are severe.
 
-In ``$\pi$ Is Wrong!'', Professor Palais argues persuasively in favor of this definition, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
+In the article ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of this second definition for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain widespread adoption.
 
 \begin{figure}
 \begin{center}
@@ -70,7 +72,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \section{The number tau} % (fold)
 \label{sec:the_number_tau}
 
-Since the diameter of a circle is twice its radius, the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
+We saw in Section~\ref{sec:a_serious_but_fun_proposal} that the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
