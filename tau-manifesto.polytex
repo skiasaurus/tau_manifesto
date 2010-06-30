@@ -91,7 +91,7 @@ It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauch
 \[
   f(a) = \frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\,dz,
 \]
-in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
+in the $n$th \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \[
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
 \]
