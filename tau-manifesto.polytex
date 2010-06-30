@@ -235,7 +235,9 @@ Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex nu
 
 \\
 
-\noindent Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by one turn simply returns it to its original location. As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle; indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
+\noindent Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by one turn simply returns it to its original location. 
+
+As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. Indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
 
     \subsubsection{Not the most beautiful equation} % (fold)
     \label{sec:not_the_most_beautiful_equation}
