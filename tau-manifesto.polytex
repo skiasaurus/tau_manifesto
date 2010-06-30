@@ -124,7 +124,7 @@ s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 This suggests the following definition of \emph{radian angle measure}:
 
 \[ \theta \equiv \frac{s}{r}. \]
-This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{http://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. Radian angle measure is used almost exclusively throughout mathematics because it leads to succinct and elegant formulas; for example, the formula for the derivative of $\sin\theta$ is true only when $\theta$ is in radians:
+This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{http://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of $\sin\theta$ is true only when $\theta$ is expressed in radians:
 
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
