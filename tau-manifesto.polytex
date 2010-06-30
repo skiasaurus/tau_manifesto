@@ -72,7 +72,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \section{The number tau} % (fold)
 \label{sec:the_number_tau}
 
-We saw in Section~\ref{sec:a_serious_but_fun_proposal} that the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
+We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
