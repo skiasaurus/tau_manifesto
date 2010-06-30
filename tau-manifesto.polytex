@@ -100,7 +100,7 @@ and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_functio
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n}{2(2n)!}\,(2\pi)^{2n}.\qquad n = 1, 2, 3, \ldots
 \]
-There are many more examples, and the lesson is clear: there is something special about $2\pi$.
+There are many more examples, and the conclusion is clear: there is something special about $2\pi$.
 
 To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although it's likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
