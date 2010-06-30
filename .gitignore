@@ -1,6 +1,6 @@
 *.html
 cache/*
-ruby-on-rails-tutorial.tex
+tau-manifesto.tex
 *.pdf
 *.aux
 *.log
