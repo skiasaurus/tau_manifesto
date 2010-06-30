@@ -80,7 +80,7 @@ The upper limit of the $\theta$ integration is always $2\pi$. The same factor ap
 \[
   \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}},
 \]
-and in the \href{http://mathworld.wolfram.com/FourierTransform.html}{Fourier transform},
+and again in the \href{http://mathworld.wolfram.com/FourierTransform.html}{Fourier transform},
 \[
   f(x) = \int_{-\infty}^\infty F(k) e^{2\pi ikx}\,dk 
 \]
