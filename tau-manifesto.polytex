@@ -95,7 +95,7 @@ in the \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \[
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
 \]
-and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} at positive even integers:\footnote{Here \emph{B}$_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
+and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} for positive even integers:\footnote{Here \emph{B}$_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
 
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{(2\pi)^{2n}}{2(2n)!}\,B_n.\qquad n = 1, 2, 3, \ldots
