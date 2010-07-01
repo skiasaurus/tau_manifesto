@@ -47,13 +47,13 @@ Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$
  \subsection{A powerful enemy} % (fold)
  \label{sec:a_powerful_enemy}
 
-Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``Pi Day'' (3/14) 2010 \href{http://www.google.com/}{Google} \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google_pi_day.}).  
+Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``Pi Day'' 2010 \href{http://www.google.com/}{Google} \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google_pi_day.}).  
 
 \begin{figure}
 \begin{center}
 \image{images/figures/google-pi-day.png}
 \end{center}
-\caption{The Google logo on 3/14, 2010 (``Pi Day'').\label{fig:google_pi_day.}}
+\caption{The Google logo on March 14 (3/14), 2010 (``Pi Day'').\label{fig:google_pi_day.}}
 \end{figure}
 
 Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 50 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{The video in Figure~\ref{fig:futurama_video} is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from \emph{The Simpsons} and especially \emph{Futurama} to engage her students' interest and to help them get over their math anxiety. She is also the maintainer of the \href{http://www.futuramamath.com/}{\emph{Futurama} Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{\emph{Futurama}} is back on the air! New episodes are currently airing Thursday nights on Comedy Central at 10/9c.)}
@@ -72,7 +72,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \section{The number tau} % (fold)
 \label{sec:the_number_tau}
 
-We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As discussed in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
+We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
 \[
   \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
 \]
@@ -450,7 +450,7 @@ The usage is natural, the motivation is clear, and the implications are profound
   \subsection{Tau Day} % (fold)
   \label{sec:tau_day}
 
-The \emph{Tau Manifesto} first launched on Tau Day: 6/28, 2010. Tau Day is a time to celebrate and rejoice in all things mathematical and true.\footnote{6/28 is actually a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} If you would like to receive updates about $\tau$, including notifications about possible future Tau Day events, please join the \emph{Tau Manifesto} mailing list below.
+The \emph{Tau Manifesto} first launched on Tau Day: June 28 (6/28), 2010. Tau Day is a time to celebrate and rejoice in all things mathematical and true.\footnote{6/28 is actually a \emph{perfect} day---for 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}.} If you would like to receive updates about $\tau$, including notifications about possible future Tau Day events, please join the \emph{Tau Manifesto} mailing list below.
 
 Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$. Happy Tau Day!
 
