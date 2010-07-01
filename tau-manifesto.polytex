@@ -25,7 +25,7 @@ The number $\pi$ has many remarkable properties---among other things, it is both
 \]
 Because the diameter of a circle is twice its radius, this number is numerically equal to $2\pi$. Like $\pi$, it is both irrational and transcendental, and its use in mathematics is even more widespread than the use of $\pi$.\footnote{One might reasonably wonder how $2\pi$ can be \emph{more} widespread than $\pi$; it seems that they must be equally common by definition. But we will see in Section~\ref{sec:the_number_tau} that the \emph{combination} $2\pi$ is actually more common than $\pi$ by itself.}
 
-In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of this second definition for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain wide adoption.
+In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second definition for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:faq}) it seems unlikely to gain wide adoption.
 
 \begin{figure}
 \begin{center}
