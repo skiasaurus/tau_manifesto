@@ -218,7 +218,7 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 % section radian_angle_measure (end)
 
    \subsection{Euler's identity} % (fold)
-   \label{sec:euler_s_formula}
+   \label{sec:euler_s_identity}
 
 I would be remiss in this manifesto not to address \emph{Euler's identity}, sometimes called ``the most beautiful equation in mathematics''. This identity involves \emph{complex exponentiation}, which is deeply connected both to the circle functions and to the geometry of the circle itself.
 
