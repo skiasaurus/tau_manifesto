@@ -54,8 +54,6 @@
 			<string>{{121.186, 158}, {242.5, 242.5}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
-			<key>HFlip</key>
-			<string>YES</string>
 			<key>ID</key>
 			<integer>54</integer>
 			<key>ImageID</key>
@@ -82,6 +80,8 @@
 					<string>NO</string>
 				</dict>
 			</dict>
+			<key>VFlip</key>
+			<string>YES</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
@@ -577,7 +577,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-07-07 12:06:39 -0700</string>
+	<string>2010-07-07 16:38:28 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
@@ -648,7 +648,7 @@
 			</dict>
 		</array>
 		<key>Frame</key>
-		<string>{{223, 161}, {887, 903}}</string>
+		<string>{{365, 62}, {887, 816}}</string>
 		<key>ListView</key>
 		<true/>
 		<key>OutlineWidth</key>
@@ -662,7 +662,7 @@
 		<key>SidebarWidth</key>
 		<integer>120</integer>
 		<key>VisibleRegion</key>
-		<string>{{-88, -8}, {752, 749}}</string>
+		<string>{{-81, 0}, {738, 662}}</string>
 		<key>Zoom</key>
 		<real>1</real>
 		<key>ZoomValues</key>
