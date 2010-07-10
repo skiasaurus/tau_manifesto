@@ -51,7 +51,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{121.186, 158}, {242.5, 242.5}}</string>
+			<string>{{122.186, 158}, {242.5, 242.5}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -59,7 +59,7 @@
 			<key>ImageID</key>
 			<integer>9</integer>
 			<key>Rotation</key>
-			<real>270</real>
+			<real>90</real>
 			<key>Shape</key>
 			<string>Rectangle</string>
 			<key>Style</key>
@@ -577,7 +577,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-07-07 16:38:28 -0700</string>
+	<string>2010-07-10 12:25:12 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
