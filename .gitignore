@@ -1,7 +1,7 @@
 *.html
 cache/*
 tau-manifesto.tex
-*.pdf
+tau-manifesto.pdf
 *.aux
 *.log
 *.out
