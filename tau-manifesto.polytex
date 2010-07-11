@@ -12,7 +12,7 @@
 \section{The circle constant} % (fold)
 \label{sec:the_circle_constant}
 
-Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in the \emph{Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online \href{http://www.math.utah.edu/~palais/pi.html}{here}.} $\pi$ \emph{is wrong}. It's time to set things right.
+Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in the \emph{Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.} $\pi$ \emph{is wrong}. It's time to set things right.
 
   \subsection{An immodest proposal} % (fold)
   \label{sec:an_immodest_proposal}
@@ -56,7 +56,7 @@ Before proceeding with the demonstration that $\tau$ is the natural choice for t
 \caption{The Google logo on March 14 (3/14), 2010 (``Pi Day'').\label{fig:google_pi_day.}}
 \end{figure}
 
-Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 50 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{The video in Figure~\ref{fig:futurama_video} (available  \href{http://vimeo.com/12914981}{here}) is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from \emph{The Simpsons} and \emph{Futurama} to engage her students' interest and to help them get over their math anxiety. She is also the maintainer of the \href{http://www.futuramamath.com/}{\emph{Futurama} Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{\emph{Futurama}} is back on the air! New episodes are currently airing Thursday nights on Comedy Central at 10/9c.)}
+Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 50 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{The video in Figure~\ref{fig:futurama_video} (available at  \href{http://vimeo.com/12914981}{http://vimeo.com/12914981}) is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from \emph{The Simpsons} and \emph{Futurama} to engage her students' interest and to help them get over their math anxiety. She is also the maintainer of the \href{http://www.futuramamath.com/}{\emph{Futurama} Math Page}. (By the way, \href{http://www.comedycentral.com/shows/futurama/index.jhtml}{\emph{Futurama}} is back on the air! New episodes are currently airing Thursday nights on Comedy Central at 10/9c.)}
 
 \begin{figure}
 \begin{center}
@@ -464,7 +464,7 @@ Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as
 
 \bigskip % html_ignore
 \begin{center} % html_ignore
-\textbf{The signup form is available online \href{http://tauday.com/\#sec:tau_day}{here}.} % html_ignore
+\textbf{The signup form is available online at \href{http://tauday.com/\#sec:tau_day}{http://tauday.com/\#sec:tau\_day}.} % html_ignore
 \end{center} % html_ignore
 
   \subsubsection{Acknowledgments} % (fold)
