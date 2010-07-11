@@ -137,6 +137,10 @@ body #book {
   border: none;
 }
 
+#book .figure .scale img {
+  border: none;
+}
+
 #book .displaymath {
   text-align: center;
   margin-top: 1em;
