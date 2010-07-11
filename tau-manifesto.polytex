@@ -282,7 +282,9 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 \href{http://en.wikipedia.org/wiki/Galileo_Galilei}{Galileo Galilei} found that the velocity of an object falling in a uniform gravitational field is proportional to the time fallen:
 
 \[ v \propto t. \]
-The constant of proportionality is the gravitational acceleration \emph{g}:
+The constant of proportionality is the gravitational acceleration
+%= <em>g</em>:
+$g$:      % html_ignore
 
 \[ v = g t. \]
 Since velocity is the derivative of position, we can calculate the distance fallen by integration:
