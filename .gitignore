@@ -8,5 +8,5 @@ tau-manifesto.tex
 *.toc
 *.swp
 .DS_Store
-images/figures/*
+images/figures/*.png
 images/math/*

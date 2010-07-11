@@ -112,7 +112,7 @@ There is an intimate relationship between circles and angles, as shown in Figure
 
 \begin{figure}
 \begin{center}
-\image{images/figures/angle-arclength.png}
+\image{images/figures/angle-arclength.pdf}
 \end{center}
 \caption{An angle $\theta$ with two concentric circles.\label{fig:angle_arclength}}
 \end{figure}
@@ -121,7 +121,7 @@ Perhaps the most elementary angle system is \emph{degrees}, which breaks a circl
 
 \begin{figure}
 \begin{center}
-\image{images/figures/degree-angles.png}
+\image{images/figures/degree-angles.pdf}
 \end{center}
 \caption{Some special angles, in degrees.\label{fig:degree_angles}}
 \end{figure}
@@ -144,14 +144,14 @@ Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed
 
 \begin{figure}
 \begin{center}
-\image{images/figures/pi-angles.png}
+\image{images/figures/pi-angles.pdf}
 \end{center}
 \caption{Some special angles, in $\pi$-radians.\label{fig:pi_angles}}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\image{images/figures/angle-fractions.png}
+\image{images/figures/angle-fractions.pdf}
 \end{center}
 \caption{The ``special'' angles are fractions of a full circle.\label{fig:angle_fractions}}
 \end{figure}
@@ -163,7 +163,7 @@ Now, a moment's reflection shows that the so-called ``special'' angles are just 
 
 \begin{figure}
 \begin{center}
-\image{images/figures/tau-angles.png}
+\image{images/figures/tau-angles.pdf}
 \end{center}
 \caption{Some special angles, in radians.\label{fig:tau_angles}}
 \end{figure}
@@ -188,7 +188,7 @@ Although radian angle measure provides some of the most compelling arguments for
 
 \begin{figure}
 \begin{center}
-\image{images/figures/circle-functions.png}
+\image{images/figures/circle-functions.pdf}
 \end{center}
 \caption{The circle functions are coordinates on the unit circle.\label{fig:circle_functions}}
 \end{figure}
@@ -197,14 +197,14 @@ Let's examine the graphs of the circle functions to better understand their beha
 
 \begin{figure}
 \begin{center}
-\image{images/figures/sine-with-tau.png}
+\image{images/figures/sine-with-tau.pdf}
 \end{center}
 \caption{Important points for $\sin\theta$ in terms of the period $T$.\label{fig:sine_with_tau}}
 \end{figure}
 
 \begin{figure}
 \begin{center}
-\image{images/figures/cosine-with-tau.png}
+\image{images/figures/cosine-with-tau.pdf}
 \end{center}
 \caption{Important points for $\cos\theta$ in terms of the period $T$.\label{fig:cosine_with_tau}}
 \end{figure}
@@ -325,7 +325,7 @@ Having seen several examples of simple quadratic forms in physics, you may by no
 
 \begin{figure}
 \begin{center}
-\image{images/figures/circular-area.png}
+\image{images/figures/circular-area.pdf}
 \end{center}
 \caption{Breaking down a circle into rings.\label{fig:circular_area}}
 \end{figure}
@@ -446,7 +446,7 @@ The usage is natural, the motivation is clear, and the implications are profound
 
 \begin{figure}
 \begin{center}
-\image{images/figures/tauism_rotated.png}
+\image{images/figures/tauism_rotated.pdf}
 \end{center}
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
@@ -487,5 +487,5 @@ I also received helpful feedback from several readers. The pleasing interpretati
 \emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is an educator and entrepreneur. He is the founder of the \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial} project, which teaches web development using \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching. He is a graduate of \href{http://college.harvard.edu/}{Harvard College} and has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}.
 
 Michael is ashamed to admit that he knows 50 digits of $\pi$---approximately 48 more than Matt Groening. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
-\end{document}
 
+\end{document}
