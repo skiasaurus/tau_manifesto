@@ -238,9 +238,7 @@ In words, this equation makes the following fundamental observation:
 \begin{center}
 \emph{The complex exponential of the circle constant is unity.}
 \end{center} 
-
 %= <br />
-
 Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex number by an angle $\theta$ in the complex plane, which suggests a second interpretation of Euler's identity:
 
 \begin{center}
@@ -248,7 +246,6 @@ Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex nu
 \end{center}
 
 %= <br />
-
 \noindent Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by one turn simply returns it to its original position. 
 
 As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. Indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
@@ -285,7 +282,7 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 \href{http://en.wikipedia.org/wiki/Galileo_Galilei}{Galileo Galilei} found that the velocity of an object falling in a uniform gravitational field is proportional to the time fallen:
 
 \[ v \propto t. \]
-The constant of proportionality is the gravitational acceleration \emph{g}:
+The constant of proportionality is the gravitational acceleration~$g$:
 
 \[ v = g t. \]
 Since velocity is the derivative of position, we can calculate the distance fallen by integration:
@@ -299,7 +296,7 @@ Since velocity is the derivative of position, we can calculate the distance fall
 \href{http://en.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} found that the external force required to stretch a spring is proportional to the distance stretched:
 
 \[ F \propto x. \]
-The constant of proportionality is the spring constant $k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
+The constant of proportionality is the spring constant~$k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
 
 \[ F = k x. \]
 The potential energy in the spring is then equal to the work done by the external force:
@@ -467,7 +464,6 @@ Thank you for reading the \emph{Tau Manifesto}. I hope you enjoyed reading it as
 \begin{center} % html_ignore
 \textbf{The signup form is available online \href{http://tauday.com/\#sec:tau_day}{here}.} % html_ignore
 \end{center} % html_ignore
-
 
   \subsubsection{Acknowledgments} % (fold)
   \label{sec:acknowledgments}
