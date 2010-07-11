@@ -4,7 +4,7 @@
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{Tau Day, 2010}
+\date{\href{http://tauday.com/}{Tau Day}, 2010}
 \maketitle
 
 %= share_partial
@@ -112,7 +112,7 @@ There is an intimate relationship between circles and angles, as shown in Figure
 
 \begin{figure}
 \begin{center}
-\includegraphics{images/figures/angle-arclength.png}
+\image{images/figures/angle-arclength.png}
 \end{center}
 \caption{An angle $\theta$ with two concentric circles.\label{fig:angle_arclength}}
 \end{figure}
@@ -323,7 +323,7 @@ Having seen several examples of simple quadratic forms in physics, you may by no
 
 \begin{figure}
 \begin{center}
-\includegraphics{images/figures/circular-area.png}
+\image{images/figures/circular-area.png}
 \end{center}
 \caption{Breaking down a circle into rings.\label{fig:circular_area}}
 \end{figure}
@@ -355,9 +355,9 @@ There is simply no avoiding that factor of a half  (Table~\ref{table:quadratic_f
 \begin{center}
 \begin{tabular}{lcc}
 Quantity & Symbol & Expression \\ \hline
-Distance fallen & $y$ & $\textstyle{\frac{1}{2}}gt^2$ \\
-Spring energy & $U$ & $\textstyle{\frac{1}{2}}kx^2$ \\
-Kinetic energy & $K$ & $\textstyle{\frac{1}{2}}mv^2$ \\
+Distance fallen & $y$ & $\textstyle{\frac{1}{2}}gt^2$ \smallskip \\ 
+Spring energy & $U$ & $\textstyle{\frac{1}{2}}kx^2$ \smallskip \\
+Kinetic energy & $K$ & $\textstyle{\frac{1}{2}}mv^2$ \smallskip \\
 Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau r^2$
 \end{tabular}
 \end{center}
@@ -406,7 +406,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   \item \textbf{Are you serious?} \\ Of course. I mean, I'm having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose. Setting the circle constant equal to the circumference over the diameter is an awkward and confusing convention. Although I would love to see mathematicians change their ways, I'm not particularly worried about them; they can take care of themselves. It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in Section~\ref{sec:circles_and_angles}, $\pi$ is a pedagogical disaster. Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle---one slice of pizza---is $\pi/8$. Wait, I meant $\pi/4$. See what I mean? It's madness---sheer, unadulterated madness.
 
-  \item \textbf{Why not use the symbol from ``$\pi$ Is Wrong!''?} \\ There are two main issues with the symbol from ``$\pi$ Is Wrong!'' (Figure~\ref{fig:palais_tau}).\footnote{These problems aren't necessarily fatal, and the \emph{Tau Manifesto} reserves the right to support Palais' symbol if these issues ever get fixed.} The first is that it is highly non-standard. Although this means that it doesn't conflict with any current usage, that's a \href{http://en.wikipedia.org/wiki/Pyrrhic_victory}{Pyrrhic victory}, since it also means that the symbol doesn't exist in any current typesetting or word-processing systems.\footnote{There's a hack for defining Palais' symbol in the \LaTeX\ typesetting system (which is how Palais himself did it), but even this doesn't always work: the \emph{Tau Manifesto} was prepared with the help of a \TeX-based JavaScript library, and it still chokes on the symbol from Figure~\ref{fig:palais_tau}. (This is why I keep referring to it as ``the symbol from Figure~\ref{fig:palais_tau}'' instead of just typesetting the darn thing.)} This presents a high barrier to adoption. Second, the name ``one turn'', though descriptive, doesn't work well in some common contexts. For example, saying that a quarter circle has radian angle measure ``one quarter turn'' sounds great, but ``turn over four radians'' sounds awkward, and ``the area of a circle is one-half turn $r$ squared'' sounds downright odd. Letting $\tau = $ \emph{turn} leads to much more natural phrasing, such as ``tau over four radians'' and ``the area of a circle is one-half tau $r$ squared.''
+  \item \textbf{Why not use the symbol from ``$\pi$ Is Wrong!''?} \\ There are two main issues with the symbol from ``$\pi$ Is Wrong!'' (Figure~\ref{fig:palais_tau}).\footnote{These problems aren't necessarily fatal, and the \emph{Tau Manifesto} reserves the right to support Palais' symbol if these issues ever get fixed.} The first is that it is highly non-standard. Although this means that it doesn't conflict with any current usage, that's a \href{http://en.wikipedia.org/wiki/Pyrrhic_victory}{Pyrrhic victory}, since it also means that the symbol doesn't exist in any current typesetting or word-processing systems.\footnote{There's a hack for defining Palais' symbol in the \LaTeX\ typesetting system (which is how Palais himself did it), but even this doesn't always work: the \href{http://tauday.com/}{online version} of the \emph{Tau Manifesto} was prepared with the help of a \TeX-based JavaScript library, and it still chokes on the symbol from Figure~\ref{fig:palais_tau}. (This is why I keep referring to it as ``the symbol from Figure~\ref{fig:palais_tau}'' instead of just typesetting the darn thing.)} This presents a high barrier to adoption. Second, the name ``one turn'', though descriptive, doesn't work well in some common contexts. For example, saying that a quarter circle has radian angle measure ``one quarter turn'' sounds great, but ``turn over four radians'' sounds awkward, and ``the area of a circle is one-half turn $r$ squared'' sounds downright odd. Letting $\tau = $ \emph{turn} leads to much more natural phrasing, such as ``tau over four radians'' and ``the area of a circle is one-half tau $r$ squared.''
 
   \item \textbf{How can we switch from $\pi$ to $\tau$?} \\ The next time you write something that uses the circle constant, simply say ``For convenience, we set $\tau = 2\pi$'', and then proceed as usual. (Of course, this might just prompt the question, ``Why would you want to do that?'', and I admit it would be nice to have a place to point them to. If only someone would write, say, a \emph{manifesto} on the subject\ldots) The way to get people to start using $\tau$ is to start using it yourself. 
 
@@ -472,7 +472,7 @@ I'd first like to thank \href{http://www.math.utah.edu/~palais/}{Bob Palais} for
 
 I've been thinking about the \emph{Tau Manifesto} for a while now, and many of the ideas presented here were developed through conversations with my friend Sumit Daftuar. Sumit served as a sounding board and occasional Devil's advocate, and his insight as a teacher and as a mathematician influenced my thinking in many ways.
 
-I also received helpful feedback from several readers. The pleasing interpretation and orientation of the yin-yang symbol used in the \emph{Tau Manifesto} are due to suggestions by \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s}, who has the rare distinction of having independently proposed using $\tau$ for the circle constant. I also got several good suggestions from \href{http://christopherolah.wordpress.com/about-me}{Christopher Olah}, particularly regarding the geometric interpretation of Euler's identity. Finally, I'd like to thank \href{http://techiferous.com/about}{Wyatt Greene} for his extraordinarily helpful feedback on a pre-launch draft of the manifesto; among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
+I also received helpful feedback from several readers. The pleasing interpretation of the yin-yang symbol used in the \emph{Tau Manifesto} is due to a suggestion by \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s}, who has the rare distinction of having independently proposed using $\tau$ for the circle constant. I also got several good suggestions from \href{http://christopherolah.wordpress.com/about-me}{Christopher Olah}, particularly regarding the geometric interpretation of Euler's identity. Finally, I'd like to thank \href{http://techiferous.com/about}{Wyatt Greene} for his extraordinarily helpful feedback on a pre-launch draft of the manifesto; among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
 
 
     % subsubsection acknowledgments (end)
