@@ -346,7 +346,7 @@ The area of the circle is then the integral over all rings:
 
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
 
-If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of 2. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
+If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of $2$. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
 
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
@@ -428,7 +428,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   \item \textbf{Are you, like, a crazy person?} \\ That's really none of your business, but no. Apart from my \href{http://www.vibramfivefingers.com/}{unusual shoes}, I am to all external appearances normal in every way. You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
   
-  \item \textbf{But what about puns?} \\ We come now to the final objection. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ itself is pregnant with possibilities. $\tau$ism tells us: it is not $\tau$ that is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half $\tau$, to be exact. The identity $e^{i\tau} = 1$ says: ``\emph{Be 1 with the $\tau$.}'' And though the observation that ``\emph{A rotation by one turn is~1}'' may sound like a $\tau$-tology, it is the true nature of the $\tau$. As we contemplate this nature to seek the \href{http://www.answers.com/Tao}{way} of the $\tau$, we must remember that $\tau$ism is based on reason, not on faith: $\tau$ists are never $\pi$ous.
+  \item \textbf{But what about puns?} \\ We come now to the final objection. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ itself is pregnant with possibilities. $\tau$ism tells us: it is not $\tau$ that is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half $\tau$, to be exact. The identity $e^{i\tau} = 1$ says: ``\emph{Be $1$ with the $\tau$.}'' And though the observation that ``\emph{A rotation by one turn is~1}'' may sound like a $\tau$-tology, it is the true nature of the $\tau$. As we contemplate this nature to seek the \href{http://www.answers.com/Tao}{way} of the $\tau$, we must remember that $\tau$ism is based on reason, not on faith: $\tau$ists are never $\pi$ous.
 
 \end{itemize}
 
