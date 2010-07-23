@@ -7,7 +7,7 @@
 	<key>ApplicationVersion</key>
 	<array>
 		<string>com.omnigroup.OmniGrafflePro</string>
-		<string>138.14.0.129428</string>
+		<string>138.17.0.133677</string>
 	</array>
 	<key>AutoAdjust</key>
 	<true/>
@@ -484,7 +484,13 @@
 			<key>Shape</key>
 			<string>Circle</string>
 			<key>Style</key>
-			<dict/>
+			<dict>
+				<key>shadow</key>
+				<dict>
+					<key>Draws</key>
+					<string>NO</string>
+				</dict>
+			</dict>
 		</dict>
 	</array>
 	<key>GridInfo</key>
@@ -556,7 +562,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-06-17 08:52:49 -0700</string>
+	<string>2010-07-22 18:36:59 -0700</string>
 	<key>Modifier</key>
 	<string>Michael Hartl</string>
 	<key>NotesVisible</key>
