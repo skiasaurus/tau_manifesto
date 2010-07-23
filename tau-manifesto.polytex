@@ -276,13 +276,13 @@ Written in terms of $\tau$, we see that the ``original'' form of Euler's identit
 
 \begin{table}
 \begin{center}
-\begin{tabular}{cl}
-Rotation angle & Eulerian identity \\ \hline
-$0$ & $e^{i\cdot0} = 1$ \smallskip \\ 
-$\tau/4$ & $e^{i\tau/4} = i$ \smallskip \\ 
-$\tau/2$ & $e^{i\tau/2} = -1$ \smallskip \\ 
-$3\tau/4$ & $e^{i\cdot(3\tau/4)} = -i$ \smallskip \\ 
-$\tau$ & $e^{i\tau} = 1$
+\begin{tabular}{cllr}
+Rotation angle & \multicolumn{3}{c}{Eulerian identity} \\ \hline
+$0$ & $e^{i\cdot0}$ & $ = $ & $1$ \smallskip \\ 
+$\tau/4$ & $e^{i\tau/4}$ & $ = $ & $i$ \smallskip \\ 
+$\tau/2$ & $e^{i\tau/2}$ & $ = $ & $-1$ \smallskip \\ 
+$3\tau/4$ & $e^{i\cdot(3\tau/4)}$ & $ = $ & $-i$ \smallskip \\ 
+$\tau$ & $e^{i\tau}$ & $ = $ & $1$
 \end{tabular}
 \end{center}
 \caption{Eulerian identities for half, quarter, and full rotations.\label{table:eulerian_identities}}
