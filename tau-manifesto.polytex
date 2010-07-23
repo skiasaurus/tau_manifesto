@@ -266,7 +266,7 @@ This formula, without rearrangement, actually \emph{does} relate the five most i
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
 
-Although the introduction of $0$ into the formula $e^{i\tau} = 1 + 0$ is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} - 1 = 0$, the equation $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
+Since you can add $0$ anywhere in any equation, the introduction of $0$ into the formula $e^{i\tau} = 1 + 0$ is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} - 1 = 0$, but the identity $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
 \[
 e^{i\tau/2} = -1.
 \]
@@ -288,7 +288,7 @@ $\tau$ & $e^{i\tau}$ & $ = $ & $1$
 \caption{Eulerian identities for half, quarter, and full rotations.\label{table:eulerian_identities}}
 \end{table}
 
-We can take this analysis a step further by noting that, for any angle~$\theta$, $e^{i\theta}$ can be interpreted as a point lying on the unit circle in the complex plane. Since the complex plane identifies the horizontal axis with the real part of the number and the vertical axis with the imaginary part, $e^{i\theta}$ corresponds to the coordinates $(\cos\theta, \sin\theta)$ by Euler's formula. Plugging in the values of the ``special'' angles from Figure~\ref{fig:tau_angles} then gives the points shown in Table~\ref{table:complex_exponentials}, and plotting these points in the complex plane yields Figure~\ref{fig:tau_euler_circle}. A quick comparison of Figure~\ref{fig:tau_euler_circle} with Figure~\ref{fig:tau_angles} dispels any doubts about which choice of circle constant better reveals the true nature of Euler's formula.
+We can take this analysis a step further by noting that, for any angle~$\theta$, $e^{i\theta}$ can be interpreted as a point lying on the unit circle in the complex plane. Since the complex plane identifies the horizontal axis with the real part of the number and the vertical axis with the imaginary part, Euler's formula tells us that $e^{i\theta}$ corresponds to the coordinates $(\cos\theta, \sin\theta)$. Plugging in the values of the ``special'' angles from Figure~\ref{fig:tau_angles} then gives the points shown in Table~\ref{table:complex_exponentials}, and plotting these points in the complex plane yields Figure~\ref{fig:tau_euler_circle}. A comparison of Figure~\ref{fig:tau_euler_circle} with Figure~\ref{fig:tau_angles} quickly dispels any doubts about which choice of circle constant better reveals the connection between Euler's formula and the geometry of the circle.
 
 \begin{table}
 \begin{center}
