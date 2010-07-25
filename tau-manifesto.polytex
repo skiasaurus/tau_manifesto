@@ -37,11 +37,9 @@ In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second of
 \end{figure}
 
 The \emph{Tau Manifesto} is dedicated to the proposition that the proper response to ``$\pi$ is wrong'' is ``No, \emph{really}.'' And the true circle constant deserves a proper name. As you may have guessed by now, the \emph{Tau Manifesto} proposes that this name should be the Greek letter $\tau$ (tau):
-
 \[
   \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
-
 Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$ is the correct choice, and we will show through usage (Section~\ref{sec:the_number_tau} and Section~\ref{sec:circular_area}) and by direct argumentation (Section~\ref{sec:why_tau}) that the \emph{letter} $\tau$ is a natural choice as well.
 
  \subsection{A powerful enemy} % (fold)
@@ -97,7 +95,6 @@ in the $n$th \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
   z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
 \]
 and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} for positive even integers:\footnote{Here $B_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
-
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n}{2(2n)!}\,(2\pi)^{2n}.\qquad n = 1, 2, 3, \ldots
 \]
@@ -127,15 +124,12 @@ Perhaps the most elementary angle system is \emph{degrees}, which breaks a circl
 \end{figure}
 
 A more fundamental system of angle measure involves a direct comparison of the arclength $s$ with the radius $r$. Although the lengths in Figure~\ref{fig:angle_arclength} differ, the arclength grows in proportion to the radius, so the \emph{ratio} of the arclength to the radius is the same in each case:
-
 \[
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 \]
 This suggests the following definition of \emph{radian angle measure}:
-
 \[ \theta \equiv \frac{s}{r}. \]
 This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{http://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of $\sin\theta$ is true only when $\theta$ is expressed in radians:
-
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
 \]
@@ -157,7 +151,6 @@ Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed
 \end{figure}
 
 Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle_fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arclength in terms of the fraction~$f$ of the full circumference:
-
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau. \]
  Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, I fear that the resulting diagram of special angles---shown in Figure~\ref{fig:tau_angles}---will shake your faith to its very core. 
 
@@ -210,7 +203,6 @@ Let's examine the graphs of the circle functions to better understand their beha
 \end{figure}
 
 Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have $T = \tau$; i.e., the circle functions have periods equal to the circle constant. As a result, the ``special'' values of $\theta$ are utterly natural: a quarter-period is $\tau/4$, a half-period is $\tau/2$, etc. In fact, when making Figure~\ref{fig:sine_with_tau}, at one point I found myself wondering about the numerical value of $\theta$ for the zero of the sine function. Since the zero occurs after half a period, and since $\tau \approx 6.28$, a quick mental calculation led to the following result:
-
 \[
   \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14.
 \]
@@ -226,12 +218,10 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 I would be remiss in this manifesto not to address \emph{Euler's identity}, sometimes called ``the most beautiful equation in mathematics''. This identity involves \emph{complex exponentiation}, which is deeply connected both to the circle functions and to the geometry of the circle itself.
 
 Depending on the route chosen, the following equation can either be proved as a theorem or taken as a definition; either way, it is quite remarkable:
-
 \[ e^{i\theta} = \cos\theta + i\sin\theta. \]
 Known as \emph{Euler's formula} (after \href{http://en.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
 
 Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:\footnote{Here I'm implicitly defining Euler's identity to be \emph{the complex exponential of the circle constant}, rather than defining it to be the complex exponential of any particular number. If we choose $\tau$ as the circle constant, we obtain the identity shown. As we'll see momentarily, this is not the traditional form of the identity, which of course involves $\pi$, but the version with $\tau$ is the most \emph{mathematically} meaningful statement of the identity, so I believe it deserves the name.}
-
 \[ e^{i\tau} = 1. \]
 In words, this equation makes the following fundamental observation: 
 
@@ -338,12 +328,10 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
     \label{sec:falling_in_a_uniform_gravitational_field}
 
 \href{http://en.wikipedia.org/wiki/Galileo_Galilei}{Galileo Galilei} found that the velocity of an object falling in a uniform gravitational field is proportional to the time fallen:
-
 \[ v \propto t. \]
 The constant of proportionality is the gravitational acceleration~$g$:
 \[ v = g t. \]
 Since velocity is the derivative of position, we can calculate the distance fallen by integration:
-
 \[ y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^2. \]
 
 
@@ -351,26 +339,20 @@ Since velocity is the derivative of position, we can calculate the distance fall
     \label{sec:potential_energy_in_a_linear_spring}
 
 \href{http://en.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} found that the external force required to stretch a spring is proportional to the distance stretched:
-
 \[ F \propto x. \]
 The constant of proportionality is the spring constant~$k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
-
 \[ F = k x. \]
 The potential energy in the spring is then equal to the work done by the external force:
-
 \[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
 
     \subsubsection{Energy of motion} % (fold)
     \label{sec:energy_of_motion}
 
 \href{http://en.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} found that the force on an object is proportional to its acceleration:
-
 \[ F \propto a. \]
 The constant of proportionality is the mass $m$:
-
 \[ F = m a. \]
 The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
-
 \[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
 
   \subsection{A sense of foreboding} % (fold)
@@ -387,22 +369,15 @@ Having seen several examples of simple quadratic forms in physics, you may by no
 
 
 As seen in Figure~\ref{fig:circular_area},\footnote{This is a physicist's diagram. A mathematician would probably use $\Delta r$, limits, and \href{http://en.wikipedia.org/wiki/Big_O_notation\#Little-o_notation}{little-o notation}, an approach that is more rigorous but less intuitive.} the area of a circle can be calculated by breaking it down into circular rings of length $C$ and width $dr$, where the area of each ring is $C\,dr$:
-
 \[ dA = C\,dr. \]
-
-
-\noindent Now, the circumference of a circle is proportional to its radius:
-
+Now, the circumference of a circle is proportional to its radius:
 \[ C \propto r. \]
 The constant of proportionality is $\tau$:
-
 \[ C = \tau r. \]
 The area of the circle is then the integral over all rings:
-
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
 
 If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of $2$. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
-
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
 \]
@@ -493,7 +468,6 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 \label{sec:embrace_the_tau}
 
 We have seen in the \emph{Tau Manifesto} that the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius. This number needs a name, and I hope you will join me in calling it $\tau$:
-
 \[
   \mathrm{circle\ constant} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
