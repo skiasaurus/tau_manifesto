@@ -543,4 +543,11 @@ I also received helpful feedback from several readers. The pleasing interpretati
 
 Michael is ashamed to admit that he knows 50 digits of $\pi$---approximately 48 more than Matt Groening. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
 
+    \subsubsection{Copyright and license} % (fold)
+    \label{sec:copyright_and_license}
+
+\emph{The Tau Manifesto}. Copyright \copyright\ 2010 by Michael Hartl. Please feel free to share the \emph{Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by-nc-nd/3.0/}{Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License}. This means that you can't alter it or sell it, but you do have permission to distribute copies of \href{http://tauday.com/tau-manifesto.pdf}{the \emph{Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. Go forth and spread the good news about $\tau$ism!
+
+    % subsubsection copyright_and_license (end)
+
 \end{document}
