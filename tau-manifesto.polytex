@@ -284,7 +284,7 @@ We can take this analysis a step further by noting that, for any angle~$\theta$,
 \begin{center}
 %= <span class="wider">
 \begin{tabular}{lcc}
-Polar form & Rectangular form & Coordinates \\ \hline
+Polar form & Rectangular form & Coordinates \\ \hline\hline
 $e^{i\theta}$ & $\cos\theta + i\sin\theta$ & $(\cos\theta, \sin\theta)$ \\ \hline
 $e^{i\cdot0}$ & $1$ & $(1, 0)$ \smallskip \\ 
 $e^{i\tau/12}$ & $\frac{\sqrt{3}}{2} + \frac{1}{2}i$ & $(\frac{\sqrt{3}}{2}, \frac{1}{2})$ \smallskip \\ 
