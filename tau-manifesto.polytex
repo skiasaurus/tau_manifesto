@@ -17,11 +17,15 @@ Welcome to the \emph{Tau Manifesto}. This manifesto is dedicated to one of the m
   \subsection{An immodest proposal} % (fold)
   \label{sec:an_immodest_proposal}
 
+
+
 We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of a circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
 \[
   \pi \equiv \frac{C}{D} = 3.14159265\ldots
 \]
-The number $\pi$ has many remarkable properties---among other things, it is \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}, which means that it is also \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}}---and its presence in mathematical formulas is widespread. It is thus particularly unfortunate that the definition of $\pi$ is off by a factor of two in the denominator; since a circle is the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
+The number $\pi$ has many remarkable properties---among other things, it is \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}, which means that it is also \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}}---and its presence in mathematical formulas is widespread. 
+
+It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, since a circle is most succinctly defined as the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
 \[
   \mathrm{circle\ constant} \equiv \frac{C}{r}.
 \]
@@ -262,7 +266,7 @@ e^{i\tau/2} = -1.
 \]
 Geometrically, this says that a rotation by half a turn is the same as multiplying by $-1$. And indeed this is the case: under a rotation of $\tau/2$ radians, the complex number $z = a + ib$ gets mapped to $-a - ib$, which is in fact just $-1\cdot z$.
 
-Written in terms of $\tau$, we see that the ``original'' form of Euler's identity has a transparent geometric meaning that it lacks when written in terms of $\pi$.\footnote{Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} - 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.} The quarter-angle identities have similar geometric interpretations: $e^{i\tau/4} = i$ says that a quarter turn in the complex plane is the same as multiplication by~$i$, while $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we might reasonably call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
+Written in terms of $\tau$, we see that the ``original'' form of Euler's identity has a transparent geometric meaning that it lacks when written in terms of $\pi$.\footnote{Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} + 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.} The quarter-angle identities have similar geometric interpretations: $e^{i\tau/4} = i$ says that a quarter turn in the complex plane is the same as multiplication by~$i$, while $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we might reasonably call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
 
 \begin{table}
 \begin{center}
