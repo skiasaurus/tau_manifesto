@@ -25,7 +25,7 @@ We begin repairing the damage wrought by $\pi$ by first understanding the notori
 \]
 The number $\pi$ has many remarkable properties---among other things, it is \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}, which means that it is also \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}}---and its presence in mathematical formulas is widespread. 
 
-It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, since a circle is most succinctly defined as the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
+It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, since a circle is defined as the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
 \[
   \mathrm{circle\ constant} \equiv \frac{C}{r}.
 \]
