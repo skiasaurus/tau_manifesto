@@ -319,7 +319,7 @@ $e^{i\tau}$ & $1$ & $(1, 0)$
 \label{sec:circular_area}
 
 If you arrived here as a $\pi$ believer, you must by now be questioning your faith. $\tau$ is so natural, its meaning so transparent---is there no example where $\pi$ shines through in all its radiant glory? A memory stirs---yes, there is such a formula---it is the formula for circular area! Behold:
-\[ A = \pi r^{2}. \]
+\[ A = \pi r^2. \]
 We see here $\pi$, unadorned, in one of the most important equations in mathematics---a formula first proved by \href{http://en.wikipedia.org/wiki/Archimedes}{Archimedes} himself. Order is restored! And yet, the name of this section sounds ominous\ldots If this equation is $\pi$'s crowning glory, how can it also be the \href{http://en.wikipedia.org/wiki/Coup_de_grace}{\emph{coup de gr\^{a}ce}}?
 
 
@@ -336,7 +336,7 @@ Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves 
 The constant of proportionality is the gravitational acceleration~$g$:
 \[ v = g t. \]
 Since velocity is the derivative of position, we can calculate the distance fallen by integration:
-\[ y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^{2}. \]
+\[ y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^2. \]
 
 
     \subsubsection{Potential energy in a linear spring} % (fold)
@@ -347,7 +347,7 @@ Since velocity is the derivative of position, we can calculate the distance fall
 The constant of proportionality is the spring constant~$k$:\footnote{You may have seen this written as $F = -kx$. In this case, $F$ refers to the force exerted by the \emph{spring}. By Newton's third law, the external force discussed above is the \emph{negative} of the spring force.}
 \[ F = k x. \]
 The potential energy in the spring is then equal to the work done by the external force:
-\[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^{2}. \]
+\[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
 
     \subsubsection{Energy of motion} % (fold)
     \label{sec:energy_of_motion}
@@ -357,7 +357,7 @@ The potential energy in the spring is then equal to the work done by the externa
 The constant of proportionality is the mass $m$:
 \[ F = m a. \]
 The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
-\[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^{2}. \]
+\[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
 
   \subsection{A sense of foreboding} % (fold)
   \label{sec:a_sense_of_foreboding}
@@ -379,11 +379,11 @@ Now, the circumference of a circle is proportional to its radius:
 The constant of proportionality is $\tau$:
 \[ C = \tau r. \]
 The area of the circle is then the integral over all rings:
-\[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^{2}. \]
+\[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
 
 If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of $2$. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
 \[
-  A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^{2}.
+  A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
 \]
 There is simply no avoiding that factor of a half  (Table~\ref{table:quadratic_forms}).
 
