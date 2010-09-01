@@ -154,7 +154,7 @@ Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed
 \caption{The ``special'' angles are fractions of a full circle.\label{fig:angle_fractions}}
 \end{figure}
 
-Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle_fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arclength in terms of the fraction~$f$ of the full circumference:
+Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle_fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arclength~$s$ in terms of the fraction~$f$ of the full circumference~$C$, i.e., $s = f C$:
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau. \]
  Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, I fear that the resulting diagram of special angles---shown in Figure~\ref{fig:tau_angles}---will shake your faith to its very core. 
 
@@ -354,9 +354,9 @@ The potential energy in the spring is then equal to the work done by the externa
 
 \href{http://en.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} found that the force on an object is proportional to its acceleration:
 \[ F \propto a. \]
-The constant of proportionality is the mass $m$:
+The constant of proportionality is the mass~$m$:
 \[ F = m a. \]
-The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity $v$:
+The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity~$v$:
 \[ K = \int F\,dx = \int ma\,dx = \int m\,\frac{dv}{dt}\,dx = \int m\, \frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
 
   \subsection{A sense of foreboding} % (fold)
