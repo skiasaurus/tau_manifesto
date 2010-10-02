@@ -433,6 +433,41 @@ Allow me to offer the following arguments for $\tau$, in order of increasing str
 
 The first two arguments are weak by themselves, but they are important prerequisites. The third argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association rather than fighting it. The final argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
 
+  \subsection{The formulas revisited} % (fold)
+  \label{sec:the_formulas_revisited}
+
+Thus convinced of its suitability to denote the true circle constant, we are free to use $\tau$ in all the formulas of mathematics and science. In particular, let's rewrite the examples from Section~\ref{sec:the_number_tau} and watch the factors of~$2$ melt away.\\ \\
+
+\noindent Integral over all angles in polar coordinates:
+\[
+  \int_0^\tau \int_0^r f(r, \theta)\, dr d\theta
+\]
+Normal distribution:
+\[
+  \frac{1}{\sqrt{\tau}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\]
+Fourier transform:
+\[
+  f(x) = \int_{-\infty}^\infty F(k) e^{i\tau kx}\,dk 
+\]
+\[
+    F(k) = \int_{-\infty}^\infty f(x) e^{-i\tau kx}\,dx
+\]
+Cauchy's integral formula:
+\[
+  f(a) = \frac{1}{i\tau}\oint_\gamma\frac{f(z)}{z-a}\,dz
+\]
+$n$th roots  of unity:
+\[
+  e^\frac{i\tau}{n}
+\]
+The Riemann zeta function for positive even integers:
+\[
+  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n\tau^{2n}}{2(2n)!}\qquad n = 1, 2, 3, \ldots
+\]
+
+  % subsection the_formulas_revisited (end)
+
   \subsection{Frequently Asked Questions} % (fold)
   \label{sec:faq}
 
@@ -448,7 +483,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   % \item \textbf{Do you really expect people to use $\tau$?} \\ I would certainly love to see $\tau$ get traction outside of internet screeds, and perhaps this will happen, but the great part is that you don't have to wait for everyone else; you can just start by saying ``Let $\tau = 2\pi$'' and you're off to the races.
   
-  \item \textbf{Isn't it too late to switch? Wouldn't all the textbooks and math papers need to be rewritten?} \\ No on both counts. It is true that some conventions, though unfortunate, are effectively irreversible. For example, Benjamin Franklin's choice for the signs of electric charges leads to electric current being positive, even though the charge carriers themselves are negative---thereby cursing electrical engineers with confusing minus signs ever since.\footnote{The sign of the charge carriers couldn't be determined with the technology of Franklin's time, so this isn't his fault. It's just bad luck.} To change this convention \emph{would} require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used. In contrast, while \emph{redefining} $\pi$ is effectively impossible, we can switch from $\pi$ to $\tau$ ``at runtime'' (as programmers might say)---it's purely a matter of mechanical substitution, completely robust and indeed fully reversible: the conversion \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau \] allows us to change back and forth between the two on the fly. The switch from $\pi$ to $\tau$ can therefore happen incrementally; unlike a redefinition, it need not happen all at once.
+  \item \textbf{Isn't it too late to switch? Wouldn't all the textbooks and math papers need to be rewritten?} \\ No on both counts. It is true that some conventions, though unfortunate, are effectively irreversible. For example, Benjamin Franklin's choice for the signs of electric charges leads to electric current being positive, even though the charge carriers themselves are negative---thereby cursing electrical engineers with confusing minus signs ever since.\footnote{The sign of the charge carriers couldn't be determined with the technology of Franklin's time, so this isn't his fault. It's just bad luck.} To change this convention \emph{would} require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used. In contrast, while \emph{redefining} $\pi$ is effectively impossible, we can switch from $\pi$ to $\tau$ ``at runtime'' (as programmers might say) by using the conversion \[ \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau. \] It's purely a matter of mechanical substitution, completely robust and indeed fully reversible. The switch from $\pi$ to $\tau$ can therefore happen incrementally; unlike a redefinition, it need not happen all at once.
 
 % (Of course, once you realize the absurdity of $\pi$, such conversions should only be necessary for historical purposes---if there were not already a separate symbol for $\tau/2$, it seems unlikely that anyone would see fit to introduce one.)
 
