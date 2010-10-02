@@ -96,7 +96,7 @@ It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauch
 \]
 in the $n$th \href{http://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \[
-  z^n = 1 \Rightarrow z = e^\frac{2\pi i}{n},
+  z^n = 1 \Rightarrow z = e^{2\pi i/n},
 \]
 and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} for positive even integers:\footnote{Here $B_n$ is the $n$th \href{http://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
 \[
@@ -457,9 +457,9 @@ Cauchy's integral formula:
 \[
   f(a) = \frac{1}{i\tau}\oint_\gamma\frac{f(z)}{z-a}\,dz
 \]
-$n$th roots  of unity:
+$n$th roots of unity:
 \[
-  e^\frac{i\tau}{n}
+  e^{i\tau/n}
 \]
 The Riemann zeta function for positive even integers:
 \[
