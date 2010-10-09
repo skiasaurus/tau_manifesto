@@ -251,22 +251,22 @@ Of course, the traditional form of Euler's identity is written in terms of $\pi$
 \[ e^{i\pi} = -1. \]
 But that minus sign is so ugly that the formula is almost always rearranged immediately, giving the following ``beautiful'' equation:
 \[ e^{i\pi} + 1 = 0. \]
-(What's up with that minus sign? And why does ``the most beautiful equation in mathematics'' need rearranging? \emph{Move along, move along, these aren't the droids we're looking for\ldots})
+At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''.
 
-At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. Alert readers might then complain that, because it's missing $0$, Euler's identity with $\tau$ relates only \emph{four} of those five. We can address this objection by noting that, since $\sin\tau = 0$, we were already there:
+Alert readers might now complain that, because it's missing $0$, Euler's identity with $\tau$ relates only \emph{four} of those five. We can address this objection by noting that, since $\sin\tau = 0$, we were already there:
 \[ e^{i\tau} = 1 + 0. \]
-This formula, without rearrangement, actually \emph{does} relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
 
-Since you can add $0$ anywhere in any equation, the introduction of $0$ into the formula $e^{i\tau} = 1 + 0$ is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} + 1 = 0$, but the identity $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
+Since you can add zero anywhere in any equation, the introduction of $0$ into the formula $e^{i\tau} = 1 + 0$ is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} + 1 = 0$, but the identity $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
 \[
 e^{i\tau/2} = -1.
 \]
 Geometrically, this says that a rotation by half a turn is the same as multiplying by $-1$. And indeed this is the case: under a rotation of $\tau/2$ radians, the complex number $z = a + ib$ gets mapped to $-a - ib$, which is in fact just $-1\cdot z$.
 
-Written in terms of $\tau$, we see that the ``original'' form of Euler's identity has a transparent geometric meaning that it lacks when written in terms of $\pi$.\footnote{Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} + 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.} The quarter-angle identities have similar geometric interpretations: $e^{i\tau/4} = i$ says that a quarter turn in the complex plane is the same as multiplication by~$i$, while $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we might reasonably call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
+Written in terms of $\tau$, we see that the ``original'' form of Euler's identity has a transparent geometric meaning that it lacks when written in terms of $\pi$. (Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} + 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.) The quarter-angle identities have similar geometric interpretations: $e^{i\tau/4} = i$ says that a quarter turn in the complex plane is the same as multiplication by~$i$, while $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we might reasonably call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
 
 \begin{table}
 \begin{center}
@@ -427,11 +427,11 @@ Allow me to offer the following arguments for $\tau$, in order of increasing str
   
   \item \emph{$\tau$ resembles $\pi$.} \\ $\tau$ is typographically similar to $\pi$, thereby evoking the same notion of a circle constant, while still looking different enough to avoid confusion. At first glance, it appears that the number of ``legs'' isn't quite right, since it looks like $\pi$ might be $2\tau$ instead of the other way 'round. On the other hand, the horizontal line in each letter suggests that we interpret the legs as \emph{denominators}, so that $\pi$ has \emph{two} legs in its denominator, while $\tau$ has only one. Seen this way, the relationship $\tau = 2\pi$ is perfectly natural.\footnote{Thanks to \emph{Tau Manifesto} reader Jim Porter for pointing out this alternate interpretation.}
   
-  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle, and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'': \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \]
+  \item \emph{$\tau$ is one turn.} \\ We have seen that, geometrically speaking, $\tau$ represents one \emph{turn} of a circle, and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. Perhaps this is only a coincidence? Alas, there is no escape, for the root of the English word ``turn'' is the Greek word for ``lathe'', \emph{tornos}---or, as the Greeks would put it, \[ \tau \acute{o}\rho\nu o\varsigma. \]
   
 \end{enumerate}
 
-The first two arguments are weak by themselves, but they are important prerequisites. The third argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association rather than fighting it. The final argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
+The first two arguments are weak by themselves, but they are important prerequisites. The third argument is strong: after centuries of use, the association of $\pi$ with the circle constant is unavoidable, and $\tau$ feeds on this association instead of fighting it. The final argument is the clincher---looking at the first letter of that Greek lathe, I'm going to have to whip out my Latin again and say:  \href{http://en.wikipedia.org/wiki/Q.E.D.}{\emph{quod erat demonstrandum}}.
 
   \subsection{The formulas revisited} % (fold)
   \label{sec:the_formulas_revisited}
