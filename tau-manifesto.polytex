@@ -75,9 +75,9 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 \section{The number tau} % (fold)
 \label{sec:the_number_tau}
 
-We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all angles in polar coordinates:
+We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all space in polar coordinates:
 \[
-  \int_0^{2\pi}\int_0^r f(r, \theta)\, dr d\theta.
+  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, dr d\theta.
 \]
 The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution},
 \[
@@ -438,9 +438,9 @@ The first two arguments are weak by themselves, but they are important prerequis
 
 Thus convinced of its suitability to denote the true circle constant, we are free to use $\tau$ in all the formulas of mathematics and science. In particular, let's rewrite the examples from Section~\ref{sec:the_number_tau} and watch the factors of~$2$ melt away.\\ \\
 
-\noindent Integral over all angles in polar coordinates:
+\noindent Integral over all space in polar coordinates:
 \[
-  \int_0^\tau \int_0^r f(r, \theta)\, dr d\theta
+  \int_0^\tau \int_0^\infty f(r, \theta)\, dr d\theta
 \]
 Normal distribution:
 \[
