@@ -77,7 +77,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 
 We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all space in polar coordinates:
 \[
-  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, dr d\theta.
+  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, r\, dr d\theta.
 \]
 The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution},
 \[
@@ -440,7 +440,7 @@ Thus convinced of its suitability to denote the true circle constant, we are fre
 
 \noindent Integral over all space in polar coordinates:
 \[
-  \int_0^\tau \int_0^\infty f(r, \theta)\, dr d\theta
+  \int_0^\tau \int_0^\infty f(r, \theta)\, r\, dr d\theta
 \]
 Normal distribution:
 \[
@@ -552,7 +552,7 @@ I also received helpful feedback from several readers. The pleasing interpretati
     
     % subsection about_the_author (end)
 
-\emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is an educator and entrepreneur. He is the author of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book} and creator of the \href{http://railstutorial.org/screencasts}{Ruby on Rails Tutorial screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching. He is a graduate of \href{http://college.harvard.edu/}{Harvard College} and has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}.
+\emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the author of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book} and creator of the \href{http://railstutorial.org/screencasts}{Ruby on Rails Tutorial screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for the \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College} and has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}.
 
 Michael is ashamed to admit that he knows 50 digits of $\pi$---approximately 48 more than Matt Groening. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
 
