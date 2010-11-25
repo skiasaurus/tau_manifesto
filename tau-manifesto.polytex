@@ -326,7 +326,7 @@ We see here $\pi$, unadorned, in one of the most important equations in mathemat
   \subsection{Quadratic forms} % (fold)
   \label{sec:quadratic_forms}
 
-Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves the diameter---no, wait, the \emph{radius}---raised to the second power. This makes it a simple \emph{quadratic form}. Such forms arise in many contexts; as a \href{http://resolver.caltech.edu/CaltechETD:etd-05222003-161626}{physicist}, my favorite examples come from the elementary physics curriculum. We will now consider several in turn.
+Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves the diameter---no, wait, the \emph{radius}---raised to the second power. This makes it a simple \emph{quadratic form}. Such forms arise in many contexts; as a \href{http://thesis.library.caltech.edu/1940/}{physicist}, my favorite examples come from the elementary physics curriculum. We will now consider several in turn.
 
     \subsubsection{Falling in a uniform gravitational field} % (fold)
     \label{sec:falling_in_a_uniform_gravitational_field}
