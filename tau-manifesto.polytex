@@ -77,7 +77,7 @@ Truly, proponents of $\tau$ face a mighty opponent. And yet, we have a powerful 
 
 We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all space in polar coordinates:
 \[
-  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, r\, dr d\theta.
+  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, r\, dr\, d\theta.
 \]
 The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{http://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution},
 \[
@@ -85,10 +85,10 @@ The upper limit of the $\theta$ integration is always $2\pi$. The same factor ap
 \]
 and again in the \href{http://mathworld.wolfram.com/FourierTransform.html}{Fourier transform},
 \[
-  f(x) = \int_{-\infty}^\infty F(k) e^{2\pi ikx}\,dk 
+  f(x) = \int_{-\infty}^\infty F(k)\, e^{2\pi ikx}\,dk 
 \]
 \[
-    F(k) = \int_{-\infty}^\infty f(x) e^{-2\pi ikx}\,dx.
+    F(k) = \int_{-\infty}^\infty f(x)\, e^{-2\pi ikx}\,dx.
 \]
 It recurs in \href{http://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula},
 \[
@@ -326,7 +326,7 @@ We see here $\pi$, unadorned, in one of the most important equations in mathemat
   \subsection{Quadratic forms} % (fold)
   \label{sec:quadratic_forms}
 
-Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves the diameter---no, wait, the \emph{radius}---raised to the second power. This makes it a simple \emph{quadratic form}. Such forms arise in many contexts; as a physicist, my favorite examples come from the elementary physics curriculum. We will now consider several in turn.
+Let us examine this paragon of $\pi$, $A = \pi r^2$. We notice that it involves the diameter---no, wait, the \emph{radius}---raised to the second power. This makes it a simple \emph{quadratic form}. Such forms arise in many contexts; as a \href{http://resolver.caltech.edu/CaltechETD:etd-05222003-161626}{physicist}, my favorite examples come from the elementary physics curriculum. We will now consider several in turn.
 
     \subsubsection{Falling in a uniform gravitational field} % (fold)
     \label{sec:falling_in_a_uniform_gravitational_field}
@@ -440,7 +440,7 @@ Thus convinced of its suitability to denote the true circle constant, we are fre
 
 \noindent Integral over all space in polar coordinates:
 \[
-  \int_0^\tau \int_0^\infty f(r, \theta)\, r\, dr d\theta
+  \int_0^\tau \int_0^\infty f(r, \theta)\, r\, dr\, d\theta
 \]
 Normal distribution:
 \[
@@ -448,10 +448,10 @@ Normal distribution:
 \]
 Fourier transform:
 \[
-  f(x) = \int_{-\infty}^\infty F(k) e^{i\tau kx}\,dk 
+  f(x) = \int_{-\infty}^\infty F(k)\, e^{i\tau kx}\,dk 
 \]
 \[
-    F(k) = \int_{-\infty}^\infty f(x) e^{-i\tau kx}\,dx
+    F(k) = \int_{-\infty}^\infty f(x)\, e^{-i\tau kx}\,dx
 \]
 Cauchy's integral formula:
 \[
