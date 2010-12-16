@@ -137,7 +137,6 @@ This definition has the required property of radius-invariance, and since both $
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
 \]
-
 Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in Figure~\ref{fig:pi_angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
 \begin{figure}
@@ -554,7 +553,7 @@ I also received helpful feedback from several readers. The pleasing interpretati
 
 \emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the creator of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book and screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
 
-Michael is ashamed to admit that he knows 50 digits of $\pi$---approximately 48 more than Matt Groening. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
+Michael is ashamed to admit that he knows 50 digits of $\pi$---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
 
     \subsubsection{Copyright and license} % (fold)
     \label{sec:copyright_and_license}
