@@ -509,7 +509,7 @@ We have seen in \emph{The Tau Manifesto} that the natural choice for the circle 
 \[
   \mathrm{circle\ constant} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
-The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool diagram (Figure~\ref{fig:tauism}). 
+The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool diagram (Figure~\ref{fig:tauism}). We see in Figure~\ref{fig:tauism} a movement through \emph{yang} (``light, white, moving up'') to $\tau/2$ and a return through \emph{yin} (``dark, black, moving down'') back to $\tau$.\footnote{The interpretations of yin and yang quoted here are from \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} by Aaron Hoopes.} Using $\pi$ instead of $\tau$ is like having \emph{yang} without \emph{yin}.
 
 \begin{figure}
 \begin{center}
@@ -517,8 +517,6 @@ The usage is natural, the motivation is clear, and the implications are profound
 \end{center}
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
-
-We see in Figure~\ref{fig:tauism} a movement through \emph{yang} (``light, white, moving up'') to $\tau/2$ and a return through \emph{yin} (``dark, black, moving down'') back to $\tau$.\footnote{The interpretations of yin and yang quoted here are from \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} by Aaron Hoopes.} Using $\pi$ instead of $\tau$ is like having \emph{yang} without \emph{yin}.
 
   \subsection{Tau Day} % (fold)
   \label{sec:tau_day}
