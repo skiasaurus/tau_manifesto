@@ -4,7 +4,7 @@
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{\href{http://tauday.com/}{Tau Day}, 2010}
+\date{\href{http://tauday.com/}{Tau Day}, 2010\\Updated \href{http://halftauday.com/}{Half Tau Day}, 2011}
 \maketitle
 
 %= pdf_share_partial
@@ -12,7 +12,7 @@
 \section{The circle constant} % (fold)
 \label{sec:the_circle_constant}
 
-Welcome to \emph{The Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in \emph{The Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.} $\pi$ \emph{is wrong}. It's time to set things right.
+Welcome to \emph{The Tau Manifesto}. This manifesto is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice of circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais/}{Robert Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in \emph{The Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.} $\pi$ \emph{is wrong}. It's time to set things right.
 
   \subsection{An immodest proposal} % (fold)
   \label{sec:an_immodest_proposal}
@@ -549,7 +549,7 @@ I also received helpful feedback from several readers. The pleasing interpretati
     
     % subsection about_the_author (end)
 
-\emph{Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the creator of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book and screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
+\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the creator of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book and screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
 
 Michael is ashamed to admit that he knows 50 digits of $\pi$---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To make up for this, he is currently memorizing 52 digits of $\tau$.\footnote{This is so that I know more digits of $\tau$ than I do of $\pi$, and $\tau$ doesn't round off properly if you truncate after 51 digits. But you probably figured that out already. By the way, when I say ``digits'', I really mean ``decimal places''. But you probably figured that out, too.}
 
