@@ -4,7 +4,7 @@
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{\href{http://tauday.com/}{Tau Day}, 2010\\Updated \href{http://halftauday.com/}{Half Tau Day}, 2011}
+\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated \href{http://halftauday.com/}{Half Tau Day}, 2011}}
 \maketitle
 
 %= pdf_share_partial
@@ -433,9 +433,9 @@ For example, in a single chapter (Chapter~9) in a single book (\emph{An Introduc
 \[ \int \frac{dp_k}{2\pi} \exp\left[i(p_k(q_{k+1}-q_k) - \epsilon p_k^2/2m\right]. \]
 Note the $\pi$ (or, rather, the $2\pi$) in the denominator. Later \emph{on the same page} we find another expression involving~$\pi$:
 \[ H = \int d^3x\left[ \textstyle{\frac{1}{2}}\pi^2 + \textstyle{\frac{1}{2}}(\nabla\phi)^2 - V(\phi) \right]. \]
-Anyone with a good knowledge of physics will immediately recognize that the second occurrence of $\pi$ can't possibly refer to the number $\pi$---$H$ is a Hamiltonian, so by dimensional analysis each term in the square brackets must have units of energy per volume---and it is clear from context that this second $\pi$ must be something different. (In fact, it is what's known as a \emph{conjugate momentum}.) In the same text, an even more egregious conflict occurs on p.~296, where we encounter the following rather formidable expression:
+Anyone with a good knowledge of physics will immediately recognize that this second occurrence of $\pi$ can't possibly refer to the \emph{number} $\pi$---$H$ is a Hamiltonian, so by dimensional analysis each term in the square brackets must have units of energy per volume---and it is clear from context that this second $\pi$ must be something different. (In fact, it is what's known as a \emph{conjugate momentum}.) In the same text, an even more egregious conflict occurs on p.~296, where we encounter the following rather formidable expression:
 \[ \det\left(\frac{1}{e}\partial^2\right)\left(\int\mathcal{D}\alpha\right) \int\mathcal{D}A\,e^{iS[A]}\,\delta\left(\partial^\mu A_\mu - \omega(x)\right). \]
-Here we see that the letter $e$ appears \emph{twice in the same expression}, once in a determinant ($\det$) and once in an integral~($\int$). But $e$ means \emph{completely} different things in the two cases: the first $e$ is the charge on an electron, and the second $e$ is the \href{http://en.wikipedia.org/wiki/E_(mathematical_constant)}{exponential number}. As before, from context it is clear which is which. In sum, scientists and engineers have a high tolerance for this sort of ambiguity, so claims that $\tau$ the circle constant can't coexist with other uses ignores considerable evidence to the contrary.
+Looking carefully, we see that the letter $e$ appears \emph{twice in the same expression}, once in a determinant ($\det$) and once in an integral~($\int$). But $e$ means \emph{completely} different things in the two cases: the first $e$ is the charge on an electron, while the second $e$ is the \href{http://en.wikipedia.org/wiki/E_(mathematical_constant)}{exponential number}. As with the $\pi$ example, to the expert eye it is clear from context which is which. In sum, scientists and engineers have a high tolerance for this sort of ambiguity, so claims that $\tau$ the circle constant can't coexist with other uses ignores considerable evidence to the contrary.
 
 \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s}. And now Bob's on board.
 
