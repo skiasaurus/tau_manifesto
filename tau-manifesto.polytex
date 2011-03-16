@@ -401,10 +401,10 @@ Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau r^2$
 
     \subsubsection{Quod erat demonstrandum} % (fold)
     \label{sec:quod_erat_demonstrandum}
-    
-    % subsubsection quod_erat_demonstrandum (end)
 
 We set out in this manifesto to show that $\tau$ is the true circle constant. Since the formula for circular area was just about the last, best argument that $\pi$ had going for it, I'm going to go out on a limb here and say: \href{http://en.wikipedia.org/wiki/Q.E.D.}{Q.E.D.}
+    
+    % subsubsection quod_erat_demonstrandum (end)
 
 % section circular_area (end)
 
@@ -426,9 +426,7 @@ $\tau$ works well in both written and spoken contexts. For example, saying that 
 
 Of course, with any new notation there is the potential for conflicts with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!'' avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{http://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots um\ldots $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. That may have been possible with $\hbar$, at a time when virtually all mathematical typesetting was done by a handful of scientific publishers, but today such an approach is impractical, and the advantages of using an existing symbol are too large to ignore.
 
-Fortunately, although the letter $\tau$ appears in some current contexts, there are surprisingly few common uses. $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---but there is no \emph{universal} conflicting usage. Moreover, we can route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time. 
-
-
+Fortunately, although the letter $\tau$ appears in some current contexts, there are surprisingly few common uses. $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---but there is no \emph{universal} conflicting usage. Moreover, we can route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time.  
 
 Despite these arguments, potential usage conflicts are the greatest source of resistance to $\tau$. Some correspondents have even flatly denied that $\tau$ (or, presumably, any other currently used symbol) could possibly overcome these issues. But scientists and engineers have a high tolerance for notational ambiguity, and claims that $\tau$-the-circle-constant can't coexist with other uses ignores considerable evidence to the contrary.
 For example, in a single chapter (Chapter~9) in a single book (\emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder), I found two examples of severe conflicts that, because of context, are scarcely noticeable to the trained eye. On p.~282, for instance, we find the following integral:
@@ -439,7 +437,7 @@ But this second occurrence of $\pi$ is \emph{not} a number; it is a ``conjugate 
 \[ \det\left(\frac{1}{e}\partial^2\right)\left(\int\mathcal{D}\alpha\right) \int\mathcal{D}A\,e^{iS[A]}\,\delta\left(\partial^\mu A_\mu - \omega(x)\right). \]
 Looking carefully, we see that the letter $e$ appears \emph{twice in the same expression}, once in a determinant ($\det$) and once in an integral~($\int$). But $e$ means \emph{completely} different things in the two cases: the first $e$ is the charge on an electron, while the second $e$ is the \href{http://en.wikipedia.org/wiki/E_(mathematical_constant)}{exponential number}. As with the first example, to the expert eye it is clear from context which is which. Such examples are widespread, and they undermine the view that current usage precludes using $\tau$ for the circle constant as well.
 
-In sum, $\tau$ is a natural choice of notation because it references the typographical appearance of $\pi$, has etymological ties to one ``turn'', and minimizes conflicts with present usage. Indeed, based on these arguments (put forward by me and by Peter Harremo\"{e}s), Bob Palais himself has \href{http://www.math.utah.edu/~palais/pi.html}{thrown his support} behind $\tau$.
+In sum, $\tau$ is a natural choice of notation because it references the typographical appearance of $\pi$, has etymological ties to one ``turn'', and minimizes conflicts with present usage. Indeed, based on these arguments (put forward by me and by Peter Harremo\"{e}s), Bob Palais himself has \href{http://www.math.utah.edu/~palais/pi.html}{thrown his support} behind $\tau$. Perhaps someday the international mathematics community will agree on a new symbol for the number $2\pi$ that avoids conflicts with current usage; if that ever happens, I reserve the right to support their proposed notation. But mathematicians have had over 300 years to fix this $\pi$ problem---I think it's time to take matters into our own hands and start using $\tau$.
 
   % subsection conflict_and_resistance (end)
 
@@ -493,7 +491,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   \item \textbf{Won't using $\tau$ confuse people, especially students?} \\  If you are smart enough to understand radian angle measure, you are smart enough to understand $\tau$---and  why $\tau$ is actually \emph{less} confusing than $\pi$. Also, there is nothing intrinsically confusing about saying ``Let $\tau = 2\pi$''; understood narrowly, it's just a simple substitution. Finally, we can embrace the situation as a teaching opportunity: the idea that $\pi$ might be wrong is \emph{interesting}, and students can engage with the material by converting the equations in their textbooks from $\pi$ to $\tau$ to see for themselves which choice is better.
 
-  \item \textbf{Who cares whether we use $\pi$ or $\tau$? It doesn't really matter.} \\ Of course it matters. \emph{The circle constant is important.} People care enough about it to write entire books on the subject, to celebrate it on a particular day each year, and to memorize tens of thousands of its digits. I care enough to write a whole manifesto, and you care enough to read it. It's precisely because it \emph{does} matter that it's hard to admit that the present convention is wrong. (I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the current world-record holder, that he just recited 67,890 digits of one half of the true circle constant?)\footnote{On the other hand, this could be an opportunity: the field for $\tau$ recitation records is wide open.} Since the circle constant is important, it's important to get it right, and we have seen in this manifesto that the right number is $\tau$. Although $\pi$ is of great \emph{historical} importance, the \emph{mathematical} significance of $\pi$ is that it is one-half $\tau$. 
+  \item \textbf{Does any of this really matter?} \\ Of course it matters. \emph{The circle constant is important.} People care enough about it to write entire books on the subject, to celebrate it on a particular day each year, and to memorize tens of thousands of its digits. I care enough to write a whole manifesto, and you care enough to read it. It's precisely because it \emph{does} matter that it's hard to admit that the present convention is wrong. (I mean, how do you break it to \href{http://en.wikipedia.org/wiki/Lu_Chao}{Lu Chao}, the current world-record holder, that he just recited 67,890 digits of one half of the true circle constant?)\footnote{On the other hand, this could be an opportunity: the field for $\tau$ recitation records is wide open.} Since the circle constant is important, it's important to get it right, and we have seen in this manifesto that the right number is $\tau$. Although $\pi$ is of great \emph{historical} importance, the \emph{mathematical} significance of $\pi$ is that it is one-half $\tau$. 
 
   \item \textbf{Why does this subject interest you?} \\ First, as a truth-seeker I care about correctness of explanation. Second, as a teacher I care about clarity of exposition. Third, as a hacker I love a nice hack. Fourth, as a student of history and of human nature I find it fascinating that the absurdity of $\pi$ was lying in plain sight for centuries before anyone seemed to notice. Moreover, many of the people who missed the true circle constant are among the most rational and intelligent people ever to live. What else might be staring us in the face, just waiting for us to discover it?
 
@@ -504,6 +502,25 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 \end{itemize}
 
   % subsection faq (end)
+
+  \subsection{What is really going on here?} % (fold)
+  \label{sec:what_is_really_going_on}
+
+What is really going on here is that, at its core, \emph{$\pi$ is half of something}. It's the \emph{something} that is fundamental, not $\pi$. And yet, when looking at the various equations of mathematics, even after reading this manifesto you might be tempted by the thought that the difference between $\pi$ and $\tau$ isn't really that important after all. You'll find yourself saying, ``Both numbers are important: sometimes $\pi$ is better, sometimes $\tau$ is more natural, and sometimes they are equally good.'' For example, consider the famous Leibniz series for $\pi$: \[ \frac{\pi}{4} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] You'll find yourself asking, ``Is it really any better to write \[ \frac{\tau}{8} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] instead?''
+
+This line of thinking misses the point. Imagine we lived in a world that used the letter $h$ to represent ``one half'', and had no separate notation for $2h$. We would observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? All mathematicians and geeks agree, $h$ is where it's at.
+
+But this is madness: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it ``$1$''. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. Arguing that $\pi$ is important in mathematics is the same as arguing that $h$ is important. Well, yes, lots of formulas contain a factor of $1/2$, but that's no reason to use a separate letter for the concept. 
+
+\begin{center}
+If $h = \mathrm{one\ half}$, \emph{$\pi$ is to $h$ as $\tau$ is to $1$.}
+\end{center}
+%= <br />
+This captures the essential problem of $\pi$ in a single sentence. (It is also, as a mathematical statement, rigorously true.) We now see why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\pi/4$ is just as good as $\tau/8$ is like arguing that $h/4$ is just as good as $1/8$. They are mathematically equivalent, but $\tau$, like $1$, is more \emph{fundamental}, and this is reason enough to prefer the version with $\tau$. 
+
+If you ever hear yourself saying, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{awesome video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
+  
+  % subsection what_is_really_going_on (end)
 
 \section{Embrace the tau}
 \label{sec:embrace_the_tau}
