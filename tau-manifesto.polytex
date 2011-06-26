@@ -175,7 +175,7 @@ Finally, by comparing Figure~\ref{fig:pi_angles} with Figure~\ref{fig:tau_angles
     
     % subsubsection the_ramifications (end)
 
-The unnecessary factors of $2$ arising from the use of $\pi$ are annoying enough by themselves, but far more serious is their tendency to \emph{cancel} when divided by any even number. The absurd results, such as a \emph{half} $\pi$ for a \emph{quarter} circle, obscure the underlying relationship between angle measure and the circle constant. To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ when teaching trigonometry, I simply ask you to view Figure~\ref{fig:pi_angles}, Figure~\ref{fig:angle_fractions}, and Figure~\ref{fig:tau_angles} through the eyes of a child. You will see that, from the perspective of a beginner, \emph{using $\pi$ instead of $\tau$ is a pedagogical disaster.}
+The unnecessary factors of $2$ arising from the use of $\pi$ are annoying enough by themselves, but far more serious is their tendency to \emph{cancel} when divided by any even number. The absurd results, such as a \emph{half} $\pi$ for a \emph{quarter} circle, obscure the underlying relationship between angle measure and the circle constant. To those who maintain that it ``doesn't matter'' whether we use $\pi$ or $\tau$ when teaching trigonometry, I simply ask you to view Figure~\ref{fig:pi_angles}, Figure~\ref{fig:angle_fractions}, and Figure~\ref{fig:tau_angles} through the eyes of a child. You will see that, from the perspective of a beginner, \href{http://tauday.com/a-tau-testimonial}{\emph{using $\pi$ instead of $\tau$ is a pedagogical disaster}}.
 
   \subsection{The circle functions} % (fold)
   \label{sec:the_circle_functions}
