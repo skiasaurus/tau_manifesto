@@ -4,7 +4,7 @@
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated \href{http://halftauday.com/}{Half Tau Day}, 2011}}
+\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated Tau Day, 2011}}
 \maketitle
 
 %= pdf_share_partial
@@ -566,14 +566,14 @@ I also received helpful feedback from several readers. The pleasing interpretati
     
     % subsection about_the_author (end)
 
-\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the creator of the \href{http://railstutorial.org/}{\emph{Ruby on Rails Tutorial} book and screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
+\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the author of the \href{http://ruby.railstutorial.org/ruby-on-rails-tutorial-book}{\emph{Ruby on Rails Tutorial} book} (also available as a \href{http://amzn.to/RTbook}{print edition}) and presenter of the \href{http://ruby.railstutorial.org/screencasts}{Rails Tutorial screencast series}, which teach web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
 
 Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To make up for this, he is currently memorizing \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimal places} of $\tau$.
 
     \subsubsection{Copyright and license} % (fold)
     \label{sec:copyright_and_license}
 
-\emph{The Tau Manifesto}. Copyright \copyright\ 2010 by Michael Hartl. Please feel free to share \emph{The Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by-nc-nd/3.0/}{Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License}. This means that you can't alter it or sell it, but you do have permission to distribute copies of \href{http://tauday.com/pdf}{\emph{The Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. \emph{Go forth and spread the good news about~$\tau$!}
+\emph{The Tau Manifesto}. Copyright \copyright\ 2011 by Michael Hartl. Please feel free to share \emph{The Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons Attribution 3.0 Unported License}. This means that you can adapt it, translate it, or even include it in commercial works, as long as you attribute it to me (Michael Hartl) and link back to tauday.com. You also have permission to distribute copies of \href{http://tauday.com/pdf}{\emph{The Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. \emph{Go forth and spread the good news about~$\tau$!}
 
     % subsubsection copyright_and_license (end)
 
