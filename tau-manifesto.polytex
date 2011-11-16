@@ -566,7 +566,7 @@ I have also received encouragement and helpful feedback from several readers. I'
 
 \emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the author of the \href{http://ruby.railstutorial.org/}{Ruby on Rails Tutorial}, the leading introduction to web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
 
-Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To make up for this, he is currently memorizing \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimal places} of $\tau$.
+Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To atone for this, he has now memorized \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimal places} of $\tau$.
 
     \subsubsection{Copyright and license} % (fold)
     \label{sec:copyright_and_license}
