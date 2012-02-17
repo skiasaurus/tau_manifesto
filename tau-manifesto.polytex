@@ -374,13 +374,13 @@ As seen in Figure~\ref{fig:circular_area}, the area of a circle can be calculate
 Now, the circumference of a circle is proportional to its radius:
 \[ C \propto r. \]
 The constant of proportionality is $\tau$:
-\[ C = \tau r. \]
+\[ C = \tau\,r. \]
 The area of the circle is then the integral over all rings:
-\[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau r\,dr = \textstyle{\frac{1}{2}} \tau r^2. \]
+\[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2. \]
 
 If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of $2$. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
 \[
-  A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau r^2.
+  A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
 \]
 There is simply no avoiding that factor of a half  (Table~\ref{table:quadratic_forms}).
 
@@ -391,7 +391,7 @@ Quantity & Symbol & Expression \\ \hline
 Distance fallen & $y$ & $\textstyle{\frac{1}{2}}gt^2$ \smallskip \\ 
 Spring energy & $U$ & $\textstyle{\frac{1}{2}}kx^2$ \smallskip \\
 Kinetic energy & $K$ & $\textstyle{\frac{1}{2}}mv^2$ \smallskip \\
-Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau r^2$
+Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau\,r^2$
 \end{tabular}
 \end{center}
 \caption{Some common quadratic forms.\label{table:quadratic_forms}}
