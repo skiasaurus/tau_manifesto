@@ -443,9 +443,9 @@ Rather that advocating a new symbol, \emph{The Tau Manifesto} opts for the use o
 
 Despite these arguments, potential usage conflicts have proven to be the greatest source of resistance to $\tau$. Some correspondents have even flatly denied that $\tau$ (or, presumably, any other currently used symbol) could possibly overcome these issues. But scientists and engineers have a high tolerance for notational ambiguity, and claims that $\tau$-the-circle-constant can't coexist with other uses ignores considerable evidence to the contrary. 
 
-One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula the the \emph{Bohr radius}, which roughly speaking is the ``size'' of a hydrogen atom in its lowest energy state (the \emph{ground state}):
+One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula the the \emph{Bohr radius}, which roughly speaking is the ``size'' of a hydrogen atom in its lowest energy state:
 \[
-a_0 = \frac{\hbar^2}{m e^2}
+a_0 = \frac{\hbar^2}{m e^2},
 \]
 where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the ground state is described by a quantity known as the \href{http://en.wikipedia.org/wiki/Wave_function}{\emph{wavefunction}}:
 \[
@@ -453,7 +453,7 @@ where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the groun
 \]
 where $N$ is a normalization constant.
 
-Have you noticed the problem yet? Probably not, which is just the point. The problem is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the exponential number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent, we get
+Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the exponential number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent, we get
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
@@ -461,17 +461,17 @@ which has an $e$ raised the power of something with $e$ in it. This may seem cra
 
 By the way, the $\pi$-pedants out there (and there have proven to be many) might note that hydrogen's ground-state wavefunction is typically written with a factor of $\pi$:
 \[
-\psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0}
+\psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0}.
 \]
 At first glance, this appears to be more natural than the version with $\tau$:
 \[
-\psi(r) = \sqrt{\frac{2}{\tau a_0^3}}\,e^{-r/a_0}
+\psi(r) = \sqrt{\frac{2}{\tau a_0^3}}\,e^{-r/a_0}.
 \]
 As usual, appearances are deceiving: the value of $N$ comes from the product
 \[
 \frac{1}{\sqrt{2\pi}} \frac{1}{\sqrt{2}} \frac{2}{a_0^{3/2}},
 \]
-which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence. We'll have more to say about this game of $\pi$ \href{http://en.wikipedia.org/wiki/Whac-A-Mole}{Whac-A-Mole} in Section~\ref{sec:what_is_really_going_on}.
+which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence. We'll have more to say about this game of $\pi$ \href{http://en.wikipedia.org/wiki/Whac-A-Mole}{whack-a-mole} in Section~\ref{sec:what_is_really_going_on}.
 
 % For example, in a single chapter (Chapter~9) in a single book (\emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder), I found two examples of severe conflicts that, because of context, are scarcely noticeable to the trained eye. On p.~282, for instance, we find the following integral:
 % \[ \int \frac{dp_k}{2\pi} \exp\left[i(p_k(q_{k+1}-q_k) - \epsilon p_k^2/2m\right]. \]
@@ -489,58 +489,71 @@ which shows that the circle constant enters the calculation through $1/\sqrt{2\p
   \subsection{The Pi Manifesto: a rebuttal} % (fold)
   \label{sec:the_pi_manifesto_a_rebuttal}
 
-makes several false claims
+Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is an organized resistance.
+In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the next are a rebuttal to that document. Of necessity, this treatment is terser and more advanced that the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
 
-The example of the Gaussian integral is flat wrong: the factor of
-$\sqrt 2$ does go with the $\sqrt\pi$. Evaluate $\int_{-\infty}^{\infty}
-e^{-\frac{1}{2} x^2}\,dx$ in the usual way---by calculating the integral squared
-and switching to polar coordinates---and you'll see that we get a 1 from
-the radial integral and a $2\pi$ from the angular integral. Evaluate
-$\int_{-\infty}^{\infty} e^{-x^2}\,dx$ in the same way and you'll see
-that in this case we get a $1/2$ from the radial integral and a $2\pi$
-from the angular integral. As in the case of circular area, the factor
-of $\pi$ comes from $1/2\times (2\pi)$, not from $\pi$ alone. And since
-$\Gamma(1/2)$ reduces to the same Gaussian integral (upon setting $u =
-x^{1/2}$), the $\pi$ in that case is really $1/2\times (2\pi)$ as well. (If you
-switch to fractional exponents you'll see a pleasing recurrence of
-factors of $1/2$: $\Gamma(1/2) = (1/2 \tau)^{1/2}.$) In all these cases,
+While I consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims. For example, it says that the factor of $\tau$ in the Gaussian (normal) distribution is a coindidence, and that it can more naturally be written as
+\[
+\frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-(x-\mu)^2}{(\sqrt 2\sigma)^2}}.
+\]
+This is wrong: the factor of
+$\sqrt 2$ does go with the $\sqrt\pi$. The factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates. This leads to a factor of $1$ from
+the radial integral and a $2\pi$ from the angular integral. As in the case of circular area, the factor
+of $\pi$ comes from $1/2\times 2\pi$, not from $\pi$ alone.
+
+A related claim is that the \href{http://mathworld.wolfram.com/GammaFunction.html}{$\Gamma$ function} evaluated at $1/2$ is more natural in terms of $\pi$:
+\[
+\Gamma(\textstyle{\frac{1}{2}}) = \sqrt{\pi},
+\]
+where
+\[
+\Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
+\]
+But $\Gamma(\frac{1}{2})$ (upon setting $u =
+x^{1/2}$) reduces to the same Gaussian integral as in the normal distribution, so the $\pi$ in this case is really $1/2\times 2\pi$ as well.\footnote{Indidentally, switching to fractional exponents shows a pleasing recurrence of
+factors of $1/2$: $\Gamma(\frac{1}{2}) = (\frac{1}{2} \tau)^{1/2}$.}Indeed, in many of the cases cited in the Pi Manifesto,
 the circle constant enters through an integral over all angles, i.e.,
 as $\theta$ ranges from $0$ to $\tau$.
 
-unit disk has area pi
-
-The example of angle sums misses a couple of points. First, using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$, the formula
-
+The Pi Manifesto also examines some formulas for regular
+$n$-sided polygons (or ``$n$-gons''). For instance, it notes that the sum of the internal angles of an $n$-gon is given by 
+\[
+\sum_{i=1}^n \theta_i=(n-2)\pi.
+\]
+This issue was dealt with in ``Pi Is Wrong!'', which notes the following: ``The sum of the interior angles [of a
+triangle] is $\pi$, granted. But the sum of the \emph{exterior} angles of \emph{any}
+polygon, from which the sum of the interior angles can easily be
+derived, and which generalizes to the integral of the curvature of a
+simple closed curve, is $2\pi$.'' In addition, the Pi Manifesto offers the formula for the area of an $n$-gon with unit radius (the distance from center to vertex),
+\[ A=n\sin\frac{\pi}{n}\cos\frac{\pi}{n}, \]
+calling it ``clearly\ldots another win for $\pi$.'' But using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ shows that
 \[ A = n \sin(\pi/n) \cos(\pi/n) \]
 can be written as
 \[ A = n/2\, \sin(2\pi/n), \]
 i.e.,
 \[ A = \frac{1}{2} n\, \sin(\tau/n). \]
+In other words, the area of an $n$-gon has a natural
+factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a regular polygon with infinitely many sides, i.e., a circle:
+\[
+A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin(\tau/n)
+= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin(\tau/n)}{1/n} = \frac{1}{2}\tau.
+\]
 
-As in the case of circular area, the area of an $n$-gon has a natural
-factor of $1/2$, and in fact taking the limit $n\rightarrow \infty$ immediately
-yields $A = \frac{1}{2} \tau$, i.e., the area of a unit disk.
-
-Although I doubt there's anything I can say to convince you of the
-virtues of $\tau$ vs.\ $\pi$, I hope you'll reserve the right to change your
-mind, and in this vein I thought I'd note that several of your
-examples of pi's supposed superiority aren't quite right. The area of
-a sector of a circle, for example, is $1/2 \theta r^2$, so there's no
-way to avoid the factor of $1/2$ in general. (Indeed, we see that $A =
-1/2 \tau r^2$ is simply the special case $\theta = \tau$.) Because of
+In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
+\[
+\frac{1}{2}\theta\, r^2,
+\]
+so there's no way to avoid the factor of $1/2$ in general. (Indeed, we see that $A =
+\frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.) Because of
 this natural factor of $1/2$, it's perfectly normal for the area of,
-say, the sector subtended by a quarter turn to have an area of $1/8
-\tau r^2$. In contrast, saying that the angle measure of a quarter turn
-is a half $\pi$ is strange. The difference between the cases isn't
-arbitrary; in the case of area, the factor of $1/2$ arises naturally
-through the integral of a linear function in association with a simple
-quadratic form. There is no analogous natural factor of $1/2$ in the
-case of angle measure.
+say, the sector subtended by a quarter turn to have an area of $\frac{1}{8}
+\tau\, r^2$. 
 
-Final example is so instructive that I'll deal with it separately
+In short, the difference between the angle measure and area isn't
+arbitrary. There is no natural factor of $1/2$ in the
+case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case is even worse than it looks: the general formula for the volume of an $n$-dimensional sphere, which contains the ``volume'' of a $2$-sphere (i.e., the area of a circle) as a special case, makes clear that the factor of $1$ in front of $\pi$ in $\pi r^2$ is a mere coincidence. This final example, also mentioned by the Pi Manifesto as an argument in favor of $\pi$, is so instructive that it deserves a separate section.
 
   % subsection the_pi_manifesto_a_rebuttal (end)
-
 
   \subsection{Volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
