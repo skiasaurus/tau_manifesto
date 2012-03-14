@@ -658,7 +658,7 @@ when $n=4$, we have
 \[
 c_4 = \frac{\tau^{\left\lfloor\frac{4}{2}\right\rfloor}}{4!!} = \frac{\tau^2}{8},
 \]
-and so on. In other words, $\pi$ is part of a family of constants $c_n$, each of which depends explicitly on the dimension of the space. The only part of the family that is \emph{independent} of the dimensionality is~$\tau$.
+and so on. In other words, $\pi$ is part of a \emph{family} of constants $c_n$, each of which depends explicitly on the dimension of the space. The only part of the family that is \emph{independent} of the dimensionality is~$\tau$.
   
   % subsection volume_of_a_hypersphere (end)
 
