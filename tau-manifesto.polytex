@@ -630,7 +630,7 @@ To unify the formulas further, we can use the \emph{floor function} $\lfloor x \
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd}.
  \end{cases} \]
-which allows us to factor out most of the formula as follows:
+which allows us to write the formula as follows:
 \[ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
  1 & \text{if } n \text{ is even}; \\ \\
  2 & \text{if } n \text{ is odd}.
