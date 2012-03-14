@@ -587,8 +587,8 @@ In the $n$-dimensional volume formula, the argument of $\Gamma$ is not necessari
 
 Let's examine this formula in more detail to see where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, though rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \times 3 \times 1$ and $6!! = 6 \times 4 \times 2$. In general, we have
 \[ n!! = \begin{cases}
- n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is even}; \\ \\
- n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is odd}.
+ n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
+ n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
  \end{cases} \]
  Notice that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious. 
 
