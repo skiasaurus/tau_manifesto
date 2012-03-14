@@ -628,7 +628,7 @@ Making the substitution $\tau=2\pi$ then yields
 To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
 \[ V_n(r) = \begin{cases}
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd}.
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd},
  \end{cases} \]
 which allows us to write the formula as follows:
 \[ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
@@ -639,7 +639,7 @@ which allows us to write the formula as follows:
  \[
  c_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}\times \begin{cases}
  1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
+ 2 & \text{if } n \text{ is odd},
  \end{cases}
  \]
  so that the $n$-dimensional volume can be written as
