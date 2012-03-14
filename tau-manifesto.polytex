@@ -543,7 +543,7 @@ case of angle measure. In contrast, in the case of area the factor of $1/2$ aris
 
 The formula volume of a hypersphere, also called an $n$-sphere, is a case study in broken pattern recognition. The traditional form of the formula, written in terms of $\pi$, is ugly and unnatural. As we'll see in this section, when written in terms of $\tau$ the formula is elegant and beautiful, thus providing yet another argument for $\tau$. (\emph{Note}: This section is substantially more advanced that the rest of the manifesto and can be skipped without loss of continuity.)
 
-An $n$-sphere is the set of all points a given fixed (the radius) away from a given point (the center) in $n$-dimensional space ($\mathbb{R}^n$). We can represent such an object conveniently by centering it on the origin and writing an equation for the distance squared. For example, a $2$-sphere (that is, a circle) centered on the origin satisfies the equation
+An $n$-sphere is the set of all points a fixed distance (the radius) away from a given point (the center) in $n$-dimensional space ($\mathbb{R}^n$). We can represent such an object conveniently by centering it on the origin and writing an equation for the distance squared. For example, a $2$-sphere (that is, a circle) centered on the origin satisfies the equation
 \[
 x^2 + y^2 = r^2.
 \]
