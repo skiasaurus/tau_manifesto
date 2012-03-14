@@ -583,7 +583,7 @@ In the $n$-dimensional volume formula, the argument of $\Gamma$ is not necessari
 \displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
  \end{cases} \]
- This equation is taken from the standard reference \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual it is written in terms of~$\pi$.
+ This equation was originally taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual it is written in terms of~$\pi$.
 
 Let's examine this formula in more detail to see where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, though rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \times 3 \times 1$ and $6!! = 6 \times 4 \times 2$. In general, we have
 \[ n!! = \begin{cases}
