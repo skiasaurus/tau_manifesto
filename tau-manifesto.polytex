@@ -408,7 +408,7 @@ We set out in this manifesto to show that $\tau$ is the true circle constant. Si
 \section{Conflict and resistance} % (fold)
 \label{sec:conflict_and_resistance}
 
-Despite the definitive demonstration of the superority of $\tau$, there are nevertheless many who oppose it, both as notation and as number. In this section, we address the concerns of those who accept the value but not the letter. We'll then rebut some of the many arguments marshaled against $C/r$ itself, including the so-called ``Pi Manifesto'' that defends the primacy of $\pi$. In this context, we'll discuss the rather advanced subject of the volume of a hypersphere (Section~\ref{sec:volume_of_a_hypersphere}), which augments and amplifies the arguments in Section~\ref{sec:circular_area} on circular area.
+Despite the definitive demonstration of the superiority of $\tau$, there are nevertheless many who oppose it, both as notation and as number. In this section, we address the concerns of those who accept the value but not the letter. We'll then rebut some of the many arguments marshaled against $C/r$ itself, including the so-called ``Pi Manifesto'' that defends the primacy of $\pi$. In this context, we'll discuss the rather advanced subject of the volume of a hypersphere (Section~\ref{sec:volume_of_a_hypersphere}), which augments and amplifies the arguments in Section~\ref{sec:circular_area} on circular area.
 
   \subsection{One turn} % (fold)
   \label{sec:one_turn}
@@ -496,7 +496,7 @@ where
 \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
 \]
 But $\Gamma(\frac{1}{2})$ (upon setting $u =
-x^{1/2}$) reduces to the same Gaussian integral as in the normal distribution, so the $\pi$ in this case is really $1/2\times 2\pi$ as well.\footnote{Indidentally, switching to fractional exponents shows a pleasing recurrence of
+x^{1/2}$) reduces to the same Gaussian integral as in the normal distribution, so the $\pi$ in this case is really $1/2\times 2\pi$ as well.\footnote{Incidentally, switching to fractional exponents shows a pleasing recurrence of
 factors of $1/2$: $\Gamma(\frac{1}{2}) = (\frac{1}{2} \tau)^{1/2}$.}Indeed, in many of the cases cited in the Pi Manifesto,
 the circle constant enters through an integral over all angles, i.e.,
 as $\theta$ ranges from $0$ to $\tau$.
@@ -573,7 +573,7 @@ By itself this isn't a strong argument, but it shows that the case for $\pi$ isn
 An intial seed of doubt can be planted by noting that in the case of a $2$-sphere (i.e., a circular disk), there is a hidden factor of~$2$ (Section~\ref{sec:circular_area}):
 \[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$:
 \[ V = V_3(r) = \frac{4\pi}{3} r^3 =  \frac{2 (2\pi)}{3} r^3 = \frac{2\tau}{3} r^3. \]
-These examples suggests that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 2$ as well.
+These examples suggest that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 2$ as well.
 
 We start by noting that the apparent simplicity of the formula is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, 
 \[ 
@@ -647,7 +647,7 @@ which allows us to factor out most of the formula:
  \[ V_n(r) = c_n\, r^n. \]
  The improvement on the original $\pi$-encrusted monstrosity is unmistakable.
 
- We are now in a position to fully understand the formulas for circular area and its higher-dimensional generalizations. The number $\pi$ is just $c_2$:
+ We are now in a position to fully understand the formula for circular area and its higher-dimensional generalizations. The number $\pi$ is just $c_2$:
 \[
 \pi = c_2 = \frac{\tau^{\left\lfloor\frac{2}{2}\right\rfloor}}{2!!} = \frac{\tau}{2}.
 \]
@@ -666,9 +666,9 @@ In other words, $\pi$ is part of a family of constants $c_n$, each of which depe
 \[ 
 \int_{-1}^1 \frac{1}{\sqrt{1-x^2}}\,dx,
 \]
-which evaluates to $\sin^{-1}(1) - \sin^{-1}(-1)$, i.e., the difference between where $\sin\theta$ is $1$ (a quarter turn) and $-1$ (a negative quarter turn): $\tau/4 - (-\tau/4) = \tau/2$. \href{http://en.wiktionary.org/wiki/und_so_weiter}{\emph{Und so weiter}}. It's tempting to try to counter every one of the many formulas involving $\pi$ on a case-by-case basis---indeed, my life as a tauist has involved becoming an expert on these Tau-mudic minutiae, defending $\tau$ one formula at a time---but unfortunately such examples are inexhaustable because the number $\tau/2$ is, in fact, important.
+which evaluates to $\sin^{-1}(1) - \sin^{-1}(-1)$, i.e., the difference between where $\sin\theta$ is $1$ (a quarter turn) and $-1$ (a negative quarter turn): $\tau/4 - (-\tau/4) = \tau/2$. \href{http://en.wiktionary.org/wiki/und_so_weiter}{\emph{Und so weiter}}. It's tempting to try to counter every one of the many formulas involving $\pi$ on a case-by-case basis---indeed, my life as a tauist has involved becoming an expert on these Tau-mudic minutiae, defending $\tau$ one formula at a time---but unfortunately such examples are inexhaustible because the number $\tau/2$ is, in fact, important.
 
- Resolving this tension leads into some deep philosophical waters about the nature of mathematical notation. Computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond raises these issues in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}, suggesting a systematic audit of mathematics: ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others’ work. Most compact notation wins!'' I am confident that $\tau$ would win such a contest in a fair fight, but we immediately face the issue of defining ``fair''---i.e., we would have to develop an unambiguous way to evaluate the complexity of any given representation. As we've seen, this can be quite difficult, often requiring arduous effort to tease out the missing factors of~$2$. For instance, in an important sense $\frac{1}{2}\tau\,r^2$ is simpler than $\pi r^2$, despite using more symbols, because it follows the pattern of other quadratic forms (and of other $n$-dimensional spherical volumes). Moreover, even if we could agree on the metric, performing such an audit would be a \href{http://en.wikipedia.org/wiki/Brobdingnag}{Brobdingnagian} task, which we tauists would rather avoid tackling directly.
+ Resolving this tension leads into some deep philosophical waters about the nature of mathematical notation. Computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond raises these issues in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}, suggesting a systematic audit of mathematics: ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others' work. Most compact notation wins!'' I am confident that $\tau$ would win such a contest in a fair fight, but we immediately face the issue of defining ``fair''---i.e., we would have to develop an unambiguous way to evaluate the complexity of any given representation. As we've seen, this can be quite difficult, often requiring arduous effort to tease out the missing factors of~$2$. For instance, in an important sense $\frac{1}{2}\tau\,r^2$ is simpler than $\pi r^2$, despite using more symbols, because it follows the pattern of other quadratic forms (and of other $n$-dimensional spherical volumes). Moreover, even if we could agree on the metric, performing such an audit would be a \href{http://en.wikipedia.org/wiki/Brobdingnag}{Brobdingnagian} task, which we tauists would rather avoid tackling directly.
 
 Instead of making a frontal assault on this problem, let's make an oblique approach. Consider an analogy: imagine we lived in a world where we used the letter $h$ to represent ``one half'' and had no separate notation for $2h$. We would then observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? All mathematicians and geeks agree, $h$ is where it's at. But this is madness: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it ``$1$''. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. 
 
@@ -678,48 +678,42 @@ We see now why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\p
   
   % subsection what_is_really_going_on (end)
 
-\section{Embrace the tau}
-\label{sec:embrace_the_tau}
+\section{Conclusion}
 
-***edit
+% This manifesto has established that $C/r$ is the true circle constant, and has shown that $\tau$ is a suitable representation. In celebration, let's rewrite the examples from Section~\ref{sec:the_number_tau} and watch the factors of~$2$ melt away:\\ \\
 
-  \subsection{The formulas revisited} % (fold)
-  \label{sec:the_formulas_revisited}
+% \noindent Integral over all space in polar coordinates:
+% \[
+%   \int_0^\tau \int_0^\infty f(r, \theta)\, r\, dr\, d\theta
+% \]
+% Normal distribution:
+% \[
+%   \frac{1}{\sqrt{\tau}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+% \]
+% Fourier transform:
+% \[
+%   f(x) = \int_{-\infty}^\infty F(k)\, e^{i\tau kx}\,dk 
+% \]
+% \[
+%     F(k) = \int_{-\infty}^\infty f(x)\, e^{-i\tau kx}\,dx
+% \]
+% Cauchy's integral formula:
+% \[
+%   f(a) = \frac{1}{i\tau}\oint_\gamma\frac{f(z)}{z-a}\,dz
+% \]
+% $n$th roots of unity:
+% \[
+%   e^{i\tau/n}
+% \]
+% The Riemann zeta function for positive even integers:
+% \[
+%   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n\tau^{2n}}{2(2n)!}\qquad n = 1, 2, 3, \ldots
+% \]
 
-Thus convinced of its suitability to denote the true circle constant, we are free to use $\tau$ in all the formulas of mathematics and science. In particular, let's rewrite the examples from Section~\ref{sec:the_number_tau} and watch the factors of~$2$ melt away.\\ \\
+%   % subsection the_formulas_revisited (end)
 
-\noindent Integral over all space in polar coordinates:
-\[
-  \int_0^\tau \int_0^\infty f(r, \theta)\, r\, dr\, d\theta
-\]
-Normal distribution:
-\[
-  \frac{1}{\sqrt{\tau}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}
-\]
-Fourier transform:
-\[
-  f(x) = \int_{-\infty}^\infty F(k)\, e^{i\tau kx}\,dk 
-\]
-\[
-    F(k) = \int_{-\infty}^\infty f(x)\, e^{-i\tau kx}\,dx
-\]
-Cauchy's integral formula:
-\[
-  f(a) = \frac{1}{i\tau}\oint_\gamma\frac{f(z)}{z-a}\,dz
-\]
-$n$th roots of unity:
-\[
-  e^{i\tau/n}
-\]
-The Riemann zeta function for positive even integers:
-\[
-  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n\tau^{2n}}{2(2n)!}\qquad n = 1, 2, 3, \ldots
-\]
-
-  % subsection the_formulas_revisited (end)
-
-  \subsection{Frequently Asked Questions} % (fold)
-  \label{sec:faq}
+%   \subsection{Frequently Asked Questions} % (fold)
+%   \label{sec:faq}
 
 Over the years, I have heard many arguments against the wrongness of $\pi$ and against the correctness of $\tau$, so before concluding our discussion allow me to address some of the most frequently asked questions.
 
@@ -747,8 +741,9 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   % subsection faq (end)
 
-
-
+  \subsection{Embrace the tau} % (fold)
+  \label{sec:embrace_the_tau}
+  
 We have seen in \emph{The Tau Manifesto} that the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius. This number needs a name, and I hope you will join me in calling it $\tau$:
 \[
   \mathrm{circle\ constant} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
@@ -762,12 +757,14 @@ The usage is natural, the motivation is clear, and the implications are profound
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
 
+  % subsection conclusion (end)
+
   \subsection{Tau Day} % (fold)
   \label{sec:tau_day}
 
 \emph{The Tau Manifesto} first launched on Tau Day: June 28 (6/28), 2010. Tau Day is a time to celebrate and rejoice in all things mathematical and true.\footnote{Since 6 and 28 are the first two \href{http://en.wikipedia.org/wiki/Perfect_number}{\emph{perfect numbers}}, 6/28 is actually a \emph{perfect} day.} If you would like to receive updates about $\tau$, including notifications about possible future Tau Day events, please join the \emph{Tau Manifesto} mailing list below. And if you think that the circular baked goods on Pi Day are tasty, just wait---Tau Day has twice as much pi(e)!
 
-Thank you for reading \emph{The Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$. Happy Tau Day!
+% Thank you for reading \emph{The Tau Manifesto}. I hope you enjoyed reading it as much as I enjoyed writing it. And I hope even more that you have come to embrace the true circle constant: not $\pi$, but $\tau$. Happy Tau Day!
 
 %= insert_user_engagement
 
