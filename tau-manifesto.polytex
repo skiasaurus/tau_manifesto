@@ -496,7 +496,7 @@ where
 \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
 \]
 But $\Gamma(\frac{1}{2})$ reduces to the same Gaussian integral as in the normal distribution (upon setting $u =
-x^{1/2}$), so the $\pi$ in this case is really $1/2\times 2\pi$ as well.Indeed, in many of the cases cited in the Pi Manifesto,
+x^{1/2}$), so the $\pi$ in this case is really $1/2\times 2\pi$ as well. Indeed, in many of the cases cited in the Pi Manifesto,
 the circle constant enters through an integral over all angles, i.e.,
 as $\theta$ ranges from $0$ to $\tau$.
 
@@ -568,7 +568,7 @@ Before proceeding, we should note that this formula, when written in terms of $\
 By itself this isn't a strong argument, but it shows that the case for $\pi$ isn't completely clear-cut. And unfortunately for $\pi$, the case gets far worse from here.
 
 We'll plant an initial seed of doubt by noting that, in the case of a $2$-sphere (i.e., a circular disk), we know from Section~\ref{sec:circular_area} that there is a hidden factor of~$2$:
-\[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$, leading to an other factor of $2$:
+\[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$, leading to another factor of $2$:
 \[ V = V_3(r) = \frac{4\pi}{3} r^3 =  \frac{2 (2\pi)}{3} r^3 = \frac{2\tau}{3} r^3. \]
 These examples suggest that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 3$ as well.
 
