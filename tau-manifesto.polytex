@@ -551,7 +551,7 @@ Similarly, a $3$-sphere (that is, an ordinary sphere) satisfies
 \[
 x^2 + y^2 + z^2 = r^2.
 \]
-The generalization to arbitrary~$n$, although difficult to visualize when $n > 3$, is straightforward:
+The generalization to arbitrary~$n$, although difficult to visualize for $n > 3$, is straightforward:
 \[
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
