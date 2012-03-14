@@ -474,7 +474,7 @@ which shows that the circle constant enters the calculation through $1/\sqrt{2\p
     % subsubsection ambiguous_notation (end)
 
   \subsection{The Pi Manifesto} % (fold)
-  \label{sec:the_pi_manifesto}
+  \label{sec:the_pi_manifesto_a_rebuttal}
 
 Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the two after it contain a rebuttal of its arguments. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
 
@@ -578,7 +578,7 @@ We begin our analysis by noting that the apparent simplicity of the volume formu
 \]
 Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
 
-In the $n$-dimensional volume formula, the argument of $\Gamma$ is not an integer, but rather the half-integer ($1 + \frac{n}{2}$), and in this case the simplification depends on whether $n$ is even or odd. The result, applied to the formula for the volume of an $n$-sphere, appears as follows:
+In the $n$-dimensional volume formula, the argument of $\Gamma$ is not necessarily an integer, but rather is ($1 + \frac{n}{2}$), which is an integer when $n$ is even and is a half-integer when $n$ is odd. The simplification in this case, applied to the formula for the volume of an $n$-sphere, appears as follows:
 \[ V_n(r) = \begin{cases}
 \displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
