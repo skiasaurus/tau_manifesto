@@ -43,7 +43,7 @@ In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second of
 \[
   \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
-Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$ is the correct choice, and we will show through usage (Section~\ref{sec:the_number_tau} and Section~\ref{sec:circular_area}) and by direct argumentation (Section~\ref{sec:why_tau}) that the \emph{letter} $\tau$ is a natural choice as well.
+Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$ is the correct choice, and we will show through usage (Section~\ref{sec:the_number_tau} and Section~\ref{sec:circular_area}) and by direct argumentation (Section~\ref{sec:conflict_and_resistance}) that the \emph{letter} $\tau$ is a natural choice as well.
 
  \subsection{A powerful enemy} % (fold)
  \label{sec:a_powerful_enemy}
@@ -408,7 +408,7 @@ We set out in this manifesto to show that $\tau$ is the true circle constant. Si
 \section{Conflict and resistance} % (fold)
 \label{sec:conflict_and_resistance}
 
-Despite the definitive demonstration of the superiority of $\tau$, there are nevertheless many who oppose it, both as notation and as number. In this section, we address the concerns of those who accept the value but not the letter. We'll then rebut some of the many arguments marshaled against $C/r$ itself, including the so-called ``Pi Manifesto'' that defends the primacy of $\pi$. In this context, we'll discuss the rather advanced subject of the volume of a hypersphere (Section~\ref{sec:volume_of_a_hypersphere}), which augments and amplifies the arguments in Section~\ref{sec:circular_area} on circular area.
+Despite the definitive demonstration of the superiority of $\tau$, there are nevertheless many who oppose it, both as notation and as number. In this section, we address the concerns of those who accept the value but not the letter. We then rebut some of the many arguments marshaled against $C/r$ itself, including the so-called ``Pi Manifesto'' that defends the primacy of $\pi$. In this context, we'll discuss the rather advanced subject of the volume of a hypersphere (Section~\ref{sec:volume_of_a_hypersphere}), which augments and amplifies the arguments in Section~\ref{sec:circular_area} on circular area.
 
   \subsection{One turn} % (fold)
   \label{sec:one_turn}
@@ -424,17 +424,17 @@ $\tau$ works well in both written and spoken contexts. For example, saying that 
     \label{sec:ambiguous_notation}
 
 
-Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!'' avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{http://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots um\ldots $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment. (Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.)
+Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!'' avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{http://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots um\ldots $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol for $2\pi$ would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment. (Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.)
 
 Rather than advocating a new symbol, \emph{The Tau Manifesto} opts for the use of an existing Greek letter. As a result, since $\tau$ is already used in some current contexts, we must address the conflicts with existing practice. Fortunately, there are surprisingly few common uses. Moreover, while $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no \emph{universal} conflicting usage.\footnote{The only possible exception to this is the \emph{golden ratio}, which is often denoted by $\tau$ in Europe. But not only is there an existing common alternative to this notation---namely, the Greek letter $\varphi$---this usage shows that there is precedent for using $\tau$ to denote a fundamental mathematical constant.} In those cases, we can either tolerate ambiguity or route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time. 
 
 Despite these arguments, potential usage conflicts have proven to be the greatest source of resistance to $\tau$. Some correspondents have even flatly denied that $\tau$ (or, presumably, any other currently used symbol) could possibly overcome these issues. But scientists and engineers have a high tolerance for notational ambiguity, and claiming that $\tau$-the-circle-constant can't coexist with other uses ignores considerable evidence to the contrary. 
 
-One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula the \emph{Bohr radius}, which roughly speaking is the ``size'' of a hydrogen atom in its lowest energy state:
+One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula the \emph{Bohr radius}, which (roughly speaking) is the ``size'' of a hydrogen atom in its lowest energy state (the \emph{ground state}):
 \[
 a_0 = \frac{\hbar^2}{m e^2},
 \]
-where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the ground state is described by a quantity known as the \href{http://en.wikipedia.org/wiki/Wave_function}{\emph{wavefunction}}:
+where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the ground state itself is described by a quantity known as the \href{http://en.wikipedia.org/wiki/Wave_function}{\emph{wavefunction}}, which falls off exponentially with radius on a length scale set by the Bohr radius:
 \[
 \psi(r) = N\,e^{-r/a_0},
 \]
@@ -476,18 +476,18 @@ which shows that the circle constant enters the calculation through $1/\sqrt{2\p
   \subsection{The Pi Manifesto: a rebuttal} % (fold)
   \label{sec:the_pi_manifesto_a_rebuttal}
 
-Although most objections come from scattered email correspondence and miscellaneous comments on the Web, there is an organized resistance to~$\tau$. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the next are a rebuttal to that document. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
+Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the next are a rebuttal of its arguments. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
 
-While I consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims. For example, it says that the factor of $\tau$ in the Gaussian (normal) distribution is a coincidence, and that it can more naturally be written as
+While we can certainly consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims. For example, it says that the factor of $2\pi$ in the Gaussian (normal) distribution is a coincidence, and that it can more naturally be written as
 \[
-\frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-(x-\mu)^2}{(\sqrt 2\sigma)^2}}.
+\frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-x^2}{(\sqrt 2\sigma)^2}}.
 \]
 This is wrong: the factor of
-$\sqrt 2$ does go with the $\sqrt\pi$. The factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates. This leads to a factor of $1$ from
+$\sqrt 2$ does go with the $\sqrt\pi$. The factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates, which leads to a factor of $1$ from
 the radial integral and a $2\pi$ from the angular integral. As in the case of circular area, the factor
 of $\pi$ comes from $1/2\times 2\pi$, not from $\pi$ alone.
 
-A related claim is that the \href{http://mathworld.wolfram.com/GammaFunction.html}{$\Gamma$ function} evaluated at $1/2$ is more natural in terms of $\pi$:
+A related claim is that the \href{http://mathworld.wolfram.com/GammaFunction.html}{Gamma function} evaluated at $1/2$ is more natural in terms of $\pi$:
 \[
 \Gamma(\textstyle{\frac{1}{2}}) = \sqrt{\pi},
 \]
@@ -495,9 +495,8 @@ where
 \[
 \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
 \]
-But $\Gamma(\frac{1}{2})$ (upon setting $u =
-x^{1/2}$) reduces to the same Gaussian integral as in the normal distribution, so the $\pi$ in this case is really $1/2\times 2\pi$ as well.\footnote{Incidentally, switching to fractional exponents shows a pleasing recurrence of
-factors of $1/2$: $\Gamma(\frac{1}{2}) = (\frac{1}{2} \tau)^{1/2}$.}Indeed, in many of the cases cited in the Pi Manifesto,
+But $\Gamma(\frac{1}{2})$ reduces to the same Gaussian integral as in the normal distribution (upon setting $u =
+x^{1/2}$), so the $\pi$ in this case is really $1/2\times 2\pi$ as well.Indeed, in many of the cases cited in the Pi Manifesto,
 the circle constant enters through an integral over all angles, i.e.,
 as $\theta$ ranges from $0$ to $\tau$.
 
@@ -512,17 +511,15 @@ polygon, from which the sum of the interior angles can easily be
 derived, and which generalizes to the integral of the curvature of a
 simple closed curve, is $2\pi$.'' In addition, the Pi Manifesto offers the formula for the area of an $n$-gon with unit radius (the distance from center to vertex),
 \[ A=n\sin\frac{\pi}{n}\cos\frac{\pi}{n}, \]
-calling it ``clearly\ldots another win for $\pi$.'' But using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ shows that
-\[ A = n \sin(\pi/n) \cos(\pi/n) \]
-can be written as
-\[ A = n/2\, \sin(2\pi/n), \]
+calling it ``clearly\ldots another win for $\pi$.'' But using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ shows that this can be written as
+\[ A = n/2\, \sin\frac{2\pi}{n}, \]
 which is just
-\[ A = \frac{1}{2} n\, \sin(\tau/n). \]
+\[ A = \frac{1}{2} n\, \sin\frac{\tau}{n}. \]
 In other words, the area of an $n$-gon has a natural
 factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a regular polygon with infinitely many sides, i.e., a circle:
 \[
-A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin(\tau/n)
-= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin(\tau/n)}{1/n} = \frac{1}{2}\tau.
+A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
+= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \frac{1}{2}\tau.
 \]
 
 In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
@@ -532,29 +529,29 @@ In this context, we should note that the Pi Manifesto makes much ado about $\pi$
 so there's no way to avoid the factor of $1/2$ in general. (Indeed, we see that $A =
 \frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.) Because of
 this natural factor of $1/2$, it's perfectly normal for the area of,
-say, the sector subtended by a quarter turn to have an area of $\frac{1}{8}
+say, the sector subtended by a quarter turn to have area $\frac{1}{8}
 \tau\, r^2$. 
 
 In short, the difference between angle measure and area isn't
 arbitrary. There is no natural factor of $1/2$ in the
-case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case is even worse than it looks: the general formula for the volume of an $n$-dimensional sphere, which contains the ``volume'' of a $2$-sphere (i.e., the area of a circle) as a special case, makes clear that the factor of $1$ in front of $\pi$ in $\pi r^2$ is mere coincidence. This final example, also mentioned by the Pi Manifesto as an argument in favor of $\pi$, is so instructive that it deserves a separate section.
+case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case for $\pi$ is even worse than it looks: the general formula for the volume of an $n$-dimensional sphere, which contains the ``volume'' of a $2$-sphere (i.e., the area of a circle) as a special case, makes clear that the factor of $1$ in front of $\pi$ in $\pi r^2$ is mere coincidence. This final example, also mentioned by the Pi Manifesto as an argument in favor of $\pi$, is so instructive that it deserves a separate section (Section~\ref{sec:volume_of_a_hypersphere}).
 
   % subsection the_pi_manifesto_a_rebuttal (end)
 
   \subsection{Volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-The formula volume of a hypersphere, also called an $n$-sphere, is a case study in broken pattern recognition. Its traditional form, written in terms of $\pi$, is ugly and unnatural. As we'll see in this section, when written in terms of $\tau$ the formula is elegant and beautiful. (This section is substantially more advanced that the rest of the manifesto and can be skipped without loss of continuity.)
+The formula volume of a hypersphere, also called an $n$-sphere, is a case study in broken pattern recognition. The traditional form of the formula, written in terms of $\pi$, is ugly and unnatural. As we'll see in this section, when written in terms of $\tau$ the formula is elegant and beautiful, thus providing yet another argument for $\tau$. (\emph{Note}: This section is substantially more advanced that the rest of the manifesto and can be skipped without loss of continuity.)
 
-The $n$-sphere is the set of all points a given distance (the radius) in $n$-dimensional space ($\mathbb{R}^n$). For example, a $2$-sphere centered on the origin (that is, a circle) satisfies the equation
+An $n$-sphere is the set of all points a given fixed (the radius) away from a given point (the center) in $n$-dimensional space ($\mathbb{R}^n$). We can represent such an object conveniently by centering it on the origin and writing an equation for the distance squared. For example, a $2$-sphere (that is, a circle) centered on the origin satisfies the equation
 \[
 x^2 + y^2 = r^2.
 \]
-Similarly, a $3$-sphere satisfies
+Similarly, a $3$-sphere (that is, an ordinary sphere) satisfies
 \[
 x^2 + y^2 + z^2 = r^2.
 \]
-The case for arbitrary~$n$, although difficult to visualize when $n > 3$, is straightforward:
+The generalization to arbitrary~$n$, although difficult to visualize when $n > 3$, is straightforward:
 \[
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
@@ -568,25 +565,27 @@ where (as noted in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) the Gamma func
 \[ V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}. \]
 Before proceeding, we should note that this formula, when written in terms of $\tau$, has a pleasing recurrence of factors of $1/2$:
 \[ V_n(r) = \frac{(\textstyle{\frac{\tau}{2}})^{\frac{n}{2}} r^n}{\Gamma(1 + \frac{n}{2})}. \]
-By itself this isn't a strong argument, but it shows that the case for $\pi$ isn't so clear-cut. And unfortunately for $\pi$, the case gets far worse from here.
+By itself this isn't a strong argument, but it shows that the case for $\pi$ isn't completely clear-cut. And unfortunately for $\pi$, the case gets far worse from here.
 
-An intial seed of doubt can be planted by noting that in the case of a $2$-sphere (i.e., a circular disk), there is a hidden factor of~$2$ (Section~\ref{sec:circular_area}):
-\[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$:
+We'll plant an initial seed of doubt by noting that, in the case of a $2$-sphere (i.e., a circular disk), we know from Section~\ref{sec:circular_area} that there is a hidden factor of~$2$:
+\[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$, leading to an other factor of $2$:
 \[ V = V_3(r) = \frac{4\pi}{3} r^3 =  \frac{2 (2\pi)}{3} r^3 = \frac{2\tau}{3} r^3. \]
-These examples suggest that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 2$ as well.
+These examples suggest that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 3$ as well.
 
-We start by noting that the apparent simplicity of the formula is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, 
+We begin our analysis by noting that the apparent simplicity of the volume formula is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
 \[ 
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-(Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}) In the $n$-dimensional volume formula, the argument of $\Gamma$ is not an integer, but rather the half-integer ($1 + \frac{n}{2}$), and in this case the simplification depends on whether $n$ is even or odd. The result, applied to the formula for the volume of an $n$-sphere, appears as follows:
+Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
+
+In the $n$-dimensional volume formula, the argument of $\Gamma$ is not an integer, but rather the half-integer ($1 + \frac{n}{2}$), and in this case the simplification depends on whether $n$ is even or odd. The result, applied to the formula for the volume of an $n$-sphere, appears as follows:
 \[ V_n(r) = \begin{cases}
 \displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
  \end{cases} \]
  This equation is taken from the standard reference \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual it is written in terms of~$\pi$.
 
-Let's examine this formula in more detail to see where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, they use it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, though rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \times 3 \times 1$ and $6!! = 6 \times 4 \times 2$. In general, we have
+Let's examine this formula in more detail to see where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, though rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \times 3 \times 1$ and $6!! = 6 \times 4 \times 2$. In general, we have
 \[ n!! = \begin{cases}
  n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is even}; \\ \\
  n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is odd}.
@@ -601,14 +600,14 @@ we notice that it can be rewritten as
 \[ 2(2\pi)^{(n-1)/2}, \]
 and here we recognize our old friend~$2\pi$. 
 
-Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case and the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
+Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
 \[ 
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
 \ldots & \text{if } n \text{ is even}; \\ \\
  \ldots & \text{if } n \text{ is odd}.
  \end{cases}
 \]
-Is there then any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
+So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
 \[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
 (This is easy to verify using \href{http://en.wikipedia.org/wiki/Mathematical_induction}{mathematical induction}.) Substituting this into the volume formula for even $n$ then yields
 \[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \] 
@@ -631,7 +630,7 @@ To unify the formulas further, we can use the \emph{floor function} $\lfloor x \
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd}.
  \end{cases} \]
-which allows us to factor out most of the formula:
+which allows us to factor out most of the formula as follows:
 \[ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
  1 & \text{if } n \text{ is even}; \\ \\
  2 & \text{if } n \text{ is odd}.
@@ -653,9 +652,13 @@ which allows us to factor out most of the formula:
 \]
 We see here that the factor of $1$ in front of $\pi$ in $\pi r^2$ is a coincidence: it's only because the denominator is $2!! = 2$ that it cancels with the $2$ in $2\pi$. In higher dimensions, there is no such cancellation; for example, when $n=3$, we have
 \[
-c_3 = 2\frac{\tau^{\left\lfloor\frac{3}{2}\right\rfloor}}{3!!} = \frac{2\tau}{3}.
+c_3 = 2\frac{\tau^{\left\lfloor\frac{3}{2}\right\rfloor}}{3!!} = \frac{2\tau}{3},
 \]
-In other words, $\pi$ is part of a family of constants $c_n$, each of which depends explicitly on the dimension of the space. The only part of the family that is \emph{independent} of the dimensionality is $\tau$. Thus we see that $\tau$, not $\pi$, is the fundamental circle constant.
+when $n=4$, we have
+\[
+c_4 = \frac{\tau^{\left\lfloor\frac{4}{2}\right\rfloor}}{4!!} = \frac{\tau^2}{8},
+\]
+and so on. In other words, $\pi$ is part of a family of constants $c_n$, each of which depends explicitly on the dimension of the space. The only part of the family that is \emph{independent} of the dimensionality is~$\tau$.
   
   % subsection volume_of_a_hypersphere (end)
 
@@ -668,13 +671,13 @@ In other words, $\pi$ is part of a family of constants $c_n$, each of which depe
 \]
 which evaluates to $\sin^{-1}(1) - \sin^{-1}(-1)$, i.e., the difference between where $\sin\theta$ is $1$ (a quarter turn) and $-1$ (a negative quarter turn): $\tau/4 - (-\tau/4) = \tau/2$. \href{http://en.wiktionary.org/wiki/und_so_weiter}{\emph{Und so weiter}}. It's tempting to try to counter every one of the many formulas involving $\pi$ on a case-by-case basis---indeed, my life as a tauist has involved becoming an expert on these Tau-mudic minutiae, defending $\tau$ one formula at a time---but unfortunately such examples are inexhaustible because the number $\tau/2$ is, in fact, important.
 
- Resolving this tension leads into some deep philosophical waters about the nature of mathematical notation. Computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond raises these issues in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}, suggesting a systematic audit of mathematics: ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others' work. Most compact notation wins!'' I am confident that $\tau$ would win such a contest in a fair fight, but we immediately face the issue of defining ``fair''---i.e., we would have to develop an unambiguous way to evaluate the complexity of any given representation. As we've seen, this can be quite difficult, often requiring arduous effort to tease out the missing factors of~$2$. For instance, in an important sense $\frac{1}{2}\tau\,r^2$ is simpler than $\pi r^2$, despite using more symbols, because it follows the pattern of other quadratic forms (and of other $n$-dimensional spherical volumes). Moreover, even if we could agree on the metric, performing such an audit would be a \href{http://en.wikipedia.org/wiki/Brobdingnag}{Brobdingnagian} task, which we tauists would rather avoid tackling directly.
+ Resolving this tension requires wading into some deep philosophical waters about the nature of mathematical notation. Computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond raises these issues in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}, suggesting a systematic audit of mathematics: ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others' work. Most compact notation wins!'' I am confident that $\tau$ would win such a contest in a fair fight, but we immediately face the issue of defining ``fair''---i.e., we would have to develop an unambiguous way to evaluate the complexity of any given representation. It's not always obvious how to do this. For instance, in an important sense $\frac{1}{2}\tau\,r^2$ is simpler than $\pi r^2$, despite using more symbols, because it follows the pattern of other quadratic forms (and of other $n$-dimensional spherical volumes). Moreover, even if we could agree on the metric, we have seen that teasing out the missing factors of~$2$ often requires arduous effort, so performing such an audit would be a \href{http://en.wikipedia.org/wiki/Brobdingnag}{Brobdingnagian} task---one we tauists would rather avoid tackling directly.
 
 Instead of making a frontal assault on this problem, let's make an oblique approach. Consider an analogy: imagine we lived in a world where we used the letter $h$ to represent ``one half'' and had no separate notation for $2h$. We would then observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? All mathematicians and geeks agree, $h$ is where it's at. But this is madness: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it ``$1$''. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. 
 
-Now, there is no doubt that the set $\{ 1, 1/2 \}$ would defeat $\{ h, 2h \}$ in a Raymond-style complexity audit, even though $h$ uses fewer symbols than $1/2$. I admit I feel the tug here of mathematical Platonism---Is the result of such an audit the \emph{real} reason people prefer~$1$ over $2h$?---but we can certainly all agree on the result, regardless of method. Since we've seen in this manifesto that $\tau$ is a ``unit'' (one turn), while $\pi$ is twice that unit, we can conclude that $\{ \tau, \tau/2 \}$ is better than $\{ \pi, 2\pi \}$ for the same reason that $\{ 1, 1/2 \}$ is better than $\{ h, 2h \}$---thereby saving us the trouble of being chained inside a mathematics library for the foreseeable future.
+Now, there is no doubt that the set $\{ 1, 1/2 \}$ would defeat $\{ h, 2h \}$ in a Raymond-style complexity audit, even though $h$ uses fewer symbols than $1/2$. I admit I feel the tug here of mathematical Platonism---Is the presumed result of such an audit the \emph{real} reason people prefer~$1$ over $2h$?---but we can certainly all agree on the result, regardless of method. Since we've seen in this manifesto that, with respect to circles, $\tau$ is a ``unit'' (one turn), while $\pi$ is twice that unit, we can conclude that $\{ \tau, \tau/2 \}$ is better than $\{ \pi, 2\pi \}$ for the same reason that $\{ 1, 1/2 \}$ is better than $\{ h, 2h \}$---thereby saving Eric the trouble of chaining us inside a mathematics library for the foreseeable future.
 
-We see now why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\pi/4$ is just as good as $\tau/8$ is like saying that $h/4$ is just as good as $1/8$. They are mathematically equivalent, but $\tau$, like $1$, is more \emph{fundamental}, and this is reason enough to use the version with $\tau$. If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{wonderful video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
+We are now in a position to see why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\pi/4$ is just as good as $\tau/8$ is like saying that $h/4$ is just as good as $1/8$. They are mathematically equivalent, but $\tau$, like $1$, is more \emph{fundamental}, and this is reason enough to use the version with $\tau$. If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
   
   % subsection what_is_really_going_on (end)
 
@@ -712,10 +715,12 @@ We see now why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\p
 
 %   % subsection the_formulas_revisited (end)
 
-%   \subsection{Frequently Asked Questions} % (fold)
-%   \label{sec:faq}
 
-Over the years, I have heard many arguments against the wrongness of $\pi$ and against the correctness of $\tau$, so before concluding our discussion allow me to address some of the most frequently asked questions.
+
+Over the years, I have heard many arguments against the wrongness of $\pi$ and against the rightness of $\tau$, so before concluding our discussion allow me to answer some of the most frequently asked questions.
+
+  \subsection{Frequently Asked Questions} % (fold)
+  \label{sec:faq}
 
 \begin{itemize}
 
