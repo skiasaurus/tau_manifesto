@@ -625,7 +625,7 @@ Making the substitution $\tau=2\pi$ then yields
  \displaystyle \frac{\tau^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2\tau^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
  \end{cases} \]
-To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the smallest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
+To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
 \[ V_n(r) = \begin{cases}
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd}.
