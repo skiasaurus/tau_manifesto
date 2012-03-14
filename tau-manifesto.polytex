@@ -473,10 +473,10 @@ which shows that the circle constant enters the calculation through $1/\sqrt{2\p
 
     % subsubsection ambiguous_notation (end)
 
-  \subsection{The Pi Manifesto: a rebuttal} % (fold)
-  \label{sec:the_pi_manifesto_a_rebuttal}
+  \subsection{The Pi Manifesto} % (fold)
+  \label{sec:the_pi_manifesto}
 
-Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the next are a rebuttal of its arguments. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
+Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the two after it contain a rebuttal of its arguments. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
 
 While we can certainly consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims. For example, it says that the factor of $2\pi$ in the Gaussian (normal) distribution is a coincidence, and that it can more naturally be written as
 \[
