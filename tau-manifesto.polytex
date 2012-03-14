@@ -516,7 +516,7 @@ calling it ``clearly\ldots another win for $\pi$.'' But using the double-angle i
 which is just
 \[ A = \frac{1}{2} n\, \sin\frac{\tau}{n}. \]
 In other words, the area of an $n$-gon has a natural
-factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a regular polygon with infinitely many sides, i.e., a circle:
+factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
 \[
 A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
 = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \frac{1}{2}\tau.
