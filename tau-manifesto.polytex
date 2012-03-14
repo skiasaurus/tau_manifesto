@@ -522,7 +522,7 @@ A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
 = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \frac{1}{2}\tau.
 \]
 
-In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
+In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
 \[
 \frac{1}{2}\theta\, r^2,
 \]
