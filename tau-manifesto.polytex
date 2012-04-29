@@ -1,4 +1,4 @@
-\documentclass[14pt]{extarticle}
+\documentclass[12pt]{extarticle}
 \usepackage{polytexnic}
 \usepackage{amssymb,amsmath}
 \begin{document}
