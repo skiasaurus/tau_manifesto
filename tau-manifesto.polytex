@@ -452,7 +452,7 @@ which has an $e$ raised the power of something with $e$ in it. It's even worse t
 \frac{m^{3/2} e^3}{\pi^{1/2} \hbar^3}\,e^{-m e^2 r/\hbar^2}.
 \]
 
-I have no doubt that if a separate notation for the natural number did not already exist, someone proposing the letter $e$ would be told it's impossible because of the conflicts with other uses. And yet, in practice no one ever has any problem with using $e$ in both contexts above. 
+I have no doubt that if a separate notation for the natural number did not already exist, anyone proposing the letter $e$ would be told it's impossible because of the conflicts with other uses. And yet, in practice no one ever has any problem with using $e$ in both contexts above. 
 There are many other examples, including situations where even $\pi$ is used for two different things.\footnote{See, for instance, \emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder, where $\pi$ is used to denote both the circle constant and a ``conjugate momentum'' on the very same page (p.~282).} It's hard to see how using $\tau$ for multiple quantities is any different.
 
 By the way, the $\pi$-pedants out there (and there have proven to be many) might note that hydrogen's ground-state wavefunction has a factor of $\pi$:
