@@ -714,7 +714,7 @@ This shows that $\sigma_2 = \tau/2 = 3.14159\ldots$ does have an independent geo
 So, to which family of constants does $\pi$ naturally belong?
 Let's rewrite $\pi = C/D$ in terms more appropriate for generalization to higher dimensions:
 \[
-\pi = \frac{C}{D} = \frac{S_2}{D^{2-1}},
+\pi = \frac{C}{D} = \frac{S_2}{D^{2-1}}.
 \]
 We thus see that $\pi$ is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant.
 This suggests introducing a third family of constants $\pi_n$:
