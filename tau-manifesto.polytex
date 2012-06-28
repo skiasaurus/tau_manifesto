@@ -253,7 +253,7 @@ But that minus sign is so ugly that the formula is almost always rearranged imme
 \[ e^{i\pi} + 1 = 0. \]
 At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. It's remarkable how many people complain that Euler's identity with $\tau$ relates only \emph{four} of those five. Fine:
 \[ e^{i\tau} = 1 + 0. \]
-(In fact, since $\sin 0 = 0$, the $0$ was already there.) This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+(In fact, since $\sin\tau = 0$, the $0$ was already there.) This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
