@@ -1,11 +1,11 @@
-\documentclass[12pt]{extarticle}
+\documentclass[14pt]{extarticle}
 \usepackage{polytexnic}
 \usepackage{amssymb,amsmath}
 \begin{document}
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated Half Tau Day, 2012}}
+\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated Tau Day, 2012}}
 \maketitle
 
 %= pdf_share_partial
@@ -13,7 +13,9 @@
 \section{The circle constant} % (fold)
 \label{sec:the_circle_constant}
 
-\emph{The Tau Manifesto} is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice for the circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!''\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in \emph{The Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.}, $\pi$ \emph{is wrong}. It's time to set things right.
+\emph{The Tau Manifesto} is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice for the circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!''\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in \emph{The Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.}, $\pi$ \emph{is wrong}. It's time to set things right. 
+
+(\emph{Note}: Mathematically sophisticated readers, including those already familiar with \emph{The Tau Manifesto}, can skip directly to Section~\ref{sec:getting_to_the_bottom_of_pi}, which is part of a revision released on Tau Day, 2012. This new section builds an irrefutable case against~$\pi$.)
 
   \subsection{An immodest proposal} % (fold)
   \label{sec:an_immodest_proposal}
@@ -101,7 +103,7 @@ and in the values of the \href{http://en.wikipedia.org/wiki/Riemann_zeta_functio
 \[
   \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{B_n}{2(2n)!}\,(2\pi)^{2n}.\qquad n = 1, 2, 3, \ldots
 \]
-These formulas are not cherry-picked---crack open your favorite physics or mathematics text and try it yourself. Indeed, there are \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{many more examples}, and the conclusion is clear: there is something special about~$2\pi$.
+These formulas are not cherry-picked---crack open your favorite physics or mathematics text and try it yourself. There are \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{many more examples}, and the conclusion is clear: there is something special about~$2\pi$.
 
 To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although it's likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
 
@@ -163,7 +165,7 @@ Now, a moment's reflection shows that the so-called ``special'' angles are just 
 \caption{Some special angles, in radians.\label{fig:tau_angles}}
 \end{figure}
 
-Although there are many other arguments in $\tau$'s favor, Figure~\ref{fig:tau_angles} may be the most striking. Indeed, upon comparing Figure~\ref{fig:tau_angles} with Figure~\ref{fig:angle_fractions}, I consider it decisive. We also see from Figure~\ref{fig:tau_angles} the genius of Bob Palais' identification of the circle constant as ``\href{http://en.wikipedia.org/wiki/Turn_(geometry)}{one turn}'': $\tau$ is the radian angle measure for one \emph{turn} of a circle. Moreover, note that with $\tau$ there is \emph{nothing to memorize}: a twelfth of a turn is $\tau/12$, an eighth of a turn is $\tau/8$, and so on. Using $\tau$ gives us the best of both worlds by combining conceptual clarity with all the concrete benefits of radians; the abstract meaning of, say, $\tau/12$ is obvious, but it is also just a number:
+Although there are many other arguments in $\tau$'s favor, Figure~\ref{fig:tau_angles} may be the most striking. We also see from Figure~\ref{fig:tau_angles} the genius of Bob Palais' identification of the circle constant as ``\href{http://en.wikipedia.org/wiki/Turn_(geometry)}{one turn}'': $\tau$ is the radian angle measure for one \emph{turn} of a circle. Moreover, note that with $\tau$ there is \emph{nothing to memorize}: a twelfth of a turn is $\tau/12$, an eighth of a turn is $\tau/8$, and so on. Using $\tau$ gives us the best of both worlds by combining conceptual clarity with all the concrete benefits of radians; the abstract meaning of, say, $\tau/12$ is obvious, but it is also just a number:
 \[
   \mathrm{a\ twelfth\ of\ a\ turn} = \frac{\tau}{12} \approx \frac{6.283185}{12} = 0.5235988.
 \]
@@ -251,7 +253,7 @@ But that minus sign is so ugly that the formula is almost always rearranged imme
 \[ e^{i\pi} + 1 = 0. \]
 At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. It's remarkable how many people complain that Euler's identity with $\tau$ relates only \emph{four} of those five. Fine:
 \[ e^{i\tau} = 1 + 0. \]
-This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+(In fact, since $\sin 0 = 0$, the $0$ was already there.) This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
@@ -444,9 +446,16 @@ Have you noticed the problem yet? Probably not, which is just the point. The ``p
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
-which has an $e$ raised the power of something with $e$ in it. This may seem crazy, but in practice no one ever has any problem with using $e$ in both contexts. There are many other examples, including situations where even $\pi$ is used for two different things,\footnote{See, for instance, \emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder, where $\pi$ is used to denote both the circle constant and a ``conjugate momentum'' on the very same page (p.~282).} and it's hard to see how using $\tau$ for multiple quantities is any different.
+which has an $e$ raised the power of something with $e$ in it. It's even worse than it looks, because $N$ itself contains $e$ as well:
+\[
+\psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0} = 
+\frac{m^{3/2} e^3}{\pi^{1/2} \hbar^3}\,e^{-m e^2 r/\hbar^2}.
+\]
 
-By the way, the $\pi$-pedants out there (and there have proven to be many) might note that hydrogen's ground-state wavefunction is typically written with a factor of $\pi$:
+I have no doubt that if a separate notation for the natural number did not already exist, someone proposing the letter $e$ would be told it's impossible because of the conflicts with other uses. And yet, in practice no one ever has any problem with using $e$ in both contexts above. 
+There are many other examples, including situations where even $\pi$ is used for two different things.\footnote{See, for instance, \emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder, where $\pi$ is used to denote both the circle constant and a ``conjugate momentum'' on the very same page (p.~282).} It's hard to see how using $\tau$ for multiple quantities is any different.
+
+By the way, the $\pi$-pedants out there (and there have proven to be many) might note that hydrogen's ground-state wavefunction has a factor of $\pi$:
 \[
 \psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0}.
 \]
@@ -460,17 +469,6 @@ As usual, appearances are deceiving: the value of $N$ comes from the product
 \]
 which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence. We'll have more to say about this game of $\pi$ \href{http://en.wikipedia.org/wiki/Whac-A-Mole}{whack-a-mole} in Section~\ref{sec:what_is_really_going_on}.
 
-% For example, in a single chapter (Chapter~9) in a single book (\emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder), I found two examples of severe conflicts that, because of context, are scarcely noticeable to the trained eye. On p.~282, for instance, we find the following integral:
-% \[ \int \frac{dp_k}{2\pi} \exp\left[i(p_k(q_{k+1}-q_k) - \epsilon p_k^2/2m\right]. \]
-% Note the presence of $\pi$ (or, rather, $2\pi$) in the denominator of the integrand. Later \emph{on the same page} we find another expression involving~$\pi$:
-% \[ H = \int d^3x\left[ \textstyle{\frac{1}{2}}\pi^2 + \textstyle{\frac{1}{2}}(\nabla\phi)^2 - V(\phi) \right]. \]
-% But this second occurrence of $\pi$ is \emph{not} a number; it is a ``conjugate momentum'' and has no relationship to circles. An even more egregious conflict occurs on p.~296, where we encounter the following rather formidable expression:
-% \[ \det\left(\frac{1}{e}\partial^2\right)\left(\int\mathcal{D}\alpha\right) \int\mathcal{D}A\,e^{iS[A]}\,\delta\left(\partial^\mu A_\mu - \omega(x)\right). \]
-% Looking carefully, we see that the letter $e$ appears \emph{twice in the same expression}, once in a determinant ($\det$) and once in an integral~($\int$). But $e$ means \emph{completely} different things in the two cases: the first $e$ is the charge on an electron, while the second $e$ is the \href{http://en.wikipedia.org/wiki/E_(mathematical_constant)}{exponential number}. As with the first example, to the expert eye it is clear from context which is which. Such examples are widespread, and they undermine the view that current usage precludes using $\tau$ for the circle constant as well.
-
-% In sum, $\tau$ is a natural choice of notation because it references the typographical appearance of $\pi$, has etymological ties to one ``turn'', and minimizes conflicts with present usage. Indeed, based on these arguments (put forward by me and by Peter Harremo\"{e}s), Bob Palais himself has \href{http://www.math.utah.edu/~palais/pi.html}{thrown his support} behind $\tau$. Perhaps someday the international mathematics community will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But mathematicians have had over 300 years to fix this $\pi$ problem, and I think it's time we took matters into our own hands. It's time to start using $\tau$.
-
-
     % subsubsection ambiguous_notation (end)
 
   \subsection{The Pi Manifesto} % (fold)
@@ -482,8 +480,7 @@ While we can certainly consider the appearance of the Pi Manifesto a good sign o
 \[
 \frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-x^2}{(\sqrt 2\sigma)^2}}.
 \]
-This is wrong: the factor of
-$\sqrt 2$ does go with the $\sqrt\pi$. The factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates, which leads to a factor of $1$ from
+This is wrong: the factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates, which leads to a factor of $1$ from
 the radial integral and a $2\pi$ from the angular integral. As in the case of circular area, the factor
 of $\pi$ comes from $1/2\times 2\pi$, not from $\pi$ alone.
 
@@ -526,159 +523,249 @@ In this context, we should note that the Pi Manifesto makes much ado about $\pi$
 \[
 \frac{1}{2}\theta\, r^2,
 \]
-so there's no way to avoid the factor of $1/2$ in general. (Indeed, we see that $A =
-\frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.) Because of
-this natural factor of $1/2$, it's perfectly normal for the area of,
-say, the sector subtended by a quarter turn to have area $\frac{1}{8}
-\tau\, r^2$. 
+so there's no way to avoid the factor of $1/2$ in general. (We thus see that $A =
+\frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.) 
 
 In short, the difference between angle measure and area isn't
 arbitrary. There is no natural factor of $1/2$ in the
-case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case for $\pi$ is even worse than it looks: the general formula for the volume of an $n$-dimensional sphere, which contains the ``volume'' of a $2$-sphere (i.e., the area of a circle) as a special case, makes clear that the factor of $1$ in front of $\pi$ in $\pi r^2$ is mere coincidence. This final example, also mentioned by the Pi Manifesto as an argument in favor of $\pi$, is so instructive that it deserves a separate section (Section~\ref{sec:volume_of_a_hypersphere}).
+case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case for $\pi$ is even worse than it looks, as shown in the next section.
 
   % subsection the_pi_manifesto_a_rebuttal (end)
 
-  \subsection{Volume of a hypersphere} % (fold)
+\section{Getting to the bottom of pi} % (fold)
+\label{sec:getting_to_the_bottom_of_pi}
+
+On Half Tau Day, 2012, while meditating on a claim made in the \href{http://www.thepimanifesto.com/}{Pi Manifesto}, I had an epiphany: \emph{I had gotten to the bottom of it}. I realized \emph{exactly} what is wrong with $\pi$. 
+
+The Pi Manifesto asserts that the volume formula for an $n$-dimensional sphere is a clear win for $\pi$---but in fact it represents $\pi$'s undoing. As we'll see, the general formulas for the surface area and volume of an $n$-dimensional sphere (which contain the circumference and area of a circle as special cases) leave no doubt that $\tau$, not $\pi$, is the more fundamental constant. 
+
+  \subsection{Surface area and volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-The formula volume of a hypersphere, also called an $n$-sphere, is a case study in broken pattern recognition. The traditional form of the formula, written in terms of $\pi$, is ugly and unnatural. As we'll see in this section, when written in terms of $\tau$ the formula is elegant and beautiful, thus providing yet another argument for $\tau$. (\emph{Note}: This section is substantially more advanced that the rest of the manifesto and can be skipped without loss of continuity.)
-
-An $n$-sphere is the set of all points a fixed distance (the radius) away from a given point (the center) in $n$-dimensional space ($\mathbb{R}^n$). We can represent such an object conveniently by centering it on the origin and writing an equation for the distance squared. For example, a $2$-sphere (that is, a circle) centered on the origin satisfies the equation
+The generalization of a circle to arbitrary dimensions, called a \emph{hypersphere} or an \emph{$n$-sphere}, can be defined as follows.\footnote{This discussion base on \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{an excellent comment by John Kodegadulo} at \href{http://spikedmath.com/}{spikedmath.com}.} (For convenience, we assume that these spheres are centered on the origin.) A $0$-sphere is the empty set, and we define its ``interior'' to be a point.\footnote{This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.} A $1$-sphere is the set of all points satisfying 
+\[
+x^2 = r^2,
+\]
+which consists of the two points $\pm r$. Its interior, which satisfies
+\[
+x^2 \leq r^2,
+\]
+is the line segment from $-r$ to $r$. A $2$-sphere is a circle, which is the set of all points satisfying 
 \[
 x^2 + y^2 = r^2.
 \]
-Similarly, a $3$-sphere (that is, an ordinary sphere) satisfies
+Its interior, which satisfies,
 \[
-x^2 + y^2 + z^2 = r^2.
+x^2 + y^2 \leq r^2,
 \]
-The generalization to arbitrary~$n$, although difficult to visualize for $n > 3$, is straightforward:
+is a disk. Similarly, a $3$-sphere satisfies
+\[
+x^2 + y^2 + z^2 = r^2,
+\]
+and its interior is a ball. The generalization to arbitrary~$n$, although difficult to visualize for $n > 3$, is straightforward: an $n$-sphere is the set of all points satisfying
 \[
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
-(There is some ambiguity about whether, e.g., a ``$2$-sphere'' is a circle or a disk, but in general this should be clear from context. For example, the ``volume of a $2$-sphere'' obviously refers to the area of a disk.)
 
-The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes the volume of a unit $n$-sphere as an argument in favor of $\pi$:
+We turn now to the notions of surface area~$S$ and volume~$V$. We'll define the volume of a discrete set of points to be the number of points, so that the surface area of a $0$-sphere is $0$ and its volume is $1$:
 \[
-\frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
+S_0 = 0\qquad V_0 = 1.
 \]
-where (as noted in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) the Gamma function is $\Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx$. This is a special case of the general formula, which is also typically written in terms of $\pi$:
-\[ V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}. \]
-Before proceeding, we should note that this formula, when written in terms of $\tau$, has a pleasing recurrence of factors of $1/2$:
-\[ V_n(r) = \frac{(\textstyle{\frac{\tau}{2}})^{\frac{n}{2}} r^n}{\Gamma(1 + \frac{n}{2})}. \]
-By itself this isn't a strong argument, but it shows that the case for $\pi$ isn't completely clear-cut. And unfortunately for $\pi$, the case gets far worse from here.
+The surface area of a $1$-sphere is just $2$ (one for each point), while the volume is the length of the interior, which is $2r$:
+\[
+S_1 = 2\qquad V_0 = 2r.
+\]
+Note that so far all coefficients have been integers. Not so for the $2$-sphere, whose ``surface area'' can be written as follows:
+\[
+S_2 = \tau\, r.
+\]
+Of course, $S_2$ is simply the circumference of a circle, and this equation serves to define~$\tau$:
+\[
+\tau \equiv \frac{S_2}{r} = \frac{C}{r} = 6.283185\ldots
+\]
+We can calculate the ``volume'' of the $2$-sphere (that is, the area of a circular disk) using the fundamental relationship
+\[
+V_n = \int_0^r S_n\,dr.
+\]
+The result for $n=2$ is the familiar equation
+\[
+V_2 = \int_0^r S_2\,dr = \int_0^r \tau\,r\,dr = \frac{1}{2}\tau\,r^2.
+\]
 
-We'll plant an initial seed of doubt by noting that, in the case of a $2$-sphere (i.e., a circular disk), we know from Section~\ref{sec:circular_area} that there is a hidden factor of~$2$:
-\[ A = V_2(r) = \pi r^2 = \textstyle{\frac{1}{2}} (2\pi) r^2 = \textstyle{\frac{1}{2}} \tau\,r^2. \] In addition, the volume of a $3$-sphere has an even number in front of $\pi$, leading to another factor of~$2$:
-\[ V = V_3(r) = \frac{4\pi}{3} r^3 =  \frac{2 (2\pi)}{3} r^3 = \frac{2\tau}{3} r^3. \]
-These examples suggest that perhaps the volume of an $n$-sphere might have natural factors of $2\pi$ for $n > 3$ as well.
+We can derive the surface areas and volumes for higher dimensions using the following recurrence, which is stated without proof:\footnote{See, e.g., \href{http://en.wikipedia.org/wiki/N-sphere\#Volume_and_surface_area}{the Wikipedia article on the N-sphere}.}
+\[
+S_n = V_{n-2}\,C.
+\]
+This says that we can find the $n$-dimensional surface area by taking the volume from two previous dimensions and multiplying by the circumference of a circle. The volumes themselves follow by integration. For $n=3$, we get
+\[
+S_3 = V_1\cdot C = (2r)(\tau\,r) = 2\tau\,r^2
+\]
+and
+\[
+V_3 = \int_0^r S_3\,dr = \int_0^r 2\tau\,r^2\,dr = \frac{2}{3}\tau\,r^3.
+\]
+For $n=4$, we get
+\[
+S_4 = V_2\cdot C = ({\textstyle\frac{1}{2}}\tau\,r^2)(\tau\,r) = \frac{1}{2}\tau^2 r^3,
+\]
+and
+\[
+V_4 = \int_0^r S_4\,dr = \int_0^r \frac{1}{2}\tau^2 r^3\,dr = \frac{1}{2\cdot 4}\tau^2 r^4.
+\]
+Continuing the process for higher values of $n$ yields Table~\ref{table:n_sphere_volumes}. Note that, because $V_0 = 1 \neq V_1 = 2r$, the recurrence $S_n = V_{n-2}\,C$ naturally divides the volumes into two different categories depending on whether $n$ is even or odd.
 
-We begin our analysis by noting that the apparent simplicity of the volume formula is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
+\begin{table}
+\begin{center}
+\begin{tabular}{ll|ll}
+\multicolumn{2}{c}{Even $n$} & \multicolumn{2}{c}{Odd $n$} \\ \hline
+$S_0 = 0$ & $V_0 = 1$ & $S_1 = 2$ & $V_1 = 2r$ \smallskip \\ 
+$S_2 = \tau\,r$ & $V_2 = \frac{1}{2}\tau\,r^2$ & $S_3 = 2\tau\,r^2$ & $V_3 = \frac{2}{3} \tau\,r^3$ \smallskip \\ 
+$S_4 = \frac{1}{2}\tau^2 r^3$ & $V_4 = \frac{1}{2\cdot 4}\tau^2 r^4$ & $S_5 = \frac{2}{3} \tau^2 r^4$ & $V_5 =\frac{2}{3\cdot 5} \tau^2 r^5$ \smallskip \\ 
+$S_6 = \frac{1}{2\cdot 4}\tau^3 r^5$ & $V_6 =\frac{1}{2\cdot 4\cdot 6}\tau^3 r^6$ & $S_7 = \frac{2}{3\cdot 5} \tau^3 r^6$ & $V_7 = \frac{2}{3\cdot 5\cdot 7} \tau^3 r^7$ \smallskip \\ 
+$S_8 = \frac{1}{2\cdot 4\cdot 6}\tau^4 r^7$ & $V_8 = \frac{1}{2\cdot 4\cdot 6\cdot 8}\tau^4 r^8$ & $S_9 = \frac{2}{3\cdot 5\cdot 7} \tau^4 r^8$ & $V_9 = \frac{2}{3\cdot 5\cdot 7\cdot 9} \tau^4 r^9$ \smallskip \\ 
+$S_{10} = \frac{1}{2\cdot 4\cdot 6\cdot 8}\tau^5 r^9$ & $V_{10} = \frac{1}{2\cdot 4\cdot 6\cdot 8\cdot 10}\tau^5 r^{10}$ & $S_{11} = \frac{2}{3\cdot 5\cdot 7\cdot 9} \tau^5 r^{10}$ & $V_{11} = \frac{2}{3\cdot 5\cdot 7\cdot 9\cdot 11} \tau^5 r^{11}$ 
+\end{tabular}
+\end{center}
+\caption{Surface areas and volumes of $n$-spheres.\label{table:n_sphere_volumes}}
+\end{table}
+
+Based on the entries in Table~\ref{table:n_sphere_volumes}, we see that \emph{$\tau$ is the fundamental constant for $n$-spheres}. Using any constant other than $\tau$ introduces an additional factor into every expression. For example, if we work in terms of $\pi = \tau/2$, we introduce a factor of $2$ everywhere. Substituting $D/2$ for $r$ doesn't cancel this factor of $2$ except coincidentally: as shown in Table~\ref{table:n_sphere_volumes_pi_D}, in general the powers of $\tau$ are different from the powers of~$r$.
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ll|ll}
+\multicolumn{2}{c}{Even $n$} & \multicolumn{2}{c}{Odd $n$} \\ \hline
+$S_0 = 0$ & $V_0 = 1$ & $S_1 = 2$ & $V_1 = 2\left(\frac{D}{2}\right)$ \smallskip \\ 
+$S_2 = (2\pi) \left(\frac{D}{2}\right)$ & $V_2 = \frac{1}{2}(2\pi)\,\left(\frac{D}{2}\right)^2$ & $S_3 = 2(2\pi)\,\left(\frac{D}{2}\right)^2$ & $V_3 = \frac{2}{3} (2\pi)\,\left(\frac{D}{2}\right)^3$ \smallskip \\ 
+$S_4 = \frac{1}{2}(2\pi)^2 \left(\frac{D}{2}\right)^3$ & $V_4 = \frac{1}{2\cdot 4}(2\pi)^2 \left(\frac{D}{2}\right)^4$ & $S_5 = \frac{2}{3} (2\pi)^2 \left(\frac{D}{2}\right)^4$ & $V_5 =\frac{2}{3\cdot 5} (2\pi)^2 \left(\frac{D}{2}\right)^5$ \smallskip \\ 
+$S_6 = \frac{1}{2\cdot 4}(2\pi)^3 \left(\frac{D}{2}\right)^5$ & $V_6 =\frac{1}{2\cdot 4\cdot 6}(2\pi)^3 \left(\frac{D}{2}\right)^6$ & $S_7 = \frac{2}{3\cdot 5} (2\pi)^3 \left(\frac{D}{2}\right)^6$ & $V_7 = \frac{2}{3\cdot 5\cdot 7} (2\pi)^3 \left(\frac{D}{2}\right)^7$ \smallskip \\ 
+$S_8 = \frac{1}{2\cdot 4\cdot 6}(2\pi)^4 \left(\frac{D}{2}\right)^7$ & $V_8 = \frac{1}{2\cdot 4\cdot 6\cdot 8}(2\pi)^4 \left(\frac{D}{2}\right)^8$ & $S_9 = \frac{2}{3\cdot 5\cdot 7} (2\pi)^4 \left(\frac{D}{2}\right)^8$ & $V_9 = \frac{2}{3\cdot 5\cdot 7\cdot 9} (2\pi)^4 \left(\frac{D}{2}\right)^9$ \smallskip \\ 
+$S_{10} = \frac{1}{2\cdot 4\cdot 6\cdot 8}(2\pi)^5 \left(\frac{D}{2}\right)^9$ & $V_{10} = \frac{1}{2\cdot 4\cdot 6\cdot 8\cdot 10}(2\pi)^5 \left(\frac{D}{2}\right)^{10}$ & $S_{11} = \frac{2}{3\cdot 5\cdot 7\cdot 9} (2\pi)^5 \left(\frac{D}{2}\right)^{10}$ & $V_{11} = \frac{2}{3\cdot 5\cdot 7\cdot 9\cdot 11} (2\pi)^5 \left(\frac{D}{2}\right)^{11}$ 
+\end{tabular}
+\end{center}
+\caption{Surface areas and volumes of $n$-spheres in terms of $\pi$ and $D$.\label{table:n_sphere_volumes_pi_D}}
+\end{table}
+
+  % subsection volume_of_a_hypersphere (end)
+
+  \subsection{Three families of constants} % (fold)
+  \label{sec:three_families_of_constants}
+
+We have nearly gotten to the bottom of $\pi$. To complete the excavation, we'll need general formulas for the surface area and volume of an $n$-sphere. To derive them, we'll proceed inductively using the formulas from Section~\ref{sec:volume_of_a_hypersphere}. (An alternate method is discussed in an appendix (Section~\ref{sec:untangling_the_hypersphere}).)
+ 
+ We'll start with the examples in Table~\ref{table:n_sphere_volumes}. We see that the denominators consist of products of numbers such as $1\cdot3\cdot5$ and $2\cdot4\cdot6$. Since we built up these formulas recursively, this ascending order was more natural for our purposes, but of course using commutativity we can rearrange them in descending order as follows: $5\cdot3\cdot1$ and $6\cdot4\cdot2$. Written this way, we see that the products bear a strong resemblance to the \emph{factorial function}:
 \[ 
-\Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
+n! = n(n-1)(n-2)\ldots 2\cdot 1.
 \]
-Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
-
-In the $n$-dimensional volume formula, the argument of $\Gamma$ is not necessarily an integer, but rather is ($1 + \frac{n}{2}$), which is an integer when $n$ is even and is a half-integer when $n$ is odd. The simplification in this case, applied to the formula for the volume of an $n$-sphere, appears as follows:
-\[ V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
- This equation was originally taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual it is written in terms of~$\pi$.
-
-Let's examine this formula in more detail to see where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \times 3 \times 1$ and $6!! = 6 \times 4 \times 2$. In general, we have
+The difference here is that each successive term differs by $2$ instead of by $1$. The resulting function, called the \emph{double factorial function}, is uncommon but elementary:
 \[ n!! = \begin{cases}
  n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
  n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
  \end{cases} \]
- Notice that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious. 
+Inspecting Table~\ref{table:n_sphere_volumes} closely shows that the surface area formulas contain factors of $(n-2)!!$, while the volume formulas contain $n!!$.
 
-To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$:
-\[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
-Upon examining the expression
-\[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
-we notice that it can be rewritten as
-\[ 2(2\pi)^{(n-1)/2}, \]
-and here we recognize our old friend~$2\pi$. 
+We also notice from Table~\ref{table:n_sphere_volumes} that the factors of $\tau$ increase every \emph{two} dimensions, so that the even and odd formulas on each row have the same power of $\tau$. In particular, we have a factor of $\tau^{n/2}$ when $n$ is even and $\tau^{(n-1)/2}$ when $n$ is odd. We can unify these formulas using the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). With this, we see that each formula has a factor of~$\tau^{\lfloor\frac{n}{2}\rfloor}$. For example, when $n=4$ we have $\tau^{\lfloor\frac{4}{2}\rfloor} = \tau^{\lfloor2\rfloor} = \tau^2$, and when $n=5$ we have $\tau^{\lfloor\frac{5}{2}\rfloor} = \tau^{\lfloor2+1/2\rfloor} = \tau^2$, yielding the same power of~$\tau$.
 
-Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
-\[ 
-V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots & \text{if } n \text{ is even}; \\ \\
- \ldots & \text{if } n \text{ is odd}.
- \end{cases}
-\]
-So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
-\[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
-(This is easy to verify using \href{http://en.wikipedia.org/wiki/Mathematical_induction}{mathematical induction}.) Substituting this into the volume formula for even $n$ then yields
-\[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \] 
-which bears a striking resemblance to
-\[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \] 
-and again we find a factor of $2\pi$.
-
-Putting these results together, we see that the volume of an $n$-sphere can be rewritten as
-\[ V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
-Making the substitution $\tau=2\pi$ then yields
-\[ V_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
-To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
-\[ V_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!} & \text{if } n \text{ is odd},
- \end{cases} \]
-which allows us to write the formula as follows:
-\[ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
+Putting everything together, we have the following general formulas:
+\[ S_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
  1 & \text{if } n \text{ is even}; \\ \\
  2 & \text{if } n \text{ is odd}.
  \end{cases} \]
- As a final simplification, we can define
- \[
- c_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}\times \begin{cases}
+ and
+\[ V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
  1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd},
+ 2 & \text{if } n \text{ is odd}.
+ \end{cases} \]
+ (See the appendix in Section~\ref{sec:untangling_the_hypersphere} to see how much better these expressions are than the ones found in standard references.) We see from these formulas that the surface area and volume formulas define two \emph{families} of constants, which we'll call $\tau_n$ and $\sigma_n$:
+\[
+\tau_n \equiv \frac{S_n}{r^{n-1}} = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}\times \begin{cases}
+ 1 & \text{if } n \text{ is even}; \\ \\
+ 2 & \text{if } n \text{ is odd}.
  \end{cases}
- \]
- so that the $n$-dimensional volume can be written as
- \[ V_n(r) = c_n\, r^n. \]
- The improvement on the original $\pi$-encrusted monstrosity is unmistakable.
+\]
+and 
+\[
+\sigma_n \equiv \frac{V_n}{r^n} = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}\times \begin{cases}
+ 1 & \text{if } n \text{ is even}; \\ \\
+ 2 & \text{if } n \text{ is odd}.
+ \end{cases}
+\]
+%(Note that $\tau_2 = S_2/r^{2-1} = \tau^{1/1}/(2-2)!! = \tau$. This is a consistency check, not a coincidence, because $\tau = S_2/r$ by definition.) 
+With these families of constants, we can write the surface area and volume formulas compactly as follows:
+\[ S_n = \tau_n\,r^{n-1} \]
+and
+\[ V_n = \sigma_n\,r^n. \]
+Because of the relation $V_n = \int S_n\,dr$, we have the simple relationship
+\[
+\sigma_n = \frac{\tau_n}{n}.
+\]
+You can verify by plugging in different values of $n$ that these surface area and volume formulas reproduce the values shown in Table~\ref{table:n_sphere_volumes}.
 
- We are now in a position to fully understand the formula for circular area and its higher-dimensional generalizations. The number $\pi$ is just $c_2$:
+Let us make some observations about these two families of constants. The first and most important observation is that $\tau$ is the only constant common to every member of the two families. To understand the family $\tau_n$, we can set $r=1$ to see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
 \[
-\pi = c_2 = \frac{\tau^{\left\lfloor\frac{2}{2}\right\rfloor}}{2!!} = \frac{\tau}{2}.
+\theta_n \equiv \frac{s_n}{r^{n-1}} = \frac{f S_n}{r^{n-1}} = f\left(\frac{S_n}{r^{n-1}}\right) = f\tau_n.
 \]
-We see here that the factor of $1$ in front of $\pi$ in $\pi r^2$ is a coincidence: it's only because the denominator is $2!! = 2$ that it cancels with the $2$ in $2\pi$. In higher dimensions, there is no such cancellation; for example, when $n=3$, we have
+Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why $\tau_2 = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
+
+Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\sigma_2$ is the area of a unit disk:
 \[
-c_3 = 2\frac{\tau^{\left\lfloor\frac{3}{2}\right\rfloor}}{3!!} = \frac{2\tau}{3},
+\sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
 \]
-when $n=4$, we have
+This shows that $\sigma_2 = \tau/2 = 3.14159\ldots$ does have an independent geometric significance. Note, however, that not only does $\sigma_2$ ultimately derive its value from $\tau$, \emph{it has nothing to do with circumferences or diameters}. In other words, \emph{$\pi = C/D$ is not a member of the family~$\sigma_n$}.
+
+So, to which family of constants does $\pi$ naturally belong?
+Let's rewrite $\pi = C/D$ in terms more appropriate for generalization to higher dimensions:
 \[
-c_4 = \frac{\tau^{\left\lfloor\frac{4}{2}\right\rfloor}}{4!!} = \frac{\tau^2}{8},
+\pi = \frac{C}{D} = \frac{S_2}{D^{2-1}},
 \]
-and so on. In other words, $\pi$ is part of a \emph{family} of sphere constants $c_n$, each of which depends explicitly on the dimension of the sphere. The only part of the family that is \emph{independent} of the dimensionality is the circle constant:~$\tau$.
+We thus see that $\pi$ is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant.
+This suggests introducing a third family of constants $\pi_n$:
+\[
+\pi_n \equiv \frac{S_n}{D^{n-1}}.
+\]
+We can express this family in terms of the $\tau_n$ as follows:
+\[
+\pi_n = \frac{S_n}{D^{n-1}} = \frac{S_n}{(2r)^{n-1}} = 
+\frac{S_n}{2^{n-1}r^{n-1}} = \frac{\tau_n}{2^{n-1}}.
+\]
+
+We are now finally in a position to understand exactly what is wrong with $\pi$. The principal geometric significance of $3.14159\ldots$ is that it is the area of a unit disk. But this number comes from evaluating $\sigma_n = \tau_n/n$ when $n=2$:
+\[
+\sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
+\]
+It's true that this equals $\pi_2$:
+\[
+\pi_2 = \pi = \frac{\tau_2}{2^{2-1}} = \frac{\tau}{2}.
+\]
+But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to equal $n$ when $n=2$. In all higher dimensions, $n$ and $2^{n-1}$ are distinct. In other words, \emph{the geometric significance of $\pi$ is the result of a mathematical pun}.
+
+As seen clearly in Table~\ref{table:n_sphere_volumes_pi_D}, there is no earthly reason why you would want to divide $S_n$ by $D^{n-1}$. An $n$-sphere is defined by its \emph{radius}, not by its diameter. The $\pi_n$ family of constants, including $\pi$ itself, has no particular geometric significance whatsoever.
   
-  % subsection volume_of_a_hypersphere (end)
+  % subsection three_families_of_constants (end)
 
   \subsection{What is really going on here?} % (fold)
   \label{sec:what_is_really_going_on}
 
-  Even after reading this manifesto, you might be tempted by the thought that the difference between $\pi$ and $\tau$ isn't really that important after all. You may find yourself saying, ``Both numbers are important: sometimes $\pi$ is better, sometimes $\tau$ is more natural, and sometimes they are equally good.'' For example, consider the famous \href{http://en.wikipedia.org/wiki/Leibniz_formula_for_pi}{Leibniz series} for $\pi$: \[ \frac{\pi}{4} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] Is it really any better to write \[ \frac{\tau}{8} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] instead? As in previous examples, we could make a \emph{specific} argument for $\tau$, in this case by noting that the Leibniz series is simply the \href{http://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Infinite_series}{infinite series for  $\arctan x$} evaluated at $x=1$, which is the angle where sine and cosine are equal, which is an eighth of a turn, which is $\tau/8$. This same issue afflicts many arguments in the Pi Manifesto, which includes formulas such as elliptical area ($\pi a b$, which comes from integrating an elliptical function from $0$ to $2\pi$) and integrals such as
+Even after reading this manifesto, you might be tempted by the thought that the difference between $\pi$ and $\tau$ isn't really that important after all. You may find yourself saying, ``Both numbers are important: sometimes $\pi$ is better, sometimes $\tau$ is more natural, and sometimes they are equally good.'' For example, consider the famous \href{http://en.wikipedia.org/wiki/Leibniz_formula_for_pi}{Leibniz series} for $\pi$: \[ \frac{\pi}{4} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] Is it really any better to write \[ \frac{\tau}{8} = 1 - 1/3 + 1/5 - 1/7 + \cdots \] instead? 
+
+As in previous examples, we could make a \emph{specific} argument for $\tau$, in this case by noting that the Leibniz series is simply the \href{http://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Infinite_series}{infinite series for  $\arctan x$} evaluated at $x=1$, which is the angle where sine and cosine are equal, which is an eighth of a turn, which is $\tau/8$. This same issue afflicts many arguments in the Pi Manifesto, which includes formulas such as elliptical area ($\pi a b$, which comes from integrating an elliptical function from $0$ to $2\pi$) and integrals such as
 \[ 
-\int_{-1}^1 \frac{1}{\sqrt{1-x^2}}\,dx,
+\int_{-1}^1 \frac{1}{\sqrt{1-x^2}}\,dx = \pi,
 \]
-which evaluates to $\sin^{-1}(1) - \sin^{-1}(-1)$, i.e., the difference between where $\sin\theta$ is $1$ (a quarter turn) and $-1$ (a negative quarter turn): $\tau/4 - (-\tau/4) = \tau/2$. \href{http://en.wiktionary.org/wiki/und_so_weiter}{\emph{Und so weiter}}. It's tempting to try to counter every one of the many formulas involving $\pi$ on a case-by-case basis---indeed, my life as a tauist has involved becoming an expert on these Tau-mudic minutiae, defending $\tau$ one formula at a time---but unfortunately such examples are inexhaustible because the number $\tau/2$ is, in fact, important.
+which evaluates to $\sin^{-1}(1) - \sin^{-1}(-1)$, i.e., the difference between where $\sin\theta$ is $1$ (a quarter turn) and $-1$ (a negative quarter turn): $\tau/4 - (-\tau/4) = \tau/2$. \href{http://en.wiktionary.org/wiki/und_so_weiter}{\emph{Und so weiter}}. 
 
- Resolving this tension requires wading into some deep philosophical waters about the nature of mathematical notation. Computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond raises these issues in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}, suggesting a systematic audit of mathematics: ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others' work. Most compact notation wins!'' I am confident that $\tau$ would win such a contest in a fair fight, but we immediately face the issue of defining ``fair''---i.e., we would have to develop an unambiguous way to evaluate the complexity of any given representation. It's not always obvious how to do this. For instance, in an important sense $\frac{1}{2}\tau\,r^2$ is simpler than $\pi r^2$, despite using more symbols, because it follows the pattern of other quadratic forms (and of other $n$-dimensional spherical volumes). Moreover, even if we could agree on the metric, we have seen that teasing out the missing factors of~$2$ often requires arduous effort, so performing such an audit would be a \href{http://en.wikipedia.org/wiki/Brobdingnag}{Brobdingnagian} task---one we tauists would rather avoid tackling directly.
+Fortunately, there is no need to do this case-by-case refutation of $\pi$: we saw in Section~\ref{sec:volume_of_a_hypersphere} that all occurrences of $\pi$ ultimately trace to the equation
+\[
+C = 2\pi r,
+\]
+which is unambiguously simpler in terms of $\tau$:\footnote{This addresses an issue raised by computer \href{http://www.catb.org/~esr/faqs/hacker-howto.html}{hacker} and mathematical philosopher Eric Raymond in his post \href{http://esr.ibiblio.org/?p=3481}{Tau versus Pi}. He suggests that ``Representatives of the Tauists and the pi partisans should be locked in a mathematics library until they choose a list of books and papers that covers trigonometry, calculus, and analysis. Then, the burden should be on the Tauists to translate the entire pile into $\tau$ notation. Then, both sides should count symbols, checking each others' work. Most compact notation wins!'' Such an audit is unnecessary, because all occurrences of $\pi$ ultimately derive from $C = 2\pi r$. We need only compare that equation with $C = \tau\,r$, and there is no doubt about which one uses fewer symbols.}
+\[
+C = \tau\,r.
+\]
+It makes no more sense to have a separate symbol for $\tau/2$ than it does to have a separate symbol for $1/2$. Indeed, imagine we lived in a world where we used the letter $h$ to represent ``one half'' and had no separate notation for $2h$. We would then observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? But this is crazy: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it $1$. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. 
 
-Instead of making a frontal assault on this problem, let's make an oblique approach. Consider an analogy: imagine we lived in a world where we used the letter $h$ to represent ``one half'' and had no separate notation for $2h$. We would then observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? All mathematicians and geeks agree, $h$ is where it's at. But this is madness: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it ``$1$''. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. 
+This hypothetical scenario becomes reality in the case of circles: what is really going on here is that \emph{$\pi$ is half of something}. We have a standard symbol ($\pi$) for half a ``circular unit'', but we have no standard symbol for the unit itself. Whether we use $\tau$ or some other symbol, \emph{the circular unit needs a name}. If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
 
-Now, there is no doubt that the set $\{ 1, 1/2 \}$ would defeat $\{ h, 2h \}$ in a Raymond-style complexity audit, even though $h$ uses fewer symbols than $1/2$. I admit I feel the tug here of mathematical Platonism---Is the presumed result of such an audit the \emph{real} reason people prefer~$1$ over $2h$?---but we can certainly all agree on the result, regardless of method. Since we've seen in this manifesto that, with respect to circles, $\tau$ is a ``unit'' (one turn), while $\pi$ is half that unit, we can conclude that $\{ \tau, \tau/2 \}$ is better than $\{ \pi, 2\pi \}$ for the same reason that $\{ 1, 1/2 \}$ is better than $\{ h, 2h \}$---thereby saving Eric the trouble of chaining us inside a mathematics library for the foreseeable future.
-
-We are now in a position to see why comparing $\pi/4$ with $\tau/8$ misses the point: saying that $\pi/4$ is just as good as $\tau/8$ is like saying that $h/4$ is just as good as $1/8$. They are mathematically equivalent, but $\tau$, like $1$, is more \emph{fundamental}, and this is reason enough to use the version with $\tau$. If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
-  
   % subsection what_is_really_going_on (end)
 
 \section{Conclusion}
@@ -749,9 +836,9 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
   \subsection{Embrace the tau} % (fold)
   \label{sec:embrace_the_tau}
   
-We have seen in \emph{The Tau Manifesto} that the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius. This number needs a name, and I hope you will join me in calling it $\tau$:
+We have seen in \emph{The Tau Manifesto} that the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius. This number needs a name, and I hope you will join me in calling it~$\tau$:
 \[
-  \mathrm{circle\ constant} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
+  \mathrm{circular\ unit} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
 The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool diagram (Figure~\ref{fig:tauism}). We see in Figure~\ref{fig:tauism} a movement through \emph{yang} (``light, white, moving up'') to $\tau/2$ and a return through \emph{yin} (``dark, black, moving down'') back to $\tau$.\footnote{The interpretations of yin and yang quoted here are from \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} by Aaron Hoopes.} Using $\pi$ instead of $\tau$ is like having \emph{yang} without \emph{yin}.
 
@@ -805,5 +892,104 @@ Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#f
 \emph{The Tau Manifesto}. Copyright \copyright\ 2011 by Michael Hartl. Please feel free to share \emph{The Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons Attribution 3.0 Unported License}. This means that you can adapt it, translate it, or even include it in commercial works, as long as you attribute it to me (Michael Hartl) and link back to tauday.com. You also have permission to distribute copies of \href{http://tauday.com/pdf}{\emph{The Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. \emph{Go forth and spread the good news about~$\tau$!}
 
     % subsubsection copyright_and_license (end)
+
+    \subsubsection{Appendix: Untangling the hypersphere} % (fold)
+    \label{sec:untangling_the_hypersphere}
+
+As discussed in Section~\ref{sec:getting_to_the_bottom_of_pi}, at first glance the volume of a hypersphere (or $n$-sphere) looks to be a win for $\pi$, but in fact this formula proved to be $\pi$'s undoing. This appendix presents an alternate route to the same conclusion. For convenience, this appendix is reasonably self-contained, so that (for example) we assume no knowledge of the floor function or of double factorials.
+
+We start with the general formula for the volume of an $n$-sphere. The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes this expression for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
+\[
+\frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
+\]
+where (as noted in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) the Gamma function is
+\[ \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
+\] 
+This is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
+\[ V_n = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}. \]
+Because $V_n = \int S_n\,dr$, we have $S_n = dV_n/dr$, which means that the surface area can be written as follows:
+\[ S_n = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}. \]
+
+We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
+\[ 
+\Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
+\]
+Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
+
+In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is ($1 + \frac{n}{2}$), which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
+\[ S_n = \begin{cases}
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd}.
+ \end{cases} \]
+Integrating with respect to $r$ then gives
+\[ V_n = \begin{cases}
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
+ \end{cases} \]
+ As we'll see, these monstrous ``standard'' formulas are case studies in broken pattern recognition. 
+
+Let's examine the volume formula in more detail to see exactly where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
+\[ n!! = \begin{cases}
+ n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
+ n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
+ \end{cases} \]
+ (By definition, $0!! = 1!! = 1$.) Note that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious. 
+
+To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$:
+\[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
+Upon examining the expression
+\[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
+we notice that it can be rewritten as
+\[ 2(2\pi)^{(n-1)/2}, \]
+and here we recognize our old friend~$2\pi$. 
+
+Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
+\[ 
+V_n = \frac{1}{n!!}\times \begin{cases}
+\ldots & \text{if } n \text{ is even}; \\ \\
+ \ldots & \text{if } n \text{ is odd}.
+ \end{cases}
+\]
+So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
+\[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
+(This is easy to verify using \href{http://en.wikipedia.org/wiki/Mathematical_induction}{mathematical induction}.) Substituting this into the volume formula for even $n$ then yields
+\[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \] 
+which bears a striking resemblance to
+\[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \] 
+and again we find a factor of $2\pi$.
+
+Putting these results together, we see that the volume of an $n$-sphere can be rewritten as
+\[ V_n = \begin{cases}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}
+ \end{cases} \]
+and its surface area is 
+\[ S_n = \begin{cases}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+ \end{cases} \]
+Making the substitution $\tau=2\pi$ then yields
+\[ S_n = \begin{cases}
+ \displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+ \end{cases} \]
+To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
+\[ S_n = \begin{cases}
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd},
+ \end{cases} \]
+which allows us to write the formula as follows:
+\[ S_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
+ 1 & \text{if } n \text{ is even}; \\ \\
+ 2 & \text{if } n \text{ is odd}.
+ \end{cases} \]
+Integrating with respect to $r$ then yields
+\[ V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
+ 1 & \text{if } n \text{ is even}; \\ \\
+ 2 & \text{if } n \text{ is odd}.
+ \end{cases} \]
+We thus recover the same elegant formulas derived inductively in Section~\ref{sec:three_families_of_constants}. The improvement over the original ``standard'', $\pi$-encrusted monstrosities is unmistakable. % Anyone comparing the two cases who still thinks the volume of a hypersphere provides an argument in favor of $\pi$ is beyond the reach of reason.
+
+    % subsubsection untangling_the_hypersphere (end)
 
 \end{document}
