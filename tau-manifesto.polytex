@@ -467,7 +467,7 @@ As usual, appearances are deceiving: the value of $N$ comes from the product
 \[
 \frac{1}{\sqrt{2\pi}} \frac{1}{\sqrt{2}} \frac{2}{a_0^{3/2}},
 \]
-which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence. We'll have more to say about this game of $\pi$ \href{http://en.wikipedia.org/wiki/Whac-A-Mole}{whack-a-mole} in Section~\ref{sec:what_is_really_going_on}.
+which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence. We'll have more to say about this game of $\pi$ \href{http://en.wikipedia.org/wiki/Whac-A-Mole}{Whac-A-Mole} in Section~\ref{sec:what_is_really_going_on}.
 
     % subsubsection ambiguous_notation (end)
 
