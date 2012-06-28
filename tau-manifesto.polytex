@@ -717,7 +717,7 @@ Let's rewrite $\pi = C/D$ in terms more appropriate for generalization to higher
 \pi = \frac{C}{D} = \frac{S_2}{D^{2-1}}.
 \]
 We thus see that $\pi$ is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant.
-This suggests introducing a third family of constants $\pi_n$:
+This suggests introducing a third family of constants~$\pi_n$:
 \[
 \pi_n \equiv \frac{S_n}{D^{n-1}}.
 \]
