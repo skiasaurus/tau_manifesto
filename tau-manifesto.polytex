@@ -535,7 +535,7 @@ case of angle measure. In contrast, in the case of area the factor of $1/2$ aris
 \section{Getting to the bottom of pi} % (fold)
 \label{sec:getting_to_the_bottom_of_pi}
 
-On Half Tau Day, 2012, while meditating on a claim made in the \href{http://www.thepimanifesto.com/}{Pi Manifesto}, I had an epiphany: \emph{I had gotten to the bottom of it}. I realized \emph{exactly} what is wrong with $\pi$. 
+On Half Tau Day, 2012, while meditating on a claim made in the \href{http://www.thepimanifesto.com/}{Pi Manifesto}, I had an epiphany: I realized \emph{exactly} what is wrong with $\pi$. 
 
 The Pi Manifesto asserts that the volume formula for an $n$-dimensional sphere is a clear win for $\pi$---but in fact it represents $\pi$'s undoing. As we'll see, the general formulas for the surface area and volume of an $n$-dimensional sphere (which contain the circumference and area of a circle as special cases) leave no doubt that $\tau$, not $\pi$, is the more fundamental constant. 
 
