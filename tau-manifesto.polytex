@@ -762,7 +762,9 @@ C = \tau\,r.
 \]
 It makes no more sense to have a separate symbol for $\tau/2$ than it does to have a separate symbol for $1/2$. Indeed, imagine we lived in a world where we used the letter $h$ to represent ``one half'' and had no separate notation for $2h$. We would then observe that $h$ is ubiquitous in mathematics. In fact, $2h$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, so how can one doubt the importance of $h$? But this is crazy: $2h$ is the fundamental number, not $h$. Let us therefore introduce a separate symbol for $2h$; call it $1$. We then see that $h = 1/2$, and there is no longer any reason to use $h$ at all. 
 
-This hypothetical scenario becomes reality in the case of circles: what is really going on here is that \emph{$\pi$ is half of something}. We have a standard symbol ($\pi$) for half a ``circular unit'', but we have no standard symbol for the unit itself. Whether we use $\tau$ or some other symbol, \emph{the circular unit needs a name}. If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
+This hypothetical scenario becomes reality in the case of circles: what is really going on here is that \emph{$\pi$ is half of something}. We have a standard symbol ($\pi$) for half a ``circular unit'', but we have no standard symbol for the unit itself. Whether we use $\tau$ or some other symbol, \emph{the circular unit needs a name}. 
+
+If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
 
   % subsection what_is_really_going_on (end)
 
