@@ -571,7 +571,7 @@ S_0 = 0\qquad V_0 = 1.
 \]
 The surface area of a $1$-sphere is just $2$ (one for each point), while the volume is the length of the interior, which is $2r$:
 \[
-S_1 = 2\qquad V_0 = 2r.
+S_1 = 2\qquad V_1 = 2r.
 \]
 Note that so far all coefficients have been integers. Not so for the $2$-sphere, whose ``surface area'' can be written as follows:
 \[
