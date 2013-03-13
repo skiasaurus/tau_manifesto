@@ -762,7 +762,7 @@ We have been on quite a journey in this manifesto, and have discovered the follo
 \begin{itemize}
   \item Radian angle measure is much simpler in terms of $\tau$.
   \item Circular area has a natural factor of $1/2$.
-  \item The constant $C/D$ has practical value but no particular mathematical significance.
+  \item The constant $C/D$ has some practical value but no particular mathematical significance.
   \item The fundamental constant of $n$-spheres is $\eta = \tau/4$.
 \end{itemize}
 
@@ -868,104 +868,5 @@ Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#f
 \emph{The Tau Manifesto}. Copyright \copyright\ 2013 by Michael Hartl. Please feel free to share \emph{The Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons Attribution 3.0 Unported License}. This means that you can adapt it, translate it, or even include it in commercial works, as long as you attribute it to me (Michael Hartl) and link back to tauday.com. You also have permission to distribute copies of \href{http://tauday.com/pdf}{\emph{The Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. \emph{Go forth and spread the good news about~$\tau$!}
 
     % subsubsection copyright_and_license (end)
-
-    \subsubsection{Appendix: Untangling the hypersphere} % (fold)
-    \label{sec:untangling_the_hypersphere}
-
-As discussed in Section~\ref{sec:getting_to_the_bottom_of_pi}, at first glance the volume of a hypersphere (or $n$-sphere) looks to be a win for $\pi$, but in fact this formula proved to be $\pi$'s undoing. This appendix presents an alternate route to the same conclusion. For convenience, this appendix is reasonably self-contained, so that (for example) we assume no knowledge of the floor function or of double factorials.
-
-We start with the general formula for the volume of an $n$-sphere. The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes this expression for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
-\[
-\frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
-\]
-where (as noted in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) the Gamma function is
-\[ \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
-\] 
-This is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
-\[ V_n = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}. \]
-Because $V_n = \int S_n\,dr$, we have $S_n = dV_n/dr$, which means that the surface area can be written as follows:
-\[ S_n = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}. \]
-
-We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
-\[ 
-\Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
-\]
-Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
-
-In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is ($1 + \frac{n}{2}$), which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
-\[ S_n = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
-Integrating with respect to $r$ then gives
-\[ V_n = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
- As we'll see, these monstrous ``standard'' formulas are case studies in broken pattern recognition. 
-
-Let's examine the volume formula in more detail to see exactly where it goes wrong. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
-\[ n!! = \begin{cases}
- n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
- n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
- \end{cases} \]
- (By definition, $0!! = 1!! = 1$.) Note that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious. 
-
-To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$:
-\[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
-Upon examining the expression
-\[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
-we notice that it can be rewritten as
-\[ 2(2\pi)^{(n-1)/2}, \]
-and here we recognize our old friend~$2\pi$. 
-
-Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
-\[ 
-V_n = \frac{1}{n!!}\times \begin{cases}
-\ldots & \text{if } n \text{ is even}; \\ \\
- \ldots & \text{if } n \text{ is odd}.
- \end{cases}
-\]
-So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
-\[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
-(This is easy to verify using \href{http://en.wikipedia.org/wiki/Mathematical_induction}{mathematical induction}.) Substituting this into the volume formula for even $n$ then yields
-\[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \] 
-which bears a striking resemblance to
-\[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \] 
-and again we find a factor of $2\pi$.
-
-Putting these results together, we see that the volume of an $n$-sphere can be rewritten as
-\[ V_n = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}
- \end{cases} \]
-and its surface area is 
-\[ S_n = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
- \end{cases} \]
-Making the substitution $\tau=2\pi$ then yields
-\[ S_n = \begin{cases}
- \displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
- \end{cases} \]
-To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
-\[ S_n = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd},
- \end{cases} \]
-which allows us to write the formula as follows:
-\[ S_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
- \end{cases} \]
-Integrating with respect to $r$ then yields
-\[ V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
- \end{cases} \]
-We thus recover the same elegant formulas derived inductively in Section~\ref{sec:three_families_of_constants}. The improvement over the original ``standard'', $\pi$-encrusted monstrosities is unmistakable. % Anyone comparing the two cases who still thinks the volume of a hypersphere provides an argument in favor of $\pi$ is beyond the reach of reason.
-
-    % subsubsection untangling_the_hypersphere (end)
 
 \end{document}
