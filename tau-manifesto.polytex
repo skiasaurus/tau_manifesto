@@ -688,7 +688,8 @@ which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/P
 and
 \[ V_n = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \]
-Not only are these formulas simpler, the factor of $2^n$ has a clear geometric meaning: the surface area of an $n$-sphere is equal to the surface area of the \emph{principal part} of the sphere (the part of the sphere satisfying $x_n > 0$ for all $n$) multiplied by the number of parts (and similarly for volume). In two dimensions, this principal part lies in the first quadrant, in three dimensions it is in the first octant, and so on for higher dimensions. In each case, we can exploit the symmetry of the sphere by calculating the surface area or volume of the principal part and then multiplying by~$2^n$ to yield the full value. This suggests that \emph{the fundamental constant uniting $n$-spheres is the meaure of a right angle}.
+
+The formulas in terms of $\eta$ appear to come at the cost of a factor of $2^n$,  but this has a clear geometric meaning: a sphere in $n$ dimensions naturally divides into $2^n$ congruent pieces. In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions they are the segments of the sphere in each octant; and so on in higher dimensions. What these formulas tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} part---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
 
   % subsection volume_of_a_hypersphere (end)
 
@@ -714,7 +715,7 @@ Because of the relation $V_n = \int S_n\,dr$, we have the simple relationship
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-Let us make some observations about these two families of constants. The first (and perhaps most surprisng) is that it is not $\tau$ but $\eta$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometic meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
+Let us make some observations about these two families of constants. The first, as noted above is that it is not $\tau$ but $\eta$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
 \[
 \theta_n \equiv \frac{s_n}{r^{n-1}} = \frac{f S_n}{r^{n-1}} = f\left(\frac{S_n}{r^{n-1}}\right) = f\tau_n.
 \]
@@ -754,27 +755,27 @@ But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to 
 
   % subsection three_families_of_constants (end)
 
-  \subsection{Quarks and electrons} % (fold)
-  \label{sec:quarks_and_electrons}
+%   \subsection{Quarks and electrons} % (fold)
+%   \label{sec:quarks_and_electrons}
 
-We have been on quite a journey in this manifesto, and have discovered the following remarkable facts:
+% We have been on quite a journey in this manifesto, and have discovered the following remarkable facts:
 
-\begin{itemize}
-  \item Radian angle measure is much simpler in terms of $\tau$.
-  \item Circular area has a natural factor of $1/2$.
-  \item The constant $C/D$ has some practical value but no particular mathematical significance.
-  \item The fundamental constant of $n$-spheres is $\eta = \tau/4$.
-\end{itemize}
+% \begin{itemize}
+%   \item Radian angle measure is much simpler in terms of $\tau$.
+%   \item Circular area has a natural factor of $1/2$.
+%   \item The constant $C/D$ has some practical value but no particular mathematical significance.
+%   \item The fundamental constant of $n$-spheres is $\eta = \tau/4$.
+% \end{itemize}
 
-I find the last fact especially incredible. It shows that, while $\tau$ is the most natural \emph{circle} constant, it arguably derives its importance from the underlying $n$-sphere constant~$\eta$. 
+% I find the last fact especially incredible. It shows that, while $\tau$ is the most natural \emph{circle} constant, it arguably derives its importance from the underlying $n$-sphere constant~$\eta$. 
 
-In this context, I believe a physics analogy is helpful. Until the discovery of quarks, the quantum of electric charge was believed to be $e$, the charge on an electron. Quarks, though, have fractional charges: an up quark, for example has charge $+2|e|/3$, while a down quark has charge $-|e|/3$. This means that the true quantum of charge is $e/3$. But in ordinary matter quarks are always bound, so that in a proton, which is composed of two up quarks and a down, the total charge is $4|e|/3 - |e|/3 = |e|$. This means that, if we were to write our formulas in terms of the quantum of charge $q = e/3$, it would introduce numerous factors of $3$, as we replaced $e$ with $3q$. 
+% In this context, I believe a physics analogy is helpful. Until the discovery of quarks, the quantum of electric charge was believed to be $e$, the charge on an electron. Quarks, though, have fractional charges: an up quark, for example has charge $+2|e|/3$, while a down quark has charge $-|e|/3$. This means that the true quantum of charge is $e/3$. But in ordinary matter quarks are always bound, so that in a proton, which is composed of two up quarks and a down, the total charge is $4|e|/3 - |e|/3 = |e|$. This means that, if we were to write our formulas in terms of the quantum of charge $q = e/3$, it would introduce numerous factors of $3$, as we replaced $e$ with $3q$. 
 
-The situation is similar with $\eta$ and $\tau$. When discussing $n$-spheres in general, $\eta$ leads to the most concise formulas, but in any particular dimension $\tau_n$ has a special significance as the (generalized) radian angle measure of the full $n$-sphere. The smallest nontrivial $n$-sphere---i.e., a circle---is of particular importance, and hence so is its associated constant $\tau_2 = 2^2\,\eta \equiv \tau$. Writing formulas involving circles in terms of $\eta$ would introduce numerous factors of~$4$.
+% The situation is similar with $\eta$ and $\tau$. When discussing $n$-spheres in general, $\eta$ leads to the most concise formulas, but in any particular dimension $\tau_n$ has a special significance as the (generalized) radian angle measure of the full $n$-sphere. The smallest nontrivial $n$-sphere---i.e., a circle---is of particular importance, and hence so is its associated constant $\tau_2 = 2^2\,\eta \equiv \tau$. Writing formulas involving circles in terms of $\eta$ would introduce numerous factors of~$4$.
 
-Meanwhile, unit volumes (including circular area) can always be derived by dividing the associated surface area constant by the dimension ($\tau_n/n$). Not only does this undermine the independent importance of each individual volume constant, but we have seen that $\pi \equiv C/D$ is only coincidentally a member of this family.
+% Meanwhile, unit volumes (including circular area) can always be derived by dividing the associated surface area constant by the dimension ($\tau_n/n$). Not only does this undermine the independent importance of each individual volume constant, but we have seen that $\pi \equiv C/D$ is only coincidentally a member of this family.
 
-  % subsubsection quarks_and_electrons (end)
+%   % subsubsection quarks_and_electrons (end)
 
 \section{Conclusion}
 
@@ -799,7 +800,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
   \item \textbf{Why does this subject interest you?} \\ First, as a truth-seeker I care about correctness of explanation. Second, as a teacher I care about clarity of exposition. Third, as a hacker I love a nice hack. Fourth, as a student of history and of human nature I find it fascinating that the absurdity of $\pi$ was lying in plain sight for centuries before anyone seemed to notice. Moreover, many of the people who missed the true circle constant are among the most rational and intelligent people ever to live. What else might be staring us in the face, just waiting for us to discover it?
 
-  \item \textbf{Are you, like, a crazy person?} \\ That's really none of your business, but no. Apart from my \href{http://www.vibramfivefingers.com/}{unusual shoes}, I am to all external appearances normal in every way. You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
+  \item \textbf{Are you, like, a crazy person?} \\ That's really none of your business, but no. Apart from occasionally wearing \href{http://www.vibramfivefingers.com/}{unusual shoes}, I am to all external appearances normal in every way. You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
   
   \item \textbf{But what about puns?} \\ We come now to the final objection. I know, I know, ``$\pi$ in the sky'' is so very clever. And yet, $\tau$ itself is pregnant with possibilities. $\tau$ism tells us: it is not $\tau$ that is a piece of $\pi$, but $\pi$ that is a piece of $\tau$---one-half $\tau$, to be exact. The identity $e^{i\tau} = 1$ says: ``\emph{Be 1 with the $\tau$.}'' And though the observation that ``\emph{A rotation by one turn is~1}'' may sound like a $\tau$-tology, it is the true nature of the $\tau$. As we contemplate this nature to seek the \href{http://www.answers.com/Tao}{way} of the $\tau$, we must remember that $\tau$ism is based on reason, not on faith: $\tau$ists are never $\pi$ous.
 
