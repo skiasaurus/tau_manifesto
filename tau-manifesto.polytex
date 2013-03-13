@@ -564,7 +564,7 @@ and its interior is a ball. The generalization to arbitrary~$n$, although diffic
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
 
-We start with the general formula for the volume of an $n$-sphere. The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes this expression for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
+The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes an formula for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
 \[
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \]
@@ -576,7 +576,7 @@ This is a special case of the formula for general radius, which is also typicall
 Because $V_n = \int S_n\,dr$, we have $S_n = dV_n/dr$, which means that the surface area can be written as follows:
 \[ S_n = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}. \]
 
-We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
+Rather than simply take these formulas at face value, let's see if we can untangle them to shed more light on the question of $\pi$ vs. $\tau$. We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
 \[ 
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
@@ -654,13 +654,13 @@ Integrating with respect to $r$ then yields
  2 & \text{if } n \text{ is odd}.
  \end{cases} \]
 
-The equations above are a major improvement, making what seems like an unassailable argument for $\tau$ over $\pi$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, correspondent Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the radian angle measure of a right angle, 
+The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the radian angle measure of a right angle, 
 \[
 \eta = \frac{\tau}{4}.
 \]
-(Jeff used $\lambda$, but I use $\eta$ in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.) 
+(Jeff used $\lambda$ in his correspondence, but I use $\eta$ in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.) 
 
-The key is that using $\eta$ unifies the even and odd cases. Making the substitution $\tau = 4\eta$ gives
+The biggest advantage of $\eta$ is that it completely unifies the even and odd cases in both the surface area and volume formulas. Making the substitution $\tau = 4\eta$ gives
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (4\eta)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \eta^{\left\lfloor \frac{n}{2} \right\rfloor} =
 \eta^{\left\lfloor \frac{n}{2} \right\rfloor}\times
@@ -669,7 +669,7 @@ The key is that using $\eta$ unifies the even and odd cases. Making the substitu
  2^{n-1} & \text{if } n \text{ is odd}. 
  \end{cases}
 \]
-This means that we have
+This means that, when calculating either surface area or volume, we have a factor of
 \[
  \eta^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
@@ -689,7 +689,7 @@ and
 \[ V_n = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \]
 
-The formulas in terms of $\eta$ appear to come at the cost of a factor of $2^n$,  but this has a clear geometric meaning: a sphere in $n$ dimensions naturally divides into $2^n$ congruent pieces. In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions they are the segments of the sphere in each octant; and so on in higher dimensions. What these formulas tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} part---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
+These formulas appear to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions naturally divides into $2^n$ congruent pieces. In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the segments of the sphere in each octant; and so on in higher dimensions. What the formulas in terms of $\eta$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
 
   % subsection volume_of_a_hypersphere (end)
 
