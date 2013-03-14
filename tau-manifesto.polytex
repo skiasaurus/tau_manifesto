@@ -656,7 +656,7 @@ The equations above are a major improvement over the original formulation in ter
 \[
 \eta = \frac{\tau}{4}.
 \]
-(Jeff used $\lambda$ in his correspondence, but I use $\eta$ in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.) 
+(Jeff used $\lambda$ (lambda) in his correspondence, but I use $\eta$ (eta) in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.) 
 
 The biggest advantage of $\eta$ is that it completely unifies the even and odd cases. Making the substitution $\tau = 4\eta$ gives
 \[
