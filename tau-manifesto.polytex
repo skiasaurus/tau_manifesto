@@ -5,7 +5,7 @@
 
 \title{The Tau Manifesto}
 \author{Michael Hartl}
-\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated Tau Day, 2012}}
+\date{\href{http://tauday.com/}{Tau Day}, 2010\\\small{updated Pi Day, 2013}}
 \maketitle
 
 %= pdf_share_partial
@@ -14,8 +14,6 @@
 \label{sec:the_circle_constant}
 
 \emph{The Tau Manifesto} is dedicated to one of the most important numbers in mathematics, perhaps \emph{the} most important: the \emph{circle constant} relating the circumference of a circle to its linear dimension. For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number. Of course, the traditional choice for the circle constant is $\pi$---but, as mathematician \href{http://www.math.utah.edu/~palais}{Bob Palais} notes in his delightful article ``$\pi$ Is Wrong!'',\footnote{Palais, Robert. ``$\pi$ Is Wrong!'', \emph{The Mathematical Intelligencer}, Volume~23, Number~3, 2001, pp.~7--8. Many of the arguments in \emph{The Tau Manifesto} are based on or are inspired by ``$\pi$ Is Wrong!''. It is available online at \href{http://www.math.utah.edu/~palais/pi.html}{http://bit.ly/pi-is-wrong}.} $\pi$ \emph{is wrong}. It's time to set things right. 
-
-(\emph{Note}: Mathematically sophisticated readers, including those already familiar with \emph{The Tau Manifesto}, can skip directly to Section~\ref{sec:getting_to_the_bottom_of_pi}, which is part of a revision released on Tau Day, 2012. This new section builds an irrefutable case against~$\pi$.)
 
   \subsection{An immodest proposal} % (fold)
   \label{sec:an_immodest_proposal}
@@ -534,7 +532,7 @@ case of angle measure. In contrast, in the case of area the factor of $1/2$ aris
 \section{Getting to the bottom of pi and tau} % (fold)
 \label{sec:getting_to_the_bottom_of_pi}
 
-I continue to be impressed with how rich this subject is, and our understanding of $\pi$ and $\tau$ continues to evolve. On Half Tau Day, 2012, while meditating on a claim made in the \href{http://www.thepimanifesto.com/}{Pi Manifesto}, I realized \emph{exactly} what is wrong with $\pi$. The subsequent argument, which hinged on an analysis of the surface area and volume of an $n$-dimensional sphere, was incomplete, a fact brought to my attention in an astonishing email from \emph{Tau Manifesto} reader Jeff Cornell. This section is an attempt not only to definitively debunk $\pi$, but also to articulate the truth about $\tau$, a truth that is deeper and subtler than I had imagined.
+I continue to be impressed with how rich this subject is, and my understanding of $\pi$ and $\tau$ continues to evolve. On Half Tau Day, 2012, I identified \emph{exactly} what is wrong with $\pi$. My argument hinged on an analysis of the surface area and volume of an $n$-dimensional sphere, which (as shown below) makes clear that $\pi$ doesn't have any fundamental geometric significance. My analysis was incomplete, though---a fact brought to my attention in a remarkable message from \emph{Tau Manifesto} reader Jeff Cornell. As a result, this section is an attempt not only to definitively debunk $\pi$, but also to articulate the truth about $\tau$, a truth that is deeper and subtler than I had imagined.
 
   \subsection{Surface area and volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
@@ -660,7 +658,7 @@ The equations above are a major improvement over the original formulation in ter
 \]
 (Jeff used $\lambda$ in his correspondence, but I use $\eta$ in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.) 
 
-The biggest advantage of $\eta$ is that it completely unifies the even and odd cases in both the surface area and volume formulas. Making the substitution $\tau = 4\eta$ gives
+The biggest advantage of $\eta$ is that it completely unifies the even and odd cases. Making the substitution $\tau = 4\eta$ gives
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (4\eta)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \eta^{\left\lfloor \frac{n}{2} \right\rfloor} =
 \eta^{\left\lfloor \frac{n}{2} \right\rfloor}\times
@@ -669,7 +667,7 @@ The biggest advantage of $\eta$ is that it completely unifies the even and odd c
  2^{n-1} & \text{if } n \text{ is odd}. 
  \end{cases}
 \]
-This means that, when calculating either surface area or volume, we have a factor of
+This means that we have a factor of
 \[
  \eta^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
@@ -689,7 +687,9 @@ and
 \[ V_n = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \]
 
-These formulas appear to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions naturally divides into $2^n$ congruent pieces. In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the segments of the sphere in each octant; and so on in higher dimensions. What the formulas in terms of $\eta$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
+The simplification in these formulas appears to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions divides naturally into $2^n$ congruent pieces, corresponding to the $2^n$ families of solutions to $\sum_{i=1}^{n} x_i^2 = r^2$ (one for each choice of $\pm x_i$). In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions. 
+
+What the formulas in terms of $\eta$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
 
   % subsection volume_of_a_hypersphere (end)
 
@@ -715,11 +715,11 @@ Because of the relation $V_n = \int S_n\,dr$, we have the simple relationship
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-Let us make some observations about these two families of constants. The first, as noted above is that it is not $\tau$ but $\eta$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
+Let us make some observations about these two families of constants. The first, as noted above, is that it is not $\tau$ but $\eta$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
 \[
 \theta_n \equiv \frac{s_n}{r^{n-1}} = \frac{f S_n}{r^{n-1}} = f\left(\frac{S_n}{r^{n-1}}\right) = f\tau_n.
 \]
-Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why $\tau_2 = 2^2\,\eta = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
+Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\,\eta = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
 
 Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\sigma_2$ is the area of a unit disk:
 \[
@@ -824,7 +824,7 @@ The usage is natural, the motivation is clear, and the implications are profound
 \caption{Followers of $\tau$ism seek the way of the $\tau$.\label{fig:tauism}}
 \end{figure}
 
-If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
+% If you ever hear yourself saying things like, ``Sometimes $\pi$ is the best choice, and sometimes it's $2\pi$'', stop and remember the words of \href{http://vihart.com/}{Vi Hart} in her wonderful \href{http://www.youtube.com/watch?v=jG7vhMMXagQ}{video about tau}: ``No! You're making excuses for $\pi$.'' It's time to stop making excuses.
 
   % subsection conclusion (end)
 
