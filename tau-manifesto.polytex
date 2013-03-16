@@ -706,6 +706,7 @@ The second family is defined by the volume formula:
 \[
 \sigma_n \equiv \frac{V_n}{r^n} = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
 \]
+(As in Section~\ref{sec:volume_of_a_hypersphere}, here $\eta = \tau/4$.)
 With these two families of constants, we can write the surface area and volume formulas compactly as follows:
 \[ S_n = \tau_n\,r^{n-1} \]
 and
