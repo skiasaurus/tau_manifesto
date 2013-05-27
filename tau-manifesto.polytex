@@ -652,7 +652,7 @@ Integrating with respect to $r$ then yields
  2 & \text{if } n \text{ is odd}.
  \end{cases} \]
 
-The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the radian angle measure of a right angle, 
+The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, 
 \[
 \eta = \frac{\tau}{4}.
 \]
