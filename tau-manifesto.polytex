@@ -441,7 +441,7 @@ where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the groun
 \]
 where $N$ is a normalization constant.
 
-Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the exponential number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent, we get
+Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the natural number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent, we get
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
