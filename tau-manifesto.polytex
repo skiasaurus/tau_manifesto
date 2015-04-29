@@ -431,7 +431,7 @@ Rather than advocating a new symbol, \emph{The Tau Manifesto} opts for the use o
 
 Despite these arguments, potential usage conflicts have proven to be the greatest source of resistance to $\tau$. Some correspondents have even flatly denied that $\tau$ (or, presumably, any other currently used symbol) could possibly overcome these issues. But scientists and engineers have a high tolerance for notational ambiguity, and claiming that $\tau$-the-circle-constant can't coexist with other uses ignores considerable evidence to the contrary.
 
-One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula the \emph{Bohr radius}, which (roughly speaking) is the ``size'' of a hydrogen atom in its lowest energy state (the \emph{ground state}):
+One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula for the \emph{Bohr radius}, which (roughly speaking) is the ``size'' of a hydrogen atom in its lowest energy state (the \emph{ground state}):
 \[
 a_0 = \frac{\hbar^2}{m e^2},
 \]
