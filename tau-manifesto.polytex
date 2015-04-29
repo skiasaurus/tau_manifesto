@@ -564,7 +564,7 @@ and its interior is a ball. The generalization to arbitrary~$n$, although diffic
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
 
-The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes an formula for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
+The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes a formula for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
 \[
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \]
