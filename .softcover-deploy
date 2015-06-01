@@ -1,6 +1,7 @@
 # Edit this file to customize your deployment steps with custom command options
 # or additional commands.
 #
-# softcover build:all
-# softcover build:preview
-# softcover publish
+softcover build:html
+softcover build:pdf
+# Add in step to copy to website directory & deploy
+softcover publish
