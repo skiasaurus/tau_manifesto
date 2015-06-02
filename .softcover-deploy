@@ -1,6 +1,7 @@
 # Edit this file to customize your deployment steps with custom command options
 # or additional commands.
 #
+git push
 softcover build
 softcover publish
 # Sync with the tauday.com website
