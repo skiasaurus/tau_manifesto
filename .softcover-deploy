@@ -1,7 +1,10 @@
 # Edit this file to customize your deployment steps with custom command options
 # or additional commands.
 #
-softcover build:html
-softcover build:pdf
-# Add in step to copy to website directory & deploy
+softcover build
 softcover publish
+# Sync with the tauday.com website
+cp html/tau_manifesto_fragment.html /Users/mhartl/ruby/rails/tauday_new/public
+cd /Users/mhartl/ruby/rails/tauday_new
+git commit -am "Latest version"
+deploy
