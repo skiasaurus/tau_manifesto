@@ -16,6 +16,12 @@ We begin repairing the damage wrought by $\pi$ by first understanding the notori
 \]
 The number $\pi$ has many remarkable properties---among other things, it is \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}} and indeed \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}---and its presence in mathematical formulas is widespread.
 
+\begin{figure}
+\image{images/figures/circle.pdf}
+\caption{Anatomy of a circle.\label{fig:circle}}
+\end{figure}
+
+
 It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}.
 ***Infinitely many shapes with constant diameter Figure~\ref{fig:bicycle_constant_diameters}
 In particular, since a circle is defined as the set of points a fixed distance---the \emph{radius}---from a given point, a more natural definition for the circle constant uses $r$ in place of $D$:
@@ -45,7 +51,7 @@ Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$
 \subsection{A powerful enemy} % (fold)
  \label{sec:a_powerful_enemy}
 
-Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}\emph{!}) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``Pi Day'' 2010 \href{http://www.google.com/}{Google} \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google_pi_day.}).
+Before proceeding with the demonstration that $\tau$ is the natural choice for the circle constant, let us first acknowledge what we are up against---for there is a powerful conspiracy, centuries old, determined to propagate pro-$\pi$ propaganda. Entire \href{http://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/}{books} \href{http://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568}{are} \href{http://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/}{written} extolling the virtues of $\pi$. (I mean, \href{http://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/}{\emph{books}}!) And irrational devotion to $\pi$ has spread even to the highest levels of geekdom; for example, on ``Pi Day'' 2010 \href{http://www.google.com/}{Google} \emph{changed its logo} to honor $\pi$  (Figure~\ref{fig:google_pi_day.}).
 
 \begin{figure}
 \begin{center}
@@ -54,7 +60,7 @@ Before proceeding with the demonstration that $\tau$ is the natural choice for t
 \caption{The Google logo on March 14 (3/14), 2010 (``Pi Day'').\label{fig:google_pi_day.}}
 \end{figure}
 
-Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 40 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{The video in Figure~\ref{fig:futurama_video} (available at  \href{http://vimeo.com/12914981}{http://vimeo.com/12914981}) is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr. Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr. Greenwald uses math references from \emph{The Simpsons} and \emph{Futurama} to engage her students' interest and to help them get over their math anxiety. She is also the maintainer of the \href{http://mathsci2.appstate.edu/~sjg/futurama/}{\emph{Futurama} Math Page}.}
+Meanwhile, some people memorize dozens, hundreds, even \href{http://en.wikipedia.org/wiki/Lu_Chao}{\emph{thousands}} of digits of this mystical number. What kind of sad sack memorizes even 40 digits of $\pi$ (Figure~\ref{fig:futurama_video})?\footnote{The video in Figure~\ref{fig:futurama_video} (available at  \href{http://vimeo.com/12914981}{http://vimeo.com/12914981}) is an excerpt from a lecture given by \href{http://mathsci.appstate.edu/~sjg/}{Dr.\ Sarah Greenwald}, a professor of mathematics at \href{http://www.appstate.edu/}{Appalachian State University}. Dr.\ Greenwald uses math references from \emph{The Simpsons} and \emph{Futurama} to engage her students' interest and to help them get over their math anxiety. She is also the maintainer of the \href{http://mathsci2.appstate.edu/~sjg/futurama/}{\emph{Futurama} Math Page}.}
 
 \begin{figure}
 \begin{center}
@@ -131,7 +137,7 @@ This suggests the following definition of \emph{radian angle measure}:
 \[ \theta \equiv \frac{s}{r}. \]
 This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{http://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of $\sin\theta$ is true only when $\theta$ is expressed in radians:
 \[
-  \frac{d}{d\theta}\sin\theta = \cos\theta. \mathrm{\ \ \ \ (true\ only\ when\ } \theta\mathrm{\ is\ in\ radians)}
+  \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(true only when $\theta$ is in radians)}
 \]
 Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in Figure~\ref{fig:pi_angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
@@ -217,24 +223,23 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 I would be remiss in this manifesto not to address \emph{Euler's identity}, sometimes called ``the most beautiful equation in mathematics''. This identity involves \emph{complex exponentiation}, which is deeply connected both to the circle functions and to the geometry of the circle itself.
 
 Depending on the route chosen, the following equation can either be proved as a theorem or taken as a definition; either way, it is quite remarkable:
-\[ e^{i\theta} = \cos\theta + i\sin\theta. \]
+\[ e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Euler's formula} \]
 Known as \emph{Euler's formula} (after \href{http://en.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
 
 Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:\footnote{Here I'm implicitly defining Euler's identity to be \emph{the complex exponential of the circle constant}, rather than defining it to be the complex exponential of any particular number. If we choose $\tau$ as the circle constant, we obtain the identity shown. As we'll see momentarily, this is not the traditional form of the identity, which of course involves $\pi$, but the version with $\tau$ is the most \emph{mathematically} meaningful statement of the identity, so I believe it deserves the name.}
-\[ e^{i\tau} = 1. \]
+\[ e^{i\tau} = 1. \qquad\mbox{Euler's identity ($\tau$ version)} \]
 In words, this equation makes the following fundamental observation:
 
 \begin{center}
 \emph{The complex exponential of the circle constant is unity.}
 \end{center}
-%= <br />
+
 Geometrically, multiplying by $e^{i\theta}$ corresponds to rotating a complex number by an angle $\theta$ in the complex plane, which suggests a second interpretation of Euler's identity:
 
 \begin{center}
 \emph{A rotation by one turn is 1.}
 \end{center}
 
-%= <br />
 \noindent Since the number $1$ is the \href{http://en.wikipedia.org/wiki/Identity_element}{multiplicative identity}, the geometric meaning of $e^{i\tau} = 1$ is that rotating a point in the complex plane by one turn simply returns it to its original position.
 
 As in the case of radian angle measure, we see how natural the association is between $\tau$ and one turn of a circle. Indeed, the identification of $\tau$ with ``one turn'' makes Euler's identity sound almost like a tautology.\footnote{Technically, all mathematical theorems are tautologies, but let's not be so pedantic.}
@@ -243,12 +248,12 @@ As in the case of radian angle measure, we see how natural the association is be
     \label{sec:not_the_most_beautiful_equation}
 
 Of course, the traditional form of Euler's identity is written in terms of $\pi$ instead of $\tau$. To derive it, we start by evaluating Euler's formula at $\theta = \pi$, which yields
-\[ e^{i\pi} = -1. \]
+\[ e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)} \]
 But that minus sign is so ugly that the formula is almost always rearranged immediately, giving the following ``beautiful'' equation:
-\[ e^{i\pi} + 1 = 0. \]
+\[ e^{i\pi} + 1 = 0. \qquad\mbox{Euler's identity (rearranged)} \]
 At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. It's remarkable how many people complain that Euler's identity with $\tau$ relates only \emph{four} of those five. Fine:
 \[ e^{i\tau} = 1 + 0. \]
-(In fact, since $i\sin\tau = 0$, the $0$ was already there.) This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
@@ -310,7 +315,7 @@ $e^{i\tau}$ & $1$ & $(1, 0)$
 
 If you arrived here as a $\pi$ believer, you must by now be questioning your faith. $\tau$ is so natural, its meaning so transparent---is there no example where $\pi$ shines through in all its radiant glory? A memory stirs---yes, there is such a formula---it is the formula for circular area! Behold:
 \[ A = \pi r^2. \]
-We see here $\pi$, unadorned, in one of the most important equations in mathematics---a formula first proved by \href{http://en.wikipedia.org/wiki/Archimedes}{Archimedes} himself. Order is restored! And yet, the name of this section sounds ominous\ldots If this equation is $\pi$'s crowning glory, how can it also be the \href{http://en.wikipedia.org/wiki/Coup_de_grace}{\emph{coup de gr\^{a}ce}}?
+We see here $\pi$, unadorned, in one of the most important equations in mathematics---a formula first proved by \href{http://en.wikipedia.org/wiki/Archimedes}{Archimedes} himself. Order is restored! And yet, the name of this section sounds ominous\ldots\ If this equation is $\pi$'s crowning glory, how can it also be the \href{http://en.wikipedia.org/wiki/Coup_de_grace}{\emph{coup de gr\^{a}ce}}?
 
 
   \subsection{Quadratic forms} % (fold)
@@ -418,7 +423,7 @@ $\tau$ works well in both written and spoken contexts. For example, saying that 
     \label{sec:ambiguous_notation}
 
 
-Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{http://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots um\ldots $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol for $2\pi$ would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment. (Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.)
+Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{http://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots\ um\ldots\ $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol for $2\pi$ would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment. (Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.)
 
 Rather than advocating a new symbol, \emph{The Tau Manifesto} opts for the use of an existing Greek letter. As a result, since $\tau$ is already used in some current contexts, we must address the conflicts with existing practice. Fortunately, there are surprisingly few common uses. Moreover, while $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no \emph{universal} conflicting usage.\footnote{The only possible exception to this is the \emph{golden ratio}, which is often denoted by $\tau$ in Europe. But not only is there an existing common alternative to this notation---namely, the Greek letter $\varphi$---this usage shows that there is precedent for using $\tau$ to denote a fundamental mathematical constant.} In those cases, we can either tolerate ambiguity or route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time.
 
@@ -508,12 +513,12 @@ In other words, the area of an $n$-gon has a natural
 factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
 \[
 A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
-= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \frac{1}{2}\tau.
+= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \tfrac{1}{2}\tau.
 \]
 
 In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
 \[
-\frac{1}{2}\theta\, r^2,
+\tfrac{1}{2}\theta\, r^2,
 \]
 so there's no way to avoid the factor of $1/2$ in general. (We thus see that $A =
 \frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.)
@@ -528,6 +533,8 @@ case of angle measure. In contrast, in the case of area the factor of $1/2$ aris
 \label{sec:getting_to_the_bottom_of_pi}
 
 I continue to be impressed with how rich this subject is, and my understanding of $\pi$ and $\tau$ continues to evolve. On Half Tau Day, 2012, I believed I identified \emph{exactly} what is wrong with $\pi$. My argument hinged on an analysis of the surface area and volume of an $n$-dimensional sphere, which (as shown below) makes clear that $\pi$ doesn't have any fundamental geometric significance. My analysis was incomplete, though---a fact brought to my attention in a remarkable message from \emph{Tau Manifesto} reader Jeff Cornell. As a result, this section is an attempt not only to definitively debunk $\pi$, but also to articulate the truth about $\tau$, a truth that is deeper and subtler than I had imagined.
+
+\emph{Note}: This section is more advanced than the rest of the manifesto and can be skipped without loss of continuity. If you find it confusing, I recommend proceeding directly to the conclusion in Section~\ref{sec:conclusion}.
 
   \subsection{Surface area and volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
@@ -747,7 +754,7 @@ It's true that this equals $\pi_2$:
 \[
 \pi_2 = \pi = \frac{\tau_2}{2^{2-1}} = \frac{\tau}{2}.
 \]
-But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to equal $n$ when $n=2$. In all higher dimensions, $n$ and $2^{n-1}$ are distinct. In other words, \emph{the geometric significance of $\pi$ is the result of a mathematical pun}.
+But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to equal $n$ when $n=2$ (that is, $2^{2-1} = 2$). In all higher dimensions, $n$ and $2^{n-1}$ are distinct. In other words, \emph{the geometric significance of $\pi$ is the result of a mathematical pun}.
 
   % subsection three_families_of_constants (end)
 
@@ -774,6 +781,7 @@ But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to 
 %   % subsubsection quarks_and_electrons (end)
 
 \section{Conclusion}
+\label{sec:conclusion}
 
 Over the years, I have heard many arguments against the wrongness of $\pi$ and against the rightness of $\tau$, so before concluding our discussion allow me to answer some of the most frequently asked questions.
 
@@ -857,13 +865,13 @@ Finally, I'd like to thank \href{http://techiferous.com/about}{Wyatt Greene} for
 
     % subsection about_the_author (end)
 
-\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is a physicist, educator, and entrepreneur. He is the author of the \href{http://ruby.railstutorial.org/}{Ruby on Rails Tutorial}, the leading introduction to web development with \href{http://www.rubyonrails.org/}{Ruby on Rails}. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/Feynman-Lectures-Physics-including-Feynmans/dp/0805390456/ref=sr_1_1?ie=UTF8&qid=1288414565&sr=8-1}{\emph{The Feynman Lectures on Physics: The Definitive and Extended Edition}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
+\emph{The Tau Manifesto} author \href{http://www.michaelhartl.com/}{Michael Hartl} is an educator, entrepreneur, and former theoretical physicist. He is the author of the \href{http://www.railstutorial.org/}{Ruby on Rails Tutorial}, one of the leading introductions to web development. Previously, he taught theoretical and computational physics at  \href{http://www.caltech.edu/}{Caltech}, where he received the Lifetime Achievement Award for Excellence in Teaching and served as Caltech's editor for \href{http://www.amazon.com/The-Feynman-Lectures-Physics-boxed/dp/0465023827}{\emph{The Feynman Lectures on Physics}}. He is a graduate of \href{http://college.harvard.edu/}{Harvard College}, has a \href{http://thesis.library.caltech.edu/1940/}{Ph.D. in Physics} from the \href{http://www.caltech.edu/}{California Institute of Technology}, and is an alumnus of the \href{http://ycombinator.com/}{Y~Combinator} entrepreneur program.
 
-Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To atone for this, he has now memorized \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimal places} of $\tau$.
+Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#fig:futurama_video}{approximately 48 more than Matt Groening}. To atone for this, he has memorized \href{http://www.wolframalpha.com/input/?i=N[2+Pi,+53]}{52 decimal places} of $\tau$.
 
-    \subsubsection{Copyright and license} % (fold)
+    \subsubsection{Copyright} % (fold)
     \label{sec:copyright_and_license}
 
-\emph{The Tau Manifesto}. Copyright \copyright\ 2013 by Michael Hartl. Please feel free to share \emph{The Tau Manifesto}, which is available under the \href{http://creativecommons.org/licenses/by/3.0/}{Creative Commons Attribution 3.0 Unported License}. This means that you can adapt it, translate it, or even include it in commercial works, as long as you attribute it to me (Michael Hartl) and link back to tauday.com. You also have permission to distribute copies of \href{http://tauday.com/pdf}{\emph{The Tau Manifesto} PDF}, print it out, use it in classrooms, and so on. \emph{Go forth and spread the good news about~$\tau$!}
+    \emph{The Tau Manifesto}. Copyright \copyright\ 2010--2015 by Michael Hartl. Ebook versions of \emph{The Tau Manifesto} are available for purchase through \href{http://sales.tauday.com/}{the Tau Manifesto sales site}. Please feel free to print out and distribute copies of \emph{The Tau Manifesto} for classroom or similar uses.
 
     % subsubsection copyright_and_license (end)
