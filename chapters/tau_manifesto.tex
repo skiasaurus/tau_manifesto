@@ -536,7 +536,7 @@ I continue to be impressed with how rich this subject is, and my understanding o
   \subsection{Surface area and volume of a hypersphere} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-We start our investigations with the generalization of a circle to arbitrary dimensions. This object, called a \emph{hypersphere} or an \emph{$n$-sphere}, can be defined as follows.\footnote{This discussion is based on \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{an excellent comment by John Kodegadulo} at \href{http://spikedmath.com/}{spikedmath.com}.} (For convenience, we assume that these spheres are centered on the origin.) A $0$-sphere is the empty set, and we define its ``interior'' to be a point.\footnote{This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.} A $1$-sphere is the set of all points satisfying
+We start our investigations with the generalization of a circle to arbitrary dimensions.\footnote{This discussion is based on \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{an excellent comment by John Kodegadulo} at \href{http://spikedmath.com/}{spikedmath.com}.} This object, called a \emph{hypersphere} or an \emph{$n$-sphere}, can be defined as follows.\footnote{Geometers and topologists use \href{http://mathworld.wolfram.com/Hypersphere.html}{incompatible definitions of hyperspheres}; this discussion uses the geometers' definitions.} (For convenience, we assume that these spheres are centered on the origin.) A $0$-sphere is the empty set, and we define its ``interior'' to be a point.\footnote{This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.} A $1$-sphere is the set of all points satisfying
 \[
 x^2 = r^2,
 \]
@@ -651,16 +651,15 @@ Integrating with respect to $r$ then yields
  2 & \text{if } n \text{ is odd}.
  \end{cases} \]
 
-The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle,
+The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, which he called $\lambda$ (lambda):
 \[
-\eta = \frac{\tau}{4}.
+\lambda = \frac{\tau}{4}.
 \]
-(Jeff used $\lambda$ (lambda) in his correspondence, but I use $\eta$ (eta) in recognition of its use in David Butler's video \href{http://youtu.be/1qpVdwizdvI}{Pi may be wrong, but so is Tau}.)
 
-The biggest advantage of $\eta$ is that it completely unifies the even and odd cases. Making the substitution $\tau = 4\eta$ gives
+The biggest advantage of $\lambda$ is that it completely unifies the even and odd cases. Making the substitution $\tau = 4\lambda$ gives
 \[
-\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (4\eta)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \eta^{\left\lfloor \frac{n}{2} \right\rfloor} =
-\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\times
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (4\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} =
+\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
  2^n & \text{if } n \text{ is even}; \\ \\
  2^{n-1} & \text{if } n \text{ is odd}.
@@ -668,7 +667,7 @@ The biggest advantage of $\eta$ is that it completely unifies the even and odd c
 \]
 This means that we have a factor of
 \[
- \eta^{\left\lfloor \frac{n}{2} \right\rfloor} \times
+ \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
  2^n & \text{if } n \text{ is even}; \\ \\
  2^{n-1} & \text{if } n \text{ is odd}.
@@ -677,18 +676,18 @@ This means that we have a factor of
  1 & \text{if } n \text{ is even}; \\ \\
  2 & \text{if } n \text{ is odd}.
  \end{cases}
- = 2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor},
+ = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \]
 which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying this to the formulas for surface area and volume yields
-\[ S_n = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
+\[ S_n = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
 \]
 and
-\[ V_n = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
+\[ V_n = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \]
 
 The simplification in these formulas appears to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions divides naturally into $2^n$ congruent pieces, corresponding to the $2^n$ families of solutions to $\sum_{i=1}^{n} x_i^2 = r^2$ (one for each choice of $\pm x_i$). In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions.
 
-What the formulas in terms of $\eta$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry of $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\eta$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
+What the formulas in terms of $\lambda$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry of $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\lambda$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
 
   % subsection volume_of_a_hypersphere (end)
 
@@ -699,13 +698,13 @@ We have nearly gotten to the bottom of $\pi$ and $\tau$. To complete the excavat
 
 The first family is defined by the surface area formula:
 \[
-\tau_n \equiv \frac{S_n}{r^{n-1}} = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
+\tau_n \equiv \frac{S_n}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
 \]
 The second family is defined by the volume formula:
 \[
-\sigma_n \equiv \frac{V_n}{r^n} = \frac{2^n\,\eta^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
+\sigma_n \equiv \frac{V_n}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
 \]
-(As in Section~\ref{sec:volume_of_a_hypersphere}, here $\eta = \tau/4$.)
+(As in Section~\ref{sec:volume_of_a_hypersphere}, here $\lambda = \tau/4$.)
 With these two families of constants, we can write the surface area and volume formulas compactly as follows:
 \[ S_n = \tau_n\,r^{n-1} \]
 and
@@ -715,11 +714,11 @@ Because of the relation $V_n = \int S_n\,dr$, we have the simple relationship
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-Let us make some observations about these two families of constants. The first, as noted above, is that it is not $\tau$ but $\eta$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
+Let us make some observations about these two families of constants. The first, as noted above, is that it is not $\tau$ but $\lambda$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $s_n$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n$, we have
 \[
 \theta_n \equiv \frac{s_n}{r^{n-1}} = \frac{f S_n}{r^{n-1}} = f\left(\frac{S_n}{r^{n-1}}\right) = f\tau_n.
 \]
-Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\,\eta = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
+Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\,\lambda = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
 
 Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\sigma_2$ is the area of a unit disk:
 \[
@@ -764,14 +763,14 @@ But this equality is a coincidence: it occurs only because $2^{n-1}$ happens to 
 %   \item Radian angle measure is much simpler in terms of $\tau$.
 %   \item Circular area has a natural factor of $1/2$.
 %   \item The constant $C/D$ has some practical value but no particular mathematical significance.
-%   \item The fundamental constant of $n$-spheres is $\eta = \tau/4$.
+%   \item The fundamental constant of $n$-spheres is $\lambda = \tau/4$.
 % \end{itemize}
 
-% I find the last fact especially incredible. It shows that, while $\tau$ is the most natural \emph{circle} constant, it arguably derives its importance from the underlying $n$-sphere constant~$\eta$.
+% I find the last fact especially incredible. It shows that, while $\tau$ is the most natural \emph{circle} constant, it arguably derives its importance from the underlying $n$-sphere constant~$\lambda$.
 
 % In this context, I believe a physics analogy is helpful. Until the discovery of quarks, the quantum of electric charge was believed to be $e$, the charge on an electron. Quarks, though, have fractional charges: an up quark, for example has charge $+2|e|/3$, while a down quark has charge $-|e|/3$. This means that the true quantum of charge is $e/3$. But in ordinary matter quarks are always bound, so that in a proton, which is composed of two up quarks and a down, the total charge is $4|e|/3 - |e|/3 = |e|$. This means that, if we were to write our formulas in terms of the quantum of charge $q = e/3$, it would introduce numerous factors of $3$, as we replaced $e$ with $3q$.
 
-% The situation is similar with $\eta$ and $\tau$. When discussing $n$-spheres in general, $\eta$ leads to the most concise formulas, but in any particular dimension $\tau_n$ has a special significance as the (generalized) radian angle measure of the full $n$-sphere. The smallest nontrivial $n$-sphere---i.e., a circle---is of particular importance, and hence so is its associated constant $\tau_2 = 2^2\,\eta \equiv \tau$. Writing formulas involving circles in terms of $\eta$ would introduce numerous factors of~$4$.
+% The situation is similar with $\lambda$ and $\tau$. When discussing $n$-spheres in general, $\lambda$ leads to the most concise formulas, but in any particular dimension $\tau_n$ has a special significance as the (generalized) radian angle measure of the full $n$-sphere. The smallest nontrivial $n$-sphere---i.e., a circle---is of particular importance, and hence so is its associated constant $\tau_2 = 2^2\,\lambda \equiv \tau$. Writing formulas involving circles in terms of $\lambda$ would introduce numerous factors of~$4$.
 
 % Meanwhile, unit volumes (including circular area) can always be derived by dividing the associated surface area constant by the dimension ($\tau_n/n$). Not only does this undermine the independent importance of each individual volume constant, but we have seen that $\pi \equiv C/D$ is only coincidentally a member of this family.
 
