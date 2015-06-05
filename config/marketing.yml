@@ -2,38 +2,35 @@
 prices:
   -
     code: ebooks
-    name: "HTML & Ebook"
+    name: "The Tau Manifesto and Tau Talk"
     description:
       |
-        * Optimized for computer screens, Kindle, and iPad
-        * Incredibly awesome content
+        * The Tau Manifesto in EPUB, MOBI, and PDF formats
+        * Downloadable videos of the Tau Talk, both short and long versions
+        * Priority announcements of tau-related merchandise, news, and events
     media:
-      - ebooks
-    price: 3500
-
-  -
-    code: all
-    name: "HTML, Ebook, and Screencasts"
-    description:
-      |
-        * Includes 10 hours of video screencasts
-        * Ebooks inclded in PDF/EPUB/MOBI formats
-    media:
-      - ebooks
-      - media/screencasts
-    price: 12500
+      - ebooks_videos
+    price: 900
 
 authors:
   -
-    name: "The Author"
-    image: /images/testimonial_1.png
-    contact_email: "info@softcover.io"
-    contact_twitter: "@softcover"
-    contact_fb: "http://facebook.com/softcover"
-    contact_gh: "@softcover"
+    name: "Michael Hartl"
+    gravatar_email: "michael@michaelhartl.com"
+    contact_email: "tauday@michaelhartl.com"
+    contact_twitter: "@tauday"
+    contact_fb: "http://facebook.com/mhartl"
     bio:
       |
-        Author bio [link](https://www.softcover.io)
+        As founder of [Tau Day](http://tauday.com/) and
+        author of [*The Tau Manifesto*](http://tauday.com/tau-manifesto),
+        Michael Hartl is a leader in the international fight against &pi;
+        oppression. He is
+        also the creator of the [Ruby on Rails Tutorial](http://www.railstutorial.org/),
+        a book and screencast series that is
+        one of the leading introductions to web development. Michael is a
+        graduate of [Harvard College](http://college.harvard.edu/), has a
+        [Ph.D. in Physics](http://thesis.library.caltech.edu/1940/) from [Caltech](http://caltech.edu/), and is an alumnus
+        of the [Y&nbsp;Combinator](http://ycombinator.com/) entrepreneur program.
 
 faq:
   -
@@ -46,10 +43,10 @@ faq:
 
 testimonials:
   -
-    name: "Person 1"
-    title: "Person 1 Title"
-    image: /images/testimonial_1.png
-    text: "Testimonial 1 text"
+    name: "Joyce Tipping"
+    title: "ancestral gourmet, intellectual nomad, wife & mother"
+    image: /images/joyce_tipping.jpg
+    text: "Hooray for tau! This breathes new life into my trigonometry."
 
   -
     name: "Person 2"
