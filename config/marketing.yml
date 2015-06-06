@@ -32,27 +32,31 @@ authors:
         [Ph.D. in Physics](http://thesis.library.caltech.edu/1940/) from [Caltech](http://caltech.edu/), and is an alumnus
         of the [Y&nbsp;Combinator](http://ycombinator.com/) entrepreneur program.
 
-faq:
-  -
-    question: "Question 1 text"
-    answer: "Answer 1 text"
-
-  -
-    question: "Question 2 text"
-    answer: "Answer 2 text"
-
 testimonials:
   -
     name: "Joyce Tipping"
-    title: "ancestral gourmet, intellectual nomad, wife & mother"
+    title: "[@joycetipping](https://twitter.com/joycetipping/status/17302692133)"
     image: /images/joyce_tipping.jpg
     text: "Hooray for tau! This breathes new life into my trigonometry."
 
   -
-    name: "Person 2"
-    title: "Person 2 Title"
-    gravatar_email: "info@softcover.io"
-    text: "Testimonial 2 text"
+    name: "Charles D. Aylward"
+    title: "[@cdaylward](https://twitter.com/cdaylward/status/17552758427)"
+    image: /images/cdalyward.jpg
+    text: "That sound? It's my mind blowing. Childhood suspicions confirmed. The circle constant is broken. Switching to τ immediately."
+
+  -
+    name: "Scott Conley"
+    title: "[@14to9](https://twitter.com/14to9/status/17277113296)"
+    image: /images/14to9.png
+    text: "Do not circles deserve first-class quadratic recognition? Let us throw off the yoke of ignorant π oppression!"
+
+  -
+    name: "David Vrensk"
+    title: "[@dvrensk](https://twitter.com/dvrensk/status/17360671177)"
+    image: /images/dvrensk.jpg
+    text: "Oh no, I missed Tau Day!"
+
 
 marketing_content: ''
 
