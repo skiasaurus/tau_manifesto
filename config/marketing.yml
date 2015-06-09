@@ -9,7 +9,8 @@ prices:
         * Downloadable videos of the Tau Talk, both short and long versions
         * Priority announcements of tau-related merchandise, news, and events
     media:
-      - ebooks_videos
+      - ebooks
+      - media/videos
     price: 900
 
 authors:
