@@ -6,5 +6,6 @@ softcover publish
 # Sync with the tauday.com website
 cp html/tau_manifesto_fragment.html /Users/mhartl/ruby/rails/tauday_new/public
 cd /Users/mhartl/ruby/rails/tauday_new
+git pull
 git commit -am "Latest version"
 deploy
