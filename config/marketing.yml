@@ -11,7 +11,7 @@ prices:
     media:
       - ebooks
       - media/videos
-    price: 900
+    price: 300
     convert_kit_tag_id: 27468
 
 authors:
