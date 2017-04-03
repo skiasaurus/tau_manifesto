@@ -355,6 +355,7 @@ body #book {
 #book a.heading {
   color: #000;
   text-decoration: none !important;
+  line-height: 1;
 }
 
 #book a:hover.heading {
@@ -471,4 +472,3 @@ body #book {
 #book span.intersentencespace {
   margin-right: 0.2em;
 }
-
