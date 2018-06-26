@@ -127,7 +127,10 @@ A more fundamental system of angle measure involves a direct comparison of the a
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 \]
 This suggests the following definition of \emph{radian angle measure}:
-\[ \theta \equiv \frac{s}{r}. \]
+\begin{equation}
+\label{eq:radians}
+\theta \equiv \frac{s}{r}.
+\end{equation}
 This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{http://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of $\sin\theta$ is true only when $\theta$ is expressed in radians:
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(true only when $\theta$ is in radians)}
@@ -148,7 +151,7 @@ Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed
 \caption{The ``special'' angles are fractions of a full circle.\label{fig:angle_fractions}}
 \end{figure}
 
-Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle_fractions}. This suggests revisiting the definition of radian angle measure, rewriting the arc length~$s$ in terms of the fraction~$f$ of the full circumference~$C$, i.e., $s = f C$:
+Now, a moment's reflection shows that the so-called ``special'' angles are just particularly simple \emph{rational fractions} of a full circle, as shown in Figure~\ref{fig:angle_fractions}. This suggests revisiting the Eq.~\eqref{eq:radians}, rewriting the arc length~$s$ in terms of the fraction~$f$ of the full circumference~$C$, i.e., $s = f C$:
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau. \]
  Notice how naturally $\tau$ falls out of this analysis. If you are a believer in $\pi$, I fear that the resulting diagram of special angles (Figure~\ref{fig:tau_angles}) will shake your faith to its very core.
 
@@ -216,10 +219,13 @@ Of course, since sine and cosine both go through one full cycle during one turn 
 I would be remiss in this manifesto not to address \emph{Euler's identity}, sometimes called ``the most beautiful equation in mathematics''. This identity involves \emph{complex exponentiation}, which is deeply connected both to the circle functions and to the geometry of the circle itself.
 
 Depending on the route chosen, the following equation can either be proved as a theorem or taken as a definition; either way, it is quite remarkable:
-\[ e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Euler's formula} \]
+\begin{equation}
+\label{eq:eulers_formula}
+e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Euler's formula}
+\end{equation}
 Known as \emph{Euler's formula} (after \href{http://en.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
 
-Evaluating Euler's formula at $\theta = \tau$ yields \emph{Euler's identity}:\footnote{Here I'm implicitly defining Euler's identity to be \emph{the complex exponential of the circle constant}, rather than defining it to be the complex exponential of any particular number. If we choose $\tau$ as the circle constant, we obtain the identity shown. As we'll see momentarily, this is not the traditional form of the identity, which of course involves $\pi$, but the version with $\tau$ is the most \emph{mathematically} meaningful statement of the identity, so I believe it deserves the name.}
+Evaluating Eq.~\eqref{eq:eulers_formula} at $\theta = \tau$ yields \emph{Euler's identity}:\footnote{Here I'm implicitly defining Euler's identity to be \emph{the complex exponential of the circle constant}, rather than defining it to be the complex exponential of any particular number. If we choose $\tau$ as the circle constant, we obtain the identity shown. As we'll see momentarily, this is not the traditional form of the identity, which of course involves $\pi$, but the version with $\tau$ is the most \emph{mathematically} meaningful statement of the identity, so I believe it deserves the name.}
 \[ e^{i\tau} = 1. \qquad\mbox{Euler's identity ($\tau$ version)} \]
 In words, this equation makes the following fundamental observation:
 
@@ -241,7 +247,10 @@ As in the case of radian angle measure, we see how natural the association is be
     \label{sec:not_the_most_beautiful_equation}
 
 Of course, the traditional form of Euler's identity is written in terms of $\pi$ instead of $\tau$. To derive it, we start by evaluating Euler's formula at $\theta = \pi$, which yields
-\[ e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)} \]
+\begin{equation}
+\label{eq:eulers_identity_pi}
+e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)}
+\end{equation}
 But that minus sign is so ugly that the formula is almost always rearranged immediately, giving the following ``beautiful'' equation:
 \[ e^{i\pi} + 1 = 0. \qquad\mbox{Euler's identity (rearranged)} \]
 At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. It's remarkable how many people complain that Euler's identity with $\tau$ relates only \emph{four} of those five. Fine:
@@ -257,7 +266,7 @@ e^{i\tau/2} = -1.
 \]
 Geometrically, this says that a rotation by half a turn is the same as multiplying by $-1$. And indeed this is the case: under a rotation of $\tau/2$ radians, the complex number $z = a + ib$ gets mapped to $-a - ib$, which is in fact just $-1\cdot z$.
 
-Written in terms of $\tau$, we see that the ``original'' form of Euler's identity has a transparent geometric meaning that it lacks when written in terms of $\pi$. (Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} + 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.) The quarter-angle identities have similar geometric interpretations: $e^{i\tau/4} = i$ says that a quarter turn in the complex plane is the same as multiplication by~$i$, while $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we might reasonably call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
+Written in terms of $\tau$, we see that the ``original'' form of Euler's identity (Eq.~\eqref{eq:eulers_identity_pi}) has a transparent geometric meaning that it lacks when written in terms of $\pi$. (Of course, $e^{i\pi} = -1$ can be interpreted as a rotation by $\pi$ radians, but the near-universal rearrangement to form $e^{i\pi} + 1 = 0$ shows how using $\pi$ distracts from the identity's natural geometric meaning.) The quarter-angle identities have similar geometric interpretations: evaulating Eq.~\eqref{eq:eulers_formula} at $\tau/4$ gives $e^{i\tau/4} = i$, which says that a quarter turn in the complex plane is the same as multiplication by~$i$; similarly, $e^{i\cdot(3\tau/4)} = -i$ says that three-quarters of a turn is the same as multiplication by~$-i$. A summary of these results, which we'll call \emph{Eulerian identities}, appears in Table~\ref{table:eulerian_identities}.
 
 \begin{table}
 \begin{center}
@@ -273,7 +282,7 @@ $\tau$ & $e^{i\tau}$ & $ = $ & $1$
 \caption{Eulerian identities for half, quarter, and full rotations.\label{table:eulerian_identities}}
 \end{table}
 
-We can take this analysis a step further by noting that, for any angle~$\theta$, $e^{i\theta}$ can be interpreted as a point lying on the unit circle in the complex plane. Since the complex plane identifies the horizontal axis with the real part of the number and the vertical axis with the imaginary part, Euler's formula tells us that $e^{i\theta}$ corresponds to the coordinates $(\cos\theta, \sin\theta)$. Plugging in the values of the ``special'' angles from Figure~\ref{fig:tau_angles} then gives the points shown in Table~\ref{table:complex_exponentials}, and plotting these points in the complex plane yields Figure~\ref{fig:tau_euler_circle}. A comparison of Figure~\ref{fig:tau_euler_circle} with Figure~\ref{fig:tau_angles} quickly dispels any doubts about which choice of circle constant better reveals the relationship between Euler's formula and the geometry of the circle.
+We can take this analysis a step further by noting that, for any angle~$\theta$, $e^{i\theta}$ can be interpreted as a point lying on the unit circle in the complex plane. Since the complex plane identifies the horizontal axis with the real part of the number and the vertical axis with the imaginary part, Euler's formula tells us that $e^{i\theta}$ corresponds to the coordinates $(\cos\theta, \sin\theta)$. Plugging the values of the ``special'' angles from Figure~\ref{fig:tau_angles} into Eq.~\eqref{eq:eulers_formula} then gives the points shown in Table~\ref{table:complex_exponentials}, and plotting these points in the complex plane yields Figure~\ref{fig:tau_euler_circle}. A comparison of Figure~\ref{fig:tau_euler_circle} with Figure~\ref{fig:tau_angles} quickly dispels any doubts about which choice of circle constant better reveals the relationship between Euler's formula and the geometry of the circle.
 
 \begin{table}
 \begin{center}
@@ -429,12 +438,13 @@ One example of easily tolerated ambiguity occurs in quantum mechanics, where we 
 a_0 = \frac{\hbar^2}{m e^2},
 \]
 where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the ground state itself is described by a quantity known as the \href{http://en.wikipedia.org/wiki/Wave_function}{\emph{wavefunction}}, which falls off exponentially with radius on a length scale set by the Bohr radius:
-\[
+\begin{equation}
+\label{eq:hydrogen}
 \psi(r) = N\,e^{-r/a_0},
-\]
+\end{equation}
 where $N$ is a normalization constant.
 
-Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the natural number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent, we get
+Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the natural number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent in Eq.~\eqref{eq:hydrogen}, we get
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
@@ -481,9 +491,10 @@ A related claim is that the \href{http://mathworld.wolfram.com/GammaFunction.htm
 \Gamma(\textstyle{\frac{1}{2}}) = \sqrt{\pi},
 \]
 where
-\[
+\begin{equation}
+\label{eq:gamma}
 \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
-\]
+\end{equation}
 But $\Gamma(\frac{1}{2})$ reduces to the same Gaussian integral as in the normal distribution (upon setting $u =
 x^{1/2}$), so the $\pi$ in this case is really $1/2\times 2\pi$ as well. Indeed, in many of the cases cited in the Pi Manifesto,
 the circle constant enters through an integral over all angles, i.e.,
@@ -503,15 +514,19 @@ simple closed curve, is $2\pi$.'' In addition, the Pi Manifesto offers the formu
 calling it ``clearly\ldots\ another win for $\pi$.'' But using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ shows that this can be written as
 \[ A = n/2\, \sin\frac{2\pi}{n}, \]
 which is just
-\[ A = \frac{1}{2} n\, \sin\frac{\tau}{n}. \]
+\begin{equation}
+\label{eq:area_polygon}
+A = \frac{1}{2} n\, \sin\frac{\tau}{n}.
+\end{equation}
 In other words, the area of an $n$-gon has a natural
-factor of $1/2$. In fact, taking the limit $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
-\[
+factor of $1/2$. In fact, taking the limit of Eq.~\eqref{eq:area_polygon} as $n\rightarrow \infty$ (and applying \href{http://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
+\begin{equation}
+\label{eq:lhopital}
 A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
 = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \tfrac{1}{2}\tau.
-\]
+\end{equation}
 
-In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again immediately above, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
+In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again in Eq.~\eqref{eq:lhopital}, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
 \[
 \tfrac{1}{2}\theta\, r^2,
 \]
@@ -560,42 +575,55 @@ and its interior is a ball. The generalization to arbitrary~$n$, although diffic
 \]
 
 The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes a formula for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
-\[
+\begin{equation}
+\label{eq:unit_n_sphere_pi}
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
-\]
-where (as noted in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) the Gamma function is
-\[ \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
-\]
-This is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
-\[ V_n = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}. \]
+\end{equation}
+where the Gamma function is given by Eq.~\eqref{eq:gamma}.
+
+Eq.~\eqref{eq:unit_n_sphere_pi} is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
+\begin{equation}
+\label{eq:n_sphere_pi}
+V_n = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
+\end{equation}
 Because $V_n = \int S_n\,dr$, we have $S_n = dV_n/dr$, which means that the surface area can be written as follows:
-\[ S_n = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}. \]
+\begin{equation}
+\label{eq:n_sphere_pi_r}
+S_n = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
+\end{equation}
 
 Rather than simply take these formulas at face value, let's see if we can untangle them to shed more light on the question of $\pi$ vs. $\tau$. We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
 \[
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward.}
+Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward: just replace a real $x$ with complex $z$ in Eq.~\eqref{eq:gamma}.}
 
-In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is ($1 + \frac{n}{2}$), which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
-\[ S_n = \begin{cases}
+In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is $\left(1 + \frac{n}{2}\right)$, which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
+\begin{equation}
+\label{eq:surface_area_mathworld}
+S_n = \begin{cases}
 \displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
-Integrating with respect to $r$ then gives
-\[ V_n = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
- \end{cases} \]
+\end{cases}
+\end{equation}
 
-Let's examine the volume formula in more detail. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
+Integrating with respect to $r$ then gives
+\begin{equation}
+\label{eq:volume_mathworld}
+V_n = \begin{cases}
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
+\end{cases}
+\end{equation}
+
+Let's examine Eq.~\eqref{eq:volume_mathworld} in more detail. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
 \[ n!! = \begin{cases}
  n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
  n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
  \end{cases} \]
  (By definition, $0!! = 1!! = 1$.) Note that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
 
-To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$:
+To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$ in Eq.~\eqref{eq:volume_mathworld}:
 \[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
 Upon examining the expression
 \[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
@@ -603,7 +631,7 @@ we notice that it can be rewritten as
 \[ 2(2\pi)^{(n-1)/2}, \]
 and here we recognize our old friend~$2\pi$.
 
-Now let's look at the even case. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
+Now let's look at the even case in Eq.~\eqref{eq:volume_mathworld}. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
 \[
 V_n = \frac{1}{n!!}\times \begin{cases}
 \ldots & \text{if } n \text{ is even}; \\ \\
@@ -618,38 +646,52 @@ which bears a striking resemblance to
 \[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \]
 and again we find a factor of $2\pi$.
 
-Putting these results together, we see that the volume of an $n$-sphere can be rewritten as
-\[ V_n = \begin{cases}
+Putting these results together, we see that the volume of an $n$-sphere (Eq.~\eqref{eq:volume_mathworld}) can be rewritten as
+\begin{equation}
+\label{eq:volume_2pi}
+V_n = \begin{cases}
  \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}
- \end{cases} \]
+ \end{cases}
+\end{equation}
 and its surface area is
-\[ S_n = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
- \end{cases} \]
-Making the substitution $\tau=2\pi$ then yields
-\[ S_n = \begin{cases}
- \displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
- \end{cases} \]
-To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
+\begin{equation}
+\label{eq:surface_area_2pi}
+S_n = \begin{cases}
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\end{cases}
+\end{equation}
+
+Making the substitution $\tau=2\pi$ in Eq.~\eqref{eq:surface_area_2pi} then yields
+\[
+S_n = \begin{cases}
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\end{cases} \]
+To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (equivalent to chopping off the fractional part, so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
 \[ S_n = \begin{cases}
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
  \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd},
  \end{cases} \]
 which allows us to write the formula as follows:
-\[ S_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
- \end{cases} \]
-Integrating with respect to $r$ then yields
-\[ V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
- \end{cases} \]
+\begin{equation}
+\label{eq:surface_area_tau}
+S_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
+1 & \text{if } n \text{ is even}; \\ \\
+2 & \text{if } n \text{ is odd}.
+\end{cases}
+\end{equation}
+Integrating Eq.~\eqref{eq:surface_area_tau} with respect to $r$ then yields
+\begin{equation}
+\label{eq:volume_tau}
+V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
+1 & \text{if } n \text{ is even}; \\ \\
+2 & \text{if } n \text{ is odd}.
+\end{cases}
+\end{equation}
 
-The equations above are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, which he called $\lambda$ (lambda):
+Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, which he called $\lambda$ (lambda):
 \[
 \lambda = \frac{\tau}{4}.
 \]
