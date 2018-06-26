@@ -695,7 +695,12 @@ V_n = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begi
 \end{cases}
 \end{equation}
 
-Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} are a major improvement over the original formulation in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, which he called $\lambda$ (lambda):
+\subsubsection{Lambda} % (fold)
+\label{sec:lambda}
+
+***here
+
+Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} represent a major improvement over the original formulations (Eq.~\eqref{eq:surface_area_mathworld} and Eq.~\eqref{eq:volume_mathworld}) in terms of $\pi$, making what seems like an unassailable argument for $\tau$. As we'll see, it is indeed the case that $\pi$ is virtually useless in this context, but things are not as simple as they seem. In particular, \emph{Tau Manifesto} reader Jeff Cornell pointed out, to my utter astonishment, that the formulas can be simplified further using the measure of a right angle, which he called $\lambda$ (lambda):
 \[
 \lambda = \frac{\tau}{4}.
 \]
@@ -731,7 +736,19 @@ and
 
 The simplification in these formulas appears to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions divides naturally into $2^n$ congruent pieces, corresponding to the $2^n$ families of solutions to $\sum_{i=1}^{n} x_i^2 = r^2$ (one for each choice of $\pm x_i$). In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions.
 
-What the formulas in terms of $\lambda$ tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry of $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\lambda$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
+% subsubsection lambda (end)
+
+\subsubsection{Recurrences} % (fold)
+\label{sec:recurrences}
+
+% subsubsection recurrences (end)
+
+What the formulas in terms of $\lambda$ are the most compact formulation of the surface area and volume formulas, $\lambda$ is not constant that links the two families of solutions (even and odd). We can see this by finding the \emph{recurrence relations} that connect
+
+for simplicity we'll work with the volume
+
+
+tell us is that we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$. This suggests that \emph{the fundamental constant uniting the geometry of $n$-spheres is the measure of a right angle}. (I liken the difference between $\tau$ and $\lambda$ to the difference between the electron charge $e$ and the charge on a down quark $q_d = e/3$: the latter is the true quantum of charge, but using $q_d$ in place of $e$ would introduce inconvenient factors of $3$ throughout physics and chemistry.)
 
   % subsection volume_of_a_hypersphere (end)
 
@@ -907,6 +924,6 @@ Michael is ashamed to admit that he knows $\pi$ to 50 decimal places---\href{\#f
     \subsubsection{Copyright} % (fold)
     \label{sec:copyright_and_license}
 
-    \emph{The Tau Manifesto}. Copyright \copyright\ 2010--2015 by Michael Hartl. Ebook versions of \emph{The Tau Manifesto} are available for purchase through \href{http://sales.tauday.com/}{the Tau Manifesto sales site}. Please feel free to print out and distribute copies of \emph{The Tau Manifesto} for classroom or similar uses.
+    \emph{The Tau Manifesto}. Copyright \copyright\ 2010--2018 by Michael Hartl. Ebook versions of \emph{The Tau Manifesto} are available for purchase through \href{http://sales.tauday.com/}{the Tau Manifesto sales site}. Please feel free to print out and distribute copies of \emph{The Tau Manifesto} for classroom or similar uses.
 
     % subsubsection copyright_and_license (end)
