@@ -794,6 +794,7 @@ with the same recurrence constant $2^2\lambda$.
 
 Thus, in both Eq.~\eqref{eq:volume_recurrence} and Eq.~\eqref{eq:surface_area_recurrence}, the constant relating the different dimensions is not $\lambda$ itself but rather the combination $2^2\lambda$. Comparing with Eq.~\eqref{eq:tau_lambda}, we see this is none other than $\tau$! Indeed, an \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{alternate derivation} of the volume recurrence by direct calculation (which uses $R$ where we write $r$) concludes with the integral
 \begin{align}
+\label{eq:integral_recurrence}
 V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \nonumber \\
 &= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \\
 &= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
