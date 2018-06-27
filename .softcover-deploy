@@ -1,4 +1,5 @@
 git push
+rm -f ebooks/*
 softcover build:pdf -f
 softcover build:pdf -f
 softcover build:mobi
