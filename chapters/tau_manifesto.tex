@@ -742,7 +742,7 @@ as
  \end{cases}
  = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{equation}
-which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying Eq.~\eqref{eq:prefactor} to Eq. \eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} then gives
+which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying Eq.~\eqref{eq:prefactor} to \linebreak Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} then gives
 \begin{equation}
 \label{eq:surface_area_lambda}
 S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
@@ -795,7 +795,7 @@ with the same recurrence constant $2^2\lambda$.
 Thus, in both Eq.~\eqref{eq:volume_recurrence} and Eq.~\eqref{eq:surface_area_recurrence}, the constant relating the different dimensions is not $\lambda$ itself but rather the combination $2^2\lambda$. Comparing with Eq.~\eqref{eq:tau_lambda}, we see this is none other than $\tau$! Indeed, an \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{alternate derivation} of the volume recurrence by direct calculation (which uses $R$ where we write $r$) concludes with the integral
 \begin{align}
 V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \nonumber \\
-&= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \nonumber \\
+&= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \\
 &= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
 \end{align}
 thus showing that the identification of $\tau$ as the ``recurrence constant'' isn't a coincidence---the recurrence constant and the circle constant really are one and the same:
@@ -813,17 +813,6 @@ As a result, it is $\tau$, not $\lambda$, that provides the common thread tying 
 
 When discussing general $n$-dimensional spheres, for convenience we'll generally write the surface area and volume formulas in terms of $\lambda$ as in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, but for any given $n$ we'll use the recurrence constant $\tau$.
 
-% \begin{table}
-% \begin{center}
-% \begin{tabular}{c|ccccccccc}
-% $V_n(r)$ & $2r$ & $\dfrac{1}{2}\tau r^2$ & $\dfrac{2}{3}\tau r^3$ & $\dfrac{1}{8}\tau^2 r^4$ & $\dfrac{2}{15} \tau^2 r^5$ & $\dfrac{1}{48}\tau^3 r^6$ & $\dfrac{2}{105} \tau^3 r^7$ & $\dfrac{1}{384}\tau^4 r^8$ & $\dfrac{2}{945}\tau^4 r^9$ \\ \hline
-% $n$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ \\ \hline
-% $S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\dfrac{1}{2}\tau^2 r^3$ & $\dfrac{2}{3} \tau^2 r^4$ & $\dfrac{1}{8}\tau^3 r^5$ & $\dfrac{2}{15} \tau^3 r^6$ & $\dfrac{1}{48}\tau^4 r^7$ & $\dfrac{2}{105} \tau^4 r^8$
-% \end{tabular}
-% \end{center}
-% \caption{Writing the recurrences in Figure~\ref{fig:Nspheres} in terms of $\tau$.\label{table:recurrence_constant_tau}}
-% \end{table}
-
 % subsubsection recurrences (end)
 
 
@@ -834,7 +823,7 @@ When discussing general $n$-dimensional spheres, for convenience we'll generally
 
 Armed with the discussion in Section~\ref{sec:volume_of_a_hypersphere}, we're now ready to get to the bottom of $\pi$ and $\tau$. To complete the excavation, we'll use Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} to define two families of constants, and then use the definition of $\pi$ (Eq.~\eqref{eq:pi}) to define a third.
 
-First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing Eq. \eqref{eq:surface_area_lambda} by $r^{n-1}$, the power of $r$ needed to yield a dimensionless constant:
+First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing \linebreak Eq.~\eqref{eq:surface_area_lambda} by $r^{n-1}$, the power of $r$ needed to yield a dimensionless constant:
 \begin{equation}
 \label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
