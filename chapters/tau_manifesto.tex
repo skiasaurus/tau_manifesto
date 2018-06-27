@@ -7,9 +7,10 @@
   \label{sec:an_immodest_proposal}
 
 We begin repairing the damage wrought by $\pi$ by first understanding the notorious number itself. The traditional definition for the circle constant sets $\pi$ (pi) equal to the ratio of a circle's circumference to its diameter:\footnote{The symbol $\equiv$ means ``is defined as''.}
-\[
-  \pi \equiv \frac{C}{D} = 3.14159265\ldots
-\]
+\begin{equation}
+\label{eq:pi}
+\pi \equiv \frac{C}{D} = 3.14159265\ldots
+\end{equation}
 The number $\pi$ has many remarkable properties---among other things, it is \href{http://en.wikipedia.org/wiki/Irrational_number}{\emph{irrational}} and indeed \href{http://en.wikipedia.org/wiki/Transcendental_number}{\emph{transcendental}}---and its presence in mathematical formulas is widespread.
 
 \begin{figure}
@@ -18,9 +19,10 @@ The number $\pi$ has many remarkable properties---among other things, it is \hre
 \end{figure}
 
 It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, a circle is defined as the set of points a fixed distance---the \emph{radius}---from a given point, the \emph{center} (Figure~\ref{fig:circle}). While there are infinitely many shapes with constant diameter (Figure~\ref{fig:bicycle_constant_diameters}), there is only one shape with constant radius. This suggests that a more natural definition for the circle constant might use $r$ in place of $D$:
-\[
-  \mathrm{circle\ constant} \equiv \frac{C}{r}.
-\]
+\begin{equation}
+\label{eq:circle_constant}
+\mbox{circle constant} \equiv \frac{C}{r}.
+\end{equation}
 Because the diameter of a circle is twice its radius, this number is numerically equal to $2\pi$. Like $\pi$, it is transcendental and hence irrational, and (as we'll see in Section~\ref{sec:the_number_tau}) its use in mathematics is similarly widespread.
 
 \begin{figure}
@@ -36,9 +38,10 @@ In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second of
 \end{figure}
 
 \emph{The Tau Manifesto} is dedicated to the proposition that the proper response to ``$\pi$ is wrong'' is ``No, \emph{really}.'' And the true circle constant deserves a proper name. As you may have guessed by now, \emph{The Tau Manifesto} proposes that this name should be the Greek letter $\tau$ (tau):
-\[
-  \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
-\]
+\begin{equation}
+\label{eq:tau}
+\tau \equiv \frac{C}{r} = 6.283185307179586\ldots
+\end{equation}
 Throughout the rest of this manifesto, we will see that the \emph{number} $\tau$ is the correct choice, and we will show through usage (Section~\ref{sec:the_number_tau} and Section~\ref{sec:circular_area}) and by direct argumentation (Section~\ref{sec:conflict_and_resistance}) that the \emph{letter} $\tau$ is a natural choice as well.
 
 \subsection{A powerful enemy} % (fold)
@@ -164,7 +167,7 @@ Now, a moment's reflection shows that the so-called ``special'' angles are just 
 
 Although there are many other arguments in $\tau$'s favor, Figure~\ref{fig:tau_angles} may be the most striking. We also see from Figure~\ref{fig:tau_angles} the genius of Bob Palais' identification of the circle constant as ``\href{http://en.wikipedia.org/wiki/Turn_(geometry)}{one turn}'': $\tau$ is the radian angle measure for one \emph{turn} of a circle. Moreover, note that with $\tau$ there is \emph{nothing to memorize}: a twelfth of a turn is $\tau/12$, an eighth of a turn is $\tau/8$, and so on. Using $\tau$ gives us the best of both worlds by combining conceptual clarity with all the concrete benefits of radians; the abstract meaning of, say, $\tau/12$ is obvious, but it is also just a number:
 \[
-  \mathrm{a\ twelfth\ of\ a\ turn} = \frac{\tau}{12} \approx \frac{6.283185}{12} = 0.5235988.
+  \mbox{a twelfth of a turn} = \frac{\tau}{12} \approx \frac{6.283185}{12} = 0.5235988.
 \]
 Finally, by comparing Figure~\ref{fig:pi_angles} with Figure~\ref{fig:tau_angles}, we see where those pesky factors of $2\pi$ come from: one turn of a circle is $1\tau$, but $2\pi$. Numerically they are equal, but conceptually they are quite distinct.
 
@@ -581,9 +584,7 @@ The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) in
 \label{eq:unit_n_sphere_pi}
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \end{equation}
-where the Gamma function is given by Eq.~\eqref{eq:gamma}.
-
-Eq.~\eqref{eq:unit_n_sphere_pi} is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
+where the Gamma function is given by Eq.~\eqref{eq:gamma}. Eq.~\eqref{eq:unit_n_sphere_pi} is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
 \begin{equation}
 \label{eq:n_sphere_pi}
 V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
@@ -598,7 +599,7 @@ Rather than simply take these formulas at face value, let's see if we can untang
 \[
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward: just replace a real $x$ with complex $z$ in Eq.~\eqref{eq:gamma}.}
+Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward: just replace real $x$ with complex $z$ in Eq.~\eqref{eq:gamma}.}
 
 In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is $\left(1 + \frac{n}{2}\right)$, which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{http://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
 \begin{equation}
@@ -725,8 +726,9 @@ This means that we can rewrite the product
 \end{cases}
 \]
 as
-\[
- \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
+\begin{equation}
+\label{eq:prefactor}
+\lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
  2^n & \text{if } n \text{ is even}; \\ \\
  2^{n-1} & \text{if } n \text{ is odd}.
@@ -736,8 +738,8 @@ as
  2 & \text{if } n \text{ is odd}.
  \end{cases}
  = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
-\]
-which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying this to the formulas for surface area and volume yields
+\end{equation}
+which eliminates the explicit dependence on \href{http://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying Eq.~\eqref{eq:prefactor} to Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} then gives
 \begin{equation}
 \label{eq:surface_area_lambda}
 S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
@@ -750,7 +752,7 @@ V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 
 The simplification in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} appears to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions divides naturally into $2^n$ congruent pieces, corresponding to the $2^n$ families of solutions to $\sum_{i=1}^{n} x_i^2 = r^2$ (one for each choice of $\pm x_i$). In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions. In other words, we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$.
 
-To my knowledge, Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} are the simplest possible formulations of the spherical surface area and volume formulas. Unlike the \emph{faux} simplicity of Eq.~\eqref{eq:n_sphere_pi_r}, Eq.~\eqref{eq:volume_lambda} involves no fancy integrals: just the slightly exotic but nevertheless elementary floor and double-factorial functions.
+To my knowledge, Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} are the simplest possible formulations of the spherical surface area and volume formulas (and indeed are the only forms I have ever consistently been able to memorize). Consider the volume formula in particular: unlike the \emph{faux} simplicity of Eq.~\eqref{eq:n_sphere_pi}, Eq.~\eqref{eq:volume_lambda} involves no fancy integrals---just the slightly exotic but nevertheless elementary floor and double-factorial functions. The volume of a unit $n$-sphere is just the volume of each symmetric piece, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplied by the number of pieces, $2^n$.
 
 % subsubsection lambda (end)
 
@@ -759,9 +761,9 @@ To my knowledge, Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lam
 
 We've now seen, via Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, that the surface area and volume formulas are simplest in terms of the right angle~$\lambda$. Nevertheless, we're not done with $\tau$.
 
-For simplicity, we'll work in terms of spherical volume. As seen in Eq.~\eqref{eq:volume_lambda}, the volume formula divides naturally into two families, corresponding to even- and odd-dimensional spaces, respectively. This means that the four-dimensional volume, $V_4$, is related simply to $V_2$ but not to $V_3$, while $V_3$ is related to $V_1$ but not $V_2$. How exactly are they related?
+As seen in Eq.~\eqref{eq:volume_lambda}, the volume formula divides naturally into two families, corresponding to even- and odd-dimensional spaces, respectively. This means that the four-dimensional volume, $V_4$, is related simply to $V_2$ but not to $V_3$, while $V_3$ is related to $V_1$ but not to $V_2$. How exactly are they related?
 
-We can find the answer by deriving the \emph{recurrence relations} between dimensions. In particular, let's divide the volume of an $n$-dimensional sphere by the volume for an $(n-2)$-dimensional sphere:
+We can find the answer by deriving the \emph{recurrence relations} between dimensions.\footnote{The article ``\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}'' by Phanuel A. Mariano contains an alternate derivation of these important recurrences.} In particular, let's divide the volume of an $n$-dimensional sphere by the volume for an $(n-2)$-dimensional sphere:
 \begin{equation}
 \label{eq:volume_recurrence}
 \frac{V_n(r)}{V_{n-2}(r)} =
@@ -772,10 +774,9 @@ We can find the answer by deriving the \emph{recurrence relations} between dimen
 =
 \frac{2^2\lambda}{n}\,r^2.
 \end{equation}
-In other words, Eq.~\eqref{eq:volume_recurrence} says that we can obtain the volume of an $n$-sphere simply by multiplying the formula for the $(n-2)$-sphere by $r^2$ (a factor required by dimensional analysis), dividing by $n$, and multiplying by the constant $2^2\lambda$.
+In words, Eq.~\eqref{eq:volume_recurrence} says that we can obtain the volume of an $n$-sphere simply by multiplying the formula for the $(n-2)$-sphere by $r^2$ (a factor required by dimensional analysis), dividing by $n$, and multiplying by the ``recurrence constant'' $2^2\lambda$.
 
 Similarly, for the surface area we have
-
 \begin{equation}
 \label{eq:surface_area_recurrence}
 \frac{S_n(r)}{S_{n-2}(r)} =
@@ -784,32 +785,41 @@ Similarly, for the surface area we have
 \frac{(n-2-2)!!}{(n-2)!!}
 \frac{r^{n}}{r^{n-2}}
 =
-\frac{2^2\lambda}{n-2}\,r^2.
+\frac{2^2\lambda}{n-2}\,r^2,
+\end{equation}
+with the same recurrence constant $2^2\lambda$.
+
+Thus, in both Eq.~\eqref{eq:volume_recurrence} and Eq.~\eqref{eq:surface_area_recurrence}, the constant relating the different dimensions is not $\lambda$ itself but rather the combination $2^2\lambda$. Comparing with Eq.~\eqref{eq:tau_lambda}, we see this is none other than $\tau$! Indeed, an \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{alternate derivation} of the volume recurrence by direct calculation (which uses $R$ where we write $r$) concludes with the integral
+\begin{align}
+V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \nonumber \\
+&= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \nonumber \\
+&= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
+\end{align}
+thus showing that the identification of $\tau$ as the ``recurrence constant'' isn't a coincidence---the recurrence constant and the circle constant really are one and the same:
+\begin{equation}
+\label{eq:tau_recurrence}
+\tau = \mbox{circle constant} = 2^2\lambda = \mbox{recurrence constant}.
 \end{equation}
 
-In both Eq.~\eqref{eq:volume_recurrence} and Eq.~\eqref{eq:surface_area_recurrence}, the constant relating the different dimensions is $2^2\lambda$ rather than $\lambda$ alone. But recall from Eq.~\eqref{eq:tau_lambda} that $2^2\lambda$ is just $\tau$! This means that $\tau$ is the principal constant tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg (using $2\pi$) in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}).
+As a result, it is $\tau$, not $\lambda$, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}). When discussing general $n$-dimensional spheres, for convenience we'll generally write the surface area and volume formulas in terms of $\lambda$ as in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, but for any given $n$ we'll use the recurrence constant $\tau$ (Table~\ref{table:recurrence_constant_tau}).
 
 \begin{figure}
 \begin{center}
 \image{images/figures/Nspheres.png}
 \end{center}
-\caption{Surface area and volume recurrences.\label{fig:Nspheres}}
+\caption{Surface area and volume recurrences (in terms of $2\pi$).\label{fig:Nspheres}}
 \end{figure}
-
-***table
 
 \begin{table}
 \begin{center}
 \begin{tabular}{c|ccccccccc}
-$V_n(r)$ & $2r$ & $\frac{\tau}{2} r^2$ & $\frac{2\tau}{3} r^3$ & $\frac{\tau^2}{8} r^4$ & $\frac{2 \tau^2}{15} r^5$ & $\frac{\tau^3}{48} r^6$ & $\frac{2 \tau^3}{105} r^7$ & $\frac{\tau^4}{384} r^8$ & $\frac{2 \tau^4}{945} r^9$ \\ \hline
+$V_n(r)$ & $2r$ & $\dfrac{1}{2}\tau r^2$ & $\dfrac{2}{3}\tau r^3$ & $\dfrac{1}{8}\tau^2 r^4$ & $\dfrac{2}{15} \tau^2 r^5$ & $\dfrac{1}{48}\tau^3 r^6$ & $\dfrac{2}{105} \tau^3 r^7$ & $\dfrac{1}{384}\tau^4 r^8$ & $\dfrac{2}{945}\tau^4 r^9$ \\ \hline
 $n$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ \\ \hline
-$S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\frac{\tau^2}{2} r^3$ & $\frac{2 \tau^2}{3} r^4$ & $\frac{\tau^3}{8} r^5$ & $\frac{2 \tau^3}{15} r^6$ & $\frac{\tau^4}{48} r^7$ & $\frac{2 \tau^4}{105} r^8$
+$S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\dfrac{1}{2}\tau^2 r^3$ & $\dfrac{2}{3} \tau^2 r^4$ & $\dfrac{1}{8}\tau^3 r^5$ & $\dfrac{2}{15} \tau^3 r^6$ & $\dfrac{1}{48}\tau^4 r^7$ & $\dfrac{2}{105} \tau^4 r^8$
 \end{tabular}
 \end{center}
-\caption{Eulerian identities for half, quarter, and full rotations.\label{table:eulerian_identities}}
+\caption{Writing the recurrences in Figure~\ref{fig:Nspheres} in terms of $\tau$.\label{table:recurrence_constant_tau}}
 \end{table}
-
-In what follows, we'll write
 
 % subsubsection recurrences (end)
 
@@ -819,18 +829,19 @@ In what follows, we'll write
   \subsection{Three families of constants} % (fold)
   \label{sec:three_families_of_constants}
 
-We have nearly gotten to the bottom of $\pi$ and $\tau$. To complete the excavation, we'll use the general formulas for the surface area and volume of an $n$-sphere to define two families of constants, and then use the definition of $\pi$ to define a third.
+Armed with the discussion in Section~\ref{sec:volume_of_a_hypersphere}, we're now ready to get to the bottom of $\pi$ and $\tau$. To complete the excavation, we'll use Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} to define two families of constants, and then use the definition of $\pi$ (Eq.~\eqref{eq:pi}) to define a third.
 
-The first family is defined by the surface area formula:
-\[
+The first family of constants, the ``surface area'' constants $\tau_n$, is defined by dividing Eq.~\eqref{eq:surface_area_lambda} by the power of $r$ needed to yield a dimensionless constant ($r^{n-1}$):
+\begin{equation}
+\label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
-\]
-The second family is defined by the volume formula:
-\[
+\end{equation}
+The second family, the ``volume constants'' $\sigma_n$, is similiarly defined by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$:
+\begin{equation}
+\label{eq:volume_constants}
 \sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
-\]
-(As in Section~\ref{sec:volume_of_a_hypersphere}, here $\lambda = \tau/4$.)
-With these two families of constants, we can write the surface area and volume formulas compactly as follows:
+\end{equation}
+With these two families of constants defined in Eq.~\eqref{eq:surface_area_constants} and Eq.~\eqref{eq:volume_constants}, we can write the surface area and volume formulas (Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}) compactly as follows:
 \[ S_n(r) = \tau_n\,r^{n-1} \]
 and
 \[ V_n(r) = \sigma_n\,r^n. \]
@@ -839,11 +850,11 @@ Because of the relation $V_n(r) = \int S_n(r)\,dr$, we have the simple relations
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-Let us make some observations about these two families of constants. The first, as noted above, is that it is not $\tau$ but $\lambda$ that unites these formulas. Nevertheless, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $S_n(r)$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n(r)$, we have
+Let us make some observations about these two families of constants. First, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $S_n(r)$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n(r)$, we have
 \[
 \theta_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{f S_n(r)}{r^{n-1}} = f\left(\frac{S_n(r)}{r^{n-1}}\right) = f\tau_n.
 \]
-Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\,\lambda = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
+Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\lambda = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
 
 Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\sigma_2$ is the area of a unit disk:
 \[
@@ -852,16 +863,16 @@ Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\
 This shows that $\sigma_2 = \tau/2 = 3.14159\ldots$ does have an independent geometric significance. Note, however, that \emph{it has nothing to do with circumferences or diameters}. In other words, \emph{$\pi = C/D$ is not a member of the family~$\sigma_n$}.
 
 So, to which family of constants does $\pi$ naturally belong?
-Let's rewrite $\pi = C/D$ in terms more appropriate for generalization to higher dimensions:
+Let's rewrite Eq.~\eqref{eq:pi} in terms more appropriate for generalization to higher dimensions:
 \[
 \pi = \frac{C}{D} = \frac{S_2}{D^{2-1}}.
 \]
-We thus see that $\pi$ is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant.
-This suggests introducing a third family of constants~$\pi_n$:
-\[
+We thus see that $\pi$ is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant. This suggests introducing a third family of constants~$\pi_n$:
+\begin{equation}
+\label{eq:diameter_constants}
 \pi_n \equiv \frac{S_n(r)}{D^{n-1}}.
-\]
-We can express this family in terms of the $\tau_n$ as follows:
+\end{equation}
+We can express this in terms of the family $\tau_n$ by substituting $D = 2r$ in Eq.~\eqref{eq:diameter_constants} and applying Eq.~\eqref{eq:surface_area_constants}:
 \[
 \pi_n = \frac{S_n(r)}{D^{n-1}} = \frac{S_n(r)}{(2r)^{n-1}} =
 \frac{S_n(r)}{2^{n-1}r^{n-1}} = \frac{\tau_n}{2^{n-1}}.
@@ -918,7 +929,7 @@ Over the years, I have heard many arguments against the wrongness of $\pi$ and a
 
 We have seen in \emph{The Tau Manifesto} that the natural choice for the circle constant is the ratio of a circle's circumference not to its diameter, but to its radius. This number needs a name, and I hope you will join me in calling it~$\tau$:
 \[
-  \mathrm{circular\ unit} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
+  \mbox{circular unit} = \tau \equiv \frac{C}{r} = 6.283185307179586\ldots
 \]
 The usage is natural, the motivation is clear, and the implications are profound. Plus, it comes with a really cool diagram (Figure~\ref{fig:tauism}). We see in Figure~\ref{fig:tauism} a movement through \emph{yang} (``light, white, moving up'') to $\tau/2$ and a return through \emph{yin} (``dark, black, moving down'') back to $\tau$.\footnote{The interpretations of yin and yang quoted here are from \emph{Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation} by Aaron Hoopes.} Using $\pi$ instead of $\tau$ is like having \emph{yang} without \emph{yin}.
 
