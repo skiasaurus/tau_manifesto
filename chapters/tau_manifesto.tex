@@ -620,11 +620,14 @@ V_n(r) = \begin{cases}
 \end{equation}
 
 Let's examine Eq.~\eqref{eq:volume_mathworld} in more detail. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
-\[ n!! = \begin{cases}
- n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
- n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
- \end{cases} \]
- (By definition, $0!! = 1!! = 1$.) Note that this definition naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
+\begin{equation}
+\label{eq:double_factorial}
+n!! = \begin{cases}
+n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
+n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
+\end{cases}
+\end{equation}
+(By definition, $0!! = 1!! = 1$.) Note that Eq.~\eqref{eq:double_factorial} naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
 
 To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$ in Eq.~\eqref{eq:volume_mathworld}:
 \[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
@@ -759,7 +762,7 @@ To my knowledge, Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lam
 \subsubsection{Recurrences} % (fold)
 \label{sec:recurrences}
 
-We've now seen, via Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, that the surface area and volume formulas are simplest in terms of the right angle~$\lambda$. Nevertheless, we're not done with $\tau$.
+We've now seen, via Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, that the surface area and volume formulas are simplest in terms of the right angle~$\lambda$. Nevertheless, we're still not done with $\tau$.
 
 As seen in Eq.~\eqref{eq:volume_lambda}, the volume formula divides naturally into two families, corresponding to even- and odd-dimensional spaces, respectively. This means that the four-dimensional volume, $V_4$, is related simply to $V_2$ but not to $V_3$, while $V_3$ is related to $V_1$ but not to $V_2$. How exactly are they related?
 
@@ -774,7 +777,7 @@ We can find the answer by deriving the \emph{recurrence relations} between dimen
 =
 \frac{2^2\lambda}{n}\,r^2.
 \end{equation}
-In words, Eq.~\eqref{eq:volume_recurrence} says that we can obtain the volume of an $n$-sphere simply by multiplying the formula for the $(n-2)$-sphere by $r^2$ (a factor required by dimensional analysis), dividing by $n$, and multiplying by the ``recurrence constant'' $2^2\lambda$.
+We see from Eq.~\eqref{eq:volume_recurrence} that we can obtain the volume of an $n$-sphere simply by multiplying the formula for an $(n-2)$-sphere by $r^2$ (a factor required by dimensional analysis), dividing by $n$, and multiplying by the ``recurrence constant'' $2^2\lambda$.
 
 Similarly, for the surface area we have
 \begin{equation}
@@ -798,28 +801,29 @@ V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d
 thus showing that the identification of $\tau$ as the ``recurrence constant'' isn't a coincidence---the recurrence constant and the circle constant really are one and the same:
 \begin{equation}
 \label{eq:tau_recurrence}
-\tau = \mbox{circle constant} = 2^2\lambda = \mbox{recurrence constant}.
+\tau = \mbox{circle constant} = \mbox{recurrence constant} = 2^2\lambda.
 \end{equation}
-
-As a result, it is $\tau$, not $\lambda$, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}). When discussing general $n$-dimensional spheres, for convenience we'll generally write the surface area and volume formulas in terms of $\lambda$ as in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, but for any given $n$ we'll use the recurrence constant $\tau$ (Table~\ref{table:recurrence_constant_tau}).
+As a result, it is $\tau$, not $\lambda$, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}).
 
 \begin{figure}
 \begin{center}
 \image{images/figures/Nspheres.png}
 \end{center}
-\caption{Surface area and volume recurrences (in terms of $2\pi$).\label{fig:Nspheres}}
+\caption{Surface area and volume recurrences.\label{fig:Nspheres}}
 \end{figure}
 
-\begin{table}
-\begin{center}
-\begin{tabular}{c|ccccccccc}
-$V_n(r)$ & $2r$ & $\dfrac{1}{2}\tau r^2$ & $\dfrac{2}{3}\tau r^3$ & $\dfrac{1}{8}\tau^2 r^4$ & $\dfrac{2}{15} \tau^2 r^5$ & $\dfrac{1}{48}\tau^3 r^6$ & $\dfrac{2}{105} \tau^3 r^7$ & $\dfrac{1}{384}\tau^4 r^8$ & $\dfrac{2}{945}\tau^4 r^9$ \\ \hline
-$n$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ \\ \hline
-$S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\dfrac{1}{2}\tau^2 r^3$ & $\dfrac{2}{3} \tau^2 r^4$ & $\dfrac{1}{8}\tau^3 r^5$ & $\dfrac{2}{15} \tau^3 r^6$ & $\dfrac{1}{48}\tau^4 r^7$ & $\dfrac{2}{105} \tau^4 r^8$
-\end{tabular}
-\end{center}
-\caption{Writing the recurrences in Figure~\ref{fig:Nspheres} in terms of $\tau$.\label{table:recurrence_constant_tau}}
-\end{table}
+When discussing general $n$-dimensional spheres, for convenience we'll generally write the surface area and volume formulas in terms of $\lambda$ as in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}, but for any given $n$ we'll use the recurrence constant $\tau$.
+
+% \begin{table}
+% \begin{center}
+% \begin{tabular}{c|ccccccccc}
+% $V_n(r)$ & $2r$ & $\dfrac{1}{2}\tau r^2$ & $\dfrac{2}{3}\tau r^3$ & $\dfrac{1}{8}\tau^2 r^4$ & $\dfrac{2}{15} \tau^2 r^5$ & $\dfrac{1}{48}\tau^3 r^6$ & $\dfrac{2}{105} \tau^3 r^7$ & $\dfrac{1}{384}\tau^4 r^8$ & $\dfrac{2}{945}\tau^4 r^9$ \\ \hline
+% $n$ & $1$ & $2$ & $3$ & $4$ & $5$ & $6$ & $7$ & $8$ & $9$ \\ \hline
+% $S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\dfrac{1}{2}\tau^2 r^3$ & $\dfrac{2}{3} \tau^2 r^4$ & $\dfrac{1}{8}\tau^3 r^5$ & $\dfrac{2}{15} \tau^3 r^6$ & $\dfrac{1}{48}\tau^4 r^7$ & $\dfrac{2}{105} \tau^4 r^8$
+% \end{tabular}
+% \end{center}
+% \caption{Writing the recurrences in Figure~\ref{fig:Nspheres} in terms of $\tau$.\label{table:recurrence_constant_tau}}
+% \end{table}
 
 % subsubsection recurrences (end)
 
@@ -831,17 +835,17 @@ $S_n(r)$ & $2$ & $\tau r$ & $2 \tau r^2$ & $\dfrac{1}{2}\tau^2 r^3$ & $\dfrac{2}
 
 Armed with the discussion in Section~\ref{sec:volume_of_a_hypersphere}, we're now ready to get to the bottom of $\pi$ and $\tau$. To complete the excavation, we'll use Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} to define two families of constants, and then use the definition of $\pi$ (Eq.~\eqref{eq:pi}) to define a third.
 
-The first family of constants, the ``surface area'' constants $\tau_n$, is defined by dividing Eq.~\eqref{eq:surface_area_lambda} by the power of $r$ needed to yield a dimensionless constant ($r^{n-1}$):
+First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing Eq.~\eqref{eq:surface_area_lambda} by $r^{n-1}$ (the power of $r$ needed to yield a dimensionless constant):
 \begin{equation}
 \label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
 \end{equation}
-The second family, the ``volume constants'' $\sigma_n$, is similiarly defined by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$:
+Second, we'll define a family of ``volume constants'' $\sigma_n$ by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$:
 \begin{equation}
 \label{eq:volume_constants}
 \sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
 \end{equation}
-With these two families of constants defined in Eq.~\eqref{eq:surface_area_constants} and Eq.~\eqref{eq:volume_constants}, we can write the surface area and volume formulas (Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}) compactly as follows:
+With the two families of constants defined in Eq.~\eqref{eq:surface_area_constants} and Eq.~\eqref{eq:volume_constants}, we can write the surface area and volume formulas (Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}) compactly as follows:
 \[ S_n(r) = \tau_n\,r^{n-1} \]
 and
 \[ V_n(r) = \sigma_n\,r^n. \]
@@ -850,11 +854,11 @@ Because of the relation $V_n(r) = \int S_n(r)\,dr$, we have the simple relations
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-Let us make some observations about these two families of constants. First, the family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $S_n(r)$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n(r)$, we have
+Let us make some observations about these two families of constants. The family $\tau_n$ has an important geometric meaning: by setting $r=1$, we see that each $\tau_n$ is the surface area of a unit $n$-sphere, which is also the angle measure of a full $n$-sphere. In particular, by writing $S_n(r)$ as the $n$-dimensional ``arclength'' equal to a fraction~$f$ of the full surface area~$S_n(r)$, we have
 \[
 \theta_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{f S_n(r)}{r^{n-1}} = f\left(\frac{S_n(r)}{r^{n-1}}\right) = f\tau_n.
 \]
-Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\lambda = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}.
+Here $\theta_n$ is simply the $n$-dimensional generalization of radian angle measure, and we see that $\tau_n$ is the generalization of ``one turn'' to $n$ dimensions, which explains why the 2-sphere (circle) constant $\tau_2 = 2^2\lambda = \tau$ leads naturally to the diagram shown in Figure~\ref{fig:tau_angles}. Furthermore, we learned in Section~\ref{sec:volume_of_a_hypersphere} that $\tau_2$ is also the ``recurrence constant'' for $n$-sphere surface areas and volumes.
 
 Meanwhile, the $\sigma_n$ are the volumes of unit $n$-spheres. In particular, $\sigma_2$ is the area of a unit disk:
 \[
