@@ -799,10 +799,9 @@ V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d
 &= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
 \end{align}
 thus showing that the identification of $\tau$ as the ``recurrence constant'' isn't a coincidence---the recurrence constant and the circle constant really are one and the same:
-\begin{equation}
-\label{eq:tau_recurrence}
+\[
 \tau = \mbox{circle constant} = \mbox{recurrence constant} = 2^2\lambda.
-\end{equation}
+\]
 As a result, it is $\tau$, not $\lambda$, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}).\footnote{\href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} actually writes the recurrence in terms of $2\pi$; the version shown in Figure~\ref{fig:Nspheres} was created for me by special request. As always, I am most grateful to Joseph Lindenberg for his continuing generosity and support.}
 
 \begin{figure}
@@ -843,7 +842,7 @@ First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing 
 Second, we'll define a family of ``volume constants'' $\sigma_n$ by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$:
 \begin{equation}
 \label{eq:volume_constants}
-\sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}
+\sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}.
 \end{equation}
 With the two families of constants defined in Eq.~\eqref{eq:surface_area_constants} and Eq.~\eqref{eq:volume_constants}, we can write the surface area and volume formulas (Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda}) compactly as follows:
 \[ S_n(r) = \tau_n\,r^{n-1} \]
