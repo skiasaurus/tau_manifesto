@@ -229,8 +229,11 @@ e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Euler's formula}
 Known as \emph{Euler's formula} (after \href{https://en.wikipedia.org/wiki/Leonhard_Euler}{Leonhard Euler}), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit~$i$. Although justifying Euler's formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.
 
 Evaluating Eq.~\eqref{eq:eulers_formula} at $\theta = \tau$ yields \emph{Euler's identity}:\footnote{Here I'm implicitly defining Euler's identity to be \emph{the complex exponential of the circle constant}, rather than defining it to be the complex exponential of any particular number. If we choose $\tau$ as the circle constant, we obtain the identity shown. As we'll see momentarily, this is not the traditional form of the identity, which of course involves $\pi$, but the version with $\tau$ is the most \emph{mathematically} meaningful statement of the identity, so I believe it deserves the name.}
-\[ e^{i\tau} = 1. \qquad\mbox{Euler's identity ($\tau$ version)} \]
-In words, this equation makes the following fundamental observation:
+\begin{equation}
+\label{eq:eulers_identity_tau}
+e^{i\tau} = 1. \qquad\mbox{Euler's identity ($\tau$ version)}
+\end{equation}
+In words, Eq.~\eqref{eq:eulers_identity_tau} makes the following fundamental observation:
 
 \begin{center}
 \emph{The complex exponential of the circle constant is unity.}
@@ -254,16 +257,24 @@ Of course, the traditional form of Euler's identity is written in terms of $\pi$
 \label{eq:eulers_identity_pi}
 e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)}
 \end{equation}
-But that minus sign is so ugly that the formula is almost always rearranged immediately, giving the following ``beautiful'' equation:
-\[ e^{i\pi} + 1 = 0. \qquad\mbox{Euler's identity (rearranged)} \]
-At this point, the expositor usually makes some grandiose statement about how Euler's identity relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''. It's remarkable how many people complain that Euler's identity with $\tau$ relates only \emph{four} of those five. Fine:
-\[ e^{i\tau} = 1 + 0. \]
-This formula, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
+But that minus sign is so ugly that Eq.~\eqref{eq:eulers_identity_pi} is almost always rearranged immediately, giving the following ``beautiful'' equation:
+\begin{equation}
+\label{eq:eulers_pi_rearranged}
+e^{i\pi} + 1 = 0. \qquad\mbox{Euler's identity (rearranged)}
+\end{equation}
+At this point, the expositor usually makes some grandiose statement about how Eq.~\eqref{eq:eulers_pi_rearranged} relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''.
+
+In this context, it's remarkable how many people complain that Eq.~\eqref{eq:eulers_identity_tau} relates only \emph{four} of those five. Fine:
+\begin{equation}
+\label{eq:euler_tau_zero}
+e^{i\tau} = 1 + 0.
+\end{equation}
+Eq.~\eqref{eq:euler_tau_zero}, \emph{without} rearrangement, actually does relate the five most important numbers in mathematics: $0$, $1$, $e$, $i$, and $\tau$.
 
       \subsubsection{Eulerian identities} % (fold)
       \label{sec:eulerian_identities}
 
-Since you can add zero anywhere in any equation, the introduction of $0$ into the formula $e^{i\tau} = 1 + 0$ is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} + 1 = 0$, but the identity $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
+Since you can add zero anywhere in any equation, the introduction of $0$ in Eq.~\eqref{eq:euler_tau_zero} is a somewhat tongue-in-cheek counterpoint to $e^{i\pi} + 1 = 0$, but the identity $e^{i\pi} = -1$ does have a more serious point to make. Let's see what happens when we rewrite it in terms of $\tau$:
 \[
 e^{i\tau/2} = -1.
 \]
@@ -425,14 +436,16 @@ There are two main reasons to use $\tau$ for the circle constant. The first is t
 
 The second reason is that $\tau$ corresponds to one \emph{turn} of a circle, and you may have noticed that ``$\tau$'' and ``turn'' both start with a ``\emph{t}'' sound. This was the original motivation for the choice of $\tau$, and it is not a coincidence: the root of the English word ``turn'' is the Greek word τόρνος (tornos), which means ``lathe''. Using a math font for the first letter in τόρνος then gives us: $\tau$.
 
-Since the original launch of \emph{The Tau Manifesto}, I have learned that \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s} independently proposed using $\tau$ to ``$\pi$ Is Wrong!''\ author Bob Palais in 2010, John Fisher proposed $\tau$ in a \href{https://groups.google.com/forum/#!msg/sci.math/c-DHmJHSA0A/sLCoOtHB1UAJ}{Usenet post} in 2004, and Joseph Lindenberg anticipated both the argument and the symbol more than twenty years before! (Lindenberg has included both his original typewritten manuscript and a large number of other arguments at his site \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool}.) Dr.~Harremo\"{e}s has emphasized the importance of a point first made in Section~\ref{sec:an_immodest_proposal}: using $\tau$ gives the circle constant a \emph{name}. Since $\tau$ is an ordinary Greek letter, people encountering it for the first time can pronounce it immediately. Moreover, unlike calling the circle constant a ``turn'',
+Since the original launch of \emph{The Tau Manifesto}, I have learned that \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s} independently proposed using $\tau$ to ``$\pi$ Is Wrong!''\ author Bob Palais in 2010, John Fisher proposed $\tau$ in a \href{https://groups.google.com/forum/#!msg/sci.math/c-DHmJHSA0A/sLCoOtHB1UAJ}{Usenet post} in 2004, and Joseph Lindenberg anticipated both the argument and the symbol more than twenty years before!\footnote{Lindenberg has included both his original typewritten manuscript and a large number of other arguments at his site \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool}.} Dr.~Harremo\"{e}s in particular has emphasized the importance of a point first made in Section~\ref{sec:an_immodest_proposal}: using $\tau$ gives the circle constant a \emph{name}. Since $\tau$ is an ordinary Greek letter, people encountering it for the first time can pronounce it immediately. Moreover, unlike calling the circle constant a ``turn'',
 $\tau$ works well in both written and spoken contexts. For example, saying that a quarter circle has radian angle measure ``one quarter turn'' sounds great, but ``turn over four radians'' sounds awkward, and ``the area of a circle is one-half turn $r$ squared'' sounds downright odd. Using $\tau$, we can say ``tau over four radians'' and ``the area of a circle is one-half tau $r$ squared.''
 
     \subsubsection{Ambiguous notation} % (fold)
     \label{sec:ambiguous_notation}
 
 
-Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{https://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots\ um\ldots\ $2\pi$---and this usage is now standard. But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol for $2\pi$ would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment. (Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.)
+Of course, with any new notation there is the potential for conflict with present usage. As noted in Section~\ref{sec:an_immodest_proposal}, ``$\pi$ Is Wrong!''\ avoids this problem by introducing a new symbol (Figure~\ref{fig:palais_tau}). There is precedent for this; for example, in the early days of quantum mechanics \href{https://en.wikipedia.org/wiki/Max_Planck}{Max Planck} introduced the constant~$h$, which relates a light particle's energy to its frequency (through $E = h\nu$), but physicists soon realized that it is often more convenient to use $\hbar$ (read ``h-bar'')---where $\hbar$ is just $h$ divided by\ldots\ um\ldots\ $2\pi$---and this usage is now standard.
+
+But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems. Moreover, promulgating a new symbol for $2\pi$ would require the cooperation of the academic mathematical community, which on the subject of $\pi$ vs.\ $\tau$ has so far been apathetic at best and hostile at worst. Using an existing symbol allows us to route around the mathematical establishment.\footnote{Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number $2\pi$; if that ever happens, I reserve the right to support their proposed notation. But they have had over 300 years to fix this $\pi$ problem, so I wouldn't hold my breath.}
 
 Rather than advocating a new symbol, \emph{The Tau Manifesto} opts for the use of an existing Greek letter. As a result, since $\tau$ is already used in some current contexts, we must address the conflicts with existing practice. Fortunately, there are surprisingly few common uses. Moreover, while $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no \emph{universal} conflicting usage.\footnote{The only possible exception to this is the \emph{golden ratio}, which is often denoted by $\tau$ in Europe. But not only is there an existing common alternative to this notation---namely, the Greek letter $\varphi$---this usage shows that there is precedent for using $\tau$ to denote a fundamental mathematical constant.} In those cases, we can either tolerate ambiguity or route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time.
 
