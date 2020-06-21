@@ -727,13 +727,15 @@ where the factor of $2^2$ comes from the $2^2$ congruent circular arcs (one in e
 
 The biggest advantage of $\lambda$ is that it completely unifies the even and odd cases in Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau}, each of which has a factor of $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Making the substitution in Eq.~\eqref{eq:tau_lambda} then gives
 \[
-\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} =
-\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
+\begin{split}
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} &= 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
+&= \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
  2^n & \text{if } n \text{ is even}; \\ \\
  2^{n-1} & \text{if } n \text{ is odd}.
  \end{cases}
-\]
+ \end{split}
+ \]
 This means that we can rewrite the product
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
