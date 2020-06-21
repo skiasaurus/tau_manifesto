@@ -370,7 +370,11 @@ The potential energy in the spring is then equal to the work done by the externa
 The constant of proportionality is the mass~$m$:
 \[ F = m a. \]
 The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity~$v$:
-\[ K = \int F\,dx = \int ma\,dx = \int m\frac{dv}{dt}\,dx = \int m\frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
+\[
+\begin{split}
+K = \int F\,dx = \int ma\,dx &= \int m\frac{dv}{dt}\,dx \\ &= \int m\frac{dx}{dt}\,dv \\ &= \int_0^v mv\,dv \\ &= \textstyle{\frac{1}{2}} mv^2.
+\end{split}
+\]
 
   \subsection{A sense of foreboding} % (fold)
   \label{sec:a_sense_of_foreboding}
@@ -618,8 +622,8 @@ In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma
 \begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -627,8 +631,8 @@ Integrating with respect to $r$ then gives
 \begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & n \text{ even}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -636,8 +640,8 @@ Let's examine Eq.~\eqref{eq:volume_mathworld} in more detail. Notice first that 
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
-n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
+n(n-2)\ldots6\cdot4\cdot2 &amp; n \text{ even}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 (By definition, $0!! = 1!! = 1$.) Note that Eq.~\eqref{eq:double_factorial} naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
@@ -653,8 +657,8 @@ and here we recognize our old friend~$2\pi$.
 Now let's look at the even case in Eq.~\eqref{eq:volume_mathworld}. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
 \[
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots & \text{if } n \text{ is even}; \\ \\
- \ldots & \text{if } n \text{ is odd}.
+\ldots & n \text{ even}; \\ \\
+ \ldots & n \text{ odd}.
  \end{cases}
 \]
 So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
@@ -669,44 +673,44 @@ Putting these results together, we see that Eq.~\eqref{eq:volume_mathworld} can 
 \begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}
  \end{cases}
 \end{equation}
 and Eq.~\eqref{eq:surface_area_mathworld} can be rewritten as
 \begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
 Making the substitution $\tau=2\pi$ in Eq.~\eqref{eq:surface_area_2pi} then yields
 \[
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases} \]
 To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (equivalent to chopping off the fractional part, so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
 \[ S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ odd},
  \end{cases} \]
 which allows us to write the formula as follows:
 \begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \end{equation}
 Integrating Eq.~\eqref{eq:surface_area_tau} with respect to $r$ then yields
 \begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -731,16 +735,16 @@ The biggest advantage of $\lambda$ is that it completely unifies the even and od
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} &= 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
 &= \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n & \text{if } n \text{ is even}; \\ \\
- 2^{n-1} & \text{if } n \text{ is odd}.
+ 2^n & n \text{ even}; \\ \\
+ 2^{n-1} & n \text{ odd}.
  \end{cases}
  \end{split}
  \]
 This means that we can rewrite the product
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \]
 as
@@ -748,12 +752,12 @@ as
 \label{eq:prefactor}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n & \text{if } n \text{ is even}; \\ \\
- 2^{n-1} & \text{if } n \text{ is odd}.
+ 2^n & n \text{ even}; \\ \\
+ 2^{n-1} & n \text{ odd}.
  \end{cases}
   \times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
+ 1 & n \text{ even}; \\ \\
+ 2 & n \text{ odd}.
  \end{cases}
  = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{equation}

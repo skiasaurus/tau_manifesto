@@ -331,7 +331,11 @@ e^{i\tau/2} = -1.
 </div><p class="noindent">The constant of proportionality is the mass <span class="inline_math">\( m \)</span>:</p>
 <div class="equation">\[  F = m a.  \]
 </div><p class="noindent">The energy of motion, or <em>kinetic energy</em>, is equal to the total work done in accelerating the mass to velocity <span class="inline_math">\( v \)</span>:</p>
-<div class="equation">\[  K = \int F\,dx = \int ma\,dx = \int m\frac{dv}{dt}\,dx = \int m\frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2.  \]
+<div class="equation">\[ 
+\begin{split}
+K = \int F\,dx = \int ma\,dx &amp;= \int m\frac{dv}{dt}\,dx \\ &amp;= \int m\frac{dx}{dt}\,dv \\ &amp;= \int_0^v mv\,dv \\ &amp;= \textstyle{\frac{1}{2}} mv^2.
+\end{split}
+ \]
 </div></div></div>
 <div id="sec-a_sense_of_foreboding" data-tralics-id="uid49" class="subsection" data-number="3.2"><h3><a href="#sec-a_sense_of_foreboding" class="heading"><span class="number">3.2 </span>A sense of foreboding</a></h3>
 <p>Having seen several examples of simple quadratic forms in physics, you may by now have a sense of foreboding as we return to the geometry of the circle.<span class="intersentencespace"></span> This feeling is justified.</p>
@@ -528,24 +532,24 @@ S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
 <div id="eq-surface_area_mathworld" data-tralics-id="uid74" data-number="17" class="equation">\begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} &amp; \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is odd}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 </div><p class="noindent">Integrating with respect to <span class="inline_math">\( r \)</span> then gives</p>
 <div id="eq-volume_mathworld" data-tralics-id="uid75" data-number="18" class="equation">\begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} &amp; \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} &amp; \text{if } n \text{ is odd}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} &amp; n \text{ even}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 </div><p class="noindent">Let’s examine <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a> in more detail.<span class="intersentencespace"></span> Notice first that MathWorld uses the <em>double factorial function</em> <span class="inline_math">\( n!! \)</span>—but, strangely, it uses it only in the <em>odd</em> case.<span class="intersentencespace"></span> (This is a hint of things to come.)<span class="intersentencespace"></span> The double factorial function, although rarely encountered in mathematics, is elementary: it’s like the normal factorial function, but involves subtracting <span class="inline_math">\( 2 \)</span> at a time instead of <span class="inline_math">\( 1 \)</span>, so that, e.g., <span class="inline_math">\( 5!! = 5 \cdot 3 \cdot 1 \)</span> and <span class="inline_math">\( 6!! = 6 \cdot 4 \cdot 2 \)</span>.<span class="intersentencespace"></span> In general, we have</p>
 <div id="eq-double_factorial" data-tralics-id="uid76" data-number="19" class="equation">\begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)(n-4)\ldots6\cdot4\cdot2 &amp; \text{if } n \text{ is even}; \\ \\
-n(n-2)(n-4)\ldots5\cdot3\cdot1 &amp; \text{if } n \text{ is odd}.
+n(n-2)(n-4)\ldots6\cdot4\cdot2 &amp; n \text{ even}; \\ \\
+n(n-2)(n-4)\ldots5\cdot3\cdot1 &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 </div><p class="noindent">(By definition, <span class="inline_math">\( 0!! = 1!! = 1 \)</span>.)<span class="intersentencespace"></span> Note that <a href="tau_manifesto.html#eq-double_factorial" class="hyperref">Eq. (<span class="ref">19</span>)</a> naturally divides into even and odd cases, making MathWorld’s decision to use it only in the odd case still more mysterious.</p>
@@ -559,8 +563,8 @@ n(n-2)(n-4)\ldots5\cdot3\cdot1 &amp; \text{if } n \text{ is odd}.
 <p>Now let’s look at the even case in <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a>.<span class="intersentencespace"></span> We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case.<span class="intersentencespace"></span> Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using <span class="inline_math">\( n!! \)</span> in both cases we could pull it out as a common factor:</p>
 <div class="equation">\[ 
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots &amp; \text{if } n \text{ is even}; \\ \\
- \ldots &amp; \text{if } n \text{ is odd}.
+\ldots &amp; n \text{ even}; \\ \\
+ \ldots &amp; n \text{ odd}.
  \end{cases}
  \]
 </div><p class="noindent">So, is there any connection between the factorial and the double factorial?<span class="intersentencespace"></span> Yes—when <span class="inline_math">\( n \)</span> is even, the two are related by the following identity:</p>
@@ -574,43 +578,43 @@ V_n(r) = \frac{1}{n!!}\times \begin{cases}
 <div id="eq-volume_2pi" data-tralics-id="uid77" data-number="20" class="equation">\begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} &amp; \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} &amp; \text{if } n \text{ is odd}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}
  \end{cases}
 \end{equation}
 </div><p class="noindent">and <a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">Eq. (<span class="ref">17</span>)</a> can be rewritten as</p>
 <div id="eq-surface_area_2pi" data-tralics-id="uid78" data-number="21" class="equation">\begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is even}; \\ \\
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
 \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is odd.}
 \end{cases}
 \end{equation}
 </div><p class="noindent">Making the substitution <span class="inline_math">\( \tau=2\pi \)</span> in <a href="tau_manifesto.html#eq-surface_area_2pi" class="hyperref">Eq. (<span class="ref">21</span>)</a> then yields</p>
 <div class="equation">\[ 
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is even}; \\ \\
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
 \displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is odd.}
 \end{cases}  \]
 </div><p class="noindent">To unify the formulas further, we can use the <em>floor function</em> <span class="inline_math">\( \lfloor x \rfloor \)</span>, which is simply the largest integer less than or equal to <span class="inline_math">\( x \)</span> (equivalent to chopping off the fractional part, so that, e.g., <span class="inline_math">\( \lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3 \)</span>).<span class="intersentencespace"></span> This gives</p>
 <div class="equation">\[  S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; \text{if } n \text{ is odd},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd},
  \end{cases}  \]
 </div><p class="noindent">which allows us to write the formula as follows:</p>
 <div id="eq-surface_area_tau" data-tralics-id="uid79" data-number="22" class="equation">\begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 &amp; \text{if } n \text{ is even}; \\ \\
-2 &amp; \text{if } n \text{ is odd}.
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 </div><p class="noindent">Integrating <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">Eq. (<span class="ref">22</span>)</a> with respect to <span class="inline_math">\( r \)</span> then yields</p>
 <div id="eq-volume_tau" data-tralics-id="uid80" data-number="23" class="equation">\begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 &amp; \text{if } n \text{ is even}; \\ \\
-2 &amp; \text{if } n \text{ is odd}.
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 </div>
@@ -632,16 +636,16 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} &amp;= 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
 &amp;= \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n &amp; \text{if } n \text{ is even}; \\ \\
- 2^{n-1} &amp; \text{if } n \text{ is odd}.
+ 2^n &amp; n \text{ even}; \\ \\
+ 2^{n-1} &amp; n \text{ odd}.
  \end{cases}
  \end{split}
   \]
 </div><p class="noindent">This means that we can rewrite the product</p>
 <div class="equation">\[ 
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 &amp; \text{if } n \text{ is even}; \\ \\
-2 &amp; \text{if } n \text{ is odd}.
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
 \end{cases}
  \]
 </div><p class="noindent">as</p>
@@ -649,12 +653,12 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \label{eq:prefactor}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n &amp; \text{if } n \text{ is even}; \\ \\
- 2^{n-1} &amp; \text{if } n \text{ is odd}.
+ 2^n &amp; n \text{ even}; \\ \\
+ 2^{n-1} &amp; n \text{ odd}.
  \end{cases}
   \times \begin{cases}
- 1 &amp; \text{if } n \text{ is even}; \\ \\
- 2 &amp; \text{if } n \text{ is odd}.
+ 1 &amp; n \text{ even}; \\ \\
+ 2 &amp; n \text{ odd}.
  \end{cases}
  = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{equation}
