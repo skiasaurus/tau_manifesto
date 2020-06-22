@@ -136,7 +136,7 @@ This suggests the following definition of \emph{radian angle measure}:
 \end{equation}
 This definition has the required property of radius-invariance, and since both $s$ and $r$ have units of length, radians are \href{https://en.wikipedia.org/wiki/Dimensionless_quantity}{\emph{dimensionless}} by construction. The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of $\sin\theta$ is true only when $\theta$ is expressed in radians:
 \[
-  \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(true only when $\theta$ is in radians)}
+  \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(only in radians)}
 \]
 Naturally, the special angles in Figure~\ref{fig:degree_angles} can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in Figure~\ref{fig:pi_angles}. (I call this system of measure $\pi$-radians to emphasize that they are written in terms of $\pi$.)
 
@@ -370,7 +370,11 @@ The potential energy in the spring is then equal to the work done by the externa
 The constant of proportionality is the mass~$m$:
 \[ F = m a. \]
 The energy of motion, or \emph{kinetic energy}, is equal to the total work done in accelerating the mass to velocity~$v$:
-\[ K = \int F\,dx = \int ma\,dx = \int m\frac{dv}{dt}\,dx = \int m\frac{dx}{dt}\,dv = \int_0^v mv\,dv = \textstyle{\frac{1}{2}} mv^2. \]
+\[
+\begin{split}
+K = \int F\,dx = \int ma\,dx & = \int m\frac{dv}{dt}\,dx \\ & = \int m\frac{dx}{dt}\,dv \\ & = \int_0^v mv\,dv \\ & = \textstyle{\frac{1}{2}} mv^2.
+\end{split}
+\]
 
   \subsection{A sense of foreboding} % (fold)
   \label{sec:a_sense_of_foreboding}
@@ -618,8 +622,8 @@ In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma
 \begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -627,8 +631,8 @@ Integrating with respect to $r$ then gives
 \begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & n \text{ even}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -636,8 +640,8 @@ Let's examine Eq.~\eqref{eq:volume_mathworld} in more detail. Notice first that 
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)(n-4)\ldots6\cdot4\cdot2 & \text{if } n \text{ is even}; \\ \\
-n(n-2)(n-4)\ldots5\cdot3\cdot1 & \text{if } n \text{ is odd}.
+n(n-2)\ldots6\cdot4\cdot2 &amp; n \text{ even}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 &amp; n \text{ odd}.
 \end{cases}
 \end{equation}
 (By definition, $0!! = 1!! = 1$.) Note that Eq.~\eqref{eq:double_factorial} naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
@@ -653,8 +657,8 @@ and here we recognize our old friend~$2\pi$.
 Now let's look at the even case in Eq.~\eqref{eq:volume_mathworld}. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
 \[
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots & \text{if } n \text{ is even}; \\ \\
- \ldots & \text{if } n \text{ is odd}.
+\ldots & n \text{ even}; \\ \\
+ \ldots & n \text{ odd}.
  \end{cases}
 \]
 So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
@@ -669,44 +673,44 @@ Putting these results together, we see that Eq.~\eqref{eq:volume_mathworld} can 
 \begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & \text{if } n \text{ is odd}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}
  \end{cases}
 \end{equation}
 and Eq.~\eqref{eq:surface_area_mathworld} can be rewritten as
 \begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases}
 \end{equation}
 
 Making the substitution $\tau=2\pi$ in Eq.~\eqref{eq:surface_area_2pi} then yields
 \[
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
-\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd.}
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
 \end{cases} \]
 To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (equivalent to chopping off the fractional part, so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
 \[ S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & \text{if } n \text{ is odd},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ odd},
  \end{cases} \]
 which allows us to write the formula as follows:
 \begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \end{equation}
 Integrating Eq.~\eqref{eq:surface_area_tau} with respect to $r$ then yields
 \begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \end{equation}
 
@@ -727,33 +731,38 @@ where the factor of $2^2$ comes from the $2^2$ congruent circular arcs (one in e
 
 The biggest advantage of $\lambda$ is that it completely unifies the even and odd cases in Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau}, each of which has a factor of $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Making the substitution in Eq.~\eqref{eq:tau_lambda} then gives
 \[
-\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} =
-\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
+\begin{split}
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} & = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
+& = \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n & \text{if } n \text{ is even}; \\ \\
- 2^{n-1} & \text{if } n \text{ is odd}.
+ 2^n & n \text{ even}; \\ \\
+ 2^{n-1} & n \text{ odd}.
  \end{cases}
-\]
+ \end{split}
+ \]
 This means that we can rewrite the product
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 & \text{if } n \text{ is even}; \\ \\
-2 & \text{if } n \text{ is odd}.
+1 & n \text{ even}; \\ \\
+2 & n \text{ odd}.
 \end{cases}
 \]
 as
 \begin{equation}
 \label{eq:prefactor}
+\begin{split}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n & \text{if } n \text{ is even}; \\ \\
- 2^{n-1} & \text{if } n \text{ is odd}.
+ 2^n & n \text{ even}; \\ \\
+ 2^{n-1} & n \text{ odd}.
  \end{cases}
-  \times \begin{cases}
- 1 & \text{if } n \text{ is even}; \\ \\
- 2 & \text{if } n \text{ is odd}.
+ & \times
+\begin{cases}
+ 1 & n \text{ even}; \\ \\
+ 2 & n \text{ odd}.
  \end{cases}
- = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
+\\ & = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
+\end{split}
 \end{equation}
 which eliminates the explicit dependence on \href{https://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying Eq.~\eqref{eq:prefactor} to \linebreak Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} then gives
 \begin{equation}
@@ -782,39 +791,46 @@ As seen in Eq.~\eqref{eq:volume_lambda}, the volume formula divides naturally in
 We can find the answer by deriving the \emph{recurrence relations} between dimensions.\footnote{The article ``\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}'' by Phanuel A. Mariano contains an alternate derivation of these important recurrences.} In particular, let's divide the volume of an $n$-dimensional sphere by the volume for an $(n-2)$-dimensional sphere:
 \begin{equation}
 \label{eq:volume_recurrence}
-\frac{V_n(r)}{V_{n-2}(r)} =
+\begin{split}
+\frac{V_n(r)}{V_{n-2}(r)} & =
 \frac{2^n}{2^{n-2}}
 \frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
 \frac{(n-2)!!}{n!!}
 \frac{r^{n}}{r^{n-2}}
-=
-\frac{2^2\lambda}{n}\,r^2.
+\\ & = \frac{2^2\lambda}{n}\,r^2.
+\end{split}
 \end{equation}
 We see from Eq.~\eqref{eq:volume_recurrence} that we can obtain the volume of an $n$-sphere simply by multiplying the formula for an $(n-2)$-sphere by $r^2$ (a factor required by dimensional analysis), dividing by $n$, and multiplying by the ``recurrence constant'' $2^2\lambda$.
 
 Similarly, for the surface area we have
 \begin{equation}
 \label{eq:surface_area_recurrence}
-\frac{S_n(r)}{S_{n-2}(r)} =
+\begin{split}
+\frac{S_n(r)}{S_{n-2}(r)} & =
 \frac{2^n}{2^{n-2}}
 \frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
 \frac{(n-2-2)!!}{(n-2)!!}
 \frac{r^{n}}{r^{n-2}}
-=
-\frac{2^2\lambda}{n-2}\,r^2,
+\\ & = \frac{2^2\lambda}{n-2}\,r^2,
+\end{split}
 \end{equation}
 with the same recurrence constant $2^2\lambda$.
 
 Thus, in both Eq.~\eqref{eq:volume_recurrence} and Eq.~\eqref{eq:surface_area_recurrence}, the constant relating the different dimensions is not $\lambda$ itself but rather the combination $2^2\lambda$. Comparing with Eq.~\eqref{eq:tau_lambda}, we see this is none other than $\tau$! Indeed, an \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{alternate derivation} of the volume recurrence by direct calculation (which uses $R$ where we write $r$) concludes with the integral
-\begin{align}
+\begin{equation}
 \label{eq:integral_recurrence}
-V_n(R) &= \int_0^{2\pi} \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \nonumber \\
-&= 2\pi V_{n-2}(R) \cdot \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{r=0}^{r=R} \\
-&= \frac{2\pi R^2}{n} V_{n-2}(R), \nonumber
-\end{align}
+\begin{split}
+V_n(R) & = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \\
+       & = \tau V_{n-2}(R) \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{0}^{R} \\
+       & = \frac{\tau R^2}{n} V_{n-2}(R),
+\end{split}
+\end{equation}
 thus showing that the identification of $\tau$ as the ``recurrence constant'' isn't a coincidence---the recurrence constant and the circle constant really are one and the same:
 \[
-\tau = \mbox{circle constant} = \mbox{recurrence constant} = 2^2\lambda.
+\begin{split}
+\tau & = \mbox{circle constant} \\
+     & = \mbox{recurrence constant} = 2^2\lambda.
+\end{split}
 \]
 As a result, it is $\tau$, not $\lambda$, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in \href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (Figure~\ref{fig:Nspheres}).\footnote{\href{http://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} actually writes the recurrence in terms of $2\pi$; the version shown in Figure~\ref{fig:Nspheres} was created for me by special request. As always, I am most grateful to Joseph Lindenberg for his continuing generosity and support.}
 
@@ -964,7 +980,7 @@ I've been thinking about \emph{The Tau Manifesto} for a while now, and many of t
 
 I have also received encouragement and helpful feedback from several readers. I'd like to thank \href{https://www.youtube.com/watch?v=jG7vhMMXagQ}{Vi Hart} and \href{https://www.youtube.com/watch?v=3174T-3-59Q}{Michael Blake} for their amazing $\tau$-inspired videos, as well as Don ``Blue'' McConnell and Skona Brittain for helping make $\tau$ part of geek culture (through the \href{http://tauclock.com/}{time-in-$\tau$ iPhone app} and the \href{http://www.sbcrafts.net/clocks/}{tau clock}, respectively). The pleasing interpretation of the yin-yang symbol used in \emph{The Tau Manifesto} is due to a suggestion by \href{http://www.harremoes.dk/Peter/}{Peter Harremo\"{e}s}, who (as noted above) has the rare distinction of having independently proposed using $\tau$ for the circle constant. Another pre--\emph{Tau Manifesto} tauist, \href{https://sites.google.com/site/taubeforeitwascool/}{Joseph Lindenberg}, has also been a staunch supporter, and his enthusiasm is much-appreciated. I got several good suggestions from \href{https://christopherolah.wordpress.com/about-me}{Christopher Olah}, particularly regarding the geometric interpretation of Euler's identity, and Section~\ref{sec:eulerian_identities} on Eulerian identities was inspired by an excellent suggestion from Timothy ``Patashu'' Stiles. \href{http://www.blahedo.org/blog/archives/001083.html}{Don Blaheta} anticipated and inspired some of the material on hyperspheres, and \href{http://spikedmath.com/forum/viewtopic.php?f=30&t=147\#p1577}{John Kodegadulo} put it together in a particularly clear and entertaining way. Then Jeff Cornell, with his observation about the importance of $\tau/4$ in this context, shook my faith and blew my mind.
 
-Finally, I'd like to thank \href{https://techiferous.com/}{Wyatt Greene} for his extraordinarily helpful feedback on a pre-launch draft of the manifesto; among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section 5 is total crap'', Wyatt is your man.
+Finally, I'd like to thank \href{https://techiferous.com/}{Wyatt Greene} for his extraordinarily helpful feedback on a pre-launch draft of the manifesto; among other things, if you ever need someone to tell you that ``pretty much all of [now deleted] section~5 is total crap'', Wyatt is your man.
 
 
     % subsubsection acknowledgments (end)
