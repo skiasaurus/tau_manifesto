@@ -18,7 +18,7 @@ The number $\pi$ has many remarkable properties---among other things, it is \hre
 \caption{Anatomy of a circle.\label{fig:circle}}
 \end{figure}
 
-It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, a circle is defined as the set of points a fixed distance---the \emph{radius}---from a given point, the \emph{center} (Figure~\ref{fig:circle}). While there are infinitely many shapes with constant width (Figure~\ref{fig:constant_width}),\footnote{Image retrieved from \href{https://commons.wikimedia.org/wiki/File:Reuleaux_triangle_roll.gif}{Wikimedia} on 2019-03-12. Copyright © 2016 by Ruleroll and used unaltered under the terms of the \href{https://creativecommons.org/licenses/by-sa/4.0/deed.en}{Creative Commons Attribution-Share Alike 4.0 International} license.} there is only one shape with constant radius. This suggests that a more natural definition for the circle constant might use $r$ in place of~$D$:
+It should be obvious that $\pi$ is not ``wrong'' in the sense of being factually incorrect; the number $\pi$ is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians. When we say that ``$\pi$ is wrong'', we mean that \emph{$\pi$ is a confusing and unnatural choice for the circle constant}. In particular, a circle is defined as the set of points a fixed distance, the \emph{radius}, from a given point, the \emph{center} (Figure~\ref{fig:circle}). While there are infinitely many shapes with constant width (Figure~\ref{fig:constant_width}),\footnote{Image retrieved from \href{https://commons.wikimedia.org/wiki/File:Reuleaux_triangle_roll.gif}{Wikimedia} on 2019-03-12. Copyright © 2016 by Ruleroll and used unaltered under the terms of the \href{https://creativecommons.org/licenses/by-sa/4.0/deed.en}{Creative Commons Attribution-Share Alike 4.0 International} license.} there is only one shape with constant radius. This suggests that a more natural definition for the circle constant might use $r$ in place of~$D$:
 \begin{equation}
 \label{eq:circle_constant}
 \mbox{circle constant} \equiv \frac{C}{r}.
@@ -30,7 +30,7 @@ Because the diameter of a circle is twice its radius, this number is numerically
 \caption{One of the infinitely many non-circular shapes with constant width.\label{fig:constant_width}}
 \end{figure}
 
-In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second of these two definitions for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:conflict_and_resistance}) it seems unlikely to gain wide adoption.
+In ``$\pi$ Is Wrong!'', Bob Palais argues persuasively in favor of the second of these two definitions for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience. He calls the true circle constant ``one turn'', and he also introduces a new symbol to represent it (Figure~\ref{fig:palais_tau}). As we'll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in Section~\ref{sec:conflict_and_resistance}) it seems unlikely to gain wide adoption. (\emph{Update}: This indeed proved to be the case, and Palais himself has since become a strong supporter of the arguments in this manifesto.)
 
 \begin{figure}
 \imagebox{images/figures/palais-tau.png}
@@ -856,12 +856,12 @@ When discussing general $n$-dimensional spheres, for convenience \linebreak we'l
 
 Equipped with the tools developed in Section~\ref{sec:volume_of_a_hypersphere}, we're now ready to get to the bottom of $\pi$ and $\tau$. To complete the excavation, we'll use Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} to define two families of constants, and then use the definition of $\pi$ (Eq.~\eqref{eq:pi}) to define a third, thereby revealing exactly what is wrong with $\pi$.
 
-First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing \linebreak Eq.~\eqref{eq:surface_area_lambda} by $r^{n-1}$, the power of $r$ needed to yield a dimensionless constant:
+First, we'll define a family of ``surface area constants'' $\tau_n$ by dividing \linebreak Eq.~\eqref{eq:surface_area_lambda} by $r^{n-1}$, the power of $r$ needed to yield a dimensionless constant for each value of~$n$:
 \begin{equation}
 \label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
 \end{equation}
-Second, we'll define a family of ``volume constants'' $\sigma_n$ by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$:
+Second, we'll define a family of ``volume constants'' $\sigma_n$ by dividing the volume formula Eq.~\eqref{eq:volume_lambda} by $r^n$, again yielding a dimensionless constant for each value of~$n$:
 \begin{equation}
 \label{eq:volume_constants}
 \sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}.
