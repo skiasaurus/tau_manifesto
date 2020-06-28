@@ -98,7 +98,10 @@ in the $n$th \href{https://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
 \]
 and in the values of the \href{https://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} for positive even integers:\footnote{Here $B_n$ is the $n$th \href{https://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
 \[
-  \zeta(2n) = \sum_{k=1}^\infty \frac{1}{k^{2n}} = \frac{|B_{2n}|}{2(2n)!}\,(2\pi)^{2n},\qquad n = 1, 2, 3, \ldots
+\begin{split}
+  \zeta(2n) & = \sum_{k=1}^\infty \frac{1}{k^{2n}} \\
+            & = \frac{|B_{2n}|}{2(2n)!}\,(2\pi)^{2n},\qquad n = 1, 2, 3, \ldots
+\end{split}
 \]
 These formulas are not cherry-picked---crack open your favorite physics or mathematics text and try it yourself. There are \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{many more examples}, and the conclusion is clear: there is something special about~$2\pi$.
 
@@ -263,7 +266,7 @@ e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)}
 But that minus sign is so ugly that Eq.~\eqref{eq:eulers_identity_pi} is almost always rearranged immediately, giving the following ``beautiful'' equation:
 \begin{equation}
 \label{eq:eulers_pi_rearranged}
-e^{i\pi} + 1 = 0. \qquad\mbox{Euler's identity (rearranged)}
+e^{i\pi} + 1 = 0. \qquad\mbox{(rearranged)}
 \end{equation}
 At this point, the expositor usually makes some grandiose statement about how Eq.~\eqref{eq:eulers_pi_rearranged} relates $0$, $1$, $e$, $i$, and $\pi$---sometimes called the ``five most important numbers in mathematics''.
 
@@ -547,8 +550,11 @@ In other words, the area of an $n$-gon has a natural
 factor of $1/2$. In fact, taking the limit of Eq.~\eqref{eq:area_polygon} as $n\rightarrow \infty$ (and applying \href{https://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
 \begin{equation}
 \label{eq:lhopital}
-A = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n}
-= \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} = \tfrac{1}{2}\tau.
+\begin{split}
+A & = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n} \\
+  & = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} \\
+  & = \tfrac{1}{2}\tau.
+\end{split}
 \end{equation}
 
 In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again in Eq.~\eqref{eq:lhopital}, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
