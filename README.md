@@ -1,6 +1,6 @@
 # The Tau Manifesto
 
-This is the LaTeX source of [*The Tau Manifesto*](https://tauday.com/tau-manifesto). Copyright © 2010–2017 by Michael Hartl.
+This is the LaTeX source of [*The Tau Manifesto*](https://tauday.com/tau-manifesto). Copyright © 2010–2020 by Michael Hartl.
 
 The steps for translating the manifesto into a language other than English depend on a couple of factors. 
 
