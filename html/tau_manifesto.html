@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link href="stylesheets/pygments.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/softcover.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/custom.css" media="screen" rel="stylesheet" type="text/css" />
+    
+    <title>tau_manifesto</title>
+    
+      <script type="text/x-mathjax-config">
+              MathJax.Hub.Config({
+        "HTML-CSS": {
+          availableFonts: ["TeX"],
+        },
+        TeX: {
+          extensions: ["AMSmath.js", "AMSsymbols.js", "color.js"],
+          equationNumbers: {
+            autoNumber: "AMS",
+            
+          },
+          Macros: {
+            PolyTeX:    "Poly{\\TeX}",
+            PolyTeXnic: "Poly{\\TeX}nic",
+            "softcover": "\\texttt{softcover}",
+"unitvec": ["{\\hat #1}", 1]
+          }
+        },
+        showProcessingMessages: false,
+        messageStyle: "none",
+        imageFont: null,
+        "AssistiveMML": { disabled: true }
+      });
+
+        if (/PhantomJS/.test(window.navigator.userAgent)) {
+          MathJax.Hub.Queue([alert, 'MathJax Done']);
+        }
+      </script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+    
+  </head>
+  <body>
+    
+    <div id="book">
+      <div id="title_page">
+    <h1 class="title">The Tau Manifesto</h1>
+    <h2 class="author">Michael Hartl</h2>
+    <h2 class="date"><a href="https://tauday.com/" target="_blank" rel="noopener">Tau Day</a>, 2010<span class="break"></span><small>updated Tau Day, 2020
+</small></h2>
+  </div>
+
+      
+
+
+
+<div id="sec-the_circle_constant" data-tralics-id="cid1" class="section" data-number="1"><h2><a href="#sec-the_circle_constant" class="heading"><span class="number">1 </span>The circle constant</a></h2>
+<p><a href="https://tauday.com/tau-manifesto" target="_blank" rel="noopener"><em>The Tau Manifesto</em></a> is dedicated to one of the most important numbers in mathematics, perhaps <em>the</em> most important: the <em>circle constant</em> relating the circumference of a circle to its linear dimension.<span class="intersentencespace"></span> For millennia, the circle has been considered the most perfect of shapes, and the circle constant captures the geometry of the circle in a single number.<span class="intersentencespace"></span> Of course, the traditional choice for the circle constant is <span class="inline_math">\( \pi \)</span>—but, as mathematician <a href="https://www.math.utah.edu/~palais/" target="_blank" rel="noopener">Bob Palais</a> notes in his delightful article “<span class="inline_math">\( \pi \)</span> Is Wrong!”,<sup id="cha-0_footnote-ref-1" class="footnote"><a href="#cha-0_footnote-1">1</a></sup> <span class="inline_math">\( \pi \)</span> <em>is wrong</em>.<span class="intersentencespace"></span> It’s time to set things right.</p>
+<div id="sec-an_immodest_proposal" data-tralics-id="uid2" class="subsection" data-number="1.1"><h3><a href="#sec-an_immodest_proposal" class="heading"><span class="number">1.1 </span>An immodest proposal</a></h3>
+<p>We begin repairing the damage wrought by <span class="inline_math">\( \pi \)</span> by first understanding the notorious number itself.<span class="intersentencespace"></span> The traditional definition for the circle constant sets <span class="inline_math">\( \pi \)</span> (pi) equal to the ratio of a circle’s circumference (length) to its diameter (width):<sup id="cha-0_footnote-ref-2" class="footnote"><a href="#cha-0_footnote-2">2</a></sup></p>
+<div id="eq-pi" data-tralics-id="uid4" data-number="1" class="equation">\begin{equation}
+\label{eq:pi}
+\pi \equiv \frac{C}{D} = 3.14159265\ldots
+\end{equation}
+</div><p class="noindent">The number <span class="inline_math">\( \pi \)</span> has many remarkable properties—among other things, it is <a href="https://en.wikipedia.org/wiki/Irrational_number" target="_blank" rel="noopener"><em>irrational</em></a> and indeed <a href="https://en.wikipedia.org/wiki/Transcendental_number" target="_blank" rel="noopener"><em>transcendental</em></a>—and its presence in mathematical formulas is widespread.</p>
+<div id="fig-circle" data-tralics-id="uid5" data-number="1" class="figure">
+<div class="graphics image"><img src="images/figures/circle.png" alt="images/figures/circle" />
+</div><div class="caption"><span class="header">Figure 1: </span><span class="description">Anatomy of a circle.
+</span></div></div>
+<p>It should be obvious that <span class="inline_math">\( \pi \)</span> is not “wrong” in the sense of being factually incorrect; the number <span class="inline_math">\( \pi \)</span> is perfectly well-defined, and it has all the properties normally ascribed to it by mathematicians.<span class="intersentencespace"></span> When we say that “<span class="inline_math">\( \pi \)</span> is wrong”, we mean that <em><span class="inline_math">\( \pi \)</span> is a confusing and unnatural choice for the circle constant</em>.<span class="intersentencespace"></span> In particular, a circle is defined as the set of points a fixed distance, the <em>radius</em>, from a given point, the <em>center</em> (<a href="tau_manifesto.html#fig-circle" class="hyperref">Figure <span class="ref">1</span></a>).<span class="intersentencespace"></span> While there are infinitely many shapes with constant width (<a href="tau_manifesto.html#fig-constant_width" class="hyperref">Figure <span class="ref">2</span></a>),<sup id="cha-0_footnote-ref-3" class="footnote"><a href="#cha-0_footnote-3">3</a></sup> there is only one shape with constant radius.<span class="intersentencespace"></span> This suggests that a more natural definition for the circle constant might use <span class="inline_math">\( r \)</span> in place of <span class="inline_math">\( D \)</span>:</p>
+<div id="eq-circle_constant" data-tralics-id="uid7" data-number="2" class="equation">\begin{equation}
+\label{eq:circle_constant}
+\mbox{circle constant} \equiv \frac{C}{r}.
+\end{equation}
+</div><p class="noindent">Because the diameter of a circle is twice its radius, this number is numerically equal to <span class="inline_math">\( 2\pi \)</span>.<span class="intersentencespace"></span> Like <span class="inline_math">\( \pi \)</span>, it is transcendental and hence irrational, and (as we’ll see in <a href="tau_manifesto.html#sec-the_number_tau" class="hyperref">Section <span class="ref">2</span></a>) its use in mathematics is similarly widespread.</p>
+<div id="fig-constant_width" data-tralics-id="uid8" data-number="2" class="figure">
+<div class="graphics image"><img src="images/figures/Reuleaux_triangle_roll.png" alt="images/figures/Reuleaux_triangle_roll" />
+</div><div class="caption"><span class="header">Figure 2: </span><span class="description">One of the infinitely many non-circular shapes with constant width.
+</span></div></div>
+<p>In “<span class="inline_math">\( \pi \)</span> Is Wrong!”, Bob Palais argues persuasively in favor of the second of these two definitions for the circle constant, and in my view he deserves principal credit for identifying this issue and bringing it to a broad audience.<span class="intersentencespace"></span> He calls the true circle constant “one turn”, and he also introduces a new symbol to represent it (<a href="tau_manifesto.html#fig-palais_tau" class="hyperref">Figure <span class="ref">3</span></a>).<span class="intersentencespace"></span> As we’ll see, the description is prescient, but unfortunately the symbol is rather strange, and (as discussed in <a href="tau_manifesto.html#sec-conflict_and_resistance" class="hyperref">Section <span class="ref">4</span></a>) it seems unlikely to gain wide adoption.<span class="intersentencespace"></span> (<em>Update</em>: This indeed proved to be the case, and Palais himself has since become a strong supporter of the arguments in this manifesto.)</p>
+<div id="fig-palais_tau" data-tralics-id="uid9" data-number="3" class="figure">
+<div class="graphics image box"><img src="images/figures/palais-tau.png" alt="images/figures/palais-tau" />
+</div><div class="caption"><span class="header">Figure 3: </span><span class="description">The strange symbol for the circle constant from “<span class="inline_math">\( \pi \)</span> Is Wrong!”.
+</span></div></div>
+<p><em>The Tau Manifesto</em> is dedicated to the proposition that the proper response to “<span class="inline_math">\( \pi \)</span> is wrong” is “No, <em>really</em>.”<span class="intersentencespace"></span> And the true circle constant deserves a proper name.<span class="intersentencespace"></span> As you may have guessed by now, <em>The Tau Manifesto</em> proposes that this name should be the Greek letter <span class="inline_math">\( \tau \)</span> (tau):</p>
+<div id="eq-tau" data-tralics-id="uid10" data-number="3" class="equation">\begin{equation}
+\label{eq:tau}
+\tau \equiv \frac{C}{r} = 6.283185307179586\ldots
+\end{equation}
+</div><p class="noindent">Throughout the rest of this manifesto, we will see that the <em>number</em> <span class="inline_math">\( \tau \)</span> is the correct choice, and we will show through usage (<a href="tau_manifesto.html#sec-the_number_tau" class="hyperref">Section <span class="ref">2</span></a> and <a href="tau_manifesto.html#sec-circular_area" class="hyperref">Section <span class="ref">3</span></a>) and by direct argumentation (<a href="tau_manifesto.html#sec-conflict_and_resistance" class="hyperref">Section <span class="ref">4</span></a>) that the <em>letter</em> <span class="inline_math">\( \tau \)</span> is a natural choice as well.</p>
+</div>
+<div id="sec-a_powerful_enemy" data-tralics-id="uid11" class="subsection" data-number="1.2"><h3><a href="#sec-a_powerful_enemy" class="heading"><span class="number">1.2 </span>A powerful enemy</a></h3>
+<p>Before proceeding with the demonstration that <span class="inline_math">\( \tau \)</span> is the natural choice for the circle constant, let us first acknowledge what we are up against—for there is a powerful conspiracy, centuries old, determined to propagate pro-<span class="inline_math">\( \pi \)</span> propaganda.<span class="intersentencespace"></span> Entire <a href="https://www.amazon.com/exec/obidos/ISBN=0802713327/parallaxproductiA/" target="_blank" rel="noopener">books</a> <a href="https://www.amazon.com/Pi-Sky-Counting-Thinking-Being/dp/0198539568" target="_blank" rel="noopener">are</a> <a href="https://www.amazon.com/exec/obidos/ISBN=0312381859/parallaxproductiA/" target="_blank" rel="noopener">written</a> extolling the virtues of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> (I mean, <a href="https://www.amazon.com/exec/obidos/ISBN=0387989463/parallaxproductiA/" target="_blank" rel="noopener"><em>books</em></a>!)<span class="intersentencespace"></span> And irrational devotion to <span class="inline_math">\( \pi \)</span> has spread even to the highest levels of geekdom; for example, on “Pi Day” 2010 <a href="https://www.google.com/" target="_blank" rel="noopener">Google</a> <em>changed its logo</em> to honor <span class="inline_math">\( \pi \)</span> (<a href="tau_manifesto.html#fig-google_pi_day." class="hyperref">Figure <span class="ref">4</span></a>).</p>
+<div class="center figure" id="fig-google_pi_day." data-tralics-id="uid12" data-number="4">
+<div class="graphics image"><img src="images/figures/google_pi_day.png" alt="images/figures/google_pi_day" /></div><div class="caption"><span class="header">Figure 4: </span><span class="description">The Google logo on March 14 (3/14), 2010 (“Pi Day”).
+</span></div></div>
+<p>Meanwhile, some people memorize dozens, hundreds, even <a href="https://www.guinnessworldrecords.com/world-records/most-pi-places-memorised" target="_blank" rel="noopener"><em>thousands</em></a> of digits of this mystical number.<span class="intersentencespace"></span> What kind of sad sack memorizes even 40 digits of <span class="inline_math">\( \pi \)</span> (<a href="tau_manifesto.html#fig-futurama_video" class="hyperref">Figure <span class="ref">5</span></a>)?<sup id="cha-0_footnote-ref-4" class="footnote"><a href="#cha-0_footnote-4">4</a></sup></p>
+<div class="center figure" id="fig-futurama_video" data-tralics-id="uid14" data-number="5"><span class="graphics"><img src="images/figures/futurama_math_lecture.png" alt="futurama_math_lecture" /></span>
+<div class="caption"><span class="header">Figure 5: </span><span class="description"><a href="https://tauday.com/tau-manifesto/#sec-about_the_author" target="_blank" rel="noopener">Michael Hartl</a> proves <a href="https://en.wikipedia.org/wiki/Matt_Groening" target="_blank" rel="noopener">Matt Groening</a> wrong by reciting <span class="inline_math">\( \pi \)</span> to 40 decimal places.
+</span></div></div>
+<p>Truly, proponents of <span class="inline_math">\( \tau \)</span> face a mighty opponent.<span class="intersentencespace"></span> And yet, we have a powerful ally—for the truth is on our side.</p>
+</div></div>
+<div id="sec-the_number_tau" data-tralics-id="cid2" class="section" data-number="2"><h2><a href="#sec-the_number_tau" class="heading"><span class="number">2 </span>The number tau</a></h2>
+<p>We saw in <a href="tau_manifesto.html#sec-an_immodest_proposal" class="hyperref">Section <span class="ref">1.1</span></a> that the number <span class="inline_math">\( \tau \)</span> can also be written as <span class="inline_math">\( 2\pi \)</span>.<span class="intersentencespace"></span> As noted in “<span class="inline_math">\( \pi \)</span> Is Wrong!”, it is therefore of great interest to discover that the combination <span class="inline_math">\( 2\pi \)</span> occurs with astonishing frequency throughout mathematics.<span class="intersentencespace"></span> For example, consider integrals over all space in polar coordinates:</p>
+<div class="equation">\[ 
+  \int_0^{2\pi}\int_0^\infty f(r, \theta)\, r\, dr\, d\theta.
+ \]
+</div><p class="noindent">The upper limit of the <span class="inline_math">\( \theta \)</span> integration is always <span class="inline_math">\( 2\pi \)</span>.<span class="intersentencespace"></span> The same factor appears in the definition of the <a href="https://en.wikipedia.org/wiki/Normal_distribution" target="_blank" rel="noopener">Gaussian (normal) distribution</a>,</p>
+<div class="equation">\[ 
+  \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}},
+ \]
+</div><p class="noindent">and again in the <a href="https://mathworld.wolfram.com/FourierTransform.html" target="_blank" rel="noopener">Fourier transform</a>,</p>
+<div class="equation">\[ 
+  f(x) = \int_{-\infty}^\infty F(k)\, e^{2\pi ikx}\,dk
+ \]
+</div><div class="equation">\[ 
+    F(k) = \int_{-\infty}^\infty f(x)\, e^{-2\pi ikx}\,dx.
+ \]
+</div><p class="noindent">It recurs in <a href="https://en.wikipedia.org/wiki/Cauchy's_integral_formula" target="_blank" rel="noopener">Cauchy’s integral formula</a>,</p>
+<div class="equation">\[ 
+  f(a) = \frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\,dz,
+ \]
+</div><p class="noindent">in the <span class="inline_math">\( n \)</span>th <a href="https://en.wikipedia.org/wiki/Root_of_unity" target="_blank" rel="noopener">roots of unity</a>,</p>
+<div class="equation">\[ 
+  z^n = 1 \Rightarrow z = e^{2\pi i/n},
+ \]
+</div><p class="noindent">and in the values of the <a href="https://en.wikipedia.org/wiki/Riemann_zeta_function" target="_blank" rel="noopener">Riemann zeta function</a> for positive even integers:<sup id="cha-0_footnote-ref-5" class="footnote"><a href="#cha-0_footnote-5">5</a></sup></p>
+<div class="equation">\[ 
+\begin{split}
+  \zeta(2n) &amp; = \sum_{k=1}^\infty \frac{1}{k^{2n}} \\
+            &amp; = \frac{|B_{2n}|}{2(2n)!}\,(2\pi)^{2n},\qquad n = 1, 2, 3, \ldots
+\end{split}
+ \]
+</div><p class="noindent">These formulas are not cherry-picked—crack open your favorite physics or mathematics text and try it yourself.<span class="intersentencespace"></span> There are <a href="http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html" target="_blank" rel="noopener">many more examples</a>, and the conclusion is clear: there is something special about <span class="inline_math">\( 2\pi \)</span>.</p>
+<p>To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of <em>angles</em>.<span class="intersentencespace"></span> Although it’s likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of <span class="inline_math">\( \tau \)</span> begins.</p>
+<div id="sec-circles_and_angles" data-tralics-id="uid16" class="subsection" data-number="2.1"><h3><a href="#sec-circles_and_angles" class="heading"><span class="number">2.1 </span>Circles and angles</a></h3>
+<p>There is an intimate relationship between circles and angles, as shown in <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">Figure <span class="ref">6</span></a>.<span class="intersentencespace"></span> Since the concentric circles in <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">Figure <span class="ref">6</span></a> have different radii, the lines in the figure cut off different lengths of arc (or <em>arc lengths</em>), but the angle <span class="inline_math">\( \theta \)</span> (theta) is the same in each case.<span class="intersentencespace"></span> In other words, the size of the angle does not depend on the radius of the circle used to define the arc.<span class="intersentencespace"></span> The principal task of angle measurement is to create a system that captures this radius-invariance.</p>
+<div class="center figure" id="fig-angle_arclength" data-tralics-id="uid17" data-number="6">
+<div class="graphics image"><img src="images/figures/angle-arclength.png" alt="images/figures/angle-arclength" /></div><div class="caption"><span class="header">Figure 6: </span><span class="description">An angle <span class="inline_math">\( \theta \)</span> with two concentric circles.
+</span></div></div>
+<p>Perhaps the most elementary angle system is <em>degrees</em>, which breaks a circle into 360 equal parts.<span class="intersentencespace"></span> One result of this system is the set of special angles (familiar to students of trigonometry) shown in <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">Figure <span class="ref">7</span></a>.</p>
+<div class="center figure" id="fig-degree_angles" data-tralics-id="uid18" data-number="7">
+<div class="graphics image"><img src="images/figures/degree-angles.png" alt="images/figures/degree-angles" /></div><div class="caption"><span class="header">Figure 7: </span><span class="description">Some special angles, in degrees.
+</span></div></div>
+<p>A more fundamental system of angle measure involves a direct comparison of the arc length <span class="inline_math">\( s \)</span> with the radius <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Although the lengths in <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">Figure <span class="ref">6</span></a> differ, the arc length grows in proportion to the radius, so the <em>ratio</em> of the arc length to the radius is the same in each case:</p>
+<div class="equation">\[ 
+s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
+ \]
+</div><p class="noindent">This suggests the following definition of <em>radian angle measure</em>:</p>
+<div id="eq-radians" data-tralics-id="uid19" data-number="4" class="equation">\begin{equation}
+\label{eq:radians}
+\theta \equiv \frac{s}{r}.
+\end{equation}
+</div><p class="noindent">This definition has the required property of radius-invariance, and since both <span class="inline_math">\( s \)</span> and <span class="inline_math">\( r \)</span> have units of length, radians are <a href="https://en.wikipedia.org/wiki/Dimensionless_quantity" target="_blank" rel="noopener"><em>dimensionless</em></a> by construction.<span class="intersentencespace"></span> The use of radian angle measure leads to succinct and elegant formulas throughout mathematics; for example, the usual formula for the derivative of <span class="inline_math">\( \sin\theta \)</span> is true only when <span class="inline_math">\( \theta \)</span> is expressed in radians:</p>
+<div class="equation">\[ 
+  \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(only in radians)}
+ \]
+</div><p class="noindent">Naturally, the special angles in <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">Figure <span class="ref">7</span></a> can be expressed in radians, and when you took high-school trigonometry you probably memorized the special values shown in <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">Figure <span class="ref">8</span></a>.<span class="intersentencespace"></span> (I call this system of measure <span class="inline_math">\( \pi \)</span>-radians to emphasize that they are written in terms of <span class="inline_math">\( \pi \)</span>.)</p>
+<div class="center figure" id="fig-pi_angles" data-tralics-id="uid20" data-number="8">
+<div class="graphics image"><img src="images/figures/pi-angles.png" alt="images/figures/pi-angles" /></div><div class="caption"><span class="header">Figure 8: </span><span class="description">Some special angles, in <span class="inline_math">\( \pi \)</span>-radians.
+</span></div></div>
+<div class="center figure" id="fig-angle_fractions" data-tralics-id="uid21" data-number="9">
+<div class="graphics image"><img src="images/figures/angle-fractions.png" alt="images/figures/angle-fractions" /></div><div class="caption"><span class="header">Figure 9: </span><span class="description">The “special” angles are fractions of a full circle.
+</span></div></div>
+<p>Now, a moment’s reflection shows that the so-called “special” angles are just particularly simple <em>rational fractions</em> of a full circle, as shown in <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">Figure <span class="ref">9</span></a>.<span class="intersentencespace"></span> This suggests revisiting <a href="tau_manifesto.html#eq-radians" class="hyperref">Eq. (<span class="ref">4</span>)</a>, rewriting the arc length <span class="inline_math">\( s \)</span> in terms of the fraction <span class="inline_math">\( f \)</span> of the full circumference <span class="inline_math">\( C \)</span>, i.e., <span class="inline_math">\( s = f C \)</span>:</p>
+<div class="equation">\[  \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau.  \]
+</div><p class="noindent">Notice how naturally <span class="inline_math">\( \tau \)</span> falls out of this analysis.<span class="intersentencespace"></span> If you are a believer in <span class="inline_math">\( \pi \)</span>, I fear that the resulting diagram of special angles (<a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a>) will shake your faith to its very core.</p>
+<div class="center figure" id="fig-tau_angles" data-tralics-id="uid22" data-number="10">
+<div class="graphics image"><img src="images/figures/tau-angles.png" alt="images/figures/tau-angles" /></div><div class="caption"><span class="header">Figure 10: </span><span class="description">Some special angles, in radians.
+</span></div></div>
+<p>Although there are many other arguments in <span class="inline_math">\( \tau \)</span>’s favor, <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a> may be the most striking.<span class="intersentencespace"></span> We also see from <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a> the genius of Bob Palais’ identification of the circle constant as “<a href="https://en.wikipedia.org/wiki/Turn_(geometry)" target="_blank" rel="noopener">one turn</a>”: <span class="inline_math">\( \tau \)</span> is the radian angle measure for one <em>turn</em> of a circle.<span class="intersentencespace"></span> Moreover, note that with <span class="inline_math">\( \tau \)</span> there is <em>nothing to memorize</em>: a twelfth of a turn is <span class="inline_math">\( \tau/12 \)</span>, an eighth of a turn is <span class="inline_math">\( \tau/8 \)</span>, and so on.<span class="intersentencespace"></span> Using <span class="inline_math">\( \tau \)</span> gives us the best of both worlds by combining conceptual clarity with all the concrete benefits of radians; the abstract meaning of, say, <span class="inline_math">\( \tau/12 \)</span> is obvious, but it is also just a number:</p>
+<div class="equation">\[ 
+\begin{split}
+\mbox{a twelfth of a turn} = \frac{\tau}{12} &amp; \approx \frac{6.283185}{12} \\
+                                             &amp; = 0.5235988.
+\end{split}
+ \]
+</div><p class="noindent">Finally, by comparing <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">Figure <span class="ref">8</span></a> with <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a>, we see where those pesky factors of <span class="inline_math">\( 2\pi \)</span> come from: one turn of a circle is <span class="inline_math">\( 1\tau \)</span>, but <span class="inline_math">\( 2\pi \)</span>.<span class="intersentencespace"></span> Numerically they are equal, but conceptually they are quite distinct.</p>
+<div id="sec-the_ramifications" data-tralics-id="uid23" class="subsubsection" data-number="2.1.1"><h4><a href="#sec-the_ramifications" class="heading">The ramifications</a></h4>
+<p>The unnecessary factors of <span class="inline_math">\( 2 \)</span> arising from the use of <span class="inline_math">\( \pi \)</span> are annoying enough by themselves, but far more serious is their tendency to <em>cancel</em> when divided by any even number.<span class="intersentencespace"></span> The absurd results, such as a <em>half</em> <span class="inline_math">\( \pi \)</span> for a <em>quarter</em> turn, obscure the underlying relationship between angle measure and the circle constant.<span class="intersentencespace"></span> To those who maintain that it “doesn’t matter” whether we use <span class="inline_math">\( \pi \)</span> or <span class="inline_math">\( \tau \)</span> when teaching trigonometry, I simply ask you to view <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">Figure <span class="ref">8</span></a>, <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">Figure <span class="ref">9</span></a>, and <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a> through the eyes of a child.<span class="intersentencespace"></span> You will see that, from the perspective of a beginner, <a href="https://tauday.com/a-tau-testimonial" target="_blank" rel="noopener"><em>using <span class="inline_math">\( \pi \)</span> instead of <span class="inline_math">\( \tau \)</span> is a pedagogical disaster</em></a>.</p>
+</div></div>
+<div id="sec-the_circle_functions" data-tralics-id="uid24" class="subsection" data-number="2.2"><h3><a href="#sec-the_circle_functions" class="heading"><span class="number">2.2 </span>The circle functions</a></h3>
+<p>Although radian angle measure provides some of the most compelling arguments for the true circle constant, it’s worth comparing the virtues of <span class="inline_math">\( \pi \)</span> and <span class="inline_math">\( \tau \)</span> in some other contexts as well.<span class="intersentencespace"></span> We begin by considering the important elementary functions <span class="inline_math">\( \sin\theta \)</span> and <span class="inline_math">\( \cos\theta \)</span>.<span class="intersentencespace"></span> Known as the “circle functions” because they give the coordinates of a point on the <em>unit circle</em> (i.e., a circle with radius <span class="inline_math">\( 1 \)</span>), sine and cosine are the fundamental functions of trigonometry (<a href="tau_manifesto.html#fig-circle_functions" class="hyperref">Figure <span class="ref">11</span></a>).</p>
+<div class="center figure" id="fig-circle_functions" data-tralics-id="uid25" data-number="11">
+<div class="graphics image"><img src="images/figures/circle-functions.png" alt="images/figures/circle-functions" /></div><div class="caption"><span class="header">Figure 11: </span><span class="description">The circle functions are coordinates on the unit circle.
+</span></div></div>
+<p>Let’s examine the graphs of the circle functions to better understand their behavior.<sup id="cha-0_footnote-ref-6" class="footnote"><a href="#cha-0_footnote-6">6</a></sup><span class="intersentencespace"></span> You’ll notice from <a href="tau_manifesto.html#fig-sine_with_tau" class="hyperref">Figure <span class="ref">12</span></a> and <a href="tau_manifesto.html#fig-cosine_with_tau" class="hyperref">Figure <span class="ref">13</span></a> that both functions are <em>periodic</em> with period <span class="inline_math">\( T \)</span>.<span class="intersentencespace"></span> As shown in <a href="tau_manifesto.html#fig-sine_with_tau" class="hyperref">Figure <span class="ref">12</span></a>, the sine function <span class="inline_math">\( \sin\theta \)</span> starts at zero, reaches a maximum at a quarter period, passes through zero at a half period, reaches a minimum at three-quarters of a period, and returns to zero after one full period.<span class="intersentencespace"></span> Meanwhile, the cosine function <span class="inline_math">\( \cos\theta \)</span> starts at a maximum, has a minimum at a half period, and passes through zero at one-quarter and three-quarters of a period (<a href="tau_manifesto.html#fig-cosine_with_tau" class="hyperref">Figure <span class="ref">13</span></a>).<span class="intersentencespace"></span> For reference, both figures show the value of <span class="inline_math">\( \theta \)</span> (in radians) at each special point.</p>
+<div class="center figure" id="fig-sine_with_tau" data-tralics-id="uid27" data-number="12">
+<div class="graphics image"><img src="images/figures/sine-with-tau.png" alt="images/figures/sine-with-tau" /></div><div class="caption"><span class="header">Figure 12: </span><span class="description">Important points for <span class="inline_math">\( \sin\theta \)</span> in terms of the period <span class="inline_math">\( T \)</span>.
+</span></div></div>
+<div class="center figure" id="fig-cosine_with_tau" data-tralics-id="uid28" data-number="13">
+<div class="graphics image"><img src="images/figures/cosine-with-tau.png" alt="images/figures/cosine-with-tau" /></div><div class="caption"><span class="header">Figure 13: </span><span class="description">Important points for <span class="inline_math">\( \cos\theta \)</span> in terms of the period <span class="inline_math">\( T \)</span>.
+</span></div></div>
+<p>Of course, since sine and cosine both go through one full cycle during one turn of the circle, we have <span class="inline_math">\( T = \tau \)</span>; i.e., the circle functions have periods equal to the circle constant.<span class="intersentencespace"></span> As a result, the “special” values of <span class="inline_math">\( \theta \)</span> are utterly natural: a quarter-period is <span class="inline_math">\( \tau/4 \)</span>, a half-period is <span class="inline_math">\( \tau/2 \)</span>, etc.<span class="intersentencespace"></span> In fact, when making <a href="tau_manifesto.html#fig-sine_with_tau" class="hyperref">Figure <span class="ref">12</span></a>, at one point I found myself wondering about the numerical value of <span class="inline_math">\( \theta \)</span> for the zero of the sine function.<span class="intersentencespace"></span> Since the zero occurs after half a period, and since <span class="inline_math">\( \tau \approx 6.28 \)</span>, a quick mental calculation led to the following result:</p>
+<div class="equation">\[ 
+  \theta_\mathrm{zero} = \frac{\tau}{2} \approx 3.14.
+ \]
+</div><p class="noindent">That’s right: I was astonished to discover that <em>I had already forgotten that <span class="inline_math">\( \tau/2 \)</span> is sometimes called “<span class="inline_math">\( \pi \)</span>”.</em><span class="intersentencespace"></span> Perhaps this even happened to you just now.<span class="intersentencespace"></span> Welcome to my world.</p>
+</div>
+<div id="sec-euler_s_identity" data-tralics-id="uid29" class="subsection" data-number="2.3"><h3><a href="#sec-euler_s_identity" class="heading"><span class="number">2.3 </span>Euler’s identity</a></h3>
+<p>I would be remiss in this manifesto not to address <em>Euler’s identity</em>, sometimes called “the most beautiful equation in mathematics”.<span class="intersentencespace"></span> This identity involves <em>complex exponentiation</em>, which is deeply connected both to the circle functions and to the geometry of the circle itself.</p>
+<p>Depending on the route chosen, the following equation can either be proved as a theorem or taken as a definition; either way, it is quite remarkable:</p>
+<div id="eq-eulers_formula" data-tralics-id="uid30" data-number="5" class="equation">\begin{equation}
+\label{eq:eulers_formula}
+e^{i\theta} = \cos\theta + i\sin\theta. \qquad\mbox{Euler's formula}
+\end{equation}
+</div><p class="noindent">Known as <em>Euler’s formula</em> (after <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank" rel="noopener">Leonhard Euler</a>), this equation relates an exponential with imaginary argument to the circle functions sine and cosine and to the imaginary unit <span class="inline_math">\( i \)</span>.<span class="intersentencespace"></span> Although justifying Euler’s formula is beyond the scope of this manifesto, its provenance is above suspicion, and its importance is beyond dispute.</p>
+<p>Evaluating <a href="tau_manifesto.html#eq-eulers_formula" class="hyperref">Eq. (<span class="ref">5</span>)</a> at <span class="inline_math">\( \theta = \tau \)</span> yields <em>Euler’s identity</em>:<sup id="cha-0_footnote-ref-7" class="footnote"><a href="#cha-0_footnote-7">7</a></sup></p>
+<div id="eq-eulers_identity_tau" data-tralics-id="uid32" data-number="6" class="equation">\begin{equation}
+\label{eq:eulers_identity_tau}
+e^{i\tau} = 1. \qquad\mbox{Euler's identity ($\tau$ version)}
+\end{equation}
+</div><p class="noindent">In words, <a href="tau_manifesto.html#eq-eulers_identity_tau" class="hyperref">Eq. (<span class="ref">6</span>)</a> makes the following fundamental observation:</p>
+<div class="center"><p><em>The complex exponential of the circle constant is unity.</em></p>
+</div><p>Geometrically, multiplying by <span class="inline_math">\( e^{i\theta} \)</span> corresponds to rotating a complex number by an angle <span class="inline_math">\( \theta \)</span> in the complex plane, which suggests a second interpretation of Euler’s identity:</p>
+<div class="center"><p><em>A rotation by one turn is 1.</em></p>
+</div><p class="noindent">Since the number <span class="inline_math">\( 1 \)</span> is the <a href="https://en.wikipedia.org/wiki/Identity_element" target="_blank" rel="noopener">multiplicative identity</a>, the geometric meaning of <span class="inline_math">\( e^{i\tau} = 1 \)</span> is that rotating a point in the complex plane by one turn simply returns it to its original position.</p>
+<p>As in the case of radian angle measure, we see how natural the association is between <span class="inline_math">\( \tau \)</span> and one turn of a circle.<span class="intersentencespace"></span> Indeed, the identification of <span class="inline_math">\( \tau \)</span> with “one turn” makes Euler’s identity sound almost like a tautology.<sup id="cha-0_footnote-ref-8" class="footnote"><a href="#cha-0_footnote-8">8</a></sup></p>
+<div id="sec-not_the_most_beautiful_equation" data-tralics-id="uid34" class="subsubsection" data-number="2.3.1"><h4><a href="#sec-not_the_most_beautiful_equation" class="heading">Not the most beautiful equation</a></h4>
+<p>Of course, the traditional form of Euler’s identity is written in terms of <span class="inline_math">\( \pi \)</span> instead of <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> To derive it, we start by evaluating Euler’s formula at <span class="inline_math">\( \theta = \pi \)</span>, which yields</p>
+<div id="eq-eulers_identity_pi" data-tralics-id="uid35" data-number="7" class="equation">\begin{equation}
+\label{eq:eulers_identity_pi}
+e^{i\pi} = -1. \qquad\mbox{Euler's identity ($\pi$ version)}
+\end{equation}
+</div><p class="noindent">But that minus sign is so ugly that <a href="tau_manifesto.html#eq-eulers_identity_pi" class="hyperref">Eq. (<span class="ref">7</span>)</a> is almost always rearranged immediately, giving the following “beautiful” equation:</p>
+<div id="eq-eulers_pi_rearranged" data-tralics-id="uid36" data-number="8" class="equation">\begin{equation}
+\label{eq:eulers_pi_rearranged}
+e^{i\pi} + 1 = 0. \qquad\mbox{(rearranged)}
+\end{equation}
+</div><p class="noindent">At this point, the expositor usually makes some grandiose statement about how <a href="tau_manifesto.html#eq-eulers_pi_rearranged" class="hyperref">Eq. (<span class="ref">8</span>)</a> relates <span class="inline_math">\( 0 \)</span>, <span class="inline_math">\( 1 \)</span>, <span class="inline_math">\( e \)</span>, <span class="inline_math">\( i \)</span>, and <span class="inline_math">\( \pi \)</span>—sometimes called the “five most important numbers in mathematics”.</p>
+<p>In this context, it’s remarkable how many people complain that <a href="tau_manifesto.html#eq-eulers_identity_tau" class="hyperref">Eq. (<span class="ref">6</span>)</a> relates only <em>four</em> of those five.<span class="intersentencespace"></span> Fine:</p>
+<div id="eq-euler_tau_zero" data-tralics-id="uid37" data-number="9" class="equation">\begin{equation}
+\label{eq:euler_tau_zero}
+e^{i\tau} = 1 + 0.
+\end{equation}
+</div><p class="noindent"><a href="tau_manifesto.html#eq-euler_tau_zero" class="hyperref">Eq. (<span class="ref">9</span>)</a>, <em>without</em> rearrangement, actually does relate the five most important numbers in mathematics: <span class="inline_math">\( 0 \)</span>, <span class="inline_math">\( 1 \)</span>, <span class="inline_math">\( e \)</span>, <span class="inline_math">\( i \)</span>, and <span class="inline_math">\( \tau \)</span>.<sup id="cha-0_footnote-ref-9" class="footnote"><a href="#cha-0_footnote-9">9</a></sup></p>
+</div>
+<div id="sec-eulerian_identities" data-tralics-id="uid39" class="subsubsection" data-number="2.3.2"><h4><a href="#sec-eulerian_identities" class="heading">Eulerian identities</a></h4>
+<p>Since you can add zero anywhere in any equation, the introduction of <span class="inline_math">\( 0 \)</span> in <a href="tau_manifesto.html#eq-euler_tau_zero" class="hyperref">Eq. (<span class="ref">9</span>)</a> is a somewhat tongue-in-cheek counterpoint to <span class="inline_math">\( e^{i\pi} + 1 = 0 \)</span>, but the identity <span class="inline_math">\( e^{i\pi} = -1 \)</span> does have a more serious point to make.<span class="intersentencespace"></span> Let’s see what happens when we rewrite it in terms of <span class="inline_math">\( \tau \)</span>:</p>
+<div class="equation">\[ 
+e^{i\tau/2} = -1.
+ \]
+</div><p class="noindent">Geometrically, this says that a rotation by half a turn is the same as multiplying by <span class="inline_math">\( -1 \)</span>.<span class="intersentencespace"></span> And indeed this is the case: under a rotation of <span class="inline_math">\( \tau/2 \)</span> radians, the complex number <span class="inline_math">\( z = a + ib \)</span> gets mapped to <span class="inline_math">\( -a - ib \)</span>, which is in fact just <span class="inline_math">\( -1\cdot z \)</span>.</p>
+<p>Written in terms of <span class="inline_math">\( \tau \)</span>, we see that the “original” form of Euler’s identity (<a href="tau_manifesto.html#eq-eulers_identity_pi" class="hyperref">Eq. (<span class="ref">7</span>)</a>) has a transparent geometric meaning that it lacks when written in terms of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> (Of course, <span class="inline_math">\( e^{i\pi} = -1 \)</span> can be interpreted as a rotation by <span class="inline_math">\( \pi \)</span> radians, but the near-universal rearrangement to form <span class="inline_math">\( e^{i\pi} + 1 = 0 \)</span> shows how using <span class="inline_math">\( \pi \)</span> distracts from the identity’s natural geometric meaning.)<span class="intersentencespace"></span> The quarter-angle identities have similar geometric interpretations: evaulating <a href="tau_manifesto.html#eq-eulers_formula" class="hyperref">Eq. (<span class="ref">5</span>)</a> at <span class="inline_math">\( \tau/4 \)</span> gives <span class="inline_math">\( e^{i\tau/4} = i \)</span>, which says that a quarter turn in the complex plane is the same as multiplication by <span class="inline_math">\( i \)</span>; similarly, <span class="inline_math">\( e^{i\cdot(3\tau/4)} = -i \)</span> says that three-quarters of a turn is the same as multiplication by <span class="inline_math">\( -i \)</span>.<span class="intersentencespace"></span> A summary of these results, which we’ll call <em>Eulerian identities</em>, appears in <a href="tau_manifesto.html#table-eulerian_identities" class="hyperref">Table <span class="ref">1</span></a>.</p>
+<div class="table" id="table-eulerian_identities" data-tralics-id="uid40" data-number="1"><table class="tabular">
+<tr class="bottom_border"><td class="align_center">Rotation angle</td>
+<td colspan="3" class="align_center">Eulerian identity</td>
+</tr><tr><td class="align_center"><span class="inline_math">\( 0 \)</span></td>
+<td class="align_left"><span class="inline_math">\( e^{i\cdot0} \)</span></td>
+<td class="align_left"><span class="inline_math">\(  =  \)</span></td>
+<td class="align_right"><span class="inline_math">\( 1 \)</span></td>
+</tr><tr><td class="align_center"><span class="inline_math">\( \tau/4 \)</span></td>
+<td class="align_left"><span class="inline_math">\( e^{i\tau/4} \)</span></td>
+<td class="align_left"><span class="inline_math">\(  =  \)</span></td>
+<td class="align_right"><span class="inline_math">\( i \)</span></td>
+</tr><tr><td class="align_center"><span class="inline_math">\( \tau/2 \)</span></td>
+<td class="align_left"><span class="inline_math">\( e^{i\tau/2} \)</span></td>
+<td class="align_left"><span class="inline_math">\(  =  \)</span></td>
+<td class="align_right"><span class="inline_math">\( -1 \)</span></td>
+</tr><tr><td class="align_center"><span class="inline_math">\( 3\tau/4 \)</span></td>
+<td class="align_left"><span class="inline_math">\( e^{i\cdot(3\tau/4)} \)</span></td>
+<td class="align_left"><span class="inline_math">\(  =  \)</span></td>
+<td class="align_right"><span class="inline_math">\( -i \)</span></td>
+</tr><tr><td class="align_center"><span class="inline_math">\( \tau \)</span></td>
+<td class="align_left"><span class="inline_math">\( e^{i\tau} \)</span></td>
+<td class="align_left"><span class="inline_math">\(  =  \)</span></td>
+<td class="align_right"><span class="inline_math">\( 1 \)</span></td>
+</tr></table><div class="caption"><span class="header">Table 1: </span><span class="description">Eulerian identities for half, quarter, and full rotations.
+</span></div></div>
+<p>We can take this analysis a step further by noting that, for any angle <span class="inline_math">\( \theta \)</span>, <span class="inline_math">\( e^{i\theta} \)</span> can be interpreted as a point lying on the unit circle in the complex plane.<span class="intersentencespace"></span> Since the complex plane identifies the horizontal axis with the real part of the number and the vertical axis with the imaginary part, Euler’s formula tells us that <span class="inline_math">\( e^{i\theta} \)</span> corresponds to the coordinates <span class="inline_math">\( (\cos\theta, \sin\theta) \)</span>.<span class="intersentencespace"></span> Plugging the values of the “special” angles from <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a> into <a href="tau_manifesto.html#eq-eulers_formula" class="hyperref">Eq. (<span class="ref">5</span>)</a> then gives the points shown in <a href="tau_manifesto.html#table-complex_exponentials" class="hyperref">Table <span class="ref">2</span></a>, and plotting these points in the complex plane yields <a href="tau_manifesto.html#fig-tau_euler_circle" class="hyperref">Figure <span class="ref">14</span></a>.<span class="intersentencespace"></span> A comparison of <a href="tau_manifesto.html#fig-tau_euler_circle" class="hyperref">Figure <span class="ref">14</span></a> with <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a> quickly dispels any doubts about which choice of circle constant better reveals the relationship between Euler’s formula and the geometry of the circle.</p>
+<div class="table" id="table-complex_exponentials" data-tralics-id="uid41" data-number="2"><table class="tabular">
+<tr class="bottom_border"><td class="align_left">Polar form</td>
+<td class="align_center">Rectangular form</td>
+<td class="align_center">Coordinates</td>
+</tr><tr class="bottom_border"><td class="align_left"><span class="inline_math">\( e^{i\theta} \)</span></td>
+<td class="align_center"><span class="inline_math">\( \cos\theta + i\sin\theta \)</span></td>
+<td class="align_center"><span class="inline_math">\( (\cos\theta, \sin\theta) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\cdot0} \)</span></td>
+<td class="align_center"><span class="inline_math">\( 1 \)</span></td>
+<td class="align_center"><span class="inline_math">\( (1, 0) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/12} \)</span></td>
+<td class="align_center"><span class="inline_math">\( \frac{\sqrt{3}}{2} + \frac{1}{2}i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (\frac{\sqrt{3}}{2}, \frac{1}{2}) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/8} \)</span></td>
+<td class="align_center"><span class="inline_math">\( \frac{1}{\sqrt{2}} +  \frac{1}{\sqrt{2}}i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (\frac{1}{\sqrt{2}}, \frac{1}{\sqrt{2}}) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/6} \)</span></td>
+<td class="align_center"><span class="inline_math">\( \frac{1}{2} +\frac{\sqrt{3}}{2} i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (\frac{1}{2}, \frac{\sqrt{3}}{2}) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/4} \)</span></td>
+<td class="align_center"><span class="inline_math">\( i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (0, 1) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/3} \)</span></td>
+<td class="align_center"><span class="inline_math">\( -\frac{1}{2} +\frac{\sqrt{3}}{2} i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (-\frac{1}{2}, \frac{\sqrt{3}}{2}) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau/2} \)</span></td>
+<td class="align_center"><span class="inline_math">\( -1 \)</span></td>
+<td class="align_center"><span class="inline_math">\( (-1, 0) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\cdot(3\tau/4)} \)</span></td>
+<td class="align_center"><span class="inline_math">\( -i \)</span></td>
+<td class="align_center"><span class="inline_math">\( (0, -1) \)</span></td>
+</tr><tr><td class="align_left"><span class="inline_math">\( e^{i\tau} \)</span></td>
+<td class="align_center"><span class="inline_math">\( 1 \)</span></td>
+<td class="align_center"><span class="inline_math">\( (1, 0) \)</span></td>
+</tr></table><div class="caption"><span class="header">Table 2: </span><span class="description">Complex exponentials of the special angles from <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a>.
+</span></div></div>
+<div class="center figure" id="fig-tau_euler_circle" data-tralics-id="uid42" data-number="14">
+<div class="graphics image"><img src="images/figures/tau_euler_circle.png" alt="images/figures/tau_euler_circle" /></div><div class="caption"><span class="header">Figure 14: </span><span class="description">Complex exponentials of some special angles, plotted in the complex plane.
+</span></div></div>
+</div></div></div>
+<div id="sec-circular_area" data-tralics-id="cid3" class="section" data-number="3"><h2><a href="#sec-circular_area" class="heading"><span class="number">3 </span>Circular area: the <em>coup de grâce</em></a></h2>
+<p>If you arrived here as a <span class="inline_math">\( \pi \)</span> believer, you must by now be questioning your faith.<span class="intersentencespace"></span> <span class="inline_math">\( \tau \)</span> is so natural, its meaning so transparent—is there no example where <span class="inline_math">\( \pi \)</span> shines through in all its radiant glory?<span class="intersentencespace"></span> A memory stirs—yes, there is such a formula—it is the formula for circular area!<span class="intersentencespace"></span> Behold:</p>
+<div class="equation">\[  A = \tfrac{1}{4} \pi D^2.  \]
+</div><p class="noindent">No, wait.<span class="intersentencespace"></span> The area formula is always written in terms of the <em>radius</em>, as follows:</p>
+<div class="equation">\[  A = \pi r^2.  \]
+</div><p class="noindent">We see here <span class="inline_math">\( \pi \)</span>, unadorned, in one of the most important equations in mathematics—a formula first proved by <a href="https://en.wikipedia.org/wiki/Archimedes" target="_blank" rel="noopener">Archimedes</a> himself.<span class="intersentencespace"></span> Order is restored!<span class="intersentencespace"></span> And yet, the name of this section sounds ominous… If this equation is <span class="inline_math">\( \pi \)</span>’s crowning glory, how can it also be the <a href="https://en.wikipedia.org/wiki/Coup_de_grace" target="_blank" rel="noopener"><em>coup de grâce</em></a>?</p>
+<div id="sec-quadratic_forms" data-tralics-id="uid43" class="subsection" data-number="3.1"><h3><a href="#sec-quadratic_forms" class="heading"><span class="number">3.1 </span>Quadratic forms</a></h3>
+<p>Let us examine this paragon of <span class="inline_math">\( \pi \)</span>, <span class="inline_math">\( A = \pi r^2 \)</span>.<span class="intersentencespace"></span> We notice that it involves the diameter—no, wait, the <em>radius</em>—raised to the second power.<span class="intersentencespace"></span> This makes it a simple <em>quadratic form</em>.<span class="intersentencespace"></span> Such forms arise in many contexts; as a <a href="https://thesis.library.caltech.edu/1940/" target="_blank" rel="noopener">physicist</a>, my favorite examples come from the elementary physics curriculum.<span class="intersentencespace"></span> We will now consider several in turn.</p>
+<div id="sec-falling_in_a_uniform_gravitational_field" data-tralics-id="uid44" class="subsubsection" data-number="3.1.1"><h4><a href="#sec-falling_in_a_uniform_gravitational_field" class="heading">Falling in a uniform gravitational field</a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Galileo_Galilei" target="_blank" rel="noopener">Galileo Galilei</a> found that the velocity of an object falling in a uniform gravitational field is proportional to the time fallen:</p>
+<div class="equation">\[  v \propto t.  \]
+</div><p class="noindent">The constant of proportionality is the gravitational acceleration <span class="inline_math">\( g \)</span>:</p>
+<div class="equation">\[  v = g t.  \]
+</div><p class="noindent">Since velocity is the derivative of position, we can calculate the distance fallen by integration:<sup id="cha-0_footnote-ref-10" class="footnote"><a href="#cha-0_footnote-10">10</a></sup></p>
+<div class="equation">\[  y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^2.  \]
+</div></div>
+<div id="sec-potential_energy_in_a_linear_spring" data-tralics-id="uid46" class="subsubsection" data-number="3.1.2"><h4><a href="#sec-potential_energy_in_a_linear_spring" class="heading">Potential energy in a linear spring</a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Robert_Hooke" target="_blank" rel="noopener">Robert Hooke</a> found that the external force required to stretch a spring is proportional to the distance stretched:</p>
+<div class="equation">\[  F \propto x.  \]
+</div><p class="noindent">The constant of proportionality is the spring constant <span class="inline_math">\( k \)</span>:<sup id="cha-0_footnote-ref-11" class="footnote"><a href="#cha-0_footnote-11">11</a></sup></p>
+<div class="equation">\[  F = k x.  \]
+</div><p class="noindent">The potential energy in the spring is then equal to the work done by the external force:</p>
+<div class="equation">\[  U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2.  \]
+</div></div>
+<div id="sec-energy_of_motion" data-tralics-id="uid48" class="subsubsection" data-number="3.1.3"><h4><a href="#sec-energy_of_motion" class="heading">Energy of motion</a></h4>
+<p><a href="https://en.wikipedia.org/wiki/Isaac_Newton" target="_blank" rel="noopener">Isaac Newton</a> found that the force on an object is proportional to its acceleration:</p>
+<div class="equation">\[  F \propto a.  \]
+</div><p class="noindent">The constant of proportionality is the mass <span class="inline_math">\( m \)</span>:</p>
+<div class="equation">\[  F = m a.  \]
+</div><p class="noindent">The energy of motion, or <em>kinetic energy</em>, is equal to the total work done in accelerating the mass to velocity <span class="inline_math">\( v \)</span>:</p>
+<div class="equation">\[ 
+\begin{split}
+K = \int F\,dx = \int ma\,dx &amp; = \int m\frac{dv}{dt}\,dx \\ &amp; = \int m\frac{dx}{dt}\,dv \\ &amp; = \int_0^v mv\,dv \\ &amp; = \textstyle{\frac{1}{2}} mv^2.
+\end{split}
+ \]
+</div></div></div>
+<div id="sec-a_sense_of_foreboding" data-tralics-id="uid49" class="subsection" data-number="3.2"><h3><a href="#sec-a_sense_of_foreboding" class="heading"><span class="number">3.2 </span>A sense of foreboding</a></h3>
+<p>Having seen several examples of simple quadratic forms in physics, you may by now have a sense of foreboding as we return to the geometry of the circle.<span class="intersentencespace"></span> This feeling is justified.</p>
+<div class="center figure" id="fig-circular_area" data-tralics-id="uid50" data-number="15">
+<div class="graphics image"><img src="images/figures/circular-area.png" alt="images/figures/circular-area" /></div><div class="caption"><span class="header">Figure 15: </span><span class="description">Breaking down a circle into rings.
+</span></div></div>
+<p>As seen in <a href="tau_manifesto.html#fig-circular_area" class="hyperref">Figure <span class="ref">15</span></a>, the area of a circle can be calculated by breaking it down into circular rings of length <span class="inline_math">\( C \)</span> and width <span class="inline_math">\( dr \)</span>, where the area of each ring is <span class="inline_math">\( C\,dr \)</span>:</p>
+<div class="equation">\[  dA = C\,dr.  \]
+</div><p class="noindent">Now, the circumference of a circle is proportional to its radius:</p>
+<div class="equation">\[  C \propto r.  \]
+</div><p class="noindent">The constant of proportionality is <span class="inline_math">\( \tau \)</span>:</p>
+<div class="equation">\[  C = \tau\,r.  \]
+</div><p class="noindent">The area of the circle is then the integral over all rings:</p>
+<div class="equation">\[  A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2.  \]
+</div><p class="noindent">If you were still a <span class="inline_math">\( \pi \)</span> partisan at the beginning of this section, your head has now exploded.<span class="intersentencespace"></span> For we see that even in this case, where <span class="inline_math">\( \pi \)</span> supposedly shines, in fact there is a missing factor of <span class="inline_math">\( 2 \)</span>.<span class="intersentencespace"></span> Indeed, the original proof by Archimedes shows not that the area of a circle is <span class="inline_math">\( \pi r^2 \)</span>, but that it is equal to the area of a right triangle with base <span class="inline_math">\( C \)</span> and height <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Applying the formula for triangular area then gives</p>
+<div class="equation">\[ 
+  A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
+ \]
+</div><p class="noindent">There is simply no avoiding that factor of a half (<a href="tau_manifesto.html#table-quadratic_forms" class="hyperref">Table <span class="ref">3</span></a>).</p>
+<div class="table" id="table-quadratic_forms" data-tralics-id="uid51" data-number="3"><table class="tabular">
+<tr class="bottom_border"><td class="align_left">Quantity</td>
+<td class="align_center">Symbol</td>
+<td class="align_center">Expression</td>
+</tr><tr><td class="align_left">Distance fallen</td>
+<td class="align_center"><span class="inline_math">\( y \)</span></td>
+<td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}gt^2 \)</span></td>
+</tr><tr><td class="align_left">Spring energy</td>
+<td class="align_center"><span class="inline_math">\( U \)</span></td>
+<td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}kx^2 \)</span></td>
+</tr><tr><td class="align_left">Kinetic energy</td>
+<td class="align_center"><span class="inline_math">\( K \)</span></td>
+<td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}mv^2 \)</span></td>
+</tr><tr><td class="align_left">Circular area</td>
+<td class="align_center"><span class="inline_math">\( A \)</span></td>
+<td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}\tau\,r^2 \)</span></td>
+</tr></table><div class="caption"><span class="header">Table 3: </span><span class="description">Some common quadratic forms.
+</span></div></div>
+<div id="sec-quod_erat_demonstrandum" data-tralics-id="uid52" class="subsubsection" data-number="3.2.1"><h4><a href="#sec-quod_erat_demonstrandum" class="heading">Quod erat demonstrandum</a></h4>
+<p>We set out in this manifesto to show that <span class="inline_math">\( \tau \)</span> is the true circle constant.<span class="intersentencespace"></span> Since the formula for circular area was just about the last, best argument that <span class="inline_math">\( \pi \)</span> had going for it, I’m going to go out on a limb here and say: <a href="https://en.wikipedia.org/wiki/Q.E.D." target="_blank" rel="noopener">Q.E.D.</a></p>
+</div></div></div>
+<div id="sec-conflict_and_resistance" data-tralics-id="cid4" class="section" data-number="4"><h2><a href="#sec-conflict_and_resistance" class="heading"><span class="number">4 </span>Conflict and resistance</a></h2>
+<p>Despite the definitive demonstration of the superiority of <span class="inline_math">\( \tau \)</span>, there are nevertheless many who oppose it, both as notation and as number.<span class="intersentencespace"></span> In this section, we address the concerns of those who accept the value but not the letter.<span class="intersentencespace"></span> We then rebut some of the many arguments marshaled against <span class="inline_math">\( C/r \)</span> itself, including the so-called “Pi Manifesto” that defends the primacy of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> In this context, we’ll discuss the rather advanced subject of the volume of a hypersphere (<a href="tau_manifesto.html#sec-volume_of_a_hypersphere" class="hyperref">Section <span class="ref">5.1</span></a>), which augments and amplifies the arguments in <a href="tau_manifesto.html#sec-circular_area" class="hyperref">Section <span class="ref">3</span></a> on circular area.</p>
+<div id="sec-one_turn" data-tralics-id="uid53" class="subsection" data-number="4.1"><h3><a href="#sec-one_turn" class="heading"><span class="number">4.1 </span>One turn</a></h3>
+<p>The true test of any notation is usage; having seen <span class="inline_math">\( \tau \)</span> used throughout this manifesto, you may already be convinced that it serves its role well.<span class="intersentencespace"></span> But for a constant as fundamental as <span class="inline_math">\( \tau \)</span> it would be nice to have some deeper reasons for our choice.<span class="intersentencespace"></span> Why not <span class="inline_math">\( \alpha \)</span>, for example, or <span class="inline_math">\( \omega \)</span>?<span class="intersentencespace"></span> What’s so great about <span class="inline_math">\( \tau \)</span>?</p>
+<p>There are two main reasons to use <span class="inline_math">\( \tau \)</span> for the circle constant.<span class="intersentencespace"></span> The first is that <span class="inline_math">\( \tau \)</span> visually resembles <span class="inline_math">\( \pi \)</span>: after centuries of use, the association of <span class="inline_math">\( \pi \)</span> with the circle constant is unavoidable, and using <span class="inline_math">\( \tau \)</span> feeds on this association instead of fighting it.<span class="intersentencespace"></span> (Indeed, the horizontal line in each letter suggests that we interpret the “legs” as <em>denominators</em>, so that <span class="inline_math">\( \pi \)</span> has two legs in its denominator, while <span class="inline_math">\( \tau \)</span> has only one.<span class="intersentencespace"></span> Seen this way, the relationship <span class="inline_math">\( \tau = 2\pi \)</span> is perfectly natural.)<sup id="cha-0_footnote-ref-12" class="footnote"><a href="#cha-0_footnote-12">12</a></sup></p>
+<p>The second reason is that <span class="inline_math">\( \tau \)</span> corresponds to one <em>turn</em> of a circle, and you may have noticed that “<span class="inline_math">\( \tau \)</span>” and “turn” both start with a “<em>t</em>” sound.<span class="intersentencespace"></span> This was the original motivation for the choice of <span class="inline_math">\( \tau \)</span>, and it is not a coincidence: the root of the English word “turn” is the Greek word τόρνος (tornos), which means “lathe”.<span class="intersentencespace"></span> Using a math font for the first letter in τόρνος then gives us: <span class="inline_math">\( \tau \)</span>.</p>
+<p>Since the original launch of <em>The Tau Manifesto</em>, I have learned that <a href="http://www.harremoes.dk/Peter/" target="_blank" rel="noopener">Peter Harremoës</a> independently proposed using <span class="inline_math">\( \tau \)</span> to “<span class="inline_math">\( \pi \)</span> Is Wrong!” author Bob Palais in 2010, John Fisher proposed <span class="inline_math">\( \tau \)</span> in a <a href="https://groups.google.com/forum/#!msg/sci.math/c-DHmJHSA0A/sLCoOtHB1UAJ" target="_blank" rel="noopener">Usenet post</a> in 2004, and Joseph Lindenberg anticipated both the argument and the symbol more than twenty years before!<sup id="cha-0_footnote-ref-13" class="footnote"><a href="#cha-0_footnote-13">13</a></sup><span class="intersentencespace"></span> Dr. Harremoës in particular has emphasized the importance of a point first made in <a href="tau_manifesto.html#sec-an_immodest_proposal" class="hyperref">Section <span class="ref">1.1</span></a>: using <span class="inline_math">\( \tau \)</span> gives the circle constant a <em>name</em>.<span class="intersentencespace"></span> Since <span class="inline_math">\( \tau \)</span> is an ordinary Greek letter, people encountering it for the first time can pronounce it immediately.<span class="intersentencespace"></span> Moreover, unlike calling the circle constant a “turn”,
+<span class="inline_math">\( \tau \)</span> works well in both written and spoken contexts.<span class="intersentencespace"></span> For example, saying that a quarter circle has radian angle measure “one quarter turn” sounds great, but “turn over four radians” sounds awkward, and “the area of a circle is one-half turn <span class="inline_math">\( r \)</span> squared” sounds downright odd.<span class="intersentencespace"></span> Using <span class="inline_math">\( \tau \)</span>, we can say “tau over four radians” and “the area of a circle is one-half tau <span class="inline_math">\( r \)</span> squared.”</p>
+<div id="sec-ambiguous_notation" data-tralics-id="uid56" class="subsubsection" data-number="4.1.1"><h4><a href="#sec-ambiguous_notation" class="heading">Ambiguous notation</a></h4>
+<p>Of course, with any new notation there is the potential for conflict with present usage.<span class="intersentencespace"></span> As noted in <a href="tau_manifesto.html#sec-an_immodest_proposal" class="hyperref">Section <span class="ref">1.1</span></a>, “<span class="inline_math">\( \pi \)</span> Is Wrong!” avoids this problem by introducing a new symbol (<a href="tau_manifesto.html#fig-palais_tau" class="hyperref">Figure <span class="ref">3</span></a>).<span class="intersentencespace"></span> There is precedent for this; for example, in the early days of quantum mechanics <a href="https://en.wikipedia.org/wiki/Max_Planck" target="_blank" rel="noopener">Max Planck</a> introduced the constant <span class="inline_math">\( h \)</span>, which relates a light particle’s energy to its frequency (through <span class="inline_math">\( E = h\nu \)</span>), but physicists soon realized that it is often more convenient to use <span class="inline_math">\( \hbar \)</span> (read “h-bar”)—where <span class="inline_math">\( \hbar \)</span> is just <span class="inline_math">\( h \)</span> divided by… um… <span class="inline_math">\( 2\pi \)</span>—and this usage is now standard.</p>
+<p>But getting a new symbol accepted is difficult: it has to be given a name, that name has to be popularized, and the symbol itself has to be added to word processing and typesetting systems.<span class="intersentencespace"></span> Moreover, promulgating a new symbol for <span class="inline_math">\( 2\pi \)</span> would require the cooperation of the academic mathematical community, which on the subject of <span class="inline_math">\( \pi \)</span> vs. <span class="inline_math">\( \tau \)</span> has so far been apathetic at best and hostile at worst.<span class="intersentencespace"></span> Using an existing symbol allows us to route around the mathematical establishment.<sup id="cha-0_footnote-ref-14" class="footnote"><a href="#cha-0_footnote-14">14</a></sup></p>
+<p>Rather than advocating a new symbol, <em>The Tau Manifesto</em> opts for the use of an existing Greek letter.<span class="intersentencespace"></span> As a result, since <span class="inline_math">\( \tau \)</span> is already used in some current contexts, we must address the conflicts with existing practice.<span class="intersentencespace"></span> Fortunately, there are surprisingly few common uses.<span class="intersentencespace"></span> Moreover, while <span class="inline_math">\( \tau \)</span> is used for certain <em>specific</em> variables—e.g., <em>shear stress</em> in mechanical engineering, <em>torque</em> in rotational mechanics, and <em>proper time</em> in special and general relativity—there is no <em>universal</em> conflicting usage.<sup id="cha-0_footnote-ref-15" class="footnote"><a href="#cha-0_footnote-15">15</a></sup><span class="intersentencespace"></span> In those cases, we can either tolerate ambiguity or route around the few present conflicts by selectively changing notation, such as using <span class="inline_math">\( N \)</span> for torque<sup id="cha-0_footnote-ref-16" class="footnote"><a href="#cha-0_footnote-16">16</a></sup> or <span class="inline_math">\( \tau_p \)</span> for proper time.</p>
+<p>Despite these arguments, potential usage conflicts have proven to be the greatest source of resistance to <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> Some correspondents have even flatly denied that <span class="inline_math">\( \tau \)</span> (or, presumably, any other currently used symbol) could possibly overcome these issues.<span class="intersentencespace"></span> But scientists and engineers have a high tolerance for notational ambiguity, and claiming that <span class="inline_math">\( \tau \)</span>-the-circle-constant can’t coexist with other uses ignores considerable evidence to the contrary.</p>
+<p>One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula for the <em>Bohr radius</em>, which (roughly speaking) is the “size” of a hydrogen atom in its lowest energy state (the <em>ground state</em>):</p>
+<div class="equation">\[ 
+a_0 = \frac{\hbar^2}{m e^2},
+ \]
+</div><p class="noindent">where <span class="inline_math">\( m \)</span> is the mass of an electron and <span class="inline_math">\( e \)</span> is its charge.<span class="intersentencespace"></span> Meanwhile, the ground state itself is described by a quantity known as the <a href="https://en.wikipedia.org/wiki/Wave_function" target="_blank" rel="noopener"><em>wavefunction</em></a>, which falls off exponentially with radius on a length scale set by the Bohr radius:</p>
+<div id="eq-hydrogen" data-tralics-id="uid60" data-number="10" class="equation">\begin{equation}
+\label{eq:hydrogen}
+\psi(r) = N\,e^{-r/a_0},
+\end{equation}
+</div><p class="noindent">where <span class="inline_math">\( N \)</span> is a normalization constant.</p>
+<p>Have you noticed the problem yet?<span class="intersentencespace"></span> Probably not, which is just the point.<span class="intersentencespace"></span> The “problem” is that the <span class="inline_math">\( e \)</span> in the Bohr radius and the <span class="inline_math">\( e \)</span> in the wavefunction are <em>not the same <span class="inline_math">\( e \)</span></em>—the first is the charge on an electron, while the second is the natural number (the base of natural logarithms).<span class="intersentencespace"></span> In fact, if we expand the factor of <span class="inline_math">\( a_0 \)</span> in the argument of the exponent in <a href="tau_manifesto.html#eq-hydrogen" class="hyperref">Eq. (<span class="ref">10</span>)</a>, we get</p>
+<div class="equation">\[ 
+\psi(r) = N\,e^{-m e^2 r/\hbar^2},
+ \]
+</div><p class="noindent">which has an <span class="inline_math">\( e \)</span> raised the power of something with <span class="inline_math">\( e \)</span> in it.<span class="intersentencespace"></span> It’s even worse than it looks, because <span class="inline_math">\( N \)</span> itself contains <span class="inline_math">\( e \)</span> as well:</p>
+<div class="equation">\[ 
+\psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0} =
+\frac{m^{3/2} e^3}{\pi^{1/2} \hbar^3}\,e^{-m e^2 r/\hbar^2}.
+ \]
+</div><p class="noindent">I have no doubt that if a separate notation for the natural number did not already exist, anyone proposing the letter <span class="inline_math">\( e \)</span> would be told it’s impossible because of the conflicts with other uses.<span class="intersentencespace"></span> And yet, in practice no one ever has any problem with using <span class="inline_math">\( e \)</span> in both contexts above.<span class="intersentencespace"></span> There are many other examples, including situations where even <span class="inline_math">\( \pi \)</span> is used for two different things.<sup id="cha-0_footnote-ref-17" class="footnote"><a href="#cha-0_footnote-17">17</a></sup><span class="intersentencespace"></span> It’s hard to see how using <span class="inline_math">\( \tau \)</span> for multiple quantities is any different.</p>
+<p>By the way, the <span class="inline_math">\( \pi \)</span>-pedants out there (and there have proven to be many) might note that hydrogen’s ground-state wavefunction has a factor of <span class="inline_math">\( \pi \)</span>:</p>
+<div class="equation">\[ 
+\psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0}.
+ \]
+</div><p class="noindent">At first glance, this appears to be more natural than the version with <span class="inline_math">\( \tau \)</span>:</p>
+<div class="equation">\[ 
+\psi(r) = \sqrt{\frac{2}{\tau a_0^3}}\,e^{-r/a_0}.
+ \]
+</div><p class="noindent">As usual, appearances are deceiving: the value of <span class="inline_math">\( N \)</span> comes from the product</p>
+<div class="equation">\[ 
+\frac{1}{\sqrt{2\pi}} \frac{1}{\sqrt{2}} \frac{2}{a_0^{3/2}},
+ \]
+</div><p class="noindent">which shows that the circle constant enters the calculation through <span class="inline_math">\( 1/\sqrt{2\pi} \)</span>, i.e., <span class="inline_math">\( 1/\sqrt{\tau} \)</span>.<span class="intersentencespace"></span> As with the formula for circular area, the cancellation to leave a bare <span class="inline_math">\( \pi \)</span> is a coincidence.</p>
+</div></div>
+<div id="sec-the_pi_manifesto_a_rebuttal" data-tralics-id="uid62" class="subsection" data-number="4.2"><h3><a href="#sec-the_pi_manifesto_a_rebuttal" class="heading"><span class="number">4.2 </span>The Pi Manifesto</a></h3>
+<p>Although most objections to <span class="inline_math">\( \tau \)</span> come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance.<span class="intersentencespace"></span> In particular, since the publication of <em>The Tau Manifesto</em> in June 2010, a “<a href="http://www.thepimanifesto.com/" target="_blank" rel="noopener">Pi Manifesto</a>” has appeared to make the case for the traditional circle constant.<span class="intersentencespace"></span> This section and the two after it contain a rebuttal of its arguments.<span class="intersentencespace"></span> Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto’s case.</p>
+<p>While we can certainly consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims.<span class="intersentencespace"></span> For example, it says that the factor of <span class="inline_math">\( 2\pi \)</span> in the Gaussian (normal) distribution is a coincidence, and that it can more naturally be written as</p>
+<div class="equation">\[ 
+\frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-x^2}{(\sqrt 2\sigma)^2}}.
+ \]
+</div><p class="noindent">This is wrong: the factor of <span class="inline_math">\( 2\pi \)</span> comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates, which leads to a factor of <span class="inline_math">\( 1 \)</span> from
+the radial integral and a <span class="inline_math">\( 2\pi \)</span> from the angular integral.<span class="intersentencespace"></span> As in the case of circular area, the factor
+of <span class="inline_math">\( \pi \)</span> comes from <span class="inline_math">\( 1/2\times 2\pi \)</span>, not from <span class="inline_math">\( \pi \)</span> alone.</p>
+<p>A related claim is that the <a href="https://mathworld.wolfram.com/GammaFunction.html" target="_blank" rel="noopener">Gamma function</a> evaluated at <span class="inline_math">\( 1/2 \)</span> is more natural in terms of <span class="inline_math">\( \pi \)</span>:</p>
+<div class="equation">\[ 
+\Gamma(\textstyle{\frac{1}{2}}) = \sqrt{\pi},
+ \]
+</div><p class="noindent">where</p>
+<div id="eq-gamma" data-tralics-id="uid63" data-number="11" class="equation">\begin{equation}
+\label{eq:gamma}
+\Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
+\end{equation}
+</div><p class="noindent">But <span class="inline_math">\( \Gamma(\frac{1}{2}) \)</span> reduces to the same Gaussian integral as in the normal distribution (upon setting <span class="inline_math">\( u =
+x^{1/2} \)</span>), so the <span class="inline_math">\( \pi \)</span> in this case is really <span class="inline_math">\( 1/2\times 2\pi \)</span> as well.<span class="intersentencespace"></span> Indeed, in many of the cases cited in the Pi Manifesto,
+the circle constant enters through an integral over all angles, i.e.,
+as <span class="inline_math">\( \theta \)</span> ranges from <span class="inline_math">\( 0 \)</span> to <span class="inline_math">\( \tau \)</span>.</p>
+<p>The Pi Manifesto also examines some formulas for regular
+<span class="inline_math">\( n \)</span>-sided polygons (or “<span class="inline_math">\( n \)</span>-gons”).<span class="intersentencespace"></span> For instance, it notes that the sum of the internal angles of an <span class="inline_math">\( n \)</span>-gon is given by</p>
+<div class="equation">\[ 
+\sum_{i=1}^n \theta_i=(n-2)\pi.
+ \]
+</div><p class="noindent">This issue was dealt with in “Pi Is Wrong!”, which notes the following: “The sum of the interior angles [of a
+triangle] is <span class="inline_math">\( \pi \)</span>, granted.<span class="intersentencespace"></span> But the sum of the <em>exterior</em> angles of <em>any</em>
+polygon, from which the sum of the interior angles can easily be
+derived, and which generalizes to the integral of the curvature of a
+simple closed curve, is <span class="inline_math">\( 2\pi \)</span>.”<span class="intersentencespace"></span> In addition, the Pi Manifesto offers the formula for the area of an <span class="inline_math">\( n \)</span>-gon with unit radius (the distance from center to vertex),</p>
+<div class="equation">\[  A=n\sin\frac{\pi}{n}\cos\frac{\pi}{n},  \]
+</div><p class="noindent">calling it “clearly… another win for <span class="inline_math">\( \pi \)</span>.”<span class="intersentencespace"></span> But using the double-angle identity <span class="inline_math">\( \sin\theta\cos\theta = \frac{1}{2} \sin 2\theta \)</span> shows that this can be written as</p>
+<div class="equation">\[  A = n/2\, \sin\frac{2\pi}{n},  \]
+</div><p class="noindent">which is just</p>
+<div id="eq-area_polygon" data-tralics-id="uid64" data-number="12" class="equation">\begin{equation}
+\label{eq:area_polygon}
+A = \frac{1}{2} n\, \sin\frac{\tau}{n}.
+\end{equation}
+</div><p class="noindent">In other words, the area of an <span class="inline_math">\( n \)</span>-gon has a natural
+factor of <span class="inline_math">\( 1/2 \)</span>.<span class="intersentencespace"></span> In fact, taking the limit of <a href="tau_manifesto.html#eq-area_polygon" class="hyperref">Eq. (<span class="ref">12</span>)</a> as <span class="inline_math">\( n\rightarrow \infty \)</span> (and applying <a href="https://mathworld.wolfram.com/LHospitalsRule.html" target="_blank" rel="noopener">L’Hôpital’s rule</a>) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:</p>
+<div id="eq-lhopital" data-tralics-id="uid65" data-number="13" class="equation">\begin{equation}
+\label{eq:lhopital}
+\begin{split}
+A &amp; = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n} \\
+  &amp; = \frac{1}{2} \lim_{n\rightarrow\infty} \frac{\sin\frac{\tau}{n}}{1/n} \\
+  &amp; = \tfrac{1}{2}\tau.
+\end{split}
+\end{equation}
+</div><p class="noindent">In this context, we should note that the Pi Manifesto makes much ado about <span class="inline_math">\( \pi \)</span> being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is <span class="inline_math">\( \pi/4 \)</span>.<span class="intersentencespace"></span> This, it is claimed, makes just as good a case for <span class="inline_math">\( \pi \)</span> as radian angle measure does for <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> Unfortunately for this argument, as noted in <a href="tau_manifesto.html#sec-circular_area" class="hyperref">Section <span class="ref">3</span></a> and as seen again in <a href="tau_manifesto.html#eq-lhopital" class="hyperref">Eq. (<span class="ref">13</span>)</a>, the factor of <span class="inline_math">\( 1/2 \)</span> arises naturally in the context of circular area.<span class="intersentencespace"></span> Indeed, the formula for the area of a circular sector subtended by angle <span class="inline_math">\( \theta \)</span> is</p>
+<div class="equation">\[ 
+\tfrac{1}{2}\theta\, r^2,
+ \]
+</div><p class="noindent">so there’s no way to avoid the factor of <span class="inline_math">\( 1/2 \)</span> in general.<span class="intersentencespace"></span> (We thus see that <span class="inline_math">\( A =
+\frac{1}{2} \tau\, r^2 \)</span> is simply the special case <span class="inline_math">\( \theta = \tau \)</span>.)</p>
+<p>In short, the difference between angle measure and area isn’t
+arbitrary.<span class="intersentencespace"></span> There is no natural factor of <span class="inline_math">\( 1/2 \)</span> in the
+case of angle measure.<span class="intersentencespace"></span> In contrast, in the case of area the factor of <span class="inline_math">\( 1/2 \)</span> arises through the integral of a linear function in association with a simple quadratic form.<span class="intersentencespace"></span> In fact, the case for <span class="inline_math">\( \pi \)</span> is even worse than it looks, as shown in the next section.</p>
+</div></div>
+<div id="sec-getting_to_the_bottom_of_pi" data-tralics-id="cid5" class="section" data-number="5"><h2><a href="#sec-getting_to_the_bottom_of_pi" class="heading"><span class="number">5 </span>Getting to the bottom of pi and tau</a></h2>
+<p>I continue to be impressed with how rich this subject is, and my understanding of <span class="inline_math">\( \pi \)</span> and <span class="inline_math">\( \tau \)</span> continues to evolve.<span class="intersentencespace"></span> On Half Tau Day, 2012, I believed I identified <em>exactly</em> what is wrong with <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> My argument hinged on an analysis of the surface area and volume of an <span class="inline_math">\( n \)</span>-dimensional sphere, which (as shown below) makes clear that <span class="inline_math">\( \pi \)</span> doesn’t have any fundamental geometric significance.<span class="intersentencespace"></span> My analysis was incomplete, though—a fact brought to my attention in a remarkable message from <em>Tau Manifesto</em> reader Jeff Cornell.<span class="intersentencespace"></span> As a result, this section is an attempt not only to definitively debunk <span class="inline_math">\( \pi \)</span>, but also to articulate the truth about <span class="inline_math">\( \tau \)</span>, a truth that is deeper and subtler than I had imagined.</p>
+<p><em>Note</em>: This section is more advanced than the rest of the manifesto and can be skipped without loss of continuity.<span class="intersentencespace"></span> If you find it confusing, I recommend proceeding directly to the conclusion in <a href="tau_manifesto.html#sec-conclusion" class="hyperref">Section <span class="ref">6</span></a>.</p>
+<div id="sec-volume_of_a_hypersphere" data-tralics-id="uid66" class="subsection" data-number="5.1"><h3><a href="#sec-volume_of_a_hypersphere" class="heading"><span class="number">5.1 </span>Surface area and volume of a hypersphere</a></h3>
+<p>We start our investigations with the generalization of a circle to arbitrary dimensions.<sup id="cha-0_footnote-ref-18" class="footnote"><a href="#cha-0_footnote-18">18</a></sup><span class="intersentencespace"></span> This object, called a <em>hypersphere</em> or an <em><span class="inline_math">\( n \)</span>-sphere</em>, can be defined as follows.<sup id="cha-0_footnote-ref-19" class="footnote"><a href="#cha-0_footnote-19">19</a></sup><span class="intersentencespace"></span> (For convenience, we assume that these spheres are centered on the origin.)<span class="intersentencespace"></span> A <span class="inline_math">\( 0 \)</span>-sphere is the empty set, and we define its “interior” to be a point.<sup id="cha-0_footnote-ref-20" class="footnote"><a href="#cha-0_footnote-20">20</a></sup><span class="intersentencespace"></span> A <span class="inline_math">\( 1 \)</span>-sphere is the set of all points satisfying</p>
+<div class="equation">\[ 
+x^2 = r^2,
+ \]
+</div><p class="noindent">which consists of the two points <span class="inline_math">\( \pm r \)</span>.<span class="intersentencespace"></span> Its interior, which satisfies</p>
+<div class="equation">\[ 
+x^2 \leq r^2,
+ \]
+</div><p class="noindent">is the line segment from <span class="inline_math">\( -r \)</span> to <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> A <span class="inline_math">\( 2 \)</span>-sphere is a circle, which is the set of all points satisfying</p>
+<div class="equation">\[ 
+x^2 + y^2 = r^2.
+ \]
+</div><p class="noindent">Its interior, which satisfies,</p>
+<div class="equation">\[ 
+x^2 + y^2 \leq r^2,
+ \]
+</div><p class="noindent">is a disk.<span class="intersentencespace"></span> Similarly, a <span class="inline_math">\( 3 \)</span>-sphere satisfies</p>
+<div class="equation">\[ 
+x^2 + y^2 + z^2 = r^2,
+ \]
+</div><p class="noindent">and its interior is a ball.<span class="intersentencespace"></span> The generalization to arbitrary <span class="inline_math">\( n \)</span>, although difficult to visualize for <span class="inline_math">\( n &gt; 3 \)</span>, is straightforward: an <span class="inline_math">\( n \)</span>-sphere is the set of all points satisfying</p>
+<div class="equation">\[ 
+\sum_{i=1}^{n} x_i^2 = r^2.
+ \]
+</div><p class="noindent">The Pi Manifesto (discussed in <a href="tau_manifesto.html#sec-the_pi_manifesto_a_rebuttal" class="hyperref">Section <span class="ref">4.2</span></a>) includes a formula for the volume of a unit <span class="inline_math">\( n \)</span>-sphere as an argument in favor of <span class="inline_math">\( \pi \)</span>:</p>
+<div id="eq-unit_n_sphere_pi" data-tralics-id="uid70" data-number="14" class="equation">\begin{equation}
+\label{eq:unit_n_sphere_pi}
+\frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
+\end{equation}
+</div><p class="noindent">where the Gamma function is given by <a href="tau_manifesto.html#eq-gamma" class="hyperref">Eq. (<span class="ref">11</span>)</a>.<span class="intersentencespace"></span> <a href="tau_manifesto.html#eq-unit_n_sphere_pi" class="hyperref">Eq. (<span class="ref">14</span>)</a> is a special case of the formula for general radius, which is also typically written in terms of <span class="inline_math">\( \pi \)</span>:</p>
+<div id="eq-n_sphere_pi" data-tralics-id="uid71" data-number="15" class="equation">\begin{equation}
+\label{eq:n_sphere_pi}
+V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
+\end{equation}
+</div><p class="noindent">Because <span class="inline_math">\( V_n(r) = \int S_n(r)\,dr \)</span>, we have <span class="inline_math">\( S_n(r) = dV_n(r)/dr \)</span>, which means that the surface area can be written as follows:</p>
+<div id="eq-n_sphere_pi_r" data-tralics-id="uid72" data-number="16" class="equation">\begin{equation}
+\label{eq:n_sphere_pi_r}
+S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
+\end{equation}
+</div><p class="noindent">Rather than simply take these formulas at face value, let’s see if we can untangle them to shed more light on the question of <span class="inline_math">\( \pi \)</span> vs.<span class="intersentencespace"></span> <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all.<span class="intersentencespace"></span> Fortunately, the Gamma function can be simplified in certain special cases.<span class="intersentencespace"></span> For example, when <span class="inline_math">\( n \)</span> is an integer, it is easy to show (using integration by parts) that</p>
+<div class="equation">\[ 
+\Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
+ \]
+</div><p class="noindent">Seen this way, <span class="inline_math">\( \Gamma \)</span> can be interpreted as a generalization of the factorial function to real-valued arguments.<sup id="cha-0_footnote-ref-21" class="footnote"><a href="#cha-0_footnote-21">21</a></sup></p>
+<p>In the <span class="inline_math">\( n \)</span>-dimensional surface area and volume formulas, the argument of <span class="inline_math">\( \Gamma \)</span> is not necessarily an integer, but rather is <span class="inline_math">\( \left(1 + \frac{n}{2}\right) \)</span>, which is an integer when <span class="inline_math">\( n \)</span> is even and is a <em>half</em>-integer when <span class="inline_math">\( n \)</span> is odd.<span class="intersentencespace"></span> Taking this into account gives the following expression, which is taken from a standard reference, <a href="https://mathworld.wolfram.com/Hypersphere.html" target="_blank" rel="noopener">Wolfram MathWorld</a>, and as usual is written in terms of <span class="inline_math">\( \pi \)</span>:</p>
+<div id="eq-surface_area_mathworld" data-tralics-id="uid74" data-number="17" class="equation">\begin{equation}
+\label{eq:surface_area_mathworld}
+S_n(r) = \begin{cases}
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div><p class="noindent">Integrating with respect to <span class="inline_math">\( r \)</span> then gives</p>
+<div id="eq-volume_mathworld" data-tralics-id="uid75" data-number="18" class="equation">\begin{equation}
+\label{eq:volume_mathworld}
+V_n(r) = \begin{cases}
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} &amp; n \text{ even}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div><p class="noindent">Let’s examine <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a> in more detail.<span class="intersentencespace"></span> Notice first that MathWorld uses the <em>double factorial function</em> <span class="inline_math">\( n!! \)</span>—but, strangely, it uses it only in the <em>odd</em> case.<span class="intersentencespace"></span> (This is a hint of things to come.)<span class="intersentencespace"></span> The double factorial function, although rarely encountered in mathematics, is elementary: it’s like the normal factorial function, but involves subtracting <span class="inline_math">\( 2 \)</span> at a time instead of <span class="inline_math">\( 1 \)</span>, so that, e.g., <span class="inline_math">\( 5!! = 5 \cdot 3 \cdot 1 \)</span> and <span class="inline_math">\( 6!! = 6 \cdot 4 \cdot 2 \)</span>.<span class="intersentencespace"></span> In general, we have</p>
+<div id="eq-double_factorial" data-tralics-id="uid76" data-number="19" class="equation">\begin{equation}
+\label{eq:double_factorial}
+n!! = \begin{cases}
+n(n-2)\ldots6\cdot4\cdot2 &amp; n \text{ even}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div><p class="noindent">(By definition, <span class="inline_math">\( 0!! = 1!! = 1 \)</span>.)<span class="intersentencespace"></span> Note that <a href="tau_manifesto.html#eq-double_factorial" class="hyperref">Eq. (<span class="ref">19</span>)</a> naturally divides into even and odd cases, making MathWorld’s decision to use it only in the odd case still more mysterious.</p>
+<p>To solve this mystery, we’ll start by taking a closer look at the formula for odd <span class="inline_math">\( n \)</span> in <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a>:</p>
+<div class="equation">\[  \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!}  \]
+</div><p class="noindent">Upon examining the expression</p>
+<div class="equation">\[  2^{(n+1)/2}\pi^{(n-1)/2},  \]
+</div><p class="noindent">we notice that it can be rewritten as</p>
+<div class="equation">\[  2(2\pi)^{(n-1)/2},  \]
+</div><p class="noindent">and here we recognize our old friend <span class="inline_math">\( 2\pi \)</span>.</p>
+<p>Now let’s look at the even case in <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a>.<span class="intersentencespace"></span> We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case.<span class="intersentencespace"></span> Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using <span class="inline_math">\( n!! \)</span> in both cases we could pull it out as a common factor:</p>
+<div class="equation">\[ 
+V_n(r) = \frac{1}{n!!}\times \begin{cases}
+\ldots &amp; n \text{ even}; \\ \\
+ \ldots &amp; n \text{ odd}.
+ \end{cases}
+ \]
+</div><p class="noindent">So, is there any connection between the factorial and the double factorial?<span class="intersentencespace"></span> Yes—when <span class="inline_math">\( n \)</span> is even, the two are related by the following identity:</p>
+<div class="equation">\[  \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}.  \]
+</div><p class="noindent">(This is easy to verify using <a href="https://en.wikipedia.org/wiki/Mathematical_induction" target="_blank" rel="noopener">mathematical induction</a>.)<span class="intersentencespace"></span> Substituting this into the volume formula for even <span class="inline_math">\( n \)</span> then yields</p>
+<div class="equation">\[  \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!},  \]
+</div><p class="noindent">which bears a striking resemblance to</p>
+<div class="equation">\[  \frac{(2\pi)^{n/2}\,r^n}{n!!},  \]
+</div><p class="noindent">and again we find a factor of <span class="inline_math">\( 2\pi \)</span>.</p>
+<p>Putting these results together, we see that <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a> can be rewritten as</p>
+<div id="eq-volume_2pi" data-tralics-id="uid77" data-number="20" class="equation">\begin{equation}
+\label{eq:volume_2pi}
+V_n(r) = \begin{cases}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}
+ \end{cases}
+\end{equation}
+</div><p class="noindent">and <a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">Eq. (<span class="ref">17</span>)</a> can be rewritten as</p>
+<div id="eq-surface_area_2pi" data-tralics-id="uid78" data-number="21" class="equation">\begin{equation}
+\label{eq:surface_area_2pi}
+S_n(r) = \begin{cases}
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div><p class="noindent">Making the substitution <span class="inline_math">\( \tau=2\pi \)</span> in <a href="tau_manifesto.html#eq-surface_area_2pi" class="hyperref">Eq. (<span class="ref">21</span>)</a> then yields</p>
+<div class="equation">\[ 
+S_n(r) = \begin{cases}
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\end{cases}  \]
+</div><p class="noindent">To unify the formulas further, we can use the <em>floor function</em> <span class="inline_math">\( \lfloor x \rfloor \)</span>, which is simply the largest integer less than or equal to <span class="inline_math">\( x \)</span> (equivalent to chopping off the fractional part, so that, e.g., <span class="inline_math">\( \lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3 \)</span>).<span class="intersentencespace"></span> This gives</p>
+<div class="equation">\[  S_n(r) = \begin{cases}
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd},
+ \end{cases}  \]
+</div><p class="noindent">which allows us to write the formula as follows:</p>
+<div id="eq-surface_area_tau" data-tralics-id="uid79" data-number="22" class="equation">\begin{equation}
+\label{eq:surface_area_tau}
+S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div><p class="noindent">Integrating <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">Eq. (<span class="ref">22</span>)</a> with respect to <span class="inline_math">\( r \)</span> then yields</p>
+<div id="eq-volume_tau" data-tralics-id="uid80" data-number="23" class="equation">\begin{equation}
+\label{eq:volume_tau}
+V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
+\end{cases}
+\end{equation}
+</div>
+<div id="sec-lambda" data-tralics-id="uid81" class="subsubsection" data-number="5.1.1"><h4><a href="#sec-lambda" class="heading">Lambda</a></h4>
+<p>The formulas in <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">Eq. (<span class="ref">22</span>)</a> and <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">Eq. (<span class="ref">23</span>)</a> represent a major improvement over the original formulations (<a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">Eq. (<span class="ref">17</span>)</a> and <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">Eq. (<span class="ref">18</span>)</a>) in terms of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> But in fact an additional simplification is possible, using the measure of a <em>right angle</em>:<sup id="cha-0_footnote-ref-22" class="footnote"><a href="#cha-0_footnote-22">22</a></sup></p>
+<div id="eq-lambda" data-tralics-id="uid83" data-number="24" class="equation">\begin{equation}
+\label{eq:lambda}
+\lambda = \frac{\tau}{4}.
+\end{equation}
+</div><p class="noindent">As we’ll see in <a href="tau_manifesto.html#sec-three_families_of_constants" class="hyperref">Section <span class="ref">5.2</span></a>, <a href="tau_manifesto.html#eq-lambda" class="hyperref">Eq. (<span class="ref">24</span>)</a> can be more naturally rewritten in terms of the symmetries of the circle:</p>
+<div id="eq-tau_lambda" data-tralics-id="uid84" data-number="25" class="equation">\begin{equation}
+\label{eq:tau_lambda}
+\tau = 2^2 \lambda,
+\end{equation}
+</div><p class="noindent">where the factor of <span class="inline_math">\( 2^2 \)</span> comes from the <span class="inline_math">\( 2^2 \)</span> congruent circular arcs (one in each quadrant) in two-dimensional space.</p>
+<p>The biggest advantage of <span class="inline_math">\( \lambda \)</span> is that it completely unifies the even and odd cases in <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">Eq. (<span class="ref">22</span>)</a> and <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">Eq. (<span class="ref">23</span>)</a>, each of which has a factor of <span class="inline_math">\( \tau^{\left\lfloor \frac{n}{2} \right\rfloor} \)</span>.<span class="intersentencespace"></span> Making the substitution in <a href="tau_manifesto.html#eq-tau_lambda" class="hyperref">Eq. (<span class="ref">25</span>)</a> then gives</p>
+<div class="equation">\[ 
+\begin{split}
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} &amp; = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
+&amp; = \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
+\begin{cases}
+ 2^n &amp; n \text{ even}; \\ \\
+ 2^{n-1} &amp; n \text{ odd}.
+ \end{cases}
+ \end{split}
+ \]
+</div><p class="noindent">This means that we can rewrite the product</p>
+<div class="equation">\[ 
+\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
+1 &amp; n \text{ even}; \\ \\
+2 &amp; n \text{ odd}.
+\end{cases}
+ \]
+</div><p class="noindent">as</p>
+<div id="eq-prefactor" data-tralics-id="uid85" data-number="26" class="equation">\begin{equation}
+\label{eq:prefactor}
+\begin{split}
+\lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
+\begin{cases}
+ 2^n &amp; n \text{ even}; \\ \\
+ 2^{n-1} &amp; n \text{ odd}.
+ \end{cases}
+ &amp; \times
+\begin{cases}
+ 1 &amp; n \text{ even}; \\ \\
+ 2 &amp; n \text{ odd}.
+ \end{cases}
+\\ &amp; = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
+\end{split}
+\end{equation}
+</div><p class="noindent">which eliminates the explicit dependence on <a href="https://en.wikipedia.org/wiki/Parity_(mathematics)" target="_blank" rel="noopener">parity</a>.<span class="intersentencespace"></span> Applying <a href="tau_manifesto.html#eq-prefactor" class="hyperref">Eq. (<span class="ref">26</span>)</a> to <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">Eq. (<span class="ref">22</span>)</a> and <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">Eq. (<span class="ref">23</span>)</a> then gives</p>
+<div id="eq-surface_area_lambda" data-tralics-id="uid86" data-number="27" class="equation">\begin{equation}
+\label{eq:surface_area_lambda}
+S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
+\end{equation}
+</div><p class="noindent">and</p>
+<div id="eq-volume_lambda" data-tralics-id="uid87" data-number="28" class="equation">\begin{equation}
+\label{eq:volume_lambda}
+V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
+\end{equation}
+</div><p class="noindent">The simplification in <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a> appears to come at the cost of a factor of <span class="inline_math">\( 2^n \)</span>, but even this has a clear geometric meaning: a sphere in <span class="inline_math">\( n \)</span> dimensions divides naturally into <span class="inline_math">\( 2^n \)</span> congruent pieces, corresponding to the <span class="inline_math">\( 2^n \)</span> families of solutions to <span class="inline_math">\( \sum_{i=1}^{n} x_i^2 = r^2 \)</span> (one for each choice of <span class="inline_math">\( \pm x_i \)</span>).<span class="intersentencespace"></span> In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions.<span class="intersentencespace"></span> In other words, we can exploit the symmetry of the sphere by calculating the surface area or volume of <em>one</em> piece—typically the <em>principal part</em> where <span class="inline_math">\( x_i &gt; 0 \)</span> for every <span class="inline_math">\( i \)</span>—and then find the full value by multiplying by <span class="inline_math">\( 2^n \)</span>.</p>
+<p>To my knowledge, <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a> are the simplest possible formulations of the spherical surface area and volume formulas (and indeed are the only forms I have ever consistently been able to memorize).<span class="intersentencespace"></span> Consider the volume formula in particular: unlike the <em>faux</em> simplicity of <a href="tau_manifesto.html#eq-n_sphere_pi" class="hyperref">Eq. (<span class="ref">15</span>)</a>, <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a> involves no fancy integrals—just the slightly exotic but nevertheless elementary floor and double-factorial functions.<span class="intersentencespace"></span> The volume of a unit <span class="inline_math">\( n \)</span>-sphere is just the volume of each symmetric piece, <span class="inline_math">\( \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!! \)</span>, multiplied by the number of pieces, <span class="inline_math">\( 2^n \)</span>.</p>
+</div>
+<div id="sec-recurrences" data-tralics-id="uid88" class="subsubsection" data-number="5.1.2"><h4><a href="#sec-recurrences" class="heading">Recurrences</a></h4>
+<p>We’ve now seen, via <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a>, that the surface area and volume formulas are simplest in terms of the right angle <span class="inline_math">\( \lambda \)</span>.<span class="intersentencespace"></span> Nevertheless, we’re still not done with <span class="inline_math">\( \tau \)</span>.</p>
+<p>As seen in <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a>, the volume formula divides naturally into two families, corresponding to even- and odd-dimensional spaces, respectively.<span class="intersentencespace"></span> This means that the four-dimensional volume, <span class="inline_math">\( V_4 \)</span>, is related simply to <span class="inline_math">\( V_2 \)</span> but not to <span class="inline_math">\( V_3 \)</span>, while <span class="inline_math">\( V_3 \)</span> is related to <span class="inline_math">\( V_1 \)</span> but not to <span class="inline_math">\( V_2 \)</span>.<span class="intersentencespace"></span> How exactly are they related?</p>
+<p>We can find the answer by deriving the <em>recurrence relations</em> between dimensions.<sup id="cha-0_footnote-ref-23" class="footnote"><a href="#cha-0_footnote-23">23</a></sup><span class="intersentencespace"></span> In particular, let’s divide the volume of an <span class="inline_math">\( n \)</span>-dimensional sphere by the volume for an <span class="inline_math">\( (n-2) \)</span>-dimensional sphere:</p>
+<div id="eq-volume_recurrence" data-tralics-id="uid90" data-number="29" class="equation">\begin{equation}
+\label{eq:volume_recurrence}
+\begin{split}
+\frac{V_n(r)}{V_{n-2}(r)} &amp; =
+\frac{2^n}{2^{n-2}}
+\frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
+\frac{(n-2)!!}{n!!}
+\frac{r^{n}}{r^{n-2}}
+\\ &amp; = \frac{2^2\lambda}{n}\,r^2.
+\end{split}
+\end{equation}
+</div><p class="noindent">We see from <a href="tau_manifesto.html#eq-volume_recurrence" class="hyperref">Eq. (<span class="ref">29</span>)</a> that we can obtain the volume of an <span class="inline_math">\( n \)</span>-sphere simply by multiplying the formula for an <span class="inline_math">\( (n-2) \)</span>-sphere by <span class="inline_math">\( r^2 \)</span> (a factor required by dimensional analysis), dividing by <span class="inline_math">\( n \)</span>, and multiplying by the “recurrence constant” <span class="inline_math">\( 2^2\lambda \)</span>.</p>
+<p>Similarly, for the surface area we have</p>
+<div id="eq-surface_area_recurrence" data-tralics-id="uid91" data-number="30" class="equation">\begin{equation}
+\label{eq:surface_area_recurrence}
+\begin{split}
+\frac{S_n(r)}{S_{n-2}(r)} &amp; =
+\frac{2^n}{2^{n-2}}
+\frac{\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{\lambda^{\left\lfloor \frac{n-2}{2} \right\rfloor}}
+\frac{(n-2-2)!!}{(n-2)!!}
+\frac{r^{n}}{r^{n-2}}
+\\ &amp; = \frac{2^2\lambda}{n-2}\,r^2,
+\end{split}
+\end{equation}
+</div><p class="noindent">with the same recurrence constant <span class="inline_math">\( 2^2\lambda \)</span>.</p>
+<p>Thus, in both <a href="tau_manifesto.html#eq-volume_recurrence" class="hyperref">Eq. (<span class="ref">29</span>)</a> and <a href="tau_manifesto.html#eq-surface_area_recurrence" class="hyperref">Eq. (<span class="ref">30</span>)</a>, the constant relating the different dimensions is not <span class="inline_math">\( \lambda \)</span> itself but rather the combination <span class="inline_math">\( 2^2\lambda \)</span>.<span class="intersentencespace"></span> Comparing with <a href="tau_manifesto.html#eq-tau_lambda" class="hyperref">Eq. (<span class="ref">25</span>)</a>, we see this is none other than <span class="inline_math">\( \tau \)</span>!<span class="intersentencespace"></span> Indeed, an <a href="https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula" target="_blank" rel="noopener">alternate derivation</a> of the volume recurrence by direct calculation (which uses <span class="inline_math">\( R \)</span> where we write <span class="inline_math">\( r \)</span>) concludes with the integral</p>
+<div id="eq-integral_recurrence" data-tralics-id="uid92" data-number="31" class="equation">\begin{equation}
+\label{eq:integral_recurrence}
+\begin{split}
+V_n(R) &amp; = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\theta \\
+       &amp; = \tau V_{n-2}(R) \left[-\frac{R^2}{n}\left(1 - \left(\frac{r}{R}\right)^2\right)^\frac{n}{2}\right]_{0}^{R} \\
+       &amp; = \frac{\tau R^2}{n} V_{n-2}(R),
+\end{split}
+\end{equation}
+</div><p class="noindent">thus showing that the identification of <span class="inline_math">\( \tau \)</span> as the “recurrence constant” isn’t a coincidence—the recurrence constant and the circle constant really are one and the same:</p>
+<div class="equation">\[ 
+\begin{split}
+\tau &amp; = \mbox{circle constant} \\
+     &amp; = \mbox{recurrence constant} = 2^2\lambda.
+\end{split}
+ \]
+</div><p class="noindent">As a result, it is <span class="inline_math">\( \tau \)</span>, not <span class="inline_math">\( \lambda \)</span>, that provides the common thread tying together the two families of even and odd solutions, as illustrated by Joseph Lindenberg in <a href="http://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Tau Before It Was Cool</a> (<a href="tau_manifesto.html#fig-Nspheres" class="hyperref">Figure <span class="ref">16</span></a>).<sup id="cha-0_footnote-ref-24" class="footnote"><a href="#cha-0_footnote-24">24</a></sup></p>
+<div class="center figure" id="fig-Nspheres" data-tralics-id="uid94" data-number="16">
+<div class="graphics image"><img src="images/figures/Nspheres.png" alt="images/figures/Nspheres" /></div><div class="caption"><span class="header">Figure 16: </span><span class="description">Surface area and volume recurrences.
+</span></div></div>
+<p>When discussing general <span class="inline_math">\( n \)</span>-dimensional spheres, for convenience we’ll write the surface area and volume formulas in terms of <span class="inline_math">\( \lambda \)</span> as in <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a>, but for any given <span class="inline_math">\( n \)</span> we’ll express the results in terms of the recurrence constant <span class="inline_math">\( \tau \)</span>.</p>
+</div></div>
+<div id="sec-three_families_of_constants" data-tralics-id="uid95" class="subsection" data-number="5.2"><h3><a href="#sec-three_families_of_constants" class="heading"><span class="number">5.2 </span>Three families of constants</a></h3>
+<p>Equipped with the tools developed in <a href="tau_manifesto.html#sec-volume_of_a_hypersphere" class="hyperref">Section <span class="ref">5.1</span></a>, we’re now ready to get to the bottom of <span class="inline_math">\( \pi \)</span> and <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> To complete the excavation, we’ll use <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a> to define two families of constants, and then use the definition of <span class="inline_math">\( \pi \)</span> (<a href="tau_manifesto.html#eq-pi" class="hyperref">Eq. (<span class="ref">1</span>)</a>) to define a third, thereby revealing exactly what is wrong with <span class="inline_math">\( \pi \)</span>.</p>
+<p>First, we’ll define a family of “surface area constants” <span class="inline_math">\( \tau_n \)</span> by dividing <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> by <span class="inline_math">\( r^{n-1} \)</span>, the power of <span class="inline_math">\( r \)</span> needed to yield a dimensionless constant for each value of <span class="inline_math">\( n \)</span>:</p>
+<div id="eq-surface_area_constants" data-tralics-id="uid96" data-number="32" class="equation">\begin{equation}
+\label{eq:surface_area_constants}
+\tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
+\end{equation}
+</div><p class="noindent">Second, we’ll define a family of “volume constants” <span class="inline_math">\( \sigma_n \)</span> by dividing the volume formula <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a> by <span class="inline_math">\( r^n \)</span>, again yielding a dimensionless constant for each value of <span class="inline_math">\( n \)</span>:</p>
+<div id="eq-volume_constants" data-tralics-id="uid97" data-number="33" class="equation">\begin{equation}
+\label{eq:volume_constants}
+\sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}.
+\end{equation}
+</div><p class="noindent">With the two families of constants defined in <a href="tau_manifesto.html#eq-surface_area_constants" class="hyperref">Eq. (<span class="ref">32</span>)</a> and <a href="tau_manifesto.html#eq-volume_constants" class="hyperref">Eq. (<span class="ref">33</span>)</a>, we can write the surface area and volume formulas (<a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">Eq. (<span class="ref">27</span>)</a> and <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">Eq. (<span class="ref">28</span>)</a>) compactly as follows:</p>
+<div class="equation">\[  S_n(r) = \tau_n\,r^{n-1}  \]
+</div><p class="noindent">and</p>
+<div class="equation">\[  V_n(r) = \sigma_n\,r^n.  \]
+</div><p class="noindent">Because of the relation <span class="inline_math">\( V_n(r) = \int S_n(r)\,dr \)</span>, we have the simple relationship</p>
+<div class="equation">\[ 
+\sigma_n = \frac{\tau_n}{n}.
+ \]
+</div><p class="noindent">Let us make some observations about these two families of constants.<span class="intersentencespace"></span> The family <span class="inline_math">\( \tau_n \)</span> has an important geometric meaning: by setting <span class="inline_math">\( r=1 \)</span> in <a href="tau_manifesto.html#eq-surface_area_constants" class="hyperref">Eq. (<span class="ref">32</span>)</a>, we see that each <span class="inline_math">\( \tau_n \)</span> is the surface area of a unit <span class="inline_math">\( n \)</span>-sphere, which is also the angle measure of a full <span class="inline_math">\( n \)</span>-sphere.<span class="intersentencespace"></span> In particular, by writing <span class="inline_math">\( s_n(r) \)</span> as the <span class="inline_math">\( n \)</span>-dimensional “arclength” equal to a fraction <span class="inline_math">\( f \)</span> of the full surface area <span class="inline_math">\( S_n(r) \)</span>, we have</p>
+<div class="equation">\[ 
+\theta_n \equiv \frac{s_n(r)}{r^{n-1}} = \frac{f S_n(r)}{r^{n-1}} = f\left(\frac{S_n(r)}{r^{n-1}}\right) = f\tau_n.
+ \]
+</div><p class="noindent">Here <span class="inline_math">\( \theta_n \)</span> is simply the <span class="inline_math">\( n \)</span>-dimensional generalization of radian angle measure, and we see that <span class="inline_math">\( \tau_n \)</span> is the generalization of “one turn” to <span class="inline_math">\( n \)</span> dimensions, which explains why the 2-sphere (circle) constant <span class="inline_math">\( \tau_2 = 2^2\lambda = \tau \)</span> leads naturally to the diagram shown in <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">Figure <span class="ref">10</span></a>.<span class="intersentencespace"></span> Furthermore, we learned in <a href="tau_manifesto.html#sec-volume_of_a_hypersphere" class="hyperref">Section <span class="ref">5.1</span></a> that <span class="inline_math">\( \tau_2 \)</span> is also the “recurrence constant” for <span class="inline_math">\( n \)</span>-sphere surface areas and volumes.</p>
+<p>Meanwhile, the <span class="inline_math">\( \sigma_n \)</span> are the volumes of unit <span class="inline_math">\( n \)</span>-spheres.<span class="intersentencespace"></span> In particular, <span class="inline_math">\( \sigma_2 \)</span> is the area of a unit disk:</p>
+<div class="equation">\[ 
+\sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
+ \]
+</div><p class="noindent">This shows that <span class="inline_math">\( \sigma_2 = \tau/2 = 3.14159\ldots \)</span> does have an independent geometric significance.<span class="intersentencespace"></span> Note, however, that <em>it has nothing to do with circumferences or diameters</em>.<span class="intersentencespace"></span> In other words, <em><span class="inline_math">\( \pi = C/D \)</span> is not a member of the family <span class="inline_math">\( \sigma_n \)</span></em>.</p>
+<p>So, to which family of constants does <span class="inline_math">\( \pi \)</span> naturally belong?<span class="intersentencespace"></span> Let’s rewrite <a href="tau_manifesto.html#eq-pi" class="hyperref">Eq. (<span class="ref">1</span>)</a> in terms more appropriate for generalization to higher dimensions:</p>
+<div class="equation">\[ 
+\pi = \frac{C}{D} = \frac{S_2}{D^{2-1}}.
+ \]
+</div><p class="noindent">We thus see that <span class="inline_math">\( \pi \)</span> is naturally associated with surface areas divided by the power of the diameter necessary to yield a dimensionless constant.<span class="intersentencespace"></span> This suggests introducing a third family of constants <span class="inline_math">\( \pi_n \)</span>:</p>
+<div id="eq-diameter_constants" data-tralics-id="uid98" data-number="34" class="equation">\begin{equation}
+\label{eq:diameter_constants}
+\pi_n \equiv \frac{S_n(r)}{D^{n-1}}.
+\end{equation}
+</div><p class="noindent">We can express this in terms of the family <span class="inline_math">\( \tau_n \)</span> by substituting <span class="inline_math">\( D = 2r \)</span> in <a href="tau_manifesto.html#eq-diameter_constants" class="hyperref">Eq. (<span class="ref">34</span>)</a> and applying <a href="tau_manifesto.html#eq-surface_area_constants" class="hyperref">Eq. (<span class="ref">32</span>)</a>:</p>
+<div class="equation">\[ 
+\pi_n = \frac{S_n(r)}{D^{n-1}} = \frac{S_n(r)}{(2r)^{n-1}} =
+\frac{S_n(r)}{2^{n-1}r^{n-1}} = \frac{\tau_n}{2^{n-1}}.
+ \]
+</div><p class="noindent">We are now finally in a position to understand exactly what is wrong with <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> The principal geometric significance of <span class="inline_math">\( 3.14159\ldots \)</span> is that it is the area of a unit disk.<span class="intersentencespace"></span> But this number comes from evaluating <span class="inline_math">\( \sigma_n = \tau_n/n \)</span> when <span class="inline_math">\( n=2 \)</span>:</p>
+<div class="equation">\[ 
+\sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
+ \]
+</div><p class="noindent">It’s true that this equals <span class="inline_math">\( \pi_2 \)</span>:</p>
+<div class="equation">\[ 
+\pi_2 = \pi = \frac{\tau_2}{2^{2-1}} = \frac{\tau}{2}.
+ \]
+</div><p class="noindent">But this equality is a coincidence: it occurs only because <span class="inline_math">\( 2^{n-1} \)</span> happens to equal <span class="inline_math">\( n \)</span> when <span class="inline_math">\( n=2 \)</span> (that is, <span class="inline_math">\( 2^{2-1} = 2 \)</span>).<span class="intersentencespace"></span> In all higher dimensions, <span class="inline_math">\( n \)</span> and <span class="inline_math">\( 2^{n-1} \)</span> are distinct.<span class="intersentencespace"></span> In other words, <em>the geometric significance of <span class="inline_math">\( \pi \)</span> is the result of a mathematical pun</em>.</p>
+</div></div>
+<div id="sec-conclusion" data-tralics-id="cid6" class="section" data-number="6"><h2><a href="#sec-conclusion" class="heading"><span class="number">6 </span>Conclusion</a></h2>
+<p>Over the years, I have heard many arguments against the wrongness of <span class="inline_math">\( \pi \)</span> and against the rightness of <span class="inline_math">\( \tau \)</span>, so before concluding our discussion allow me to answer some of the most frequently asked questions.</p>
+<div id="sec-faq" data-tralics-id="uid99" class="subsection" data-number="6.1"><h3><a href="#sec-faq" class="heading"><span class="number">6.1 </span>Frequently Asked Questions</a></h3>
+<ul>
+<li><strong>Are you serious?</strong><span class="intersentencespace"></span> <span class="break"></span> Of course.<span class="intersentencespace"></span> I mean, I’m having fun with this, and the tone is occasionally lighthearted, but there is a serious purpose.<span class="intersentencespace"></span> Setting the circle constant equal to the circumference over the diameter is an awkward and confusing convention.<span class="intersentencespace"></span> Although I would love to see mathematicians change their ways, I’m not particularly worried about them; they can take care of themselves.<span class="intersentencespace"></span> It is the neophytes I am most worried about, for they take the brunt of the damage: as noted in <a href="tau_manifesto.html#sec-circles_and_angles" class="hyperref">Section <span class="ref">2.1</span></a>, <span class="inline_math">\( \pi \)</span> is a pedagogical disaster.<span class="intersentencespace"></span> Try explaining to a twelve-year-old (or to a thirty-year-old) why the angle measure for an eighth of a circle—one slice of pizza—is <span class="inline_math">\( \pi/8 \)</span>.<span class="intersentencespace"></span> Wait, I meant <span class="inline_math">\( \pi/4 \)</span>.<span class="intersentencespace"></span> See what I mean?<span class="intersentencespace"></span> It’s madness—sheer, unadulterated madness.
+</li>
+<li><strong>How can we switch from <span class="inline_math">\( \pi \)</span> to <span class="inline_math">\( \tau \)</span>?</strong><span class="intersentencespace"></span> <span class="break"></span> The next time you write something that uses the circle constant, simply say “For convenience, we set <span class="inline_math">\( \tau = 2\pi \)</span>”, and then proceed as usual.<span class="intersentencespace"></span> (Of course, this might just prompt the question, “Why would you want to do that?”, and I admit it would be nice to have a place to point them to.<span class="intersentencespace"></span> If only someone would write, say, a <em>manifesto</em> on the subject…) The way to get people to start using <span class="inline_math">\( \tau \)</span> is to start using it yourself.
+</li>
+<li><strong>Isn’t it too late to switch?<span class="intersentencespace"></span> Wouldn’t all the textbooks and math papers need to be rewritten?</strong><span class="intersentencespace"></span> <span class="break"></span> No on both counts.<span class="intersentencespace"></span> It is true that some conventions, though unfortunate, are effectively irreversible.<span class="intersentencespace"></span> For example, Benjamin Franklin’s choice for the signs of electric charges leads to the most familiar example of electric current (namely, free electrons in metals) being positive when the charge carriers are negative, and <em>vice versa</em>—thereby cursing beginning physics students with confusing negative signs ever since.<sup id="cha-0_footnote-ref-25" class="footnote"><a href="#cha-0_footnote-25">25</a></sup><span class="intersentencespace"></span> To change this convention <em>would</em> require rewriting all the textbooks (and burning the old ones) since it is impossible to tell at a glance which convention is being used.<span class="intersentencespace"></span> In contrast, while <em>redefining</em> <span class="inline_math">\( \pi \)</span> is effectively impossible, we can switch from <span class="inline_math">\( \pi \)</span> to <span class="inline_math">\( \tau \)</span> on the fly by using the conversion
+<div class="equation">\[  \pi \leftrightarrow \textstyle{\frac{1}{2}}\tau.  \]
+</div><p class="noindent">It’s purely a matter of mechanical substitution, completely robust and indeed fully reversible.<span class="intersentencespace"></span> The switch from <span class="inline_math">\( \pi \)</span> to <span class="inline_math">\( \tau \)</span> can therefore happen incrementally; unlike a redefinition, it need not happen all at once.</p>
+</li>
+<li><strong>Won’t using <span class="inline_math">\( \tau \)</span> confuse people, especially students?</strong><span class="intersentencespace"></span> <span class="break"></span> If you are smart enough to understand radian angle measure, you are smart enough to understand <span class="inline_math">\( \tau \)</span>—and why <span class="inline_math">\( \tau \)</span> is actually <em>less</em> confusing than <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> Also, there is nothing intrinsically confusing about saying “Let <span class="inline_math">\( \tau = 2\pi \)</span>”; understood narrowly, it’s just a simple substitution.<span class="intersentencespace"></span> Finally, we can embrace the situation as a teaching opportunity: the idea that <span class="inline_math">\( \pi \)</span> might be wrong is <em>interesting</em>, and students can engage with the material by converting the equations in their textbooks from <span class="inline_math">\( \pi \)</span> to <span class="inline_math">\( \tau \)</span> to see for themselves which choice is better.
+</li>
+<li><strong>Does any of this really matter?</strong><span class="intersentencespace"></span> <span class="break"></span> Of course it matters.<span class="intersentencespace"></span> <em>The circle constant is important.</em><span class="intersentencespace"></span> People care enough about it to write entire books on the subject, to celebrate it on a particular day each year, and to memorize tens of thousands of its digits.<span class="intersentencespace"></span> I care enough to write a whole manifesto, and you care enough to read it.<span class="intersentencespace"></span> It’s precisely because it <em>does</em> matter that it’s hard to admit that the present convention is wrong.<span class="intersentencespace"></span> (I mean, how do you break it to <a href="https://www.guinnessworldrecords.com/world-records/most-pi-places-memorised" target="_blank" rel="noopener">Rajveer Meena</a>, a world-record holder, that he just recited 70,000 digits of one half of the true circle constant?)<span class="intersentencespace"></span> Since the circle constant is important, it’s important to get it right, and we have seen in this manifesto that the right number is <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> Although <span class="inline_math">\( \pi \)</span> is of great <em>historical</em> importance, the <em>mathematical</em> significance of <span class="inline_math">\( \pi \)</span> is that it is one-half <span class="inline_math">\( \tau \)</span>.
+</li>
+<li><strong>Why did anyone ever use <span class="inline_math">\( \pi \)</span> in the first place?</strong><span class="intersentencespace"></span> <span class="break"></span> As notation, <span class="inline_math">\( \pi \)</span> was popularized around 300 years ago by <a href="https://en.wikipedia.org/wiki/Leonhard_Euler" target="_blank" rel="noopener">Leonhard Euler</a> (based on the work of <a href="https://en.wikipedia.org/wiki/William_Jones_(mathematician)" target="_blank" rel="noopener">William Jones</a>), but the origins of <span class="inline_math">\( \pi \)</span>-the-number are lost in the mists of time.<span class="intersentencespace"></span> I suspect that the convention of using <span class="inline_math">\( C/D \)</span> instead of <span class="inline_math">\( C/r \)</span> arose simply because it is easier to <em>measure</em> the diameter of a circular object than it is to measure its radius.<span class="intersentencespace"></span> But that doesn’t make it good mathematics, and I’m surprised that Archimedes, who famously <a href="http://itech.fgcu.edu/faculty/clindsey/mhf4404/archimedes/archimedes.html" target="_blank" rel="noopener">approximated the circle constant</a>, didn’t realize that <span class="inline_math">\( C/r \)</span> is the more fundamental number.<span class="intersentencespace"></span> I’m even more surprised that Euler didn’t correct the problem when he had the chance; unlike Archimedes, Euler had the benefit of modern algebraic notation, which (as we saw starting in <a href="tau_manifesto.html#sec-circles_and_angles" class="hyperref">Section <span class="ref">2.1</span></a>) makes the underlying relationships between circles and the circle constant abundantly clear.<span class="intersentencespace"></span> Incredibly, Euler actually used the symbol <span class="inline_math">\( \pi \)</span> to mean <em>both</em> <span class="inline_math">\( C/D \)</span> and <span class="inline_math">\( C/r \)</span> <a href="https://en.wikipedia.org/wiki/Pi#Adoption_of_the_symbol_%CF%80" target="_blank" rel="noopener">at different times</a>!<span class="intersentencespace"></span> What a shame that he didn’t standardize on the more convenient choice.
+</li>
+<li><strong>Why does this subject interest you?</strong><span class="intersentencespace"></span> <span class="break"></span> First, as a truth-seeker I care about correctness of explanation.<span class="intersentencespace"></span> Second, as a teacher I care about clarity of exposition.<span class="intersentencespace"></span> Third, as a hacker I love a nice hack.<span class="intersentencespace"></span> Fourth, as a student of history and of human nature I find it fascinating that the absurdity of <span class="inline_math">\( \pi \)</span> was lying in plain sight for centuries before anyone seemed to notice.<span class="intersentencespace"></span> Moreover, many of the people who missed the true circle constant are among the most rational and intelligent people ever to live.<span class="intersentencespace"></span> What else might be staring us in the face, just waiting for us to discover it?
+</li>
+<li><strong>Are you, like, a crazy person?</strong><span class="intersentencespace"></span> <span class="break"></span> That’s really none of your business, but no.<span class="intersentencespace"></span> Apart from occasionally wearing <a href="https://en.wikipedia.org/wiki/Vibram_FiveFingers" target="_blank" rel="noopener">unusual shoes</a>, I am to all external appearances normal in every way.<span class="intersentencespace"></span> You would never guess that, far from being an ordinary citizen, I am in fact a notorious mathematical propagandist.
+</li>
+<li><strong>But what about puns?</strong><span class="intersentencespace"></span> <span class="break"></span> We come now to the final objection.<span class="intersentencespace"></span> I know, I know, “<span class="inline_math">\( \pi \)</span> in the sky” is so very clever.<span class="intersentencespace"></span> And yet, <span class="inline_math">\( \tau \)</span> itself is pregnant with possibilities.<span class="intersentencespace"></span> <span class="inline_math">\( \tau \)</span>ism tells us: it is not <span class="inline_math">\( \tau \)</span> that is a piece of <span class="inline_math">\( \pi \)</span>, but <span class="inline_math">\( \pi \)</span> that is a piece of <span class="inline_math">\( \tau \)</span>—one-half <span class="inline_math">\( \tau \)</span>, to be exact.<span class="intersentencespace"></span> The identity <span class="inline_math">\( e^{i\tau} = 1 \)</span> says: “<em>Be one with the <span class="inline_math">\( \tau \)</span>.</em>”<span class="intersentencespace"></span> And though the observation that “<em>A rotation by one turn is 1</em>” may sound like a <span class="inline_math">\( \tau \)</span>-tology, it is the true nature of the <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> As we contemplate this nature to seek the <a href="https://en.wikipedia.org/wiki/Tao" target="_blank" rel="noopener">way</a> of the <span class="inline_math">\( \tau \)</span>, we must remember that <span class="inline_math">\( \tau \)</span>ism is based on reason, not on faith: <span class="inline_math">\( \tau \)</span>ists are never <span class="inline_math">\( \pi \)</span>ous.
+</li></ul>
+</div>
+<div id="sec-embrace_the_tau" data-tralics-id="uid110" class="subsection" data-number="6.2"><h3><a href="#sec-embrace_the_tau" class="heading"><span class="number">6.2 </span>Embrace the tau</a></h3>
+<p>We have seen in <em>The Tau Manifesto</em> that the natural choice for the circle constant is the ratio of a circle’s circumference not to its diameter, but to its radius.<span class="intersentencespace"></span> This number needs a name, and I hope you will join me in calling it <span class="inline_math">\( \tau \)</span>:</p>
+<div class="equation">\[ 
+\begin{split}
+\mbox{circle constant} = \tau &amp; \equiv \frac{C}{r} \\
+                              &amp; = 6.283185307179586\ldots
+\end{split}
+ \]
+</div><p class="noindent">The usage is natural, the motivation is clear, and the implications are profound.<span class="intersentencespace"></span> Plus, it comes with a really cool diagram (<a href="tau_manifesto.html#fig-tauism" class="hyperref">Figure <span class="ref">17</span></a>).<span class="intersentencespace"></span> We see in <a href="tau_manifesto.html#fig-tauism" class="hyperref">Figure <span class="ref">17</span></a> a movement through <em>yang</em> (“light, white, moving up”) to <span class="inline_math">\( \tau/2 \)</span> and a return through <em>yin</em> (“dark, black, moving down”) back to <span class="inline_math">\( \tau \)</span>.<sup id="cha-0_footnote-ref-26" class="footnote"><a href="#cha-0_footnote-26">26</a></sup><span class="intersentencespace"></span> Using <span class="inline_math">\( \pi \)</span> instead of <span class="inline_math">\( \tau \)</span> is like having <em>yang</em> without <em>yin</em>.</p>
+<div class="center figure" id="fig-tauism" data-tralics-id="uid112" data-number="17">
+<div class="graphics image"><img src="images/figures/tauism_rotated.png" alt="images/figures/tauism_rotated" /></div><div class="caption"><span class="header">Figure 17: </span><span class="description">Followers of <span class="inline_math">\( \tau \)</span>ism seek the way of the <span class="inline_math">\( \tau \)</span>.
+</span></div></div>
+</div>
+<div id="sec-tau_day" data-tralics-id="uid113" class="subsection" data-number="6.3"><h3><a href="#sec-tau_day" class="heading"><span class="number">6.3 </span>Tau Day</a></h3>
+<p><em>The Tau Manifesto</em> first launched on <a href="https://tauday.com/" target="_blank" rel="noopener">Tau Day</a>: June 28 (6/28), 2010.<span class="intersentencespace"></span> Tau Day is a time to celebrate and rejoice in all things mathematical.<sup id="cha-0_footnote-ref-27" class="footnote"><a href="#cha-0_footnote-27">27</a></sup><span class="intersentencespace"></span> If you would like to receive updates about <span class="inline_math">\( \tau \)</span>, including notifications about possible future Tau Day events, please join the <em>Tau Manifesto</em> mailing list below.<span class="intersentencespace"></span> And if you think that the circular baked goods on Pi Day are tasty, just wait—Tau Day has twice as much pi(e)!<span class="intersentencespace"></span>  <!-- insert_user_engagement --></p>
+<div id="sec-acknowledgments" data-tralics-id="uid115" class="subsubsection" data-number="6.3.1"><h4><a href="#sec-acknowledgments" class="heading">Acknowledgments</a></h4>
+<p>I’d first like to thank <a href="https://www.math.utah.edu/~palais" target="_blank" rel="noopener">Bob Palais</a> for writing “<span class="inline_math">\( \pi \)</span> Is Wrong!”.<span class="intersentencespace"></span> I don’t remember how deep my suspicions about <span class="inline_math">\( \pi \)</span> ran before I encountered that article, but “<span class="inline_math">\( \pi \)</span> Is Wrong!” definitely opened my eyes, and every section of <em>The Tau Manifesto</em> owes it a debt of gratitude.<span class="intersentencespace"></span> I’d also like to thank Bob for his helpful comments on this manifesto, and especially for being such a good sport about it.</p>
+<p>I’ve been thinking about <em>The Tau Manifesto</em> for a while now, and many of the ideas presented here were developed through conversations with my friend Sumit Daftuar.<span class="intersentencespace"></span> Sumit served as a sounding board and occasional Devil’s advocate, and his insight as a teacher and as a mathematician influenced my thinking in many ways.</p>
+<p>I have also received encouragement and helpful feedback from several readers.<span class="intersentencespace"></span> I’d like to thank <a href="https://www.youtube.com/watch?v=jG7vhMMXagQ" target="_blank" rel="noopener">Vi Hart</a> and <a href="https://www.youtube.com/watch?v=3174T-3-59Q" target="_blank" rel="noopener">Michael Blake</a> for their amazing <span class="inline_math">\( \tau \)</span>-inspired videos, as well as Don “Blue” McConnell and Skona Brittain for helping make <span class="inline_math">\( \tau \)</span> part of geek culture (through the <a href="http://tauclock.com/" target="_blank" rel="noopener">time-in-<span class="inline_math">\( \tau \)</span> iPhone app</a> and the <a href="http://www.sbcrafts.net/clocks/" target="_blank" rel="noopener">tau clock</a>, respectively).<span class="intersentencespace"></span> The pleasing interpretation of the yin-yang symbol used in <em>The Tau Manifesto</em> is due to a suggestion by <a href="http://www.harremoes.dk/Peter/" target="_blank" rel="noopener">Peter Harremoës</a>, who (as noted above) has the rare distinction of having independently proposed using <span class="inline_math">\( \tau \)</span> for the circle constant.<span class="intersentencespace"></span> Another pre–<em>Tau Manifesto</em> tauist, <a href="https://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Joseph Lindenberg</a>, has also been a staunch supporter, and his enthusiasm is much-appreciated.<span class="intersentencespace"></span> I got several good suggestions from <a href="https://christopherolah.wordpress.com/about-me" target="_blank" rel="noopener">Christopher Olah</a>, particularly regarding the geometric interpretation of Euler’s identity, and <a href="tau_manifesto.html#sec-eulerian_identities" class="hyperref">Section <span class="ref">2.3.2</span></a> on Eulerian identities was inspired by an excellent suggestion from Timothy “Patashu” Stiles.<span class="intersentencespace"></span> <a href="http://www.blahedo.org/blog/archives/001083.html" target="_blank" rel="noopener">Don Blaheta</a> anticipated and inspired some of the material on hyperspheres, and <a href="http://spikedmath.com/forum/viewtopic.php?f=30&amp;t=147#p1577" target="_blank" rel="noopener">John Kodegadulo</a> put it together in a particularly clear and entertaining way.<span class="intersentencespace"></span> Then Jeff Cornell, with his observation about the importance of <span class="inline_math">\( \tau/4 \)</span> in this context, shook my faith and blew my mind.</p>
+<p>Finally, I’d like to thank <a href="https://techiferous.com/" target="_blank" rel="noopener">Wyatt Greene</a> for his extraordinarily helpful feedback on a pre-launch draft of the manifesto; among other things, if you ever need someone to tell you that “pretty much all of [now deleted] section 5 is total crap”, Wyatt is your man.</p>
+</div>
+<div id="sec-about_the_author" data-tralics-id="uid116" class="subsubsection" data-number="6.3.2"><h4><a href="#sec-about_the_author" class="heading">About the author</a></h4>
+<p><em>The Tau Manifesto</em> author <a href="https://www.michaelhartl.com/" target="_blank" rel="noopener">Michael Hartl</a> is an educator, author, and entrepreneur.<span class="intersentencespace"></span> He is cofounder and principal author at <a href="https://www.learnenough.com" target="_blank" rel="noopener">Learn Enough</a> and the <a href="https://www.railstutorial.org/" target="_blank" rel="noopener"><em>Ruby on Rails Tutorial</em></a>.<span class="intersentencespace"></span> Previously, he taught theoretical and computational physics at the <a href="https://www.caltech.edu/" target="_blank" rel="noopener">California Institute of Technology</a> (Caltech), where he received the <a href="https://www.michaelhartl.com/ascit/awards2000.html" target="_blank" rel="noopener">Lifetime Achievement Award for Excellence in Teaching</a> and served as Caltech’s editor for <a href="https://www.feynmanlectures.caltech.edu/" target="_blank" rel="noopener"><em>The Feynman Lectures on Physics</em></a>.<span class="intersentencespace"></span> He is a graduate of <a href="https://college.harvard.edu/" target="_blank" rel="noopener">Harvard College</a>, has a <a href="https://thesis.library.caltech.edu/1940/" target="_blank" rel="noopener">Ph.D. in Physics</a> from <a href="https://www.caltech.edu/" target="_blank" rel="noopener">Caltech</a>, and is an alumnus of the <a href="https://ycombinator.com/" target="_blank" rel="noopener">Y Combinator</a> entrepreneur program.</p>
+<p>Michael is ashamed to admit that he knows <span class="inline_math">\( \pi \)</span> to 50 decimal places—<a href="#fig-futurama_video" target="_blank" rel="noopener">approximately 48 more than Matt Groening</a>.<span class="intersentencespace"></span> To atone for this, he has memorized <a href="https://www.wolframalpha.com/input/?i=N[2+Pi,+53]" target="_blank" rel="noopener">52 decimal places</a> of <span class="inline_math">\( \tau \)</span>.</p>
+</div>
+<div id="sec-copyright_and_license" data-tralics-id="uid117" class="subsubsection" data-number="6.3.3"><h4><a href="#sec-copyright_and_license" class="heading">Copyright</a></h4>
+<p><em>The Tau Manifesto</em>.<span class="intersentencespace"></span> Copyright © 2010–2018 by Michael Hartl.<span class="intersentencespace"></span> Ebook versions of <em>The Tau Manifesto</em> are available for purchase through <a href="https://sales.tauday.com/" target="_blank" rel="noopener">the Tau Manifesto sales site</a>.<span class="intersentencespace"></span> Please feel free to print out and distribute copies of <em>The Tau Manifesto</em> for classroom or similar uses.</p>
+</div></div></div>
+<div id="cha-0_footnotes">
+  <div class="footnotes">
+    <div id="cha-0_footnote-1" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-1">1.</a> Palais, Robert.<span class="intersentencespace"></span> “<span class="inline_math">\( \pi \)</span> Is Wrong!”, <em>The Mathematical Intelligencer</em>, Volume 23, Number 3, 2001, pp. 7–8.<span class="intersentencespace"></span> Many of the arguments in <em>The Tau Manifesto</em> are based on or are inspired by “<span class="inline_math">\( \pi \)</span> Is Wrong!”.<span class="intersentencespace"></span> It is available online at <a href="https://www.math.utah.edu/~palais/pi.html" target="_blank" rel="noopener">https://www.math.utah.edu/ palais/pi.html</a>.</div>
+    <div id="cha-0_footnote-2" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-2">2.</a> The symbol <span class="inline_math">\( \equiv \)</span> means “is defined as”.</div>
+    <div id="cha-0_footnote-3" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-3">3.</a> Image retrieved from <a href="https://commons.wikimedia.org/wiki/File:Reuleaux_triangle_roll.gif" target="_blank" rel="noopener">Wikimedia</a> on 2019-03-12.<span class="intersentencespace"></span> Copyright © 2016 by Ruleroll and used unaltered under the terms of the <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" target="_blank" rel="noopener">Creative Commons Attribution-Share Alike 4.0 International</a> license.</div>
+    <div id="cha-0_footnote-4" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-4">4.</a> The video in <a href="tau_manifesto.html#fig-futurama_video" class="hyperref">Figure <span class="ref">5</span></a> (available at <a href="https://vimeo.com/12914981" target="_blank" rel="noopener">https://vimeo.com/12914981</a>) is an excerpt from a lecture given by <a href="https://cs.appstate.edu/~sjg/" target="_blank" rel="noopener">Dr. Sarah Greenwald</a>, a professor of mathematics at <a href="https://www.appstate.edu/" target="_blank" rel="noopener">Appalachian State University</a>.<span class="intersentencespace"></span> Dr. Greenwald uses math references from <em>The Simpsons</em> and <em>Futurama</em> to engage her students’ interest and to help them get over their math anxiety.<span class="intersentencespace"></span> She is also the maintainer of the <a href="https://cs.appstate.edu/~sjg/futurama/" target="_blank" rel="noopener"><em>Futurama</em> Math Page</a>.</div>
+    <div id="cha-0_footnote-5" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-5">5.</a> Here <span class="inline_math">\( B_n \)</span> is the <span class="inline_math">\( n \)</span>th <a href="https://en.wikipedia.org/wiki/Bernoulli_number" target="_blank" rel="noopener">Bernoulli number</a>.</div>
+    <div id="cha-0_footnote-6" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-6">6.</a> These graphs were produced with the help of <a href="https://www.wolframalpha.com/" target="_blank" rel="noopener">Wolfram|Alpha</a>.</div>
+    <div id="cha-0_footnote-7" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-7">7.</a> Here I’m implicitly defining Euler’s identity to be <em>the complex exponential of the circle constant</em>, rather than defining it to be the complex exponential of any particular number.<span class="intersentencespace"></span> If we choose <span class="inline_math">\( \tau \)</span> as the circle constant, we obtain the identity shown.<span class="intersentencespace"></span> As we’ll see momentarily, this is not the traditional form of the identity, which of course involves <span class="inline_math">\( \pi \)</span>, but the version with <span class="inline_math">\( \tau \)</span> is the most <em>mathematically</em> meaningful statement of the identity, so I believe it deserves the name.</div>
+    <div id="cha-0_footnote-8" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-8">8.</a> <a href="https://xkcd.com/1475/" target="_blank" rel="noopener">Technically</a>, all mathematical theorems are tautologies, but let’s not be so pedantic.</div>
+    <div id="cha-0_footnote-9" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-9">9.</a> Indeed, <a href="tau_manifesto.html#eq-eulers_identity_tau" class="hyperref">Eq. (<span class="ref">6</span>)</a> can be written as <span class="inline_math">\( e^{i\tau} = 1 + 0i \)</span>, which makes the relationship between the five numbers even more explicit.</div>
+    <div id="cha-0_footnote-10" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-10">10.</a> <a href="https://xkcd.com/1475/" target="_blank" rel="noopener">Technically</a>, all the integrals should be <a href="https://mathworld.wolfram.com/DefiniteIntegral.html" target="_blank" rel="noopener">definite</a>, and the variable of integration should be different from the upper limit (as in <span class="inline_math">\( \int_0^t gt'\,dt' \)</span>, read as “the integral from zero to tee of gee tee prime dee tee prime”).<span class="intersentencespace"></span> These minor <a href="https://en.wikipedia.org/wiki/Abuse_of_notation" target="_blank" rel="noopener">abuses of notation</a> are common in physics and other less formal mathematical contexts such as we are considering here.</div>
+    <div id="cha-0_footnote-11" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-11">11.</a> You may have seen this written as <span class="inline_math">\( F = -kx \)</span>.<span class="intersentencespace"></span> In this case, <span class="inline_math">\( F \)</span> refers to the force exerted by the <em>spring</em>.<span class="intersentencespace"></span> By Newton’s third law, the external force discussed above is the <em>negative</em> of the spring force.</div>
+    <div id="cha-0_footnote-12" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-12">12.</a> Thanks to <em>Tau Manifesto</em> reader Jim Porter for pointing out this interpretation.</div>
+    <div id="cha-0_footnote-13" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-13">13.</a> Lindenberg has included both his original typewritten manuscript and a large number of other arguments at his site <a href="https://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Tau Before It Was Cool</a>.</div>
+    <div id="cha-0_footnote-14" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-14">14.</a> Perhaps someday academic mathematicians will come to a consensus on a different symbol for the number <span class="inline_math">\( 2\pi \)</span>; if that ever happens, I reserve the right to support their proposed notation.<span class="intersentencespace"></span> But they have had over 300 years to fix this <span class="inline_math">\( \pi \)</span> problem, so I wouldn’t hold my breath.</div>
+    <div id="cha-0_footnote-15" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-15">15.</a> The only possible exception to this is the <em>golden ratio</em>, which is often denoted by <span class="inline_math">\( \tau \)</span> in Europe.<span class="intersentencespace"></span> But not only is there an existing common alternative to this notation—namely, the Greek letter <span class="inline_math">\( \varphi \)</span>—this usage shows that there is precedent for using <span class="inline_math">\( \tau \)</span> to denote a fundamental mathematical constant.</div>
+    <div id="cha-0_footnote-16" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-16">16.</a> This alternative for torque is already in use; see, for example, <em>Introduction to Electrodynamics</em> by David Griffiths, p. 162.</div>
+    <div id="cha-0_footnote-17" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-17">17.</a> See, for instance, <em>An Introduction to Quantum Field Theory</em> by Peskin and Schroeder, where <span class="inline_math">\( \pi \)</span> is used to denote both the circle constant and a “conjugate momentum” on the very same page (p. 282).</div>
+    <div id="cha-0_footnote-18" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-18">18.</a> This discussion is based on an excellent comment by John Kodegadulo at spikedmath.com.</div>
+    <div id="cha-0_footnote-19" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-19">19.</a> Geometers and topologists use <a href="https://mathworld.wolfram.com/Hypersphere.html" target="_blank" rel="noopener">incompatible definitions of hyperspheres</a>; this discussion uses the geometers’ definitions.</div>
+    <div id="cha-0_footnote-20" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-20">20.</a> This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.</div>
+    <div id="cha-0_footnote-21" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-21">21.</a> Indeed, the generalization to complex-valued arguments is straightforward: just replace real <span class="inline_math">\( x \)</span> with complex <span class="inline_math">\( z \)</span> in <a href="tau_manifesto.html#eq-gamma" class="hyperref">Eq. (<span class="ref">11</span>)</a>.</div>
+    <div id="cha-0_footnote-22" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-22">22.</a> This change of notation and general analysis was suggested by Jeff Cornell.</div>
+    <div id="cha-0_footnote-23" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-23">23.</a> The article “<a href="http://www2.math.uconn.edu/~mariano/research/MathClubsp14%20.pdf" target="_blank" rel="noopener">The volume of the unit ball in <em>n</em> dimensions</a>” by Phanuel A. Mariano contains an alternate derivation of these important recurrences.</div>
+    <div id="cha-0_footnote-24" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-24">24.</a> <a href="http://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Tau Before It Was Cool</a> actually writes the recurrence in terms of <span class="inline_math">\( 2\pi \)</span>; the version shown in <a href="tau_manifesto.html#fig-Nspheres" class="hyperref">Figure <span class="ref">16</span></a> was created for me by special request.<span class="intersentencespace"></span> As always, I am most grateful to Joseph Lindenberg for his continuing generosity and support.</div>
+    <div id="cha-0_footnote-25" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-25">25.</a> The sign of the charge carriers couldn’t be determined with the technology of Franklin’s time, so this isn’t his fault.<span class="intersentencespace"></span> It’s just bad luck.</div>
+    <div id="cha-0_footnote-26" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-26">26.</a> The interpretations of yin and yang quoted here are from <em>Zen Yoga: A Path to Enlightenment though Breathing, Movement and Meditation</em> by Aaron Hoopes.</div>
+    <div id="cha-0_footnote-27" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-27">27.</a> Since 6 and 28 are the first two <a href="https://en.wikipedia.org/wiki/Perfect_number" target="_blank" rel="noopener"><em>perfect numbers</em></a>, 6/28 is actually a <em>perfect</em> day.</div>
+  </div>
+</div>
+    </div>
+  </body>
+</html>
