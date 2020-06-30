@@ -4,7 +4,14 @@ This is the LaTeX source of [*The Tau Manifesto*](https://tauday.com/tau-manifes
 
 ## Translations
 
-The steps for translating the manifesto into a language other than English depend on a couple of factors. 
+Existing translations:
+
+* [Spanish](https://tauday.com/el-manifiesto-tau)
+* [Italian](https://tauday.com/il-tau-manifesto)
+* [Russian](https://tauday.com/tau-manifesto-ru)
+* [Chinese](https://tauday.com/tau-manifesto-cn)
+
+The steps for translating the manifesto into a new language depend on a number of factors. 
 
 If you are translating to an “easy” language (e.g., one that uses the Latin alphabet) and have deep technical skills:
 
@@ -16,5 +23,5 @@ If you are translating to an “easy” language (e.g., one that uses the Latin 
 If you are translating to a “hard” language (e.g., Russian or Chinese) or aren’t as comfortable with technology:
 
 1. [Fork the repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and add me (`mhartl`) as a collaborator.
-2. Edit the file `html/tau_manifesto.html` directly, taking care to preview it in a web browser to make sure it look OK.
-3. Once the translation is nearing completion, send an email to michael@michaelhartl.com with the HTML attached as a separate file.
+2. Edit the file `html/tau_manifesto.html` directly, taking care to preview it in a web browser to make sure it looks OK.
+3. Once the translation is complete, send an email to michael@michaelhartl.com with the HTML attached as a separate file.
