@@ -8,10 +8,11 @@ Existing translations:
 
 * [Spanish](https://tauday.com/el-manifiesto-tau)
 * [Italian](https://tauday.com/il-tau-manifesto)
+* [Portuguese](https://tauday.com/o-manifesto-tau)
 * [Russian](https://tauday.com/tau-manifesto-ru)
 * [Chinese](https://tauday.com/tau-manifesto-cn)
 
-The steps for translating the manifesto into a new language depend on a number of factors. 
+The steps for translating the manifesto into a new language depend on a number of factors.
 
 If you are translating to an “easy” language (e.g., one that uses the Latin alphabet) and have deep technical skills:
 
