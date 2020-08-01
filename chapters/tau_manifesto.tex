@@ -71,42 +71,43 @@ Vraiment, les partisans de $\tau$ font face à un puissant adversaire. Et pourta
 
 % section the_most_important_number (end)
 
-\section{The number tau} % (fold)
+\section{Le nombre tau} % (fold)
 \label{sec:the_number_tau}
 
-We saw in Section~\ref{sec:an_immodest_proposal} that the number $\tau$ can also be written as $2\pi$. As noted in ``$\pi$ Is Wrong!'', it is therefore of great interest to discover that the combination $2\pi$ occurs with astonishing frequency throughout mathematics. For example, consider integrals over all space in polar coordinates:
+On a vu dans la section 1.1 que le nombre $\tau$ peut aussi être écrit comme $2\pi$. Comme remarqué dans «\,$\pi$ Is Wrong!\,», il est donc d'un grand intérêt de découvrir que la combinaison $2\pi$ se produit avec une fréquence étonnante tout au long de mathématiques. Par exemple, on considère les intégrales sur tout l'espace en coordonnées polaires:
+
 \[
   \int_0^{2\pi}\int_0^\infty f(r, \theta)\, r\, dr\, d\theta.
 \]
-The upper limit of the $\theta$ integration is always $2\pi$. The same factor appears in the definition of the \href{https://en.wikipedia.org/wiki/Normal_distribution}{Gaussian (normal) distribution},
+La limite supérieure de l'intégration de $\theta$ est toujours $2\pi$. Le même facteur apparaît dans la définition de la \href{https://fr.wikipedia.org/wiki/Loi_normale}{loi gaussienne (normale)},
 \[
   \frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}},
 \]
-and again in the \href{https://mathworld.wolfram.com/FourierTransform.html}{Fourier transform},
+et encore dans la \href{https://fr.wikipedia.org/wiki/Transformation_de_Fourier}{transformation de Fourier},
 \[
   f(x) = \int_{-\infty}^\infty F(k)\, e^{2\pi ikx}\,dk
 \]
 \[
     F(k) = \int_{-\infty}^\infty f(x)\, e^{-2\pi ikx}\,dx.
 \]
-It recurs in \href{https://en.wikipedia.org/wiki/Cauchy's_integral_formula}{Cauchy's integral formula},
+Il revient dans la \href{https://fr.wikipedia.org/wiki/Formule_intégrale_de_Cauchy}{formule intégrale de Cauchy},
 \[
   f(a) = \frac{1}{2\pi i}\oint_\gamma\frac{f(z)}{z-a}\,dz,
 \]
-in the $n$th \href{https://en.wikipedia.org/wiki/Root_of_unity}{roots of unity},
+dans les \href{https://fr.wikipedia.org/wiki/Racine_de_l%27unité}{racines $n$ième de l'unité},
 \[
   z^n = 1 \Rightarrow z = e^{2\pi i/n},
 \]
-and in the values of the \href{https://en.wikipedia.org/wiki/Riemann_zeta_function}{Riemann zeta function} for positive even integers:\footnote{Here $B_n$ is the $n$th \href{https://en.wikipedia.org/wiki/Bernoulli_number}{Bernoulli number}.}
+et dans les valeurs de la \href{https://fr.wikipedia.org/wiki/Fonction_zêta_de_Riemann}{fonction zêta de Riemann} pour les entiers pairs positifs\footnote{Ici $B_n$ est le $n$ième \href{https://fr.wikipedia.org/wiki/Nombre_de_Bernoulli}{nombre de Bernoulli}.}~:
 \[
 \begin{split}
   \zeta(2n) & = \sum_{k=1}^\infty \frac{1}{k^{2n}} \\
             & = \frac{|B_{2n}|}{2(2n)!}\,(2\pi)^{2n},\qquad n = 1, 2, 3, \ldots
 \end{split}
 \]
-These formulas are not cherry-picked---crack open your favorite physics or mathematics text and try it yourself. There are \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{many more examples}, and the conclusion is clear: there is something special about~$2\pi$.
+Ces formules sont loin d'être les seuls exemples---on peut ouvrir son texte préféré de physique ou de mathématiques et l'essayer soi-même. Il en existe \href{http://www.harremoes.dk/Peter/Undervis/Turnpage/Turnpage1.html}{beaucoup d'autres}, et la conclusion est claire~: il y a quelque chose de spécial dans $2\pi$.
 
-To get to the bottom of this mystery, we must return to first principles by considering the nature of circles, and especially the nature of \emph{angles}. Although it's likely that much of this material will be familiar, it pays to revisit it, for this is where the true understanding of $\tau$ begins.
+Pour aller au fond de ce mystère, il faut revenir aux premiers principes en considérant la nature des cercles, et surtout la nature des \emph{angles}. Bien qu'il soit probable qu'une grande partie de ce matériel soit familier, cela vaut la peine de le revoir, car c'est là que commence la véritable compréhension de $\tau$.
 
   \subsection{Circles and angles} % (fold)
   \label{sec:circles_and_angles}
