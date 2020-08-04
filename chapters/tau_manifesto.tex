@@ -384,51 +384,51 @@ K = \int F\,dx = \int ma\,dx & = \int m\frac{dv}{dt}\,dx \\ & = \int m\frac{dx}{
 \end{split}
 \]
 
-  \subsection{A sense of foreboding} % (fold)
+  \subsection{Un sentiment nerveux} % (fold)
   \label{sec:a_sense_of_foreboding}
 
-Having seen several examples of simple quadratic forms in physics, you may by now have a sense of foreboding as we return to the geometry of the circle. This feeling is justified.
+Après avoir vu plusieurs exemples de formes quadratiques simples en physique, on a maintenant peut-être un sentiment nerveux en retournant à la géométrie du cercle. Ce sentiment est justifié.
 
 \begin{figure}
 \begin{center}
 \image{images/figures/circular-area.pdf}
 \end{center}
-\caption{Breaking down a circle into rings.\label{fig:circular_area}}
+\caption{Se décomposer un cercle en anneaux.\label{fig:circular_area}}
 \end{figure}
 
 
-As seen in Figure~\ref{fig:circular_area}, the area of a circle can be calculated by breaking it down into circular rings of length $C$ and width $dr$, where the area of each ring is $C\,dr$:
+Comme le montre la figure~\ref{fig:circular_area}, on peut calculer la superficie d'un cercle en le décomposant en anneaux circulaires de longueur $C$ et de largeur $dr$, où la superficie de chaque anneau est $C\,dr$~:
 \[ dA = C\,dr. \]
-Now, the circumference of a circle is proportional to its radius:
+La circonférence d'un cercle est proportionnelle à son rayon~:
 \[ C \propto r. \]
-The constant of proportionality is $\tau$:
+La constante de proportionnalité est $\tau$~:
 \[ C = \tau\,r. \]
-The area of the circle is then the integral over all rings:
+La superficie du cercle est alors l'intégrale sur tous les anneaux~:
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2. \]
 
-If you were still a $\pi$ partisan at the beginning of this section, your head has now exploded. For we see that even in this case, where $\pi$ supposedly shines, in fact there is a missing factor of $2$. Indeed, the original proof by Archimedes shows not that the area  of a circle is $\pi r^2$, but that it is equal to the area of a right triangle with base $C$ and height $r$. Applying the formula for triangular area then gives
+Si l'on était encore partisan de $\pi$ au début de cette section, sa tête a maintenant explosé. Car on voit que même dans ce cas, où $\pi$ brille soi-disant, en fait il manque un facteur 2. En effet, la démonstration originale d'Archimède montre non pas que la superficie d'un cercle est $\pi r^2$, mais qu'elle est égale à la superficie d'un triangle rectangle de base $C$ et de hauteur $r$. L'application de la formule pour la superficie triangulaire donne alors
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
 \]
-There is simply no avoiding that factor of a half (Table~\ref{table:quadratic_forms}).
+Il est tout simplement impossible d'éviter ce facteur de demi (letableau~\ref{table:quadratic_forms}).
 
 \begin{table}
 \begin{center}
 \begin{tabular}{lcc}
-Quantity & Symbol & Expression \\ \hline
-Distance fallen & $y$ & $\textstyle{\frac{1}{2}}gt^2$ \smallskip \\
-Spring energy & $U$ & $\textstyle{\frac{1}{2}}kx^2$ \smallskip \\
-Kinetic energy & $K$ & $\textstyle{\frac{1}{2}}mv^2$ \smallskip \\
-Circular area & $A$ & $\textstyle{\frac{1}{2}}\tau\,r^2$
+Quantité & Symbole & Expression \\ \hline
+Distance tombée & $y$ & $\textstyle{\frac{1}{2}}gt^2$ \smallskip \\
+Énergie de ressort & $U$ & $\textstyle{\frac{1}{2}}kx^2$ \smallskip \\
+Énergie cinétique & $K$ & $\textstyle{\frac{1}{2}}mv^2$ \smallskip \\
+Superficie circulaire & $A$ & $\textstyle{\frac{1}{2}}\tau\,r^2$
 \end{tabular}
 \end{center}
-\caption{Some common quadratic forms.\label{table:quadratic_forms}}
+\caption{Quelques formes quadratiques courantes.\label{table:quadratic_forms}}
 \end{table}
 
     \subsubsection{Quod erat demonstrandum} % (fold)
     \label{sec:quod_erat_demonstrandum}
 
-We set out in this manifesto to show that $\tau$ is the true circle constant. Since the formula for circular area was just about the last, best argument that $\pi$ had going for it, I'm going to go out on a limb here and say: \href{https://en.wikipedia.org/wiki/Q.E.D.}{Q.E.D.}
+On a voulu dans ce manifeste montrer que $\tau$ est la vraie constante du cercle. Étant donné que la formule de la superficie circulaire était à peu près le dernier, le meilleur argument que $\pi$ avait pour lui, je vais ici être effronté et dire~: \href{https://fr.wikipedia.org/wiki/CQFD_(math%C3%A9matiques)}{QED}.
 
     % subsubsection quod_erat_demonstrandum (end)
 

@@ -344,44 +344,45 @@ K = \int F\,dx = \int ma\,dx &amp; = \int m\frac{dv}{dt}\,dx \\ &amp; = \int m\f
 \end{split}
  \]
 </div></div></div>
-<div id="sec-a_sense_of_foreboding" data-tralics-id="uid49" class="subsection" data-number="3.2"><h3><a href="#sec-a_sense_of_foreboding" class="heading"><span class="number">3.2 </span>A sense of foreboding</a></h3>
-<p>Having seen several examples of simple quadratic forms in physics, you may by now have a sense of foreboding as we return to the geometry of the circle.<span class="intersentencespace"></span> This feeling is justified.</p>
+<div id="sec-a_sense_of_foreboding" data-tralics-id="uid49" class="subsection" data-number="3.2"><h3><a href="#sec-a_sense_of_foreboding" class="heading"><span class="number">3.2 </span>Un sentiment nerveux</a></h3>
+<p>Après avoir vu plusieurs exemples de formes quadratiques simples en physique, on a maintenant peut-être un sentiment nerveux en retournant à la géométrie du cercle.<span class="intersentencespace"></span> Ce sentiment est justifié.</p>
 <div class="center figure" id="fig-circular_area" data-tralics-id="uid50" data-number="15">
-<div class="graphics image"><img src="images/figures/circular-area.png" alt="images/figures/circular-area" /></div><div class="caption"><span class="header">Figure 15: </span><span class="description">Breaking down a circle into rings.
+<div class="graphics image"><img src="images/figures/circular-area.png" alt="images/figures/circular-area" /></div><div class="caption"><span class="header">Figure 15: </span><span class="description">Se décomposer un cercle en anneaux.
 </span></div></div>
-<p>As seen in <a href="tau_manifesto.html#fig-circular_area" class="hyperref">Figure <span class="ref">15</span></a>, the area of a circle can be calculated by breaking it down into circular rings of length <span class="inline_math">\( C \)</span> and width <span class="inline_math">\( dr \)</span>, where the area of each ring is <span class="inline_math">\( C\,dr \)</span>:</p>
+<p>Comme le montre la <a href="tau_manifesto.html#fig-circular_area" class="hyperref">figure <span class="ref">15</span></a>, on peut calculer la superficie d’un cercle en le décomposant en anneaux circulaires de longueur <span class="inline_math">\( C \)</span> et de largeur <span class="inline_math">\( dr \)</span>, où la superficie de chaque anneau est <span class="inline_math">\( C\,dr \)</span> :</p>
 <div class="equation">\[  dA = C\,dr.  \]
-</div><p class="noindent">Now, the circumference of a circle is proportional to its radius:</p>
+</div><p class="noindent">La circonférence d’un cercle est proportionnelle à son rayon :</p>
 <div class="equation">\[  C \propto r.  \]
-</div><p class="noindent">The constant of proportionality is <span class="inline_math">\( \tau \)</span>:</p>
+</div><p class="noindent">La constante de proportionnalité est <span class="inline_math">\( \tau \)</span> :</p>
 <div class="equation">\[  C = \tau\,r.  \]
-</div><p class="noindent">The area of the circle is then the integral over all rings:</p>
+</div><p class="noindent">La superficie du cercle est alors l’intégrale sur tous les anneaux :</p>
 <div class="equation">\[  A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2.  \]
-</div><p class="noindent">If you were still a <span class="inline_math">\( \pi \)</span> partisan at the beginning of this section, your head has now exploded.<span class="intersentencespace"></span> For we see that even in this case, where <span class="inline_math">\( \pi \)</span> supposedly shines, in fact there is a missing factor of <span class="inline_math">\( 2 \)</span>.<span class="intersentencespace"></span> Indeed, the original proof by Archimedes shows not that the area of a circle is <span class="inline_math">\( \pi r^2 \)</span>, but that it is equal to the area of a right triangle with base <span class="inline_math">\( C \)</span> and height <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Applying the formula for triangular area then gives</p>
+</div><p class="noindent">Si l’on était encore partisan de <span class="inline_math">\( \pi \)</span> au début de cette section, sa tête a maintenant explosé.<span class="intersentencespace"></span> Car on voit que même dans ce cas, où <span class="inline_math">\( \pi \)</span> brille soi-disant, en fait il manque un facteur 2.<span class="intersentencespace"></span> En effet, la démonstration originale d’Archimède montre non pas que la superficie d’un cercle est <span class="inline_math">\( \pi r^2 \)</span>, mais qu’elle est égale à la superficie d’un triangle rectangle de base <span class="inline_math">\( C \)</span> et de hauteur <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> L’application de la formule pour la superficie triangulaire donne alors</p>
 <div class="equation">\[ 
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
  \]
-</div><p class="noindent">There is simply no avoiding that factor of a half (Table <a href="tau_manifesto.html#table-quadratic_forms" class="hyperref"><span class="ref">3</span></a>).</p>
+</div><p class="noindent">Il est tout simplement impossible d’éviter ce facteur de demi (le
+<a href="tau_manifesto.html#table-quadratic_forms" class="hyperref">tableau <span class="ref">3</span></a>).</p>
 <div class="table" id="table-quadratic_forms" data-tralics-id="uid51" data-number="3"><table class="tabular">
-<tr class="bottom_border"><td class="align_left">Quantity</td>
-<td class="align_center">Symbol</td>
+<tr class="bottom_border"><td class="align_left">Quantité</td>
+<td class="align_center">Symbole</td>
 <td class="align_center">Expression</td>
-</tr><tr><td class="align_left">Distance fallen</td>
+</tr><tr><td class="align_left">Distance tombée</td>
 <td class="align_center"><span class="inline_math">\( y \)</span></td>
 <td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}gt^2 \)</span></td>
-</tr><tr><td class="align_left">Spring energy</td>
+</tr><tr><td class="align_left">Énergie de ressort</td>
 <td class="align_center"><span class="inline_math">\( U \)</span></td>
 <td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}kx^2 \)</span></td>
-</tr><tr><td class="align_left">Kinetic energy</td>
+</tr><tr><td class="align_left">Énergie cinétique</td>
 <td class="align_center"><span class="inline_math">\( K \)</span></td>
 <td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}mv^2 \)</span></td>
-</tr><tr><td class="align_left">Circular area</td>
+</tr><tr><td class="align_left">Superficie circulaire</td>
 <td class="align_center"><span class="inline_math">\( A \)</span></td>
 <td class="align_center"><span class="inline_math">\( \textstyle{\frac{1}{2}}\tau\,r^2 \)</span></td>
-</tr></table><div class="caption"><span class="header">Tableau 3: </span><span class="description">Some common quadratic forms.
+</tr></table><div class="caption"><span class="header">Tableau 3: </span><span class="description">Quelques formes quadratiques courantes.
 </span></div></div>
 <div id="sec-quod_erat_demonstrandum" data-tralics-id="uid52" class="subsubsection" data-number="3.2.1"><h4><a href="#sec-quod_erat_demonstrandum" class="heading">Quod erat demonstrandum</a></h4>
-<p>We set out in this manifesto to show that <span class="inline_math">\( \tau \)</span> is the true circle constant.<span class="intersentencespace"></span> Since the formula for circular area was just about the last, best argument that <span class="inline_math">\( \pi \)</span> had going for it, I’m going to go out on a limb here and say: <a href="https://en.wikipedia.org/wiki/Q.E.D." target="_blank" rel="noopener">Q.E.D.</a></p>
+<p>On a voulu dans ce manifeste montrer que <span class="inline_math">\( \tau \)</span> est la vraie constante du cercle.<span class="intersentencespace"></span> Étant donné que la formule de la superficie circulaire était à peu près le dernier, le meilleur argument que <span class="inline_math">\( \pi \)</span> avait pour lui, je vais ici être effronté et dire : <a href="https://fr.wikipedia.org/wiki/CQFD_(math%C3%A9matiques)" target="_blank" rel="noopener">QED</a>.</p>
 </div></div></div>
 <div id="sec-conflict_and_resistance" data-tralics-id="cid4" class="section" data-number="4"><h2><a href="#sec-conflict_and_resistance" class="heading"><span class="number">4 </span>Conflict and resistance</a></h2>
 <p>Despite the definitive demonstration of the superiority of <span class="inline_math">\( \tau \)</span>, there are nevertheless many who oppose it, both as notation and as number.<span class="intersentencespace"></span> In this section, we address the concerns of those who accept the value but not the letter.<span class="intersentencespace"></span> We then rebut some of the many arguments marshaled against <span class="inline_math">\( C/r \)</span> itself, including the so-called “Pi Manifesto” that defends the primacy of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> In this context, we’ll discuss the rather advanced subject of the volume of a hypersphere (<a href="tau_manifesto.html#sec-volume_of_a_hypersphere" class="hyperref">Section <span class="ref">5.1</span></a>), which augments and amplifies the arguments in <a href="tau_manifesto.html#sec-circular_area" class="hyperref">Section <span class="ref">3</span></a> on circular area.</p>
