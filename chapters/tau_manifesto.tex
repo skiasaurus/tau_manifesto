@@ -503,53 +503,53 @@ ce qui montre que la constante du cercle entre dans le calcul par $1/\sqrt{2\pi}
 
     % subsubsection ambiguous_notation (end)
 
-  \subsection{The Pi Manifesto} % (fold)
+  \subsection{Le Manifeste de pi} % (fold)
   \label{sec:the_pi_manifesto_a_rebuttal}
 
-Although most objections to $\tau$ come from scattered email correspondence and miscellaneous comments on the Web, there is also an organized resistance. In particular, since the publication of \emph{The Tau Manifesto} in June 2010, a ``\href{http://www.thepimanifesto.com/}{Pi Manifesto}'' has appeared to make the case for the traditional circle constant. This section and the two after it contain a rebuttal of its arguments. Of necessity, this treatment is terser and more advanced than the rest of the manifesto, but even a cursory reading of what follows will give an impression of the weakness of the Pi Manifesto's case.
+Bien que la plupart des objections à $\tau$ proviennent de la correspondance électronique dispersée et de divers commentaires sur le Web, il existe aussi une résistance organisée. En particulier, depuis la publication du \emph{Manifeste de tau} en juin 2010, un «\,\href{http://thepimanifesto.com/}{Manifeste de pi}\,» est apparu pour plaider en faveur de la constante traditionnelle du cercle. Cette section et les deux suivantes contiennent une réfutation de ses arguments. Par nécessité, ce traitement est plus laconique et plus avancé que le reste du manifeste, mais même une lecture superficielle de ce qui suit donnera une impression de la faiblesse du cas du Manifeste de pi.
 
-While we can certainly consider the appearance of the Pi Manifesto a good sign of continuing interest in this subject, it makes several false claims. For example, it says that the factor of $2\pi$ in the Gaussian (normal) distribution is a coincidence, and that it can more naturally be written as
+Alors que l'on peut certainement considérer l'apparition du Manifeste de pi comme un bon signe d'intérêt continu pour ce sujet, il fait plusieurs fausses affirmations. Par exemple, il dit que le facteur de $2\pi$ dans la loi gaussienne (normale) est une coïncidence, et qu'il peut plus naturellement s'écrire comme
 \[
 \frac{1}{\sqrt\pi(\sqrt 2\sigma)}e^{\frac{-x^2}{(\sqrt 2\sigma)^2}}.
 \]
-This is wrong: the factor of $2\pi$ comes from squaring the unnormalized Gaussian distribution and switching to polar coordinates, which leads to a factor of $1$ from
-the radial integral and a $2\pi$ from the angular integral. As in the case of circular area, the factor
-of $\pi$ comes from $1/2\times 2\pi$, not from $\pi$ alone.
+C'est faux~: le facteur de $2\pi$ vient de l'élévation au carré de la loi gaussienne non normalisée et du passage aux coordonnées polaires, ce que conduit à un facteur 1 de 
+l'intégrale radiale et $2\pi$ de l'intégrale angulaire. Comme dans le cas de la superficie circulaire, le facteur
+de $\pi$ vient de $1/2\times 2\pi$, pas de $\pi$ seul.
 
-A related claim is that the \href{https://mathworld.wolfram.com/GammaFunction.html}{Gamma function} evaluated at $1/2$ is more natural in terms of $\pi$:
+Une affirmation connexe est que la \href{https://fr.wikipedia.org/wiki/Fonction_gamma}{fonction gamma} évaluée à $1/2$ est plus naturelle en termes de $\pi$~:
 \[
 \Gamma(\textstyle{\frac{1}{2}}) = \sqrt{\pi},
 \]
-where
+où
 \begin{equation}
 \label{eq:gamma}
 \Gamma(p) = \int_{0}^{\infty} x^{p-1} e^{-x}\,dx.
 \end{equation}
-But $\Gamma(\frac{1}{2})$ reduces to the same Gaussian integral as in the normal distribution (upon setting $u =
-x^{1/2}$), so the $\pi$ in this case is really $1/2\times 2\pi$ as well. Indeed, in many of the cases cited in the Pi Manifesto,
-the circle constant enters through an integral over all angles, i.e.,
-as $\theta$ ranges from $0$ to $\tau$.
+Mais $\Gamma(\frac{1}{2})$ se réduit à la même intégrale gaussienne que dans la loi normale (lors du réglage de $u =
+x^{1/2}$), donc $\pi$ dans ce cas est aussi vraiment $1/2\times 2\pi$. En effet, dans de nombreux cas cités dans Le Manifeste de pi,
+la constante du cercle entre par une intégrale sous tous les angles, c'est-à-dire
+comme $\theta$ varie de $0$ à $\tau$.
 
-The Pi Manifesto also examines some formulas for regular
-$n$-sided polygons (or ``$n$-gons''). For instance, it notes that the sum of the internal angles of an $n$-gon is given by
+Le Manifeste de pi examine aussi certaines formules pour des polygones
+réguliers à $n$ côtés (ou «\,$n$-gones\,»). Par exemple, il note que la somme des angles internes d'un $n$-gone est donnée par
 \[
 \sum_{i=1}^n \theta_i=(n-2)\pi.
 \]
-This issue was dealt with in ``$\pi$ Is Wrong!'', which notes the following: ``The sum of the interior angles [of a
-triangle] is $\pi$, granted. But the sum of the \emph{exterior} angles of \emph{any}
-polygon, from which the sum of the interior angles can easily be
-derived, and which generalizes to the integral of the curvature of a
-simple closed curve, is $2\pi$.'' In addition, the Pi Manifesto offers the formula for the area of an $n$-gon with unit radius (the distance from center to vertex),
+Ce problème a été traité dans «\,$\pi$ Is Wrong!\,», qui note ce qui suit~: «\,La somme des angles intérieurs [d'un
+triangle] est $\pi$, c'est vrai. Mais la somme des angles \emph{extérieurs} de \emph{tout}
+polygone, dont la somme des angles intérieurs peut facilement être
+dérivée, et qui se généralise à l'intégrale de la courbure d'une
+simple courbe fermée, est de $2\pi$.\,» De plus, Le Manifeste de pi offre la formule de la superficie d'un $n$-gone avec un rayon unité (la distance du centre au sommet),
 \[ A=n\sin\frac{\pi}{n}\cos\frac{\pi}{n}, \]
-calling it ``clearly\ldots\ another win for $\pi$.'' But using the double-angle identity $\sin\theta\cos\theta = \frac{1}{2} \sin 2\theta$ shows that this can be written as
+et l'appelle «\,clairement\textellipsis{} une autre victoire pour $\pi$\,». Mais l'utilisation de l'identité à double angle $\sin\theta\cos\theta = \frac{1}{2}\sin2\theta$ montre que l'on peut écrire ceci comme
 \[ A = n/2\, \sin\frac{2\pi}{n}, \]
-which is just
+ce qui est juste
 \begin{equation}
 \label{eq:area_polygon}
 A = \frac{1}{2} n\, \sin\frac{\tau}{n}.
 \end{equation}
-In other words, the area of an $n$-gon has a natural
-factor of $1/2$. In fact, taking the limit of Eq.~\eqref{eq:area_polygon} as $n\rightarrow \infty$ (and applying \href{https://mathworld.wolfram.com/LHospitalsRule.html}{L'H\^{o}pital's rule}) gives the area of a unit regular polygon with infinitely many sides, i.e., a unit circle:
+En d'autres termes, la superficie d'un $n$-gone a un facteur
+naturel de $1/2$. En fait, prendre la limite de l'équation~\eqref{eq:area_polygon} comme $n\rightarrow \infty$ (et appliquer la \href{https://fr.wikipedia.org/wiki/R%C3%A8gle_de_L%27H%C3%B4pital}{règle de L'Hôpital}) donne la superficie d'un polygone régulier unité avec une infinité de côtés, c'est-à-dire un cercle unité~:
 \begin{equation}
 \label{eq:lhopital}
 \begin{split}
@@ -559,16 +559,16 @@ A & = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n} \\
 \end{split}
 \end{equation}
 
-In this context, we should note that the Pi Manifesto makes much ado about $\pi$ being the area of a unit disk, so that (for example) the area of a quarter (unit) circle is $\pi/4$. This, it is claimed, makes just as good a case for $\pi$ as radian angle measure does for $\tau$. Unfortunately for this argument, as noted in Section~\ref{sec:circular_area} and as seen again in Eq.~\eqref{eq:lhopital}, the factor of $1/2$ arises naturally in the context of circular area. Indeed, the formula for the area of a circular sector subtended by angle~$\theta$ is
+Dans ce contexte, il convient de noter que Le Manifeste de pi fait beaucoup de bruit sur le fait que $\pi$ est la superficie d'un disque unité, de sorte que (par exemple) la superficie d'un quart de cercle (unité) est $\pi/4$. Ceci, prétend-on, est tout aussi bon pour $\pi$ que la mesure d'angle radian pour $\tau$. Malheureusement pour cet argument, comme noté dans la section~\ref{sec:circular_area} et comme on le voit à nouveau dans l'équation~\eqref{eq:lhopital}, le facteur $1/2$ apparaît naturellement dans le contexte de la superficie circulaire. En effet, la formule de la superficie d'un secteur circulaire sous-tendu par l'angle $\theta$ est
 \[
 \tfrac{1}{2}\theta\, r^2,
 \]
-so there's no way to avoid the factor of $1/2$ in general. (We thus see that $A =
-\frac{1}{2} \tau\, r^2$ is simply the special case $\theta = \tau$.)
+donc il n'y a aucun moyen d'éviter le facteur $1/2$ en général. (On voit donc que $A =
+\frac{1}{2}\tau r^2$ est simplement le cas particulier $\theta = \tau$.)
 
-In short, the difference between angle measure and area isn't
-arbitrary. \linebreak There is no natural factor of $1/2$ in the
-case of angle measure. In contrast, in the case of area the factor of $1/2$ arises through the integral of a linear function in association with a simple quadratic form. In fact, the case for $\pi$ is even worse than it looks, as shown in the next section.
+En bref, la différence entre la mesure d'angle et la superficie n'est pas
+arbitraire. \linebreak Il n'y a pas de facteur naturel de $1/2$ dans le cas
+de la mesure d'angle. En revanche, dans le cas de la superficie, la facteur $1/2$ résulte de l'intégrale d'une fonction linéaire en association avec une forme quadratique simple. En fait, le cas de $\pi$ est encore pire qu'il n'y paraît, comme le montre la section suivante.
 
   % subsection the_pi_manifesto_a_rebuttal (end)
 
