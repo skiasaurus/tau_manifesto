@@ -459,47 +459,47 @@ Bien sûr, avec toute nouvelle notation, il y a un risque de conflit avec l'util
 
 Mais il est difficile pour un nouveau symbole d'être accepté~: il faut lui donner un nom, ce nom doit être popularisé, et le symbole lui-même doit être ajouté aux systèmes de traitement de texte et de composition. De plus, la promulgation d'un nouveau symbole pour $2\pi$ nécessiterait la coopération de la communauté mathématique académique, qui sur le sujet de $\pi$ vs $\tau$ a été jusqu'à présent apathique au mieux et hostile au pire. L'utilisation d'un symbole existant permet de contourner l'établissement mathématique\,\footnote{Peut-être qu'un jour, les mathématiciens académiques arriveront à un consensus sur un symbole différent pour le nombre $2\pi$\,; si cela se produit, je me réserve le droit de soutenir leur notation proposée. Mais ils ont eu plus de 300 ans pour résoudre ce problème de $\pi$, donc je ne suis pas optimiste qu'ils le feront bientôt.}.
 
-Rather than advocating a new symbol, \emph{The Tau Manifesto} opts for the use of an existing Greek letter. As a result, since $\tau$ is already used in some current contexts, we must address the conflicts with existing practice. Fortunately, there are surprisingly few common uses. Moreover, while $\tau$ is used for certain \emph{specific} variables---e.g., \emph{shear stress} in mechanical engineering, \emph{torque} in rotational mechanics, and \emph{proper time} in special and general relativity---there is no \emph{universal} conflicting usage.\footnote{The only possible exception to this is the \emph{golden ratio}, which is often denoted by $\tau$ in Europe. But not only is there an existing common alternative to this notation---namely, the Greek letter $\varphi$---this usage shows that there is precedent for using $\tau$ to denote a fundamental mathematical constant.} In those cases, we can either tolerate ambiguity or route around the few present conflicts by selectively changing notation, such as using $N$ for torque\footnote{This alternative for torque is already in use; see, for example, \emph{Introduction to Electrodynamics} by David Griffiths, p.~162.} or $\tau_p$ for proper time.
+Plutôt que de préconiser un nouveau symbole, \emph{Le Manifeste de tau} opte pour l'utilisation d'une lettre grecque existante. Par conséquent, puisque $\tau$ est déjà utilisé dans certains contextes actuels, il faut résoudre les conflits avec la pratique existante. Heureusement, il existe étonnamment peu d'utilisations courantes. De plus, alors que $\tau$ est utilisé pour certains variables \emph{spécifiques}---par exemple, la \emph{contrainte de cisaillement} en génie mécanique, le \emph{moment d'une force} en mécanique rotationnelle et \emph{temps propre} en relativité restreinte et générale---il n'y a pas d'utilisation conflictuelle \emph{universelle}\,\footnote{La seule exception possible à cela est le \emph{nombre d'or}, qui est souvent désigné par $\tau$ en Europe. Mais non seulement existe-t-il une alternative commune à cette notation, à savoir la lettre grecque $\varphi$, mais cette utilisation montre qu'il existe un précédent pour utiliser $\tau$ pour désigner une constante mathématique fondamentale.}. Dans ce cas, on peut soit tolérer l'ambiguïté, soit contourner les quelques conflits actuels en modifiant sélectivement la notation, comme en utilisant $N$ pour le moment d'une force\,\footnote{Cette alternative pour le moment d'une force est déjà utilisée\,; voir, par exemple, \emph{Introduction to Electrodynamics} (\emph{Introduction à l'électrodynamique}) de David Griffiths, page 162.} ou $\tau_p$ pour temps propre.
 
-Despite these arguments, potential usage conflicts have proven to be the greatest source of resistance to $\tau$. Some correspondents have even flatly denied that $\tau$ (or, presumably, any other currently used symbol) could possibly overcome these issues. But scientists and engineers have a high tolerance for notational ambiguity, and claiming that $\tau$-the-circle-constant can't coexist with other uses ignores considerable evidence to the contrary.
+Malgré ces arguments, les conflits potentiels d'utilisation se sont révélés être la plus grande source de résistance à $\tau$. Certains correspondants ont même catégoriquement nié que $\tau$ (ou, vraisemblablement, tout autre symbole actuellement utilisé) pourrait éventuellement surmonter ces problèmes. Mais les scientifiques et les ingénieurs ont une grande tolérance à l'ambiguïté de notation, et affirmer que $\tau$-la-constante-du-cercle ne peut pas coexister avec d'autres utilisations ignore des preuves considérables du contraire.
 
-One example of easily tolerated ambiguity occurs in quantum mechanics, where we encounter the following formula for the \emph{Bohr radius}, which (roughly speaking) is the ``size'' of a hydrogen atom in its lowest energy state (the \emph{ground state}):
+Un exemple d'ambiguïté facilement toléré se produit en mécanique quantique, où l'on rencontre la formule suivante pour le \emph{rayon de Bohr}, qui (grosso modo) est la «\,taille\,» d'un atome d'hydrogène dans son niveau d'énergie le plus bas (l'\emph{état fondamental})~:
 \[
 a_0 = \frac{\hbar^2}{m e^2},
 \]
-where $m$ is the mass of an electron and $e$ is its charge. Meanwhile, the ground state itself is described by a quantity known as the \href{https://en.wikipedia.org/wiki/Wave_function}{\emph{wavefunction}}, which falls off exponentially with radius on a length scale set by the Bohr radius:
+où $m$ est la masse d'un électron et $e$ est sa charge. Pendant ce temps, l'état fondamental lui-même est décrit par une quantité connue sous le nom de \href{https://fr.wikipedia.org/wiki/Fonction_d%27onde}{\emph{fonction d'onde}}, qui diminue de façon exponentielle avec un rayon sur une échelle de longueur définie par le rayon de Bohr~:
 \begin{equation}
 \label{eq:hydrogen}
 \psi(r) = N\,e^{-r/a_0},
 \end{equation}
-where $N$ is a normalization constant.
+où $N$ est une constante de normalisation.
 
-Have you noticed the problem yet? Probably not, which is just the point. The ``problem'' is that the $e$ in the Bohr radius and the $e$ in the wavefunction are \emph{not the same $e$}---the first is the charge on an electron, while the second is the natural number (the base of natural logarithms). In fact, if we expand the factor of $a_0$ in the argument of the exponent in Eq.~\eqref{eq:hydrogen}, we get
+A-t-on encore remarqué le problème\,? Probablement pas, ce qui est juste le point. Le «\,problème\,» est que le $e$ dans le rayon de Bohr et le $e$ dans la fonction d'onde \emph{ne sont pas les mêmes $e$}---le premier est la charge sur un électron, tandis que le second est le nombre naturel (la base des logarithmes naturels). En fait, si l'on développe le facteur de $a_0$ dans l'argument de l'exposant dans l'équation~\eqref{eq:hydrogen}, on obtient
 \[
 \psi(r) = N\,e^{-m e^2 r/\hbar^2},
 \]
-which has an $e$ raised the power of something with $e$ in it. It's even worse than it looks, because $N$ itself contains $e$ as well:
+qui a un $e$ augmenté à la puissance de quelque chose qui contient $e$. C'est encore pire qu'il n'y paraît, car $N$ lui-même contient aussi $e$~:
 \[
 \psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0} =
 \frac{m^{3/2} e^3}{\pi^{1/2} \hbar^3}\,e^{-m e^2 r/\hbar^2}.
 \]
 
-I have no doubt that if a separate notation for the natural number did not already exist, anyone proposing the letter $e$ would be told it's impossible because of the conflicts with other uses. And yet, in practice no one ever has any problem with using $e$ in both contexts above.
-There are many other examples, including situations where even $\pi$ is used for two different things.\footnote{See, for instance, \emph{An Introduction to Quantum Field Theory} by Peskin and Schroeder, where $\pi$ is used to denote both the circle constant and a ``conjugate momentum'' on the very same page (p.~282).} It's hard to see how using $\tau$ for multiple quantities is any different.
+Je ne doute pas que s'il n'existait pas déjà une notation distincte pour le nombre naturel, quiconque proposerait la lettre $e$ se verrait dire que cela était impossible en raison des conflits avec d'autres utilisations. Et pourtant, dans la pratique, personne n'a jamais de problème avec l'utilisation de $e$ dans les deux contextes ci-dessus.
+Il existe de nombreux autres exemples, y compris des situations où même $\pi$ est utilisé pour deux choses differentes\,\footnote{Voir, par exemple, \emph{An Introduction to Quantum Field Theory} (\emph{Une Introduction à la théorie quantique des champs}) par Peskin et Schroeder, où $\pi$ est utilisé pour désigner à la fois la constante du cercle et une «\,quantité conjuguée de mouvement\,» sur la même page (page~282).}. Il est difficile de voir en quoi l'utilisation de $\tau$ pour multiples quantités est différente.
 
-By the way, the $\pi$-pedants out there (and there have proven to be many) might note that hydrogen's ground-state wavefunction has a factor of $\pi$:
+Soit dit en passant, les pédants de $\pi$ (et il y en a eu beaucoup) pourraient remarquer que la fonction d'onde de l'état fondamental de l'hydrogène a un facteur $\pi$~:
 \[
 \psi(r) = \sqrt{\frac{1}{\pi a_0^3}}\,e^{-r/a_0}.
 \]
-At first glance, this appears to be more natural than the version with $\tau$:
+À première vue, cela semble plus naturel que la version avec $\tau$~:
 \[
 \psi(r) = \sqrt{\frac{2}{\tau a_0^3}}\,e^{-r/a_0}.
 \]
-As usual, appearances are deceiving: the value of $N$ comes from the product
+Comme d'habitude, les apparences sont trompeuses~: la valeur de $N$ vient du produit
 \[
 \frac{1}{\sqrt{2\pi}} \frac{1}{\sqrt{2}} \frac{2}{a_0^{3/2}},
 \]
-which shows that the circle constant enters the calculation through $1/\sqrt{2\pi}$, i.e., $1/\sqrt{\tau}$. As with the formula for circular area, the cancellation to leave a bare $\pi$ is a coincidence.
+ce qui montre que la constante du cercle entre dans le calcul par $1/\sqrt{2\pi}$, c'est-à-dire $1/\sqrt{\tau}$. Comme pour la formule de la superficie circulaire, la neutralisation qui laisse un $\pi$ dépouillé est un coïncidence.
 
     % subsubsection ambiguous_notation (end)
 
