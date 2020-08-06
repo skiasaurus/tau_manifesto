@@ -728,67 +728,67 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \subsubsection{Lambda} % (fold)
 \label{sec:lambda}
 
-The formulas in Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} represent a major improvement over the original formulations (Eq.~\eqref{eq:surface_area_mathworld} and Eq.~\eqref{eq:volume_mathworld}) in terms of $\pi$. But in fact an additional simplification is possible, using the measure of a \emph{right angle}:\footnote{This change of notation and general analysis was suggested by Jeff Cornell.}
+Les formules de l'équation~\eqref{eq:surface_area_tau} et l'équation~\eqref{eq:volume_tau} représentent une amélioration majeure par rapport aux formulations originales (l'équation~\eqref{eq:surface_area_mathworld} et l'équation~\eqref{eq:volume_mathworld}) en termes de $\pi$. Mais en fait une simplification supplémentaire est possible, en utilisant la mesure d'un angle droit\,\footnote{Ce changement de notation et d'analyse générale était suggéré par Jeff Cornell.}~:
 \begin{equation}
 \label{eq:lambda}
 \lambda = \frac{\tau}{4}.
 \end{equation}
-As we'll see in Section~\ref{sec:three_families_of_constants}, Eq.~\eqref{eq:lambda} can be more naturally rewritten in terms of the symmetries of the circle:
+Comme on le verra dans la section~\ref{sec:three_families_of_constants}, on peut plus naturellement réécrire l'équation~\eqref{eq:lambda} en termes de symétries du cercle~:
 \begin{equation}
 \label{eq:tau_lambda}
 \tau = 2^2 \lambda,
 \end{equation}
-where the factor of $2^2$ comes from the $2^2$ congruent circular arcs (one in each quadrant) in two-dimensional space.
+où le facteur $2^2$ provient des $2^2$ arcs circulaires congruents (un dans chaque quadrant) dans espace bidimensionnel.
 
-The biggest advantage of $\lambda$ is that it completely unifies the even and odd cases in Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau}, each of which has a factor of $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Making the substitution in Eq.~\eqref{eq:tau_lambda} then gives
+Le plus grand avantage de $\lambda$ est qu'il unifie complètement les cas pair et impair dans l'équation~\eqref{eq:surface_area_tau} et l'équation~\eqref{eq:volume_tau}, dont chacun a un facteur $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Faire la substitution dans l'équation~\eqref{eq:tau_lambda} donne alors
 \[
 \begin{split}
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} & = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
 & = \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n & n \text{ even}; \\ \\
- 2^{n-1} & n \text{ odd}.
+ 2^n & n \text{ pair}; \\ \\
+ 2^{n-1} & n \text{ impair}.
  \end{cases}
  \end{split}
 \]
-This means that we can rewrite the product
+Cela signifie que l'on peut réécrire le produit
 \[
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 & n \text{ even}; \\ \\
-2 & n \text{ odd}.
+1 & n \text{ pair}; \\ \\
+2 & n \text{ impair}.
 \end{cases}
 \]
-as
+comme
 \begin{equation}
 \label{eq:prefactor}
 \begin{split}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n & n \text{ even}; \\ \\
- 2^{n-1} & n \text{ odd}.
+ 2^n & n \text{ pair}; \\ \\
+ 2^{n-1} & n \text{ impair}
  \end{cases}
  & \times
 \begin{cases}
- 1 & n \text{ even}; \\ \\
- 2 & n \text{ odd}.
+ 1 & n \text{ pair}; \\ \\
+ 2 & n \text{ impair}
  \end{cases}
 \\ & = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{split}
 \end{equation}
-which eliminates the explicit dependence on \href{https://en.wikipedia.org/wiki/Parity_(mathematics)}{parity}. Applying Eq.~\eqref{eq:prefactor} to \linebreak Eq.~\eqref{eq:surface_area_tau} and Eq.~\eqref{eq:volume_tau} then gives
+ce qui élimine la dépendance explicite de la \href{https://fr.wikipedia.org/wiki/Parité_(arithmétique)}{parité}. L'application de \linebreak l'équation~\eqref{eq:prefactor} à l'équation~\eqref{eq:surface_area_tau} et à l'équation~\eqref{eq:volume_tau} donne alors
 \begin{equation}
 \label{eq:surface_area_lambda}
 S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
 \end{equation}
-and
+et
 \begin{equation}
 \label{eq:volume_lambda}
 V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \end{equation}
 
-The simplification in Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} appears to come at the cost of a factor of $2^n$, but even this has a clear geometric meaning: a sphere in $n$ dimensions divides naturally into $2^n$ congruent pieces, corresponding to the $2^n$ families of solutions to $\sum_{i=1}^{n} x_i^2 = r^2$ (one for each choice of $\pm x_i$). In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions. In other words, we can exploit the symmetry of the sphere by calculating the surface area or volume of \emph{one} piece---typically the \emph{principal part} where $x_i > 0$ for every $i$---and then find the full value by multiplying by~$2^n$.
+La simplification de l'équation~\eqref{eq:surface_area_lambda} et de l'équation~\eqref{eq:volume_lambda} semble se faire au prix d'un facteur $2^n$, mais même cela a une signification géométrique claire~: une sphère en $n$ dimensions se divise naturellement en $2^n$ morceaux congruents, correspondant aux $2^n$ familles de solutions à $\sum_{i=1}^{n} x_i^2 = r^2$ (une pour chaque choix de $\pm x_i$). En deux dimensions, ce sont les arcs circulaires dans chacun des quatre quadrants\,; en trois dimensions, ce sont les secteurs de la sphère dans chaque octant\,; et ainsi de suite dans des dimensions supérieures. En d'autres termes, on peut exploiter la symétrie de la sphère en calculant la superficie ou le volume d'\emph{un} morceau---généralement la \emph{partie principale} où $x_i > 0$---puis trouver la valeur complète en multipliant par~$2^n$.
 
-To my knowledge, Eq.~\eqref{eq:surface_area_lambda} and Eq.~\eqref{eq:volume_lambda} are the simplest possible formulations of the spherical surface area and volume formulas (and indeed are the only forms I have ever consistently been able to memorize). Consider the volume formula in particular: unlike the \emph{faux} simplicity of Eq.~\eqref{eq:n_sphere_pi}, Eq.~\eqref{eq:volume_lambda} involves no fancy integrals---just the slightly exotic but nevertheless elementary floor and double-factorial functions. The volume of a unit $n$-sphere is just the volume of each symmetric piece, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplied by the number of pieces, $2^n$.
+À ma connaissance, l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda} sont les formulations les plus simples possibles des formules de superficie et de volume sphérique (et sont en fait les seules formes que j'ai toujours pu mémoriser). On considère la formule de volume en particulier~: contrairement à la fausse simplicité de l'équation~\eqref{eq:n_sphere_pi}, l'équation~\eqref{eq:volume_lambda} n'implique pas d'intégrales compliquées---juste les fonctions légèrement exotique mais néanmoins élémentaire partie entière et double factorielle. Le volume d'une $n$-sphère unité est juste le volume de chaque morceau symétrique, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplié par le nombre de morceaux, $2^n$.
 
 % subsubsection lambda (end)
 

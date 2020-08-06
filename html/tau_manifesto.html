@@ -629,64 +629,64 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \end{equation}
 </div>
 <div id="sec-lambda" data-tralics-id="uid81" class="subsubsection" data-number="5.1.1"><h4><a href="#sec-lambda" class="heading">Lambda</a></h4>
-<p>The formulas in Eq. <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">(<span class="ref">22</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">(<span class="ref">23</span>)</a> represent a major improvement over the original formulations (Eq. <a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">(<span class="ref">17</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">(<span class="ref">18</span>)</a>) in terms of <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> But in fact an additional simplification is possible, using the measure of a <em>right angle</em>:<sup id="cha-0_footnote-ref-22" class="footnote"><a href="#cha-0_footnote-22">22</a></sup></p>
+<p>Les formules de l’<a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">équation (<span class="ref">22</span>)</a> et l’<a href="tau_manifesto.html#eq-volume_tau" class="hyperref">équation (<span class="ref">23</span>)</a> représentent une amélioration majeure par rapport aux formulations originales (l’<a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">équation (<span class="ref">17</span>)</a> et l’<a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">équation (<span class="ref">18</span>)</a>) en termes de <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> Mais en fait une simplification supplémentaire est possible, en utilisant la mesure d’un angle droit<span class="thinspace"> </span><sup id="cha-0_footnote-ref-22" class="footnote"><a href="#cha-0_footnote-22">22</a></sup> :</p>
 <div id="eq-lambda" data-tralics-id="uid83" data-number="24" class="equation">\begin{equation}
 \label{eq:lambda}
 \lambda = \frac{\tau}{4}.
 \end{equation}
-</div><p class="noindent">As we’ll see in <a href="tau_manifesto.html#sec-three_families_of_constants" class="hyperref">Section <span class="ref">5.2</span></a>, Eq. <a href="tau_manifesto.html#eq-lambda" class="hyperref">(<span class="ref">24</span>)</a> can be more naturally rewritten in terms of the symmetries of the circle:</p>
+</div><p class="noindent">Comme on le verra dans la <a href="tau_manifesto.html#sec-three_families_of_constants" class="hyperref">section <span class="ref">5.2</span></a>, on peut plus naturellement réécrire l’<a href="tau_manifesto.html#eq-lambda" class="hyperref">équation (<span class="ref">24</span>)</a> en termes de symétries du cercle :</p>
 <div id="eq-tau_lambda" data-tralics-id="uid84" data-number="25" class="equation">\begin{equation}
 \label{eq:tau_lambda}
 \tau = 2^2 \lambda,
 \end{equation}
-</div><p class="noindent">where the factor of <span class="inline_math">\( 2^2 \)</span> comes from the <span class="inline_math">\( 2^2 \)</span> congruent circular arcs (one in each quadrant) in two-dimensional space.</p>
-<p>The biggest advantage of <span class="inline_math">\( \lambda \)</span> is that it completely unifies the even and odd cases in Eq. <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">(<span class="ref">22</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">(<span class="ref">23</span>)</a>, each of which has a factor of <span class="inline_math">\( \tau^{\left\lfloor \frac{n}{2} \right\rfloor} \)</span>.<span class="intersentencespace"></span> Making the substitution in Eq. <a href="tau_manifesto.html#eq-tau_lambda" class="hyperref">(<span class="ref">25</span>)</a> then gives</p>
+</div><p class="noindent">où le facteur <span class="inline_math">\( 2^2 \)</span> provient des <span class="inline_math">\( 2^2 \)</span> arcs circulaires congruents (un dans chaque quadrant) dans espace bidimensionnel.</p>
+<p>Le plus grand avantage de <span class="inline_math">\( \lambda \)</span> est qu’il unifie complètement les cas pair et impair dans l’<a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">équation (<span class="ref">22</span>)</a> et l’<a href="tau_manifesto.html#eq-volume_tau" class="hyperref">équation (<span class="ref">23</span>)</a>, dont chacun a un facteur <span class="inline_math">\( \tau^{\left\lfloor \frac{n}{2} \right\rfloor} \)</span>.<span class="intersentencespace"></span> Faire la substitution dans l’<a href="tau_manifesto.html#eq-tau_lambda" class="hyperref">équation (<span class="ref">25</span>)</a> donne alors</p>
 <div class="equation">\[ 
 \begin{split}
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} &amp; = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
 &amp; = \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\times
 \begin{cases}
- 2^n &amp; n \text{ even}; \\ \\
- 2^{n-1} &amp; n \text{ odd}.
+ 2^n &amp; n \text{ pair}; \\ \\
+ 2^{n-1} &amp; n \text{ impair}.
  \end{cases}
  \end{split}
  \]
-</div><p class="noindent">This means that we can rewrite the product</p>
+</div><p class="noindent">Cela signifie que l’on peut réécrire le produit</p>
 <div class="equation">\[ 
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor}\times \begin{cases}
-1 &amp; n \text{ even}; \\ \\
-2 &amp; n \text{ odd}.
+1 &amp; n \text{ pair}; \\ \\
+2 &amp; n \text{ impair}.
 \end{cases}
  \]
-</div><p class="noindent">as</p>
+</div><p class="noindent">comme</p>
 <div id="eq-prefactor" data-tralics-id="uid85" data-number="26" class="equation">\begin{equation}
 \label{eq:prefactor}
 \begin{split}
 \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \times
 \begin{cases}
- 2^n &amp; n \text{ even}; \\ \\
- 2^{n-1} &amp; n \text{ odd}.
+ 2^n &amp; n \text{ pair}; \\ \\
+ 2^{n-1} &amp; n \text{ impair}
  \end{cases}
  &amp; \times
 \begin{cases}
- 1 &amp; n \text{ even}; \\ \\
- 2 &amp; n \text{ odd}.
+ 1 &amp; n \text{ pair}; \\ \\
+ 2 &amp; n \text{ impair}
  \end{cases}
 \\ &amp; = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{split}
 \end{equation}
-</div><p class="noindent">which eliminates the explicit dependence on <a href="https://en.wikipedia.org/wiki/Parity_(mathematics)" target="_blank" rel="noopener">parity</a>.<span class="intersentencespace"></span> Applying Eq. <a href="tau_manifesto.html#eq-prefactor" class="hyperref">(<span class="ref">26</span>)</a> to Eq. <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">(<span class="ref">22</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_tau" class="hyperref">(<span class="ref">23</span>)</a> then gives</p>
+</div><p class="noindent">ce qui élimine la dépendance explicite de la <a href="https://fr.wikipedia.org/wiki/Parité_(arithmétique)" target="_blank" rel="noopener">parité</a>.<span class="intersentencespace"></span> L’application de l’<a href="tau_manifesto.html#eq-prefactor" class="hyperref">équation (<span class="ref">26</span>)</a> à l’<a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">équation (<span class="ref">22</span>)</a> et à l’<a href="tau_manifesto.html#eq-volume_tau" class="hyperref">équation (<span class="ref">23</span>)</a> donne alors</p>
 <div id="eq-surface_area_lambda" data-tralics-id="uid86" data-number="27" class="equation">\begin{equation}
 \label{eq:surface_area_lambda}
 S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
 \end{equation}
-</div><p class="noindent">and</p>
+</div><p class="noindent">et</p>
 <div id="eq-volume_lambda" data-tralics-id="uid87" data-number="28" class="equation">\begin{equation}
 \label{eq:volume_lambda}
 V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \end{equation}
-</div><p class="noindent">The simplification in Eq. <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">(<span class="ref">27</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">(<span class="ref">28</span>)</a> appears to come at the cost of a factor of <span class="inline_math">\( 2^n \)</span>, but even this has a clear geometric meaning: a sphere in <span class="inline_math">\( n \)</span> dimensions divides naturally into <span class="inline_math">\( 2^n \)</span> congruent pieces, corresponding to the <span class="inline_math">\( 2^n \)</span> families of solutions to <span class="inline_math">\( \sum_{i=1}^{n} x_i^2 = r^2 \)</span> (one for each choice of <span class="inline_math">\( \pm x_i \)</span>).<span class="intersentencespace"></span> In two dimensions, these are the circular arcs in each of the four quadrants; in three dimensions, they are the sectors of the sphere in each octant; and so on in higher dimensions.<span class="intersentencespace"></span> In other words, we can exploit the symmetry of the sphere by calculating the surface area or volume of <em>one</em> piece—typically the <em>principal part</em> where <span class="inline_math">\( x_i &gt; 0 \)</span> for every <span class="inline_math">\( i \)</span>—and then find the full value by multiplying by <span class="inline_math">\( 2^n \)</span>.</p>
-<p>To my knowledge, Eq. <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">(<span class="ref">27</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">(<span class="ref">28</span>)</a> are the simplest possible formulations of the spherical surface area and volume formulas (and indeed are the only forms I have ever consistently been able to memorize).<span class="intersentencespace"></span> Consider the volume formula in particular: unlike the <em>faux</em> simplicity of Eq. <a href="tau_manifesto.html#eq-n_sphere_pi" class="hyperref">(<span class="ref">15</span>)</a>, Eq. <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">(<span class="ref">28</span>)</a> involves no fancy integrals—just the slightly exotic but nevertheless elementary floor and double-factorial functions.<span class="intersentencespace"></span> The volume of a unit <span class="inline_math">\( n \)</span>-sphere is just the volume of each symmetric piece, <span class="inline_math">\( \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!! \)</span>, multiplied by the number of pieces, <span class="inline_math">\( 2^n \)</span>.</p>
+</div><p class="noindent">La simplification de l’<a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">équation (<span class="ref">27</span>)</a> et de l’<a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">équation (<span class="ref">28</span>)</a> semble se faire au prix d’un facteur <span class="inline_math">\( 2^n \)</span>, mais même cela a une signification géométrique claire : une sphère en <span class="inline_math">\( n \)</span> dimensions se divise naturellement en <span class="inline_math">\( 2^n \)</span> morceaux congruents, correspondant aux <span class="inline_math">\( 2^n \)</span> familles de solutions à <span class="inline_math">\( \sum_{i=1}^{n} x_i^2 = r^2 \)</span> (une pour chaque choix de <span class="inline_math">\( \pm x_i \)</span>).<span class="intersentencespace"></span> En deux dimensions, ce sont les arcs circulaires dans chacun des quatre quadrants<span class="thinspace"> </span>; en trois dimensions, ce sont les secteurs de la sphère dans chaque octant<span class="thinspace"> </span>; et ainsi de suite dans des dimensions supérieures.<span class="intersentencespace"></span> En d’autres termes, on peut exploiter la symétrie de la sphère en calculant la superficie ou le volume d’<em>un</em> morceau—généralement la <em>partie principale</em> où <span class="inline_math">\( x_i &gt; 0 \)</span>—puis trouver la valeur complète en multipliant par <span class="inline_math">\( 2^n \)</span>.</p>
+<p>À ma connaissance, l’<a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">équation (<span class="ref">27</span>)</a> et l’<a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">équation (<span class="ref">28</span>)</a> sont les formulations les plus simples possibles des formules de superficie et de volume sphérique (et sont en fait les seules formes que j’ai toujours pu mémoriser).<span class="intersentencespace"></span> On considère la formule de volume en particulier : contrairement à la fausse simplicité de l’<a href="tau_manifesto.html#eq-n_sphere_pi" class="hyperref">équation (<span class="ref">15</span>)</a>, l’<a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">équation (<span class="ref">28</span>)</a> n’implique pas d’intégrales compliquées—juste les fonctions légèrement exotique mais néanmoins élémentaire partie entière et double factorielle.<span class="intersentencespace"></span> Le volume d’une <span class="inline_math">\( n \)</span>-sphère unité est juste le volume de chaque morceau symétrique, <span class="inline_math">\( \lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!! \)</span>, multiplié par le nombre de morceaux, <span class="inline_math">\( 2^n \)</span>.</p>
 </div>
 <div id="sec-recurrences" data-tralics-id="uid88" class="subsubsection" data-number="5.1.2"><h4><a href="#sec-recurrences" class="heading">Recurrences</a></h4>
 <p>We’ve now seen, via Eq. <a href="tau_manifesto.html#eq-surface_area_lambda" class="hyperref">(<span class="ref">27</span>)</a> and Eq. <a href="tau_manifesto.html#eq-volume_lambda" class="hyperref">(<span class="ref">28</span>)</a>, that the surface area and volume formulas are simplest in terms of the right angle <span class="inline_math">\( \lambda \)</span>.<span class="intersentencespace"></span> Nevertheless, we’re still not done with <span class="inline_math">\( \tau \)</span>.</p>
@@ -869,7 +869,7 @@ V_n(R) &amp; = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr
     <div id="cha-0_footnote-19" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-19">19.</a> Les géomètres et les topologues utilisent des définitions incompatibles d’hypersphères<span class="thinspace"> </span>; cette discussion utilise les définitions des géomètres.</div>
     <div id="cha-0_footnote-20" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-20">20.</a> Cela a du sens, car un point n’a pas de frontière, c’est-à-dire que la frontière d’un point est l’ensemble vide.</div>
     <div id="cha-0_footnote-21" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-21">21.</a> En effet, la généralisation aux arguments à valeurs complexes est simple : il suffit de remplacer le <span class="inline_math">\( x \)</span> réel par le <span class="inline_math">\( z \)</span> complexe dans l’<a href="tau_manifesto.html#eq-gamma" class="hyperref">équation (<span class="ref">11</span>)</a>.</div>
-    <div id="cha-0_footnote-22" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-22">22.</a> This change of notation and general analysis was suggested by Jeff Cornell.</div>
+    <div id="cha-0_footnote-22" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-22">22.</a> Ce changement de notation et d’analyse générale était suggéré par Jeff Cornell.</div>
     <div id="cha-0_footnote-23" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-23">23.</a> The article “<a href="http://www2.math.uconn.edu/~mariano/research/MathClubsp14%20.pdf" target="_blank" rel="noopener">The volume of the unit ball in <em>n</em> dimensions</a>” by Phanuel A. Mariano contains an alternate derivation of these important recurrences.</div>
     <div id="cha-0_footnote-24" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-24">24.</a> <a href="http://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Tau Before It Was Cool</a> actually writes the recurrence in terms of <span class="inline_math">\( 2\pi \)</span>; the version shown in <a href="tau_manifesto.html#fig-Nspheres" class="hyperref">Figure <span class="ref">16</span></a> was created for me by special request.<span class="intersentencespace"></span> As always, I am most grateful to Joseph Lindenberg for his continuing generosity and support.</div>
     <div id="cha-0_footnote-25" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-25">25.</a> The sign of the charge carriers couldn’t be determined with the technology of Franklin’s time, so this isn’t his fault.<span class="intersentencespace"></span> It’s just bad luck.</div>
