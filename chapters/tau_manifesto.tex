@@ -579,149 +579,149 @@ Je continue d'être impressionné par la richesse de ce sujet, et ma compréhens
 
 \emph{Note}~: Cette section est plus avancée que le reste du manifeste et peut être ignorée sans perte de continuité. Si l'on la trouve déroutant, je recommande de passer directement à la conclusion de la section~\ref{sec:conclusion}.
 
-  \subsection{Surface area and volume of a hypersphere} % (fold)
+  \subsection{Superficie et volume d'une hypersphère} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-We start our investigations with the generalization of a circle to arbitrary dimensions.\footnote{This discussion is based on an excellent comment by John Kodegadulo at spikedmath.com.} This object, called a \emph{hypersphere} or an \emph{$n$-sphere}, can be defined as follows.\footnote{Geometers and topologists use \href{https://mathworld.wolfram.com/Hypersphere.html}{incompatible definitions of hyperspheres}; this discussion uses the geometers' definitions.} (For convenience, we assume that these spheres are centered on the origin.) A $0$-sphere is the empty set, and we define its ``interior'' to be a point.\footnote{This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.} A $1$-sphere is the set of all points satisfying
+On commence ses investigations par la généralisation d'un cercle à des dimensions arbitraires\,\footnote{Cette discussion est basée sur un excellent commentaire de John Kodegadulo sur \url{http://spikedmath.com}.}. Cet objet, appelé \emph{hypersphère} ou \emph{$n$-sphère}, peut-être défini comme suit\,\footnote{Les géomètres et les topologues utilisent des définitions incompatibles d'hypersphères\,; cette discussion utilise les définitions des géomètres.}. (Par commodité, on suppose que ces sphères sont centrées sur l'origine.) Une $0$-sphère est l'ensemble vide, et l'on définit son «\,intérieur\,» comme un point\,\footnote{Cela a du sens, car un point n'a pas de frontière, c'est-à-dire que la frontière d'un point est l'ensemble vide.}. Une $1$-sphère est l'ensemble de tous les points qui satisfont
 \[
 x^2 = r^2,
 \]
-which consists of the two points $\pm r$. Its interior, which satisfies
+qui se compose des deux points $\pm r$. Son intérieur, qui satisfait
 \[
 x^2 \leq r^2,
 \]
-is the line segment from $-r$ to $r$. A $2$-sphere is a circle, which is the set of all points satisfying
+est le segment de droite de $-r$ à $r$. Une $2$-sphère est un cercle, qui est l'ensemble de tous les points qui satisfont
 \[
 x^2 + y^2 = r^2.
 \]
-Its interior, which satisfies,
+Son intérieur, qui satisfait
 \[
 x^2 + y^2 \leq r^2,
 \]
-is a disk. Similarly, a $3$-sphere satisfies
+est un disque. De même, une $3$-sphère satisfait
 \[
 x^2 + y^2 + z^2 = r^2,
 \]
-and its interior is a ball. The generalization to arbitrary~$n$, although difficult to visualize for $n > 3$, is straightforward: an $n$-sphere is the set of all points satisfying
+et son intérieur est une balle. La généralisation à $n$ arbitraire, bien que difficile à visualiser pour $n > 3$, est simple~: une $n$-sphère est l'ensemble de tous les points qui satisfont
 \[
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
 
-The Pi Manifesto (discussed in Section~\ref{sec:the_pi_manifesto_a_rebuttal}) includes a formula for the volume of a unit $n$-sphere as an argument in favor of $\pi$:
+Le Manifeste de pi (discuté dans la section~\ref{sec:the_pi_manifesto_a_rebuttal}) inclut une formule pour le volume d'une $n$-sphère unité comme argument en faveur de $\pi$~:
 \begin{equation}
 \label{eq:unit_n_sphere_pi}
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \end{equation}
-where the Gamma function is given by Eq.~\eqref{eq:gamma}. Eq.~\eqref{eq:unit_n_sphere_pi} is a special case of the formula for general radius, which is also typically written in terms of $\pi$:
+où la fonction gamma est donnée par l'équation~\eqref{eq:gamma}. L'équation~\eqref{eq:unit_n_sphere_pi} est un cas particulier de la formule du rayon général, qui est aussi généralement écrite en termes de $\pi$~:
 \begin{equation}
 \label{eq:n_sphere_pi}
 V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
-Because $V_n(r) = \int S_n(r)\,dr$, we have $S_n(r) = dV_n(r)/dr$, which means that the surface area can be written as follows:
+Parce que $V_n(r) = \int S_n(r)\,dr$, on a $S_n(r) = dV_n(r)/dr$, ce qui signifie que la superficie peut s'écrire comme suit~:
 \begin{equation}
 \label{eq:n_sphere_pi_r}
 S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
 
-Rather than simply take these formulas at face value, let's see if we can untangle them to shed more light on the question of $\pi$ vs. $\tau$. We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all. Fortunately, the Gamma function can be simplified in certain special cases. For example, when $n$ is an integer, it is easy to show (using integration by parts) that
+Plutôt que de simplement prendre ces formules à leur valeur nominale, on fait voir si l'on peut les démêler pour mieux éclairer la question de $\pi$ vs $\tau$. On commence son analyse en notant que l'apparente simplicité des formules ci-dessus est une illusion~: bien que la fonction gamma soit simple sur le plan de la notation, en fait elle est une intégrale sur un domaine semi-infini, ce qui n'est pas du tout une idée simple. Heureusement, on peut simplifier la fonction gamma dans certains cas particuliers. Par exemple, lorsque $n$ est un entier, il est facile de montrer (en utilisant l'intégration par parties) que
 \[
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-Seen this way, $\Gamma$ can be interpreted as a generalization of the factorial function to real-valued arguments.\footnote{Indeed, the generalization to complex-valued arguments is straightforward: just replace real $x$ with complex $z$ in Eq.~\eqref{eq:gamma}.}
+Vu de cette façon, on peut interpréter $\Gamma$ comme une généralisation de la fonction factorielle à des arguments à valeurs réelles\,\footnote{En effet, la généralisation aux arguments à valeurs complexes est simple~: il suffit de remplacer le $x$ réel par le $z$ complexe dans l'équation~\eqref{eq:gamma}.}.
 
-In the $n$-dimensional surface area and volume formulas, the argument of $\Gamma$ is not necessarily an integer, but rather is $\left(1 + \frac{n}{2}\right)$, which is an integer when $n$ is even and is a \emph{half}-integer when $n$ is odd. Taking this into account gives the following expression, which is taken from a standard reference, \href{https://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, and as usual is written in terms of~$\pi$:
+Dans les formules de superficie et de volume à $n$ dimensions, l'argument de $\Gamma$ n'est pas nécessairement un entier, mais plutôt $\left(1 + \frac{n}{2}\right)$, qui est un entier lorsque $n$ est pair est un demi-entier lorsque $n$ est impair. En tenir compte donne l'expression suivante, qui est tirée d'une référence standard, \href{https://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, et comme d'habitude est écrite en termes de~$\pi$~:
 \begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & n \text{ even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} & n \text{ pair}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impair}.
 \end{cases}
 \end{equation}
 
-Integrating with respect to $r$ then gives
+L'intégration par rapport à $r$ donne alors
 \begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & n \text{ even}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} & n \text{ pair}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} & n \text{ impair}.
 \end{cases}
 \end{equation}
 
-Let's examine Eq.~\eqref{eq:volume_mathworld} in more detail. Notice first that MathWorld uses the \emph{double factorial function}~$n!!$---but, strangely, it uses it only in the \emph{odd} case. (This is a hint of things to come.) The double factorial function, although rarely encountered in mathematics, is elementary: it's like the normal factorial function, but involves subtracting $2$ at a time instead of $1$, so that, e.g., $5!! = 5 \cdot 3 \cdot 1$ and $6!! = 6 \cdot 4 \cdot 2$. In general, we have
+On fait examiner l'équation~\eqref{eq:volume_mathworld} plus en détail. On remarque tout d'abord que MathWorld utilise la \emph{double factorielle}~$n!!$---mais, étrangement, il ne l'utilise que dans le cas \emph{impair}. (Ceci est un soupçon de choses à venir.) La double factorielle, bien que rarement rencontrée en mathématiques, est élémentaire~: elle est comme la fonction normale factorielle, mais implique de soustraire $2$ à la fois au lieu de $1$, de sorte que, par exemple, $5!! = 5 \cdot 3 \cdot 1$ et $6!! = 6 \cdot 4 \cdot 2$. En général, on a
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)\ldots6\cdot4\cdot2 & n \text{ even}; \\ \\
-n(n-2)\ldots5\cdot3\cdot1 & n \text{ odd}.
+n(n-2)\ldots6\cdot4\cdot2 & n \text{ pair}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 & n \text{ impair}.
 \end{cases}
 \end{equation}
-(By definition, $0!! = 1!! = 1$.) Note that Eq.~\eqref{eq:double_factorial} naturally divides into even and odd cases, making MathWorld's decision to use it only in the odd case still more mysterious.
+(Par définition, $0!! =1!! = 1$.) On note que l'équation~\eqref{eq:double_factorial} se divise naturellement en cas pairs et impairs, ce qui rend encore plus mystérieuse la décision de MathWorld de l'utiliser uniquement dans le cas impair.
 
-To solve this mystery, we'll start by taking a closer look at the formula for odd~$n$ in Eq.~\eqref{eq:volume_mathworld}:
+Pour résoudre ce mystère, on va commencer en regardant de plus près la formule pour $n$~impair dans l'équation~\eqref{eq:volume_mathworld}~:
 \[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
-Upon examining the expression
+En examinant l'expression
 \[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
-we notice that it can be rewritten as
+on remarque que l'on peut la réécrire comme
 \[ 2(2\pi)^{(n-1)/2}, \]
-and here we recognize our old friend~$2\pi$.
+et ici on reconnaît son vieil ami~$2\pi$.
 
-Now let's look at the even case in Eq.~\eqref{eq:volume_mathworld}. We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case. Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using $n!!$ in both cases we could pull it out as a common factor:
+On fait maintenant examiner le cas pair dans l'équation~\eqref{eq:volume_mathworld}. On a noté ci-dessus combien il est étrange d'utiliser la factorielle ordinaire dans le cas pair mais la double factorielle dans le cas impair. En effet, car la double factorielle est déjà définie par morceaux, si l'on unifie les formules en utilisant $n!!$ dans les deux cas, on pourrait le retirer comme un facteur commun~:
 \[
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots & n \text{ even}; \\ \\
- \ldots & n \text{ odd}.
+\ldots & n \text{ pair}; \\ \\
+ \ldots & n \text{ impair}.
  \end{cases}
 \]
-So, is there any connection between the factorial and the double factorial? Yes---when $n$ is even, the two are related by the following identity:
+Alors, y a-t-il un lien entre la factorielle et la double factorielle\,? Oui---lorsque $n$ est pair, les deux sont liés par l'identité suivante~:
 \[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
-(This is easy to verify using \href{https://en.wikipedia.org/wiki/Mathematical_induction}{mathematical induction}.) Substituting this into the volume formula for even $n$ then yields
+(Ceci est facile à vérifier en utilisant le \href{https://fr.wikipedia.org/wiki/Raisonnement_par_récurrence}{raisonnement par récurrence}.) La substitution de ceci dans la formule de volume pour $n$ pair donne alors
 \[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \]
-which bears a striking resemblance to
+ce qui ressemble beaucoup à
 \[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \]
-and again we find a factor of $2\pi$.
+et là encore on trouve un facteur $2\pi$.
 
-Putting these results together, we see that Eq.~\eqref{eq:volume_mathworld} can be rewritten as
+En rassemblant ces résultats, on voit que l'on peut réécrire l'équation~\eqref{eq:volume_mathworld} comme
 \begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & n \text{ even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & n \text{ odd}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} & n \text{ pair}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} & n \text{ impair}
  \end{cases}
 \end{equation}
-and Eq.~\eqref{eq:surface_area_mathworld} can be rewritten as
+et l'équation~\eqref{eq:surface_area_mathworld} comme
 \begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
-\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ pair}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impair}.
 \end{cases}
 \end{equation}
 
-Making the substitution $\tau=2\pi$ in Eq.~\eqref{eq:surface_area_2pi} then yields
+Faire la substitution $\tau=2\pi$ dans l'équation~\eqref{eq:surface_area_2pi} donne alors
 \[
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
-\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ odd}.
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ pair}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impair}.
 \end{cases} \]
-To unify the formulas further, we can use the \emph{floor function} $\lfloor x \rfloor$, which is simply the largest integer less than or equal to $x$ (equivalent to chopping off the fractional part, so that, e.g., $\lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3$). This gives
+Pour unifier davantage les formules, on peut utiliser la \emph{fonction partie entière} $\lfloor x \rfloor$, qui est tout simplement le plus grand entier inférieur ou égal à $x$ (équivalent à couper la partie fractionnaire, de sorte que, par exemple, $\lfloor 3{,}7 \rfloor = \lfloor 3{,}2 \rfloor = 3$). Cela donne
 \[ S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ odd},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ pair}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ impair},
  \end{cases} \]
-which allows us to write the formula as follows:
+ce qui permet d'écrire la formule comme suit~:
 \begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 & n \text{ even}; \\ \\
-2 & n \text{ odd}.
+1 & n \text{ pair}; \\ \\
+2 & n \text{ impair}.
 \end{cases}
 \end{equation}
-Integrating Eq.~\eqref{eq:surface_area_tau} with respect to $r$ then yields
+L'intégration de l'équation~\eqref{eq:surface_area_tau} par rapport à $r$ donne alors
 \begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 & n \text{ even}; \\ \\
-2 & n \text{ odd}.
+1 & n \text{ pair}; \\ \\
+2 & n \text{ impair}.
 \end{cases}
 \end{equation}
 

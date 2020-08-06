@@ -490,141 +490,141 @@ A &amp; = \lim_{n\rightarrow\infty} \frac{1}{2} n\, \sin\frac{\tau}{n} \\
 arbitraire.<span class="intersentencespace"></span> Il n’y a pas de facteur naturel de <span class="inline_math">\( 1/2 \)</span> dans le cas
 de la mesure d’angle.<span class="intersentencespace"></span> En revanche, dans le cas de la superficie, la facteur <span class="inline_math">\( 1/2 \)</span> résulte de l’intégrale d’une fonction linéaire en association avec une forme quadratique simple.<span class="intersentencespace"></span> En fait, le cas de <span class="inline_math">\( \pi \)</span> est encore pire qu’il n’y paraît, comme le montre la section suivante.</p>
 </div></div>
-<div id="sec-volume_of_a_hypersphere" data-tralics-id="uid66" class="subsection" data-number="5.1"><h3><a href="#sec-volume_of_a_hypersphere" class="heading"><span class="number">5.1 </span>Surface area and volume of a hypersphere</a></h3>
-<p>We start our investigations with the generalization of a circle to arbitrary dimensions.<sup id="cha-0_footnote-ref-18" class="footnote"><a href="#cha-0_footnote-18">18</a></sup><span class="intersentencespace"></span> This object, called a <em>hypersphere</em> or an <em><span class="inline_math">\( n \)</span>-sphere</em>, can be defined as follows.<sup id="cha-0_footnote-ref-19" class="footnote"><a href="#cha-0_footnote-19">19</a></sup><span class="intersentencespace"></span> (For convenience, we assume that these spheres are centered on the origin.)<span class="intersentencespace"></span> A <span class="inline_math">\( 0 \)</span>-sphere is the empty set, and we define its “interior” to be a point.<sup id="cha-0_footnote-ref-20" class="footnote"><a href="#cha-0_footnote-20">20</a></sup><span class="intersentencespace"></span> A <span class="inline_math">\( 1 \)</span>-sphere is the set of all points satisfying</p>
 <div id="sec-getting_to_the_bottom_of_pi" data-tralics-id="cid5" class="section" data-number="5"><h2><a href="#sec-getting_to_the_bottom_of_pi" class="heading"><span class="number">5 </span>Aller au fond de pi et tau</a></h2>
 <p>Je continue d’être impressionné par la richesse de ce sujet, et ma compréhension de <span class="inline_math">\( \pi \)</span> et <span class="inline_math">\( \tau \)</span> continue d’évoluer.<span class="intersentencespace"></span> Le jour de demi-tau 2012, je pensais avoir identifié <em>exactement</em> ce qui n’allait pas avec <span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> Mon argument reposait sur une analyse de la superficie et du volume d’une sphère à <span class="inline_math">\( n \)</span> dimensions, qui (comme le montre ci-dessous) montre clairement que <span class="inline_math">\( \pi \)</span> n’a pas de signification géométrique fondamentale.<span class="intersentencespace"></span> Mon analyse était cepandant incomplète—un fait porté à mon attention dans un message remarquable du lecture du <em>Manifeste de tau</em>, Jeff Cornell.<span class="intersentencespace"></span> En conséquence, cette section est une tentative non seulement de discréditer définitivement <span class="inline_math">\( \pi \)</span>, mais aussi d’articuler la vérité sur <span class="inline_math">\( \tau \)</span>, une vérité plus profonde et plus subtile que je ne l’avais imaginé.</p>
 <p><em>Note</em> : Cette section est plus avancée que le reste du manifeste et peut être ignorée sans perte de continuité.<span class="intersentencespace"></span> Si l’on la trouve déroutant, je recommande de passer directement à la conclusion de la <a href="tau_manifesto.html#sec-conclusion" class="hyperref">section <span class="ref">6</span></a>.</p>
+<div id="sec-volume_of_a_hypersphere" data-tralics-id="uid66" class="subsection" data-number="5.1"><h3><a href="#sec-volume_of_a_hypersphere" class="heading"><span class="number">5.1 </span>Superficie et volume d’une hypersphère</a></h3>
+<p>On commence ses investigations par la généralisation d’un cercle à des dimensions arbitraires<span class="thinspace"> </span><sup id="cha-0_footnote-ref-18" class="footnote"><a href="#cha-0_footnote-18">18</a></sup>.<span class="intersentencespace"></span> Cet objet, appelé <em>hypersphère</em> ou <em><span class="inline_math">\( n \)</span>-sphère</em>, peut-être défini comme suit<span class="thinspace"> </span><sup id="cha-0_footnote-ref-19" class="footnote"><a href="#cha-0_footnote-19">19</a></sup>.<span class="intersentencespace"></span> (Par commodité, on suppose que ces sphères sont centrées sur l’origine.)<span class="intersentencespace"></span> Une <span class="inline_math">\( 0 \)</span>-sphère est l’ensemble vide, et l’on définit son «<span class="thinspace"> </span>intérieur<span class="thinspace"> </span>» comme un point<span class="thinspace"> </span><sup id="cha-0_footnote-ref-20" class="footnote"><a href="#cha-0_footnote-20">20</a></sup>.<span class="intersentencespace"></span> Une <span class="inline_math">\( 1 \)</span>-sphère est l’ensemble de tous les points qui satisfont</p>
 <div class="equation">\[ 
 x^2 = r^2,
  \]
-</div><p class="noindent">which consists of the two points <span class="inline_math">\( \pm r \)</span>.<span class="intersentencespace"></span> Its interior, which satisfies</p>
+</div><p class="noindent">qui se compose des deux points <span class="inline_math">\( \pm r \)</span>.<span class="intersentencespace"></span> Son intérieur, qui satisfait</p>
 <div class="equation">\[ 
 x^2 \leq r^2,
  \]
-</div><p class="noindent">is the line segment from <span class="inline_math">\( -r \)</span> to <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> A <span class="inline_math">\( 2 \)</span>-sphere is a circle, which is the set of all points satisfying</p>
+</div><p class="noindent">est le segment de droite de <span class="inline_math">\( -r \)</span> à <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Une <span class="inline_math">\( 2 \)</span>-sphère est un cercle, qui est l’ensemble de tous les points qui satisfont</p>
 <div class="equation">\[ 
 x^2 + y^2 = r^2.
  \]
-</div><p class="noindent">Its interior, which satisfies,</p>
+</div><p class="noindent">Son intérieur, qui satisfait</p>
 <div class="equation">\[ 
 x^2 + y^2 \leq r^2,
  \]
-</div><p class="noindent">is a disk.<span class="intersentencespace"></span> Similarly, a <span class="inline_math">\( 3 \)</span>-sphere satisfies</p>
+</div><p class="noindent">est un disque.<span class="intersentencespace"></span> De même, une <span class="inline_math">\( 3 \)</span>-sphère satisfait</p>
 <div class="equation">\[ 
 x^2 + y^2 + z^2 = r^2,
  \]
-</div><p class="noindent">and its interior is a ball.<span class="intersentencespace"></span> The generalization to arbitrary <span class="inline_math">\( n \)</span>, although difficult to visualize for <span class="inline_math">\( n &gt; 3 \)</span>, is straightforward: an <span class="inline_math">\( n \)</span>-sphere is the set of all points satisfying</p>
+</div><p class="noindent">et son intérieur est une balle.<span class="intersentencespace"></span> La généralisation à <span class="inline_math">\( n \)</span> arbitraire, bien que difficile à visualiser pour <span class="inline_math">\( n &gt; 3 \)</span>, est simple : une <span class="inline_math">\( n \)</span>-sphère est l’ensemble de tous les points qui satisfont</p>
 <div class="equation">\[ 
 \sum_{i=1}^{n} x_i^2 = r^2.
  \]
-</div><p class="noindent">The Pi Manifesto (discussed in <a href="tau_manifesto.html#sec-the_pi_manifesto_a_rebuttal" class="hyperref">Section <span class="ref">4.2</span></a>) includes a formula for the volume of a unit <span class="inline_math">\( n \)</span>-sphere as an argument in favor of <span class="inline_math">\( \pi \)</span>:</p>
+</div><p class="noindent">Le Manifeste de pi (discuté dans la <a href="tau_manifesto.html#sec-the_pi_manifesto_a_rebuttal" class="hyperref">section <span class="ref">4.2</span></a>) inclut une formule pour le volume d’une <span class="inline_math">\( n \)</span>-sphère unité comme argument en faveur de <span class="inline_math">\( \pi \)</span> :</p>
 <div id="eq-unit_n_sphere_pi" data-tralics-id="uid70" data-number="14" class="equation">\begin{equation}
 \label{eq:unit_n_sphere_pi}
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \end{equation}
-</div><p class="noindent">where the Gamma function is given by Eq. <a href="tau_manifesto.html#eq-gamma" class="hyperref">(<span class="ref">11</span>)</a>.<span class="intersentencespace"></span> Eq. <a href="tau_manifesto.html#eq-unit_n_sphere_pi" class="hyperref">(<span class="ref">14</span>)</a> is a special case of the formula for general radius, which is also typically written in terms of <span class="inline_math">\( \pi \)</span>:</p>
+</div><p class="noindent">où la fonction gamma est donnée par l’<a href="tau_manifesto.html#eq-gamma" class="hyperref">équation (<span class="ref">11</span>)</a>.<span class="intersentencespace"></span> L’<a href="tau_manifesto.html#eq-unit_n_sphere_pi" class="hyperref">équation (<span class="ref">14</span>)</a> est un cas particulier de la formule du rayon général, qui est aussi généralement écrite en termes de <span class="inline_math">\( \pi \)</span> :</p>
 <div id="eq-n_sphere_pi" data-tralics-id="uid71" data-number="15" class="equation">\begin{equation}
 \label{eq:n_sphere_pi}
 V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
-</div><p class="noindent">Because <span class="inline_math">\( V_n(r) = \int S_n(r)\,dr \)</span>, we have <span class="inline_math">\( S_n(r) = dV_n(r)/dr \)</span>, which means that the surface area can be written as follows:</p>
+</div><p class="noindent">Parce que <span class="inline_math">\( V_n(r) = \int S_n(r)\,dr \)</span>, on a <span class="inline_math">\( S_n(r) = dV_n(r)/dr \)</span>, ce qui signifie que la superficie peut s’écrire comme suit :</p>
 <div id="eq-n_sphere_pi_r" data-tralics-id="uid72" data-number="16" class="equation">\begin{equation}
 \label{eq:n_sphere_pi_r}
 S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
-</div><p class="noindent">Rather than simply take these formulas at face value, let’s see if we can untangle them to shed more light on the question of <span class="inline_math">\( \pi \)</span> vs.<span class="intersentencespace"></span> <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> We begin our analysis by noting that the apparent simplicity of the above formulas is an illusion: although the Gamma function is notationally simple, in fact it is an integral over a semi-infinite domain, which is not a simple idea at all.<span class="intersentencespace"></span> Fortunately, the Gamma function can be simplified in certain special cases.<span class="intersentencespace"></span> For example, when <span class="inline_math">\( n \)</span> is an integer, it is easy to show (using integration by parts) that</p>
+</div><p class="noindent">Plutôt que de simplement prendre ces formules à leur valeur nominale, on fait voir si l’on peut les démêler pour mieux éclairer la question de <span class="inline_math">\( \pi \)</span> vs <span class="inline_math">\( \tau \)</span>.<span class="intersentencespace"></span> On commence son analyse en notant que l’apparente simplicité des formules ci-dessus est une illusion : bien que la fonction gamma soit simple sur le plan de la notation, en fait elle est une intégrale sur un domaine semi-infini, ce qui n’est pas du tout une idée simple.<span class="intersentencespace"></span> Heureusement, on peut simplifier la fonction gamma dans certains cas particuliers.<span class="intersentencespace"></span> Par exemple, lorsque <span class="inline_math">\( n \)</span> est un entier, il est facile de montrer (en utilisant l’intégration par parties) que</p>
 <div class="equation">\[ 
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
  \]
-</div><p class="noindent">Seen this way, <span class="inline_math">\( \Gamma \)</span> can be interpreted as a generalization of the factorial function to real-valued arguments.<sup id="cha-0_footnote-ref-21" class="footnote"><a href="#cha-0_footnote-21">21</a></sup></p>
-<p>In the <span class="inline_math">\( n \)</span>-dimensional surface area and volume formulas, the argument of <span class="inline_math">\( \Gamma \)</span> is not necessarily an integer, but rather is <span class="inline_math">\( \left(1 + \frac{n}{2}\right) \)</span>, which is an integer when <span class="inline_math">\( n \)</span> is even and is a <em>half</em>-integer when <span class="inline_math">\( n \)</span> is odd.<span class="intersentencespace"></span> Taking this into account gives the following expression, which is taken from a standard reference, <a href="https://mathworld.wolfram.com/Hypersphere.html" target="_blank" rel="noopener">Wolfram MathWorld</a>, and as usual is written in terms of <span class="inline_math">\( \pi \)</span>:</p>
+</div><p class="noindent">Vu de cette façon, on peut interpréter <span class="inline_math">\( \Gamma \)</span> comme une généralisation de la fonction factorielle à des arguments à valeurs réelles<span class="thinspace"> </span><sup id="cha-0_footnote-ref-21" class="footnote"><a href="#cha-0_footnote-21">21</a></sup>.</p>
+<p>Dans les formules de superficie et de volume à <span class="inline_math">\( n \)</span> dimensions, l’argument de <span class="inline_math">\( \Gamma \)</span> n’est pas nécessairement un entier, mais plutôt <span class="inline_math">\( \left(1 + \frac{n}{2}\right) \)</span>, qui est un entier lorsque <span class="inline_math">\( n \)</span> est pair est un demi-entier lorsque <span class="inline_math">\( n \)</span> est impair.<span class="intersentencespace"></span> En tenir compte donne l’expression suivante, qui est tirée d’une référence standard, <a href="https://mathworld.wolfram.com/Hypersphere.html" target="_blank" rel="noopener">Wolfram MathWorld</a>, et comme d’habitude est écrite en termes de <span class="inline_math">\( \pi \)</span> :</p>
 <div id="eq-surface_area_mathworld" data-tralics-id="uid74" data-number="17" class="equation">\begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
-\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} &amp; n \text{ even}; \\ \\
- \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\displaystyle \frac{2\pi^{n/2}\,r^{n-1}}{(\frac{1}{2}n - 1)!} &amp; n \text{ pair}; \\ \\
+ \displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
-</div><p class="noindent">Integrating with respect to <span class="inline_math">\( r \)</span> then gives</p>
+</div><p class="noindent">L’intégration par rapport à <span class="inline_math">\( r \)</span> donne alors</p>
 <div id="eq-volume_mathworld" data-tralics-id="uid75" data-number="18" class="equation">\begin{equation}
 \label{eq:volume_mathworld}
 V_n(r) = \begin{cases}
-\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} &amp; n \text{ even}; \\ \\
-\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}.
+\displaystyle \frac{\pi^{n/2}\,r^n}{(\frac{n}{2})!} &amp; n \text{ pair}; \\ \\
+\displaystyle \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
-</div><p class="noindent">Let’s examine Eq. <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">(<span class="ref">18</span>)</a> in more detail.<span class="intersentencespace"></span> Notice first that MathWorld uses the <em>double factorial function</em> <span class="inline_math">\( n!! \)</span>—but, strangely, it uses it only in the <em>odd</em> case.<span class="intersentencespace"></span> (This is a hint of things to come.)<span class="intersentencespace"></span> The double factorial function, although rarely encountered in mathematics, is elementary: it’s like the normal factorial function, but involves subtracting <span class="inline_math">\( 2 \)</span> at a time instead of <span class="inline_math">\( 1 \)</span>, so that, e.g., <span class="inline_math">\( 5!! = 5 \cdot 3 \cdot 1 \)</span> and <span class="inline_math">\( 6!! = 6 \cdot 4 \cdot 2 \)</span>.<span class="intersentencespace"></span> In general, we have</p>
+</div><p class="noindent">On fait examiner l’<a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">équation (<span class="ref">18</span>)</a> plus en détail.<span class="intersentencespace"></span> On remarque tout d’abord que MathWorld utilise la <em>double factorielle</em> <span class="inline_math">\( n!! \)</span>—mais, étrangement, il ne l’utilise que dans le cas <em>impair</em>.<span class="intersentencespace"></span> (Ceci est un soupçon de choses à venir.)<span class="intersentencespace"></span> La double factorielle, bien que rarement rencontrée en mathématiques, est élémentaire : elle est comme la fonction normale factorielle, mais implique de soustraire <span class="inline_math">\( 2 \)</span> à la fois au lieu de <span class="inline_math">\( 1 \)</span>, de sorte que, par exemple, <span class="inline_math">\( 5!! = 5 \cdot 3 \cdot 1 \)</span> et <span class="inline_math">\( 6!! = 6 \cdot 4 \cdot 2 \)</span>.<span class="intersentencespace"></span> En général, on a</p>
 <div id="eq-double_factorial" data-tralics-id="uid76" data-number="19" class="equation">\begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
-n(n-2)\ldots6\cdot4\cdot2 &amp; n \text{ even}; \\ \\
-n(n-2)\ldots5\cdot3\cdot1 &amp; n \text{ odd}.
+n(n-2)\ldots6\cdot4\cdot2 &amp; n \text{ pair}; \\ \\
+n(n-2)\ldots5\cdot3\cdot1 &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
-</div><p class="noindent">(By definition, <span class="inline_math">\( 0!! = 1!! = 1 \)</span>.)<span class="intersentencespace"></span> Note that Eq. <a href="tau_manifesto.html#eq-double_factorial" class="hyperref">(<span class="ref">19</span>)</a> naturally divides into even and odd cases, making MathWorld’s decision to use it only in the odd case still more mysterious.</p>
-<p>To solve this mystery, we’ll start by taking a closer look at the formula for odd <span class="inline_math">\( n \)</span> in Eq. <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">(<span class="ref">18</span>)</a>:</p>
+</div><p class="noindent">(Par définition, <span class="inline_math">\( 0!! =1!! = 1 \)</span>.)<span class="intersentencespace"></span> On note que l’<a href="tau_manifesto.html#eq-double_factorial" class="hyperref">équation (<span class="ref">19</span>)</a> se divise naturellement en cas pairs et impairs, ce qui rend encore plus mystérieuse la décision de MathWorld de l’utiliser uniquement dans le cas impair.</p>
+<p>Pour résoudre ce mystère, on va commencer en regardant de plus près la formule pour <span class="inline_math">\( n \)</span> impair dans l’<a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">équation (<span class="ref">18</span>)</a> :</p>
 <div class="equation">\[  \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!}  \]
-</div><p class="noindent">Upon examining the expression</p>
+</div><p class="noindent">En examinant l’expression</p>
 <div class="equation">\[  2^{(n+1)/2}\pi^{(n-1)/2},  \]
-</div><p class="noindent">we notice that it can be rewritten as</p>
+</div><p class="noindent">on remarque que l’on peut la réécrire comme</p>
 <div class="equation">\[  2(2\pi)^{(n-1)/2},  \]
-</div><p class="noindent">and here we recognize our old friend <span class="inline_math">\( 2\pi \)</span>.</p>
-<p>Now let’s look at the even case in Eq. <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">(<span class="ref">18</span>)</a>.<span class="intersentencespace"></span> We noted above how strange it is to use the ordinary factorial in the even case but the double factorial in the odd case.<span class="intersentencespace"></span> Indeed, because the double factorial is already defined piecewise, if we unified the formulas by using <span class="inline_math">\( n!! \)</span> in both cases we could pull it out as a common factor:</p>
+</div><p class="noindent">et ici on reconnaît son vieil ami <span class="inline_math">\( 2\pi \)</span>.</p>
+<p>On fait maintenant examiner le cas pair dans l’<a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">équation (<span class="ref">18</span>)</a>.<span class="intersentencespace"></span> On a noté ci-dessus combien il est étrange d’utiliser la factorielle ordinaire dans le cas pair mais la double factorielle dans le cas impair.<span class="intersentencespace"></span> En effet, car la double factorielle est déjà définie par morceaux, si l’on unifie les formules en utilisant <span class="inline_math">\( n!! \)</span> dans les deux cas, on pourrait le retirer comme un facteur commun :</p>
 <div class="equation">\[ 
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
-\ldots &amp; n \text{ even}; \\ \\
- \ldots &amp; n \text{ odd}.
+\ldots &amp; n \text{ pair}; \\ \\
+ \ldots &amp; n \text{ impair}.
  \end{cases}
  \]
-</div><p class="noindent">So, is there any connection between the factorial and the double factorial?<span class="intersentencespace"></span> Yes—when <span class="inline_math">\( n \)</span> is even, the two are related by the following identity:</p>
+</div><p class="noindent">Alors, y a-t-il un lien entre la factorielle et la double factorielle<span class="thinspace"> </span>?<span class="intersentencespace"></span> Oui—lorsque <span class="inline_math">\( n \)</span> est pair, les deux sont liés par l’identité suivante :</p>
 <div class="equation">\[  \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}.  \]
-</div><p class="noindent">(This is easy to verify using <a href="https://en.wikipedia.org/wiki/Mathematical_induction" target="_blank" rel="noopener">mathematical induction</a>.)<span class="intersentencespace"></span> Substituting this into the volume formula for even <span class="inline_math">\( n \)</span> then yields</p>
+</div><p class="noindent">(Ceci est facile à vérifier en utilisant le <a href="https://fr.wikipedia.org/wiki/Raisonnement_par_récurrence" target="_blank" rel="noopener">raisonnement par récurrence</a>.)<span class="intersentencespace"></span> La substitution de ceci dans la formule de volume pour <span class="inline_math">\( n \)</span> pair donne alors</p>
 <div class="equation">\[  \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!},  \]
-</div><p class="noindent">which bears a striking resemblance to</p>
+</div><p class="noindent">ce qui ressemble beaucoup à</p>
 <div class="equation">\[  \frac{(2\pi)^{n/2}\,r^n}{n!!},  \]
-</div><p class="noindent">and again we find a factor of <span class="inline_math">\( 2\pi \)</span>.</p>
-<p>Putting these results together, we see that Eq. <a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">(<span class="ref">18</span>)</a> can be rewritten as</p>
+</div><p class="noindent">et là encore on trouve un facteur <span class="inline_math">\( 2\pi \)</span>.</p>
+<p>En rassemblant ces résultats, on voit que l’on peut réécrire l’<a href="tau_manifesto.html#eq-volume_mathworld" class="hyperref">équation (<span class="ref">18</span>)</a> comme</p>
 <div id="eq-volume_2pi" data-tralics-id="uid77" data-number="20" class="equation">\begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
- \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} &amp; n \text{ even}; \\ \\
- \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ odd}
+ \displaystyle \frac{(2\pi)^{n/2}\,r^n}{n!!} &amp; n \text{ pair}; \\ \\
+ \displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^n}{n!!} &amp; n \text{ impair}
  \end{cases}
 \end{equation}
-</div><p class="noindent">and Eq. <a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">(<span class="ref">17</span>)</a> can be rewritten as</p>
+</div><p class="noindent">et l’<a href="tau_manifesto.html#eq-surface_area_mathworld" class="hyperref">équation (<span class="ref">17</span>)</a> comme</p>
 <div id="eq-surface_area_2pi" data-tralics-id="uid78" data-number="21" class="equation">\begin{equation}
 \label{eq:surface_area_2pi}
 S_n(r) = \begin{cases}
-\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
-\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\displaystyle \frac{(2\pi)^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ pair}; \\ \\
+\displaystyle \frac{2(2\pi)^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
-</div><p class="noindent">Making the substitution <span class="inline_math">\( \tau=2\pi \)</span> in Eq. <a href="tau_manifesto.html#eq-surface_area_2pi" class="hyperref">(<span class="ref">21</span>)</a> then yields</p>
+</div><p class="noindent">Faire la substitution <span class="inline_math">\( \tau=2\pi \)</span> dans l’<a href="tau_manifesto.html#eq-surface_area_2pi" class="hyperref">équation (<span class="ref">21</span>)</a> donne alors</p>
 <div class="equation">\[ 
 S_n(r) = \begin{cases}
-\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
-\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd}.
+\displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ pair}; \\ \\
+\displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} &amp; n \text{ impair}.
 \end{cases}  \]
-</div><p class="noindent">To unify the formulas further, we can use the <em>floor function</em> <span class="inline_math">\( \lfloor x \rfloor \)</span>, which is simply the largest integer less than or equal to <span class="inline_math">\( x \)</span> (equivalent to chopping off the fractional part, so that, e.g., <span class="inline_math">\( \lfloor 3.7 \rfloor = \lfloor 3.2 \rfloor = 3 \)</span>).<span class="intersentencespace"></span> This gives</p>
+</div><p class="noindent">Pour unifier davantage les formules, on peut utiliser la <em>fonction partie entière</em> <span class="inline_math">\( \lfloor x \rfloor \)</span>, qui est tout simplement le plus grand entier inférieur ou égal à <span class="inline_math">\( x \)</span> (équivalent à couper la partie fractionnaire, de sorte que, par exemple, <span class="inline_math">\( \lfloor 3{,}7 \rfloor = \lfloor 3{,}2 \rfloor = 3 \)</span>).<span class="intersentencespace"></span> Cela donne</p>
 <div class="equation">\[  S_n(r) = \begin{cases}
- \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ even}; \\ \\
- \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ odd},
+ \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ pair}; \\ \\
+ \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} &amp; n \text{ impair},
  \end{cases}  \]
-</div><p class="noindent">which allows us to write the formula as follows:</p>
+</div><p class="noindent">ce qui permet d’écrire la formule comme suit :</p>
 <div id="eq-surface_area_tau" data-tralics-id="uid79" data-number="22" class="equation">\begin{equation}
 \label{eq:surface_area_tau}
 S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\times \begin{cases}
-1 &amp; n \text{ even}; \\ \\
-2 &amp; n \text{ odd}.
+1 &amp; n \text{ pair}; \\ \\
+2 &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
-</div><p class="noindent">Integrating Eq. <a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">(<span class="ref">22</span>)</a> with respect to <span class="inline_math">\( r \)</span> then yields</p>
+</div><p class="noindent">L’intégration de l’<a href="tau_manifesto.html#eq-surface_area_tau" class="hyperref">équation (<span class="ref">22</span>)</a> par rapport à <span class="inline_math">\( r \)</span> donne alors</p>
 <div id="eq-volume_tau" data-tralics-id="uid80" data-number="23" class="equation">\begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
-1 &amp; n \text{ even}; \\ \\
-2 &amp; n \text{ odd}.
+1 &amp; n \text{ pair}; \\ \\
+2 &amp; n \text{ impair}.
 \end{cases}
 \end{equation}
 </div>
@@ -865,10 +865,10 @@ V_n(R) &amp; = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr
     <div id="cha-0_footnote-15" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-15">15.</a> La seule exception possible à cela est le <em>nombre d’or</em>, qui est souvent désigné par <span class="inline_math">\( \tau \)</span> en Europe.<span class="intersentencespace"></span> Mais non seulement existe-t-il une alternative commune à cette notation, à savoir la lettre grecque <span class="inline_math">\( \varphi \)</span>, mais cette utilisation montre qu’il existe un précédent pour utiliser <span class="inline_math">\( \tau \)</span> pour désigner une constante mathématique fondamentale.</div>
     <div id="cha-0_footnote-16" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-16">16.</a> Cette alternative pour le moment d’une force est déjà utilisée<span class="thinspace"> </span>; voir, par exemple, <em>Introduction to Electrodynamics</em> (<em>Introduction à l’électrodynamique</em>) de David Griffiths, page 162.</div>
     <div id="cha-0_footnote-17" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-17">17.</a> Voir, par exemple, <em>An Introduction to Quantum Field Theory</em> (<em>Une Introduction à la théorie quantique des champs</em>) par Peskin et Schroeder, où <span class="inline_math">\( \pi \)</span> est utilisé pour désigner à la fois la constante du cercle et une «<span class="thinspace"> </span>quantité conjuguée de mouvement<span class="thinspace"> </span>» sur la même page (page 282).</div>
-    <div id="cha-0_footnote-18" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-18">18.</a> This discussion is based on an excellent comment by John Kodegadulo at spikedmath.com.</div>
-    <div id="cha-0_footnote-19" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-19">19.</a> Geometers and topologists use <a href="https://mathworld.wolfram.com/Hypersphere.html" target="_blank" rel="noopener">incompatible definitions of hyperspheres</a>; this discussion uses the geometers’ definitions.</div>
-    <div id="cha-0_footnote-20" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-20">20.</a> This makes sense, because a point has no boundary, i.e., the boundary of a point is the empty set.</div>
-    <div id="cha-0_footnote-21" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-21">21.</a> Indeed, the generalization to complex-valued arguments is straightforward: just replace real <span class="inline_math">\( x \)</span> with complex <span class="inline_math">\( z \)</span> in Eq. <a href="tau_manifesto.html#eq-gamma" class="hyperref">(<span class="ref">11</span>)</a>.</div>
+    <div id="cha-0_footnote-18" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-18">18.</a> Cette discussion est basée sur un excellent commentaire de John Kodegadulo sur <a href="http://spikedmath.com" target="_blank" rel="noopener">http://spikedmath.com</a>.</div>
+    <div id="cha-0_footnote-19" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-19">19.</a> Les géomètres et les topologues utilisent des définitions incompatibles d’hypersphères<span class="thinspace"> </span>; cette discussion utilise les définitions des géomètres.</div>
+    <div id="cha-0_footnote-20" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-20">20.</a> Cela a du sens, car un point n’a pas de frontière, c’est-à-dire que la frontière d’un point est l’ensemble vide.</div>
+    <div id="cha-0_footnote-21" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-21">21.</a> En effet, la généralisation aux arguments à valeurs complexes est simple : il suffit de remplacer le <span class="inline_math">\( x \)</span> réel par le <span class="inline_math">\( z \)</span> complexe dans l’<a href="tau_manifesto.html#eq-gamma" class="hyperref">équation (<span class="ref">11</span>)</a>.</div>
     <div id="cha-0_footnote-22" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-22">22.</a> This change of notation and general analysis was suggested by Jeff Cornell.</div>
     <div id="cha-0_footnote-23" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-23">23.</a> The article “<a href="http://www2.math.uconn.edu/~mariano/research/MathClubsp14%20.pdf" target="_blank" rel="noopener">The volume of the unit ball in <em>n</em> dimensions</a>” by Phanuel A. Mariano contains an alternate derivation of these important recurrences.</div>
     <div id="cha-0_footnote-24" class="footnote"><a class="footnote-link" href="#cha-0_footnote-ref-24">24.</a> <a href="http://sites.google.com/site/taubeforeitwascool/" target="_blank" rel="noopener">Tau Before It Was Cool</a> actually writes the recurrence in terms of <span class="inline_math">\( 2\pi \)</span>; the version shown in <a href="tau_manifesto.html#fig-Nspheres" class="hyperref">Figure <span class="ref">16</span></a> was created for me by special request.<span class="intersentencespace"></span> As always, I am most grateful to Joseph Lindenberg for his continuing generosity and support.</div>
