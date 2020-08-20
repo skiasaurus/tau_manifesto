@@ -1059,14 +1059,37 @@ comme le montre la section suivante.
 \section{Aller au fond de pi et tau} % (fold)
 \label{sec:getting_to_the_bottom_of_pi}
 
-Je continue d'être impressionné par la richesse de ce sujet, et ma compréhension de $\pi$ et $\tau$ continue d'évoluer. Le jour de demi-tau 2012, je pensais avoir identifié \emph{exactement} ce qui n'allait pas avec $\pi$. Mon argument reposait sur une analyse de la superficie et du volume d'une sphère à $n$ dimensions, qui (comme le montre ci-dessous) montre clairement que $\pi$ n'a pas de signification géométrique fondamentale. Mon analyse était cepandant incomplète---un fait porté à mon attention dans un message remarquable du lecture du \emph{Manifeste de tau}, Jeff Cornell. En conséquence, cette section est une tentative non seulement de discréditer définitivement $\pi$, mais aussi d'articuler la vérité sur $\tau$, une vérité plus profonde et plus subtile que je ne l'avais imaginé.
+Je continue d'être impressionné par la richesse de ce sujet, et ma compréhension
+de $\pi$ et $\tau$ continue d'évoluer. Le jour de demi-tau 2012, je pensais
+avoir identifié \emph{exactement} ce qui n'allait pas avec $\pi$. Mon argument
+reposait sur une analyse de la superficie et du volume d'une sphère à $n$
+dimensions, qui (comme le montre ci-dessous) montre clairement que $\pi$ n'a pas
+de signification géométrique fondamentale. Mon analyse était cepandant
+incomplète---un fait porté à mon attention dans un message remarquable du
+lecture du \emph{Manifeste de tau}, Jeff Cornell. En conséquence, cette section
+est une tentative non seulement de discréditer définitivement $\pi$, mais aussi
+d'articuler la vérité sur $\tau$, une vérité plus profonde et plus subtile que
+je ne l'avais imaginé.
 
-\emph{Note}~: Cette section est plus avancée que le reste du manifeste et peut être ignorée sans perte de continuité. Si l'on la trouve déroutante, je recommande de passer directement à la conclusion de la section~\ref{sec:conclusion}.
+\emph{Note}~: Cette section est plus avancée que le reste du manifeste et peut
+être ignorée sans perte de continuité. Si l'on la trouve déroutante, je
+recommande de passer directement à la conclusion de la
+section~\ref{sec:conclusion}.
 
   \subsection{Superficie et volume d'une hypersphère} % (fold)
   \label{sec:volume_of_a_hypersphere}
 
-On commence ses investigations par la généralisation d'un cercle à des dimensions arbitraires\,\footnote{Cette discussion est basée sur un excellent commentaire de John Kodegadulo sur \url{http://spikedmath.com}.}. Cet objet, appelé \emph{hypersphère} ou \emph{$n$-sphère}, peut-être défini comme suit\,\footnote{Les géomètres et les topologues utilisent des définitions incompatibles d'hypersphères\,; cette discussion utilise les définitions des géomètres.}. (Par commodité, on suppose que ces sphères sont centrées sur l'origine.) Une $0$-sphère est l'ensemble vide, et l'on définit son «\,intérieur\,» comme un point\,\footnote{Cela a du sens, car un point n'a pas de frontière, c'est-à-dire que la frontière d'un point est l'ensemble vide.}. Une $1$-sphère est l'ensemble de tous les points qui satisfont
+On commence ses investigations par la généralisation d'un cercle à des
+dimensions arbitraires\,\footnote{Cette discussion est basée sur un excellent
+commentaire de John Kodegadulo sur \url{http://spikedmath.com}.}. Cet objet,
+appelé \emph{hypersphère} ou \emph{$n$-sphère}, peut-être défini comme
+suit\,\footnote{Les géomètres et les topologues utilisent des définitions
+incompatibles d'hypersphères\,; cette discussion utilise les définitions des
+géomètres.}. (Par commodité, on suppose que ces sphères sont centrées sur
+l'origine.) Une $0$-sphère est l'ensemble vide, et l'on définit son
+«\,intérieur\,» comme un point\,\footnote{Cela a du sens, car un point n'a pas
+de frontière, c'est-à-dire que la frontière d'un point est l'ensemble vide.}.
+Une $1$-sphère est l'ensemble de tous les points qui satisfont
 \[
 x^2 = r^2,
 \]
@@ -1074,7 +1097,8 @@ qui se compose des deux points $\pm r$. Son intérieur, qui satisfait
 \[
 x^2 \leq r^2,
 \]
-est le segment de droite de $-r$ à $r$. Une $2$-sphère est un cercle, qui est l'ensemble de tous les points qui satisfont
+est le segment de droite de $-r$ à $r$. Une $2$-sphère est un cercle, qui est
+l'ensemble de tous les points qui satisfont
 \[
 x^2 + y^2 = r^2.
 \]
@@ -1086,34 +1110,58 @@ est un disque. De même, une $3$-sphère satisfait
 \[
 x^2 + y^2 + z^2 = r^2,
 \]
-et son intérieur est une balle. La généralisation à $n$ arbitraire, bien que difficile à visualiser pour $n > 3$, est simple~: une $n$-sphère est l'ensemble de tous les points qui satisfont
+et son intérieur est une balle. La généralisation à $n$ arbitraire, bien que
+difficile à visualiser pour $n > 3$, est simple~: une $n$-sphère est l'ensemble
+de tous les points qui satisfont
 \[
 \sum_{i=1}^{n} x_i^2 = r^2.
 \]
 
-Le Manifeste de pi (discuté dans la section~\ref{sec:the_pi_manifesto_a_rebuttal}) inclut une formule pour le volume d'une $n$-sphère unité comme argument en faveur de $\pi$~:
+Le Manifeste de pi (discuté dans la
+section~\ref{sec:the_pi_manifesto_a_rebuttal}) inclut une formule pour le volume
+d'une $n$-sphère unité comme argument en faveur de $\pi$~:
 \begin{equation}
 \label{eq:unit_n_sphere_pi}
 \frac{\sqrt{\pi}^{n} }{\Gamma(1 + \frac{n}{2})},
 \end{equation}
-où la fonction gamma est donnée par l'équation~\eqref{eq:gamma}. L'équation~\eqref{eq:unit_n_sphere_pi} est un cas particulier de la formule du rayon général, qui est aussi généralement écrite en termes de $\pi$~:
+où la fonction gamma est donnée par l'équation~\eqref{eq:gamma}.
+L'équation~\eqref{eq:unit_n_sphere_pi} est un cas particulier de la formule du
+rayon général, qui est aussi généralement écrite en termes de $\pi$~:
 \begin{equation}
 \label{eq:n_sphere_pi}
 V_n(r) = \frac{\pi^{n/2} r^n}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
-Parce que $V_n(r) = \int S_n(r)\,dr$, on a $S_n(r) = dV_n(r)/dr$, ce qui signifie que la superficie peut s'écrire comme suit~:
+Parce que $V_n(r) = \int S_n(r)\,dr$, on a $S_n(r) = dV_n(r)/dr$, ce qui
+signifie que la superficie peut s'écrire comme suit~:
 \begin{equation}
 \label{eq:n_sphere_pi_r}
 S_n(r) = \frac{n \pi^{n/2} r^{n-1}}{\Gamma(1 + \frac{n}{2})}.
 \end{equation}
 
-Plutôt que de simplement prendre ces formules à leur valeur nominale, on fait voir si l'on peut les démêler pour mieux éclairer la question de $\pi$ vs $\tau$. On commence son analyse en notant que l'apparente simplicité des formules ci-dessus est une illusion~: bien que la fonction gamma soit simple sur le plan de la notation, en fait elle est une intégrale sur un domaine semi-infini, ce qui n'est pas du tout une idée simple. Heureusement, on peut simplifier la fonction gamma dans certains cas particuliers. Par exemple, lorsque $n$ est un entier, il est facile de montrer (en utilisant l'intégration par parties) que
+Plutôt que de simplement prendre ces formules à leur valeur nominale, on fait
+voir si l'on peut les démêler pour mieux éclairer la question de $\pi$ vs
+$\tau$. On commence son analyse en notant que l'apparente simplicité des
+formules ci-dessus est une illusion~: bien que la fonction gamma soit simple sur
+le plan de la notation, en fait elle est une intégrale sur un domaine
+semi-infini, ce qui n'est pas du tout une idée simple. Heureusement, on peut
+simplifier la fonction gamma dans certains cas particuliers. Par exemple,
+lorsque $n$ est un entier, il est facile de montrer (en utilisant l'intégration
+par parties) que
 \[
 \Gamma(n) = (n-1)(n-2)\ldots 2\cdot 1 = (n-1)!
 \]
-Vu de cette façon, on peut interpréter $\Gamma$ comme une généralisation de la fonction factorielle à des arguments à valeurs réelles\,\footnote{En effet, la généralisation aux arguments à valeurs complexes est simple~: il suffit de remplacer le $x$ réel par le $z$ complexe dans l'équation~\eqref{eq:gamma}.}.
+Vu de cette façon, on peut interpréter $\Gamma$ comme une généralisation de la
+fonction factorielle à des arguments à valeurs réelles\,\footnote{En effet, la
+généralisation aux arguments à valeurs complexes est simple~: il suffit de
+remplacer le $x$ réel par le $z$ complexe dans l'équation~\eqref{eq:gamma}.}.
 
-Dans les formules de superficie et de volume à $n$ dimensions, l'argument de $\Gamma$ n'est pas nécessairement un entier, mais plutôt $\left(1 + \frac{n}{2}\right)$, qui est un entier lorsque $n$ est pair est un demi-entier lorsque $n$ est impair. En tenir compte donne l'expression suivante, qui est tirée d'une référence standard, \href{https://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, et comme d'habitude est écrite en termes de~$\pi$~:
+Dans les formules de superficie et de volume à $n$ dimensions, l'argument de
+$\Gamma$ n'est pas nécessairement un entier, mais plutôt $\left(1 +
+\frac{n}{2}\right)$, qui est un entier lorsque $n$ est pair est un demi-entier
+lorsque $n$ est impair. En tenir compte donne l'expression suivante, qui est
+tirée d'une référence standard,
+\href{https://mathworld.wolfram.com/Hypersphere.html}{Wolfram MathWorld}, et
+comme d'habitude est écrite en termes de~$\pi$~:
 \begin{equation}
 \label{eq:surface_area_mathworld}
 S_n(r) = \begin{cases}
@@ -1131,7 +1179,14 @@ V_n(r) = \begin{cases}
 \end{cases}
 \end{equation}
 
-On fait examiner l'équation~\eqref{eq:volume_mathworld} plus en détail. On remarque tout d'abord que MathWorld utilise la \emph{double factorielle}~$n!!$---mais, étrangement, il ne l'utilise que dans le cas \emph{impair}. (Ceci est un soupçon de choses à venir.) La double factorielle, bien que rarement rencontrée en mathématiques, est élémentaire~: elle est comme la fonction normale factorielle, mais implique de soustraire $2$ à la fois au lieu de $1$, de sorte que, par exemple, $5!! = 5 \cdot 3 \cdot 1$ et $6!! = 6 \cdot 4 \cdot 2$. En général, on a
+On fait examiner l'équation~\eqref{eq:volume_mathworld} plus en détail. On
+remarque tout d'abord que MathWorld utilise la
+\emph{double factorielle}~$n!!$---mais, étrangement, il ne l'utilise que dans le
+cas \emph{impair}. (Ceci est un soupçon de choses à venir.) La double
+factorielle, bien que rarement rencontrée en mathématiques, est élémentaire~:
+elle est comme la fonction normale factorielle, mais implique de soustraire $2$
+à la fois au lieu de $1$, de sorte que, par exemple, $5!! = 5 \cdot 3 \cdot 1$
+et $6!! = 6 \cdot 4 \cdot 2$. En général, on a
 \begin{equation}
 \label{eq:double_factorial}
 n!! = \begin{cases}
@@ -1139,9 +1194,13 @@ n(n-2)\ldots6\cdot4\cdot2 & n \text{ pair}; \\ \\
 n(n-2)\ldots5\cdot3\cdot1 & n \text{ impair}.
 \end{cases}
 \end{equation}
-(Par définition, $0!! =1!! = 1$.) On note que l'équation~\eqref{eq:double_factorial} se divise naturellement en cas pairs et impairs, ce qui rend encore plus mystérieuse la décision de MathWorld de l'utiliser uniquement dans le cas impair.
+(Par définition, $0!! =1!! = 1$.) On note que
+l'équation~\eqref{eq:double_factorial} se divise naturellement en cas pairs et
+impairs, ce qui rend encore plus mystérieuse la décision de MathWorld de
+l'utiliser uniquement dans le cas impair.
 
-Pour résoudre ce mystère, on va commencer en regardant de plus près la formule pour $n$~impair dans l'équation~\eqref{eq:volume_mathworld}~:
+Pour résoudre ce mystère, on va commencer en regardant de plus près la formule
+pour $n$~impair dans l'équation~\eqref{eq:volume_mathworld}~:
 \[ \frac{2^{(n+1)/2}\pi^{(n-1)/2}\,r^n}{n!!} \]
 En examinant l'expression
 \[ 2^{(n+1)/2}\pi^{(n-1)/2}, \]
@@ -1149,22 +1208,32 @@ on remarque que l'on peut la réécrire comme
 \[ 2(2\pi)^{(n-1)/2}, \]
 et ici on reconnaît son vieil ami~$2\pi$.
 
-On fait maintenant examiner le cas pair dans l'équation~\eqref{eq:volume_mathworld}. On a noté ci-dessus combien il est étrange d'utiliser la factorielle ordinaire dans le cas pair mais la double factorielle dans le cas impair. En effet, car la double factorielle est déjà définie par morceaux, si l'on unifie les formules en utilisant $n!!$ dans les deux cas, on pourrait le retirer comme un facteur commun~:
+On fait maintenant examiner le cas pair dans
+l'équation~\eqref{eq:volume_mathworld}. On a noté ci-dessus combien il est
+étrange d'utiliser la factorielle ordinaire dans le cas pair mais la double
+factorielle dans le cas impair. En effet, car la double factorielle est déjà
+définie par morceaux, si l'on unifie les formules en utilisant $n!!$ dans les
+deux cas, on pourrait le retirer comme un facteur commun~:
 \[
 V_n(r) = \frac{1}{n!!}\times \begin{cases}
 \ldots & n \text{ pair}; \\ \\
  \ldots & n \text{ impair}.
  \end{cases}
 \]
-Alors, y a-t-il un lien entre la factorielle et la double factorielle\,? Oui---lorsque $n$ est pair, les deux sont liés par l'identité suivante~:
+Alors, y a-t-il un lien entre la factorielle et la double factorielle\,?
+Oui---lorsque $n$ est pair, les deux sont liés par l'identité suivante~:
 \[ \left(\frac{n}{2}\right)! = \frac{n!!}{2^{n/2}}. \]
-(Ceci est facile à vérifier en utilisant le \href{https://fr.wikipedia.org/wiki/Raisonnement_par_récurrence}{raisonnement par récurrence}.) La substitution de ceci dans la formule de volume pour $n$ pair donne alors
+(Ceci est facile à vérifier en utilisant le
+\href{https://fr.wikipedia.org/wiki/Raisonnement_par_récurrence}{raisonnement
+par récurrence}.) La substitution de ceci dans la formule de volume pour $n$
+pair donne alors
 \[ \frac{2^{n/2}\pi^{n/2}\,r^n}{n!!}, \]
 ce qui ressemble beaucoup à
 \[ \frac{(2\pi)^{n/2}\,r^n}{n!!}, \]
 et là encore on trouve un facteur $2\pi$.
 
-En rassemblant ces résultats, on voit que l'on peut réécrire l'équation~\eqref{eq:volume_mathworld} comme
+En rassemblant ces résultats, on voit que l'on peut réécrire
+l'équation~\eqref{eq:volume_mathworld} comme
 \begin{equation}
 \label{eq:volume_2pi}
 V_n(r) = \begin{cases}
@@ -1181,13 +1250,18 @@ S_n(r) = \begin{cases}
 \end{cases}
 \end{equation}
 
-Faire la substitution $\tau=2\pi$ dans l'équation~\eqref{eq:surface_area_2pi} donne alors
+Faire la substitution $\tau=2\pi$ dans l'équation~\eqref{eq:surface_area_2pi}
+donne alors
 \[
 S_n(r) = \begin{cases}
 \displaystyle \frac{\tau^{n/2}\,r^{n-1}}{(n-2)!!} & n \text{ pair}; \\ \\
 \displaystyle \frac{2\tau^{(n-1)/2}\,r^{n-1}}{(n-2)!!} & n \text{ impair}.
 \end{cases} \]
-Pour unifier davantage les formules, on peut utiliser la \emph{fonction partie entière} $\lfloor x \rfloor$, qui est tout simplement le plus grand entier inférieur ou égal à $x$ (équivalent à couper la partie fractionnaire, de sorte que, par exemple, $\lfloor 3{,}7 \rfloor = \lfloor 3{,}2 \rfloor = 3$). Cela donne
+Pour unifier davantage les formules, on peut utiliser la \emph{fonction partie
+entière} $\lfloor x \rfloor$, qui est tout simplement le plus grand entier
+inférieur ou égal à $x$ (équivalent à couper la partie fractionnaire, de sorte
+que, par exemple, $\lfloor 3{,}7 \rfloor = \lfloor 3{,}2 \rfloor = 3$). Cela
+donne
 \[ S_n(r) = \begin{cases}
  \displaystyle \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ pair}; \\ \\
  \displaystyle \frac{2\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!} & n \text{ impair},
@@ -1200,7 +1274,8 @@ S_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}\
 2 & n \text{ impair}.
 \end{cases}
 \end{equation}
-L'intégration de l'équation~\eqref{eq:surface_area_tau} par rapport à $r$ donne alors
+L'intégration de l'équation~\eqref{eq:surface_area_tau} par rapport à $r$ donne
+alors
 \begin{equation}
 \label{eq:volume_tau}
 V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \begin{cases}
@@ -1212,19 +1287,33 @@ V_n(r) = \frac{\tau^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}\times \b
 \subsubsection{Lambda} % (fold)
 \label{sec:lambda}
 
-Les formules de l'équation~\eqref{eq:surface_area_tau} et l'équation~\eqref{eq:volume_tau} représentent une amélioration majeure par rapport aux formulations originales (l'équation~\eqref{eq:surface_area_mathworld} et l'équation~\eqref{eq:volume_mathworld}) en termes de $\pi$. Mais en fait une simplification supplémentaire est possible, en utilisant la mesure d'un angle droit\,\footnote{Ce changement de notation et d'analyse générale était suggéré par Jeff Cornell.}~:
+Les formules de l'équation~\eqref{eq:surface_area_tau} et
+l'équation~\eqref{eq:volume_tau} représentent une amélioration majeure par
+rapport aux formulations originales
+(l'équation~\eqref{eq:surface_area_mathworld} et
+l'équation~\eqref{eq:volume_mathworld}) en termes de $\pi$. Mais en fait une
+simplification supplémentaire est possible, en utilisant la mesure d'un angle
+droit\,\footnote{Ce changement de notation et d'analyse générale était suggéré
+par Jeff Cornell.}~:
 \begin{equation}
 \label{eq:lambda}
 \lambda = \frac{\tau}{4}.
 \end{equation}
-Comme on le verra dans la section~\ref{sec:three_families_of_constants}, on peut plus naturellement réécrire l'équation~\eqref{eq:lambda} en termes de symétries du cercle~:
+Comme on le verra dans la section~\ref{sec:three_families_of_constants}, on peut
+plus naturellement réécrire l'équation~\eqref{eq:lambda} en termes de symétries
+du cercle~:
 \begin{equation}
 \label{eq:tau_lambda}
 \tau = 2^2 \lambda,
 \end{equation}
-où le facteur $2^2$ provient des $2^2$ arcs circulaires congruents (un dans chaque quadrant) dans espace bidimensionnel.
+où le facteur $2^2$ provient des $2^2$ arcs circulaires congruents (un dans
+chaque quadrant) dans espace bidimensionnel.
 
-Le plus grand avantage de $\lambda$ est qu'il unifie complètement les cas pair et impair dans l'équation~\eqref{eq:surface_area_tau} et l'équation~\eqref{eq:volume_tau}, dont chacun a un facteur $\tau^{\left\lfloor \frac{n}{2} \right\rfloor}$. Faire la substitution dans l'équation~\eqref{eq:tau_lambda} donne alors
+Le plus grand avantage de $\lambda$ est qu'il unifie complètement les cas pair
+et impair dans l'équation~\eqref{eq:surface_area_tau} et
+l'équation~\eqref{eq:volume_tau}, dont chacun a un facteur $\tau^{\left\lfloor
+\frac{n}{2} \right\rfloor}$. Faire la substitution dans
+l'équation~\eqref{eq:tau_lambda} donne alors
 \[
 \begin{split}
 \tau^{\left\lfloor \frac{n}{2} \right\rfloor} = (2^2\lambda)^{\left\lfloor \frac{n}{2} \right\rfloor} & = 2^{2\left\lfloor \frac{n}{2} \right\rfloor} \lambda^{\left\lfloor \frac{n}{2} \right\rfloor} \\
@@ -1259,7 +1348,11 @@ comme
 \\ & = 2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor},
 \end{split}
 \end{equation}
-ce qui élimine la dépendance explicite de la \href{https://fr.wikipedia.org/wiki/Parité_(arithmétique)}{parité}. L'application de \linebreak l'équation~\eqref{eq:prefactor} à l'équation~\eqref{eq:surface_area_tau} et à l'équation~\eqref{eq:volume_tau} donne alors
+ce qui élimine la dépendance explicite de la
+\href{https://fr.wikipedia.org/wiki/Parité_(arithmétique)}{parité}.
+L'application de \linebreak l'équation~\eqref{eq:prefactor} à
+l'équation~\eqref{eq:surface_area_tau} et à l'équation~\eqref{eq:volume_tau}
+donne alors
 \begin{equation}
 \label{eq:surface_area_lambda}
 S_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^{n-1}}{(n-2)!!}
@@ -1270,20 +1363,55 @@ et
 V_n(r) = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}\,r^n}{n!!}.
 \end{equation}
 
-La simplification de l'équation~\eqref{eq:surface_area_lambda} et de l'équation~\eqref{eq:volume_lambda} semble se faire au prix d'un facteur $2^n$, mais même cela a une signification géométrique claire~: une sphère en $n$ dimensions se divise naturellement en $2^n$ morceaux congruents, correspondant aux $2^n$ familles de solutions à $\sum_{i=1}^{n} x_i^2 = r^2$ (une pour chaque choix de $\pm x_i$). En deux dimensions, ce sont les arcs circulaires dans chacun des quatre quadrants\,; en trois dimensions, ce sont les secteurs de la sphère dans chaque octant\,; et ainsi de suite dans des dimensions supérieures. En d'autres termes, on peut exploiter la symétrie de la sphère en calculant la superficie ou le volume d'\emph{un} morceau---généralement la \emph{partie principale} où $x_i > 0$---puis trouver la valeur complète en multipliant par~$2^n$.
+La simplification de l'équation~\eqref{eq:surface_area_lambda} et de
+l'équation~\eqref{eq:volume_lambda} semble se faire au prix d'un facteur $2^n$,
+mais même cela a une signification géométrique claire~: une sphère en $n$
+dimensions se divise naturellement en $2^n$ morceaux congruents, correspondant
+aux $2^n$ familles de solutions à $\sum_{i=1}^{n} x_i^2 = r^2$ (une pour chaque
+choix de $\pm x_i$). En deux dimensions, ce sont les arcs circulaires dans
+chacun des quatre quadrants\,; en trois dimensions, ce sont les secteurs de la
+sphère dans chaque octant\,; et ainsi de suite dans des dimensions supérieures.
+En d'autres termes, on peut exploiter la symétrie de la sphère en calculant la
+superficie ou le volume d'\emph{un} morceau---généralement la \emph{partie
+principale} où $x_i > 0$---puis trouver la valeur complète en multipliant
+par~$2^n$.
 
-À ma connaissance, l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda} sont les formulations les plus simples possibles des formules de superficie et de volume sphérique (et sont en fait les seules formes que j'ai toujours pu mémoriser). On considère la formule de volume en particulier~: contrairement à la fausse simplicité de l'équation~\eqref{eq:n_sphere_pi}, l'équation~\eqref{eq:volume_lambda} n'implique pas d'intégrales compliquées---juste les fonctions légèrement exotiques mais néanmoins élémentaires partie entière et double factorielle. Le volume d'une $n$-sphère unité est juste le volume de chaque morceau symétrique, $\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplié par le nombre de morceaux, $2^n$.
+À ma connaissance, l'équation~\eqref{eq:surface_area_lambda} et
+l'équation~\eqref{eq:volume_lambda} sont les formulations les plus simples
+possibles des formules de superficie et de volume sphérique (et sont en fait les
+seules formes que j'ai toujours pu mémoriser). On considère la formule de volume
+en particulier~: contrairement à la fausse simplicité de
+l'équation~\eqref{eq:n_sphere_pi}, l'équation~\eqref{eq:volume_lambda}
+n'implique pas d'intégrales compliquées---juste les fonctions légèrement
+exotiques mais néanmoins élémentaires partie entière et double factorielle. Le
+volume d'une $n$-sphère unité est juste le volume de chaque morceau symétrique,
+$\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}/n!!$, multiplié par le nombre
+de morceaux, $2^n$.
 
 % subsubsection lambda (end)
 
 \subsubsection{Récurrences} % (fold)
 \label{sec:recurrences}
 
-On a maintenant vu, via l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda}, que les formules de superficie et de volume sont les plus simples en termes d'angle droit $\lambda$. Néanmoins, on n'a toujours pas fini avec $\tau$.
+On a maintenant vu, via l'équation~\eqref{eq:surface_area_lambda} et
+l'équation~\eqref{eq:volume_lambda}, que les formules de superficie et de volume
+sont les plus simples en termes d'angle droit $\lambda$. Néanmoins, on n'a
+toujours pas fini avec $\tau$.
 
-Comme on le voit dans l'équation~\eqref{eq:volume_lambda}, la formule de volume se divise naturellement en deux familles, qui correspondent respectivement aux espaces à dimensions paires et impaires. Cela signifie que le volume à quatre dimensions, $V_4$, est lié simplement à $V_2$ mais pas à $V_3$, tandis que $V_3$ est lié à $V_1$ mais pas à $V_2$. Comment sont-ils exactement liés\,?
+Comme on le voit dans l'équation~\eqref{eq:volume_lambda}, la formule de volume
+se divise naturellement en deux familles, qui correspondent respectivement aux
+espaces à dimensions paires et impaires. Cela signifie que le volume à quatre
+dimensions, $V_4$, est lié simplement à $V_2$ mais pas à $V_3$, tandis que $V_3$
+est lié à $V_1$ mais pas à $V_2$. Comment sont-ils exactement liés\,?
 
-On peut trouver la réponse en dérivant les \emph{relations de récurrence} entre les dimensions\,\footnote{L'article «\,\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The volume of the unit ball in \emph{n} dimensions}\,» («\,Le volume de la balle unité en $n$ dimensions\,») de Phanuel A. Mariano contient une dérivation alternative de ces récurrences importantes.}. En particulier, on fait diviser le volume d'une sphère à $n$ dimensions par le volume d'une sphère à $n-2$ dimensions~:
+On peut trouver la réponse en dérivant les \emph{relations de récurrence} entre
+les dimensions\,\footnote{L'article
+«\,\href{http://www2.math.uconn.edu/~mariano/research/MathClubsp14\%20.pdf}{The
+volume of the unit ball in \emph{n} dimensions}\,» («\,Le volume de la balle
+unité en $n$ dimensions\,») de Phanuel A. Mariano contient une dérivation
+alternative de ces récurrences importantes.}. En particulier, on fait diviser le
+volume d'une sphère à $n$ dimensions par le volume d'une sphère à $n-2$
+dimensions~:
 \begin{equation}
 \label{eq:volume_recurrence}
 \begin{split}
@@ -1295,7 +1423,11 @@ On peut trouver la réponse en dérivant les \emph{relations de récurrence} ent
 \\ & = \frac{2^2\lambda}{n}\,r^2.
 \end{split}
 \end{equation}
-On voit dans l'équation~\eqref{eq:volume_recurrence} que l'on peut obtenir le volume d'une $n$-sphère simplement en multipliant la formule pour une $(n-2)$-sphère par $r^2$ (un facteur requis par l'analyse dimensionnelle), en divisant par $n$ et en multipliant par la «\,constante de récurrence\,» $2^2\lambda$.
+On voit dans l'équation~\eqref{eq:volume_recurrence} que l'on peut obtenir le
+volume d'une $n$-sphère simplement en multipliant la formule pour une
+$(n-2)$-sphère par $r^2$ (un facteur requis par l'analyse dimensionnelle), en
+divisant par $n$ et en multipliant par la «\,constante de récurrence\,»
+$2^2\lambda$.
 
 De même, pour la superficie on a
 \begin{equation}
@@ -1311,7 +1443,14 @@ De même, pour la superficie on a
 \end{equation}
 avec la même constante de récurrence $2^2\lambda$.
 
-Ainsi, dans l'équation~\eqref{eq:volume_recurrence} et l'équation~\eqref{eq:surface_area_recurrence} tous les deux, la constante qui relie les différentes dimensions n'est pas $\lambda$ lui-même mais plutôt la combinaison $2^2\lambda$. En comparant avec l'équation~\eqref{eq:tau_lambda}, on voit que ce n'est autre que $\tau$\,! En effet, une \href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{dérivation alternative} de la récurrence du volume par calcul direct (qui utilise $R$ où l'on écrit $r$) se conclut par l'intégrale
+Ainsi, dans l'équation~\eqref{eq:volume_recurrence} et
+l'équation~\eqref{eq:surface_area_recurrence} tous les deux, la constante qui
+relie les différentes dimensions n'est pas $\lambda$ lui-même mais plutôt la
+combinaison $2^2\lambda$. En comparant avec l'équation~\eqref{eq:tau_lambda}, on
+voit que ce n'est autre que $\tau$\,! En effet, une
+\href{https://en.wikipedia.org/wiki/Volume_of_an_n-ball#The_two-dimension_recursion_formula}{dérivation
+alternative} de la récurrence du volume par calcul direct (qui utilise $R$ où
+l'on écrit $r$) se conclut par l'intégrale
 \begin{equation}
 \label{eq:integral_recurrence}
 \begin{split}
@@ -1320,14 +1459,25 @@ V_n(R) & = \int_0^\tau \int_0^R V_{n-2}\left(\sqrt{R^2 - r^2}\right) \,r\,dr\,d\
        & = \frac{\tau R^2}{n} V_{n-2}(R),
 \end{split}
 \end{equation}
-ce qui montre ainsi que l'identification de $\tau$ comme «\,constante de récurrence\,» n'est pas un hasard---la constante de récurrence et la constante du cercle sont vraiment une seule et même chose~:
+ce qui montre ainsi que l'identification de $\tau$ comme «\,constante de
+récurrence\,» n'est pas un hasard---la constante de récurrence et la constante
+du cercle sont vraiment une seule et même chose~:
 \[
 \begin{split}
 \tau & = \mbox{constante du cercle} \\
      & = \mbox{constante de récurrence} = 2^2\lambda.
 \end{split}
 \]
-Par conséquent, c'est $\tau$, et non $\lambda$, qui fournit le fil conducteur qui relie les deux familles de solutions paires et impaires, comme l'illustre Joseph Lindenberg sur \href{https://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} (la figure~\ref{fig:Nspheres})\,\footnote{\href{https://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool} écrit en fait la récurrence en termes de $2\pi$\,; la version illustrée à la figure~\ref{fig:Nspheres} a été créée pour moi sur demande spéciale. Comme toujours, je suis très reconnaissant à Joseph Lindenberg pour sa générosité et son soutien continus.}.
+Par conséquent, c'est $\tau$, et non $\lambda$, qui fournit le fil conducteur
+qui relie les deux familles de solutions paires et impaires, comme l'illustre
+Joseph Lindenberg sur
+\href{https://sites.google.com/site/taubeforeitwascool/}{Tau Before It Was Cool}
+(la
+figure~\ref{fig:Nspheres})\,\footnote{\href{https://sites.google.com/site/taubeforeitwascool/}{Tau
+Before It Was Cool} écrit en fait la récurrence en termes de $2\pi$\,; la
+version illustrée à la figure~\ref{fig:Nspheres} a été créée pour moi sur
+demande spéciale. Comme toujours, je suis très reconnaissant à Joseph Lindenberg
+pour sa générosité et son soutien continus.}.
 
 \begin{figure}
 \begin{center}
@@ -1336,7 +1486,11 @@ Par conséquent, c'est $\tau$, et non $\lambda$, qui fournit le fil conducteur q
 \caption{Récurrences de superficie et de volume.\label{fig:Nspheres}}
 \end{figure}
 
-Lorsque l'on discute des sphères générales à $n$ dimensions, pour des raisons de commodité, on écrira les formules de superficie et de volume en termes de $\lambda$ comme dans l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda}, mais pour n'importe quel $n$ déterminé, on exprimera les résultats en termes de constante de récurrence $\tau$.
+Lorsque l'on discute des sphères générales à $n$ dimensions, pour des raisons de
+commodité, on écrira les formules de superficie et de volume en termes de
+$\lambda$ comme dans l'équation~\eqref{eq:surface_area_lambda} et
+l'équation~\eqref{eq:volume_lambda}, mais pour n'importe quel $n$ déterminé, on
+exprimera les résultats en termes de constante de récurrence $\tau$.
 
 % subsubsection recurrences (end)
 
@@ -1346,19 +1500,34 @@ Lorsque l'on discute des sphères générales à $n$ dimensions, pour des raison
   \subsection{Trois familles de constantes} % (fold)
   \label{sec:three_families_of_constants}
 
-Équipé des outils développés dans la section~\ref{sec:volume_of_a_hypersphere}, on est maintenant prèt à aller au fond de $\pi$ et $\tau$. Pour terminer, on utilisera l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda} pour définir deux familles de constantes, puis on utilisera la définition de $\pi$ (l'équation~\eqref{eq:pi}) pour en définir une troisième, révéilant ainsi exactement ce qui ne va pas avec $\pi$.
+Équipé des outils développés dans la section~\ref{sec:volume_of_a_hypersphere},
+on est maintenant prèt à aller au fond de $\pi$ et $\tau$. Pour terminer, on
+utilisera l'équation~\eqref{eq:surface_area_lambda} et
+l'équation~\eqref{eq:volume_lambda} pour définir deux familles de constantes,
+puis on utilisera la définition de $\pi$ (l'équation~\eqref{eq:pi}) pour en
+définir une troisième, révéilant ainsi exactement ce qui ne va pas avec $\pi$.
 
-Tout d'abord, on définira une famille de «\,constantes de superficie\,» $\tau_n$ en divisant \linebreak l'équation~\eqref{eq:surface_area_lambda} par $r^{n-1}$, la puissance de $r$ nécessaire pour produire une constante sans dimension pour chaque valeur de~$n$~:
+Tout d'abord, on définira une famille de «\,constantes de superficie\,» $\tau_n$
+en divisant \linebreak l'équation~\eqref{eq:surface_area_lambda} par $r^{n-1}$,
+la puissance de $r$ nécessaire pour produire une constante sans dimension pour
+chaque valeur de~$n$~:
 \begin{equation}
 \label{eq:surface_area_constants}
 \tau_n \equiv \frac{S_n(r)}{r^{n-1}} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{(n-2)!!}
 \end{equation}
-Deuxièmement, on définira une famille de «\,constantes de volume\,» $\sigma_n$ en divisant la formule de volume, l'équation~\eqref{eq:volume_lambda}, par $r^n$, produisant à nouveau une constante sans dimensions pour chaque valeur de~$n$~:
+Deuxièmement, on définira une famille de «\,constantes de volume\,» $\sigma_n$
+en divisant la formule de volume, l'équation~\eqref{eq:volume_lambda}, par
+$r^n$, produisant à nouveau une constante sans dimensions pour chaque valeur
+de~$n$~:
 \begin{equation}
 \label{eq:volume_constants}
 \sigma_n \equiv \frac{V_n(r)}{r^n} = \frac{2^n\,\lambda^{\left\lfloor \frac{n}{2} \right\rfloor}}{n!!}.
 \end{equation}
-Avec les deux familles de constantes définies dans l'équation~\eqref{eq:surface_area_constants} et l'équation~\eqref{eq:volume_constants}, on peut écrire les formules de superficie et de volume (l'équation~\eqref{eq:surface_area_lambda} et l'équation~\eqref{eq:volume_lambda}) de manière compacte comme suit~:
+Avec les deux familles de constantes définies dans
+l'équation~\eqref{eq:surface_area_constants} et
+l'équation~\eqref{eq:volume_constants}, on peut écrire les formules de
+superficie et de volume (l'équation~\eqref{eq:surface_area_lambda} et
+l'équation~\eqref{eq:volume_lambda}) de manière compacte comme suit~:
 \[ S_n(r) = \tau_n\,r^{n-1} \]
 et
 \[ V_n(r) = \sigma_n\,r^n. \]
@@ -1367,35 +1536,59 @@ En raison de la relation $V_n(r) = \int S_n(r)\,dr$, on a la relation simple
 \sigma_n = \frac{\tau_n}{n}.
 \]
 
-On fait faire quelques observations sur ces deux familles de constantes. La famille $\tau_n$ a une signification géométrique importante~: en fixant $r=1$ dans l'équation~\eqref{eq:surface_area_constants}, on voit que chaque $\tau_n$ est la superficie d'une $n$-sphère unité, qui est aussi la mesure d'angle d'une $n$-sphère complète. En particulier, en écrivant $s_n(r)$ comme la «\,longueur d'arc\,» à $n$ dimensions égale à une fraction~$f$ de la superficie totale~$S_n(r)$, on a
+On fait faire quelques observations sur ces deux familles de constantes. La
+famille $\tau_n$ a une signification géométrique importante~: en fixant $r=1$
+dans l'équation~\eqref{eq:surface_area_constants}, on voit que chaque $\tau_n$
+est la superficie d'une $n$-sphère unité, qui est aussi la mesure d'angle d'une
+$n$-sphère complète. En particulier, en écrivant $s_n(r)$ comme la «\,longueur
+d'arc\,» à $n$ dimensions égale à une fraction~$f$ de la superficie
+totale~$S_n(r)$, on a
 \[
 \theta_n \equiv \frac{s_n(r)}{r^{n-1}} = \frac{f S_n(r)}{r^{n-1}} = f\left(\frac{S_n(r)}{r^{n-1}}\right) = f\tau_n.
 \]
-Ici, $\theta_n$ est simplement la généralisation à $n$ dimensions de la mesure d'angle radian, et on voit que $\tau_n$ est la généralisation d'«\,un tour\,» à $n$ dimensions, ce qui explique pourquoi la constante de la $2$-sphère (du cercle) $\tau_2 = 2^2 \lambda = \tau$ conduit naturellement au diagramme illustré à la figure~\ref{fig:tau_angles}. De plus, on a appris à la section~\ref{sec:volume_of_a_hypersphere} que $\tau_2$ est aussi la «\,constante de récurrence\,» pour les superficies et les volumes des $n$-sphères.
+Ici, $\theta_n$ est simplement la généralisation à $n$ dimensions de la mesure
+d'angle radian, et on voit que $\tau_n$ est la généralisation d'«\,un tour\,» à
+$n$ dimensions, ce qui explique pourquoi la constante de la $2$-sphère (du
+cercle) $\tau_2 = 2^2 \lambda = \tau$ conduit naturellement au diagramme
+illustré à la figure~\ref{fig:tau_angles}. De plus, on a appris à la
+section~\ref{sec:volume_of_a_hypersphere} que $\tau_2$ est aussi la «\,constante
+de récurrence\,» pour les superficies et les volumes des $n$-sphères.
 
-Pendant ce temps, les $\sigma_n$ sont les volumes des $n$-sphères unité. En particulier, $\sigma_2$ est la superficie d'un disque unité~:
+Pendant ce temps, les $\sigma_n$ sont les volumes des $n$-sphères unité. En
+particulier, $\sigma_2$ est la superficie d'un disque unité~:
 \[
 \sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
 \]
-Cela montre que $\sigma_2 = \tau/2 = 3{,}141\,59\ldots$ a en fait une signification géométrique indépendante. On constante cependant que \emph{cela n'a rien à voir avec les circonférences ou les diamètres}. En d'autres termes, \emph{$\pi = C/D$ n'est pas membre de famille $\sigma_n$}.
+Cela montre que $\sigma_2 = \tau/2 = 3{,}141\,59\ldots$ a en fait une
+signification géométrique indépendante. On constante cependant que \emph{cela
+n'a rien à voir avec les circonférences ou les diamètres}. En d'autres termes,
+\emph{$\pi = C/D$ n'est pas membre de famille $\sigma_n$}.
 
-Alors, à quelle famille de constantes appartient naturellement $\pi$\,?
-On fait réécrire l'équation~\eqref{eq:pi} en termes plus appropriés pour la généralisation à des dimensions supérieures~:
+Alors, à quelle famille de constantes appartient naturellement $\pi$\,? On fait
+réécrire l'équation~\eqref{eq:pi} en termes plus appropriés pour la
+généralisation à des dimensions supérieures~:
 \[
 \pi = \frac{C}{D} = \frac{S_2}{D^{2-1}}.
 \]
-On voit ainsi que $\pi$ est naturellement associé à des superficies divisées par la puissance du diamètre nécessaire pour donner une constante sans dimension. Cela suggère d'introduire une troisième famille de constantes~$\pi_n$~:
+On voit ainsi que $\pi$ est naturellement associé à des superficies divisées par
+la puissance du diamètre nécessaire pour donner une constante sans dimension.
+Cela suggère d'introduire une troisième famille de constantes~$\pi_n$~:
 \begin{equation}
 \label{eq:diameter_constants}
 \pi_n \equiv \frac{S_n(r)}{D^{n-1}}.
 \end{equation}
-On peut exprimer cela en termes de famille $\tau_n$ en substituant $D = 2r$ dans l'équation~\eqref{eq:diameter_constants} et en appliquant l'équation~\eqref{eq:surface_area_constants}~:
+On peut exprimer cela en termes de famille $\tau_n$ en substituant $D = 2r$ dans
+l'équation~\eqref{eq:diameter_constants} et en appliquant
+l'équation~\eqref{eq:surface_area_constants}~:
 \[
 \pi_n = \frac{S_n(r)}{D^{n-1}} = \frac{S_n(r)}{(2r)^{n-1}} =
 \frac{S_n(r)}{2^{n-1}r^{n-1}} = \frac{\tau_n}{2^{n-1}}.
 \]
 
-On est enfin en mesure de comprendre exactement ce qui ne va pas avec $\pi$. La signification géométrique principale de $3{,}141\,59\ldots$ est qu'il est la superficie d'un disque unité. Mais ce nombre provient de l'évaluation de $\sigma_n = \tau_n/n$ lorsque $n=2$~:
+On est enfin en mesure de comprendre exactement ce qui ne va pas avec $\pi$. La
+signification géométrique principale de $3{,}141\,59\ldots$ est qu'il est la
+superficie d'un disque unité. Mais ce nombre provient de l'évaluation de
+$\sigma_n = \tau_n/n$ lorsque $n=2$~:
 \[
 \sigma_2 = \frac{\tau_2}{2} = \frac{\tau}{2}.
 \]
@@ -1403,7 +1596,11 @@ Il est vrai que cela est égale à $\pi_2$~:
 \[
 \pi_2 = \pi = \frac{\tau_2}{2^{2-1}} = \frac{\tau}{2}.
 \]
-Mais cette égalité est une coïncidence~: elle ne se produit que parce qu'il se trouve que $2^{n-1}$ est égal à $n$ lorsque $n=2$ (c'est-à-dire $2^{2-1} = 2$). Dans toutes les dimensions supérieures, $n$ et $2^{n-1}$ sont distincts. En d'autres termes, \emph{la signification géométrique de $\pi$ est le résultat d'un jeu de mots mathématique}.
+Mais cette égalité est une coïncidence~: elle ne se produit que parce qu'il se
+trouve que $2^{n-1}$ est égal à $n$ lorsque $n=2$ (c'est-à-dire $2^{2-1} = 2$).
+Dans toutes les dimensions supérieures, $n$ et $2^{n-1}$ sont distincts. En
+d'autres termes, \emph{la signification géométrique de $\pi$ est le résultat
+d'un jeu de mots mathématique}.
 
   % subsection three_families_of_constants (end)
 
