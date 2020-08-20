@@ -224,15 +224,29 @@ qu’il soit probable qu’une grande partie de ce matériel soit familier, cela
 la peine de le revoir, car c’est là que commence la véritable compréhension de
 <span class="inline_math">\( \tau \)</span>.</p>
 <div id="sec-circles_and_angles" data-tralics-id="uid16" class="subsection" data-number="2.1"><h3><a href="#sec-circles_and_angles" class="heading"><span class="number">2.1 </span>Cercles et angles</a></h3>
-<p>Il y a une relation intime entre les cercles et les angles, comme le montre la <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a>.<span class="intersentencespace"></span> Puisque les cercles concentriques de la <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a> ont des rayons différents, les lignes de la figure coupent différentes longueurs d’arc, mais l’angle <span class="inline_math">\( \theta \)</span> (thêta) est le même dans chaque cas.<span class="intersentencespace"></span> En d’autres termes, la taille de l’angle ne dépend pas du rayon du cercle utilisé pour définir l’arc.<span class="intersentencespace"></span> La tâche principale de la mesure d’angle est de créer un système qui capture cette invariance de rayon.</p>
+<p>Il y a une relation intime entre les cercles et les angles, comme le montre la
+<a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a>.<span class="intersentencespace"></span> Puisque les cercles concentriques de la
+<a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a> ont des rayons différents, les lignes de la
+figure coupent différentes longueurs d’arc, mais l’angle <span class="inline_math">\( \theta \)</span> (thêta) est le
+même dans chaque cas.<span class="intersentencespace"></span> En d’autres termes, la taille de l’angle ne dépend pas du
+rayon du cercle utilisé pour définir l’arc.<span class="intersentencespace"></span> La tâche principale de la mesure
+d’angle est de créer un système qui capture cette invariance de rayon.</p>
 <div class="center figure" id="fig-angle_arclength" data-tralics-id="uid17" data-number="6">
-<div class="graphics image"><img src="images/figures/angle-arclength.png" alt="images/figures/angle-arclength" /></div><div class="caption"><span class="header">Figure 6: </span><span class="description">Un angle <span class="inline_math">\( \theta \)</span> avec deux cercles concentriques.
+<div class="graphics image"><img src="images/figures/angle-arclength.png" alt="images/figures/angle-arclength" /></div><div class="caption"><span class="header">Figure 6: </span><span class="description">Un angle <span class="inline_math">\( \theta \)</span> avec deux cercles
+concentriques.
 </span></div></div>
-<p>Le système d’angle le plus élémentaire est peut-être les <em>degrés</em>, qui divisent un cercle en 360 parties égales.<span class="intersentencespace"></span> Un resultat de ce système est l’ensemble des angles spéciaux (familiers aux étudiants en trigonométrie) montrés sur la <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">figure <span class="ref">7</span></a>.</p>
+<p>Le système d’angle le plus élémentaire est peut-être les <em>degrés</em>, qui
+divisent un cercle en 360 parties égales.<span class="intersentencespace"></span> Un resultat de ce système est
+l’ensemble des angles spéciaux (familiers aux étudiants en trigonométrie)
+montrés sur la <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">figure <span class="ref">7</span></a>.</p>
 <div class="center figure" id="fig-degree_angles" data-tralics-id="uid18" data-number="7">
 <div class="graphics image"><img src="images/figures/degree-angles.png" alt="images/figures/degree-angles" /></div><div class="caption"><span class="header">Figure 7: </span><span class="description">Des angles spéciaux, en degrés.
 </span></div></div>
-<p>Un système plus fondamental de mesure d’angle implique une comparaison directe de la longueur d’arc <span class="inline_math">\( s \)</span> avec le rayon <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Bien que les longueurs de la <a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a> diffèrent, la longueur de l’arc augmente proportionnellement au rayon, de sorte que le <em>rapport</em> de la longueur de l’arc au rayon est le même dans chaque cas :</p>
+<p>Un système plus fondamental de mesure d’angle implique une comparaison directe
+de la longueur d’arc <span class="inline_math">\( s \)</span> avec le rayon <span class="inline_math">\( r \)</span>.<span class="intersentencespace"></span> Bien que les longueurs de la
+<a href="tau_manifesto.html#fig-angle_arclength" class="hyperref">figure <span class="ref">6</span></a> diffèrent, la longueur de l’arc augmente
+proportionnellement au rayon, de sorte que le <em>rapport</em> de la longueur de
+l’arc au rayon est le même dans chaque cas :</p>
 <div class="equation">\[ 
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
  \]
@@ -241,33 +255,73 @@ s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 \label{eq:radians}
 \theta \equiv \frac{s}{r}.
 \end{equation}
-</div><p class="noindent">Cette définition a la propriété requise d’invariance de rayon, et puisque <span class="inline_math">\( s \)</span> et <span class="inline_math">\( r \)</span> ont tous deux des unités de longueur, les radians sont <a href="https://fr.wikipedia.org/wiki/Grandeur_sans_dimension" target="_blank" rel="noopener"><em>sans dimension</em></a> par construction.<span class="intersentencespace"></span> L’utilisation de la mesure d’angle radian conduit à des formules succinctes et élégantes tout au long des mathématiques<span class="thinspace"> </span>; par exemple, la formule habituelle pour la dérivée de <span class="inline_math">\( \sin\theta \)</span> n’est vraie que lorsque <span class="inline_math">\( \theta \)</span> est exprimé en radians :</p>
+</div><p class="noindent">Cette définition a la propriété requise d’invariance de rayon, et puisque <span class="inline_math">\( s \)</span> et
+<span class="inline_math">\( r \)</span> ont tous deux des unités de longueur, les radians sont
+<a href="https://fr.wikipedia.org/wiki/Grandeur_sans_dimension" target="_blank" rel="noopener"><em>sans
+dimension</em></a> par construction.<span class="intersentencespace"></span> L’utilisation de la mesure d’angle radian conduit
+à des formules succinctes et élégantes tout au long des mathématiques<span class="thinspace"> </span>; par
+exemple, la formule habituelle pour la dérivée de <span class="inline_math">\( \sin\theta \)</span> n’est vraie que
+lorsque <span class="inline_math">\( \theta \)</span> est exprimé en radians :</p>
 <div class="equation">\[ 
   \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(seulement en radians)}
  \]
-</div><p class="noindent">Naturellement, les angles spéciaux de la <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">figure <span class="ref">7</span></a> peuvent être exprimés en radians, et lorsque l’on a appris la trigonométrie au lycée, on a probablement mémorisé les valeurs spéciales indiquées sur la <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">figure <span class="ref">8</span></a>.<span class="intersentencespace"></span> (J’appelle ce système de mesure «<span class="thinspace"> </span>radians-de-<span class="inline_math">\( \pi \)</span><span class="thinspace"> </span>» pour souligner qu’ils sont écrits en termes de <span class="inline_math">\( \pi \)</span>.)</p>
+</div><p class="noindent">Naturellement, les angles spéciaux de la <a href="tau_manifesto.html#fig-degree_angles" class="hyperref">figure <span class="ref">7</span></a> peuvent
+être exprimés en radians, et lorsque l’on a appris la trigonométrie au lycée, on
+a probablement mémorisé les valeurs spéciales indiquées sur la
+<a href="tau_manifesto.html#fig-pi_angles" class="hyperref">figure <span class="ref">8</span></a>.<span class="intersentencespace"></span> (J’appelle ce système de mesure
+«<span class="thinspace"> </span>radians-de-<span class="inline_math">\( \pi \)</span><span class="thinspace"> </span>» pour souligner qu’ils sont écrits en termes de <span class="inline_math">\( \pi \)</span>.)</p>
 <div class="center figure" id="fig-pi_angles" data-tralics-id="uid20" data-number="8">
 <div class="graphics image"><img src="images/figures/pi-angles.png" alt="images/figures/pi-angles" /></div><div class="caption"><span class="header">Figure 8: </span><span class="description">Des angles spéciaux, en radians-de-<span class="inline_math">\( \pi \)</span>.
 </span></div></div>
 <div class="center figure" id="fig-angle_fractions" data-tralics-id="uid21" data-number="9">
-<div class="graphics image"><img src="images/figures/angle-fractions.png" alt="images/figures/angle-fractions" /></div><div class="caption"><span class="header">Figure 9: </span><span class="description">Les angles «<span class="thinspace"> </span>spéciaux<span class="thinspace"> </span>» sont des fractions d’un cercle complet.
+<div class="graphics image"><img src="images/figures/angle-fractions.png" alt="images/figures/angle-fractions" /></div><div class="caption"><span class="header">Figure 9: </span><span class="description">Les angles «<span class="thinspace"> </span>spéciaux<span class="thinspace"> </span>» sont des fractions d’un cercle
+complet.
 </span></div></div>
-<p>Un instant de réflexion montre que les angles dits «<span class="thinspace"> </span>spéciaux<span class="thinspace"> </span>» ne sont que des fractions rationnelles particulièrement simples d’un cercle complet, comme le montre la <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">figure <span class="ref">9</span></a>.<span class="intersentencespace"></span> Cela suggère de revoir l’<a href="tau_manifesto.html#eq-radians" class="hyperref">équation (<span class="ref">4</span>)</a>, en réécrivant la longueur d’arc <span class="inline_math">\( s \)</span> en termes de la fraction <span class="inline_math">\( f \)</span> de la circonférence complète <span class="inline_math">\( C \)</span>, c’est-à-dire <span class="inline_math">\( s = f C \)</span> :</p>
+<p>Un instant de réflexion montre que les angles dits «<span class="thinspace"> </span>spéciaux<span class="thinspace"> </span>» ne sont que
+des fractions rationnelles particulièrement simples d’un cercle complet, comme
+le montre la <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">figure <span class="ref">9</span></a>.<span class="intersentencespace"></span> Cela suggère de revoir
+l’<a href="tau_manifesto.html#eq-radians" class="hyperref">équation (<span class="ref">4</span>)</a>, en réécrivant la longueur d’arc <span class="inline_math">\( s \)</span> en termes de
+la fraction <span class="inline_math">\( f \)</span> de la circonférence complète <span class="inline_math">\( C \)</span>, c’est-à-dire <span class="inline_math">\( s = f C \)</span> :</p>
 <div class="equation">\[  \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau.  \]
-</div><p class="noindent">On remarque comment naturellement <span class="inline_math">\( \tau \)</span> sort de cette analyse.<span class="intersentencespace"></span> Si l’on croit en <span class="inline_math">\( \pi \)</span>, je crains que le diagramme des angles spéciaux qui résulte (la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a>) ébranle sa foi en son cœur.</p>
+</div><p class="noindent">On remarque comment naturellement <span class="inline_math">\( \tau \)</span> sort de cette analyse.<span class="intersentencespace"></span> Si l’on croit en
+<span class="inline_math">\( \pi \)</span>, je crains que le diagramme des angles spéciaux qui résulte (la
+<a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a>) ébranle sa foi en son cœur.</p>
 <div class="center figure" id="fig-tau_angles" data-tralics-id="uid22" data-number="10">
 <div class="graphics image"><img src="images/figures/tau-angles.png" alt="images/figures/tau-angles" /></div><div class="caption"><span class="header">Figure 10: </span><span class="description">Des angles spéciaux, en radians.
 </span></div></div>
-<p>Bien qu’il existe de nombreux autres arguments en faveur de <span class="inline_math">\( \tau \)</span>, la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> peut être l’un qui est le plus frappante.<span class="intersentencespace"></span> On voit aussi sur la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> le génie de l’identification par Bob Palais de la constante du cercle comme «<span class="thinspace"> </span><a href="https://fr.wikipedia.org/wiki/Tour_(angle)" target="_blank" rel="noopener">un tour</a><span class="thinspace"> </span>» : <span class="inline_math">\( \tau \)</span> est la mesure d’angle en radians pour un <em>tour</em> d’un cercle.<span class="intersentencespace"></span> De plus, on remarque qu’avec <span class="inline_math">\( \tau \)</span> il n’y a <em>rien à mémoriser</em> : une douzième de tour est <span class="inline_math">\( \tau/12 \)</span>, un huitième de tour est <span class="inline_math">\( \tau/8 \)</span>, et ainsi de suite.<span class="intersentencespace"></span> L’utilisation de <span class="inline_math">\( \tau \)</span> on donne le meilleur des deux mondes en combinant la clarté conceptuelle avec tous les avantages concrets des radians<span class="thinspace"> </span>; la signification abstraite de, disons, <span class="inline_math">\( \tau/12 \)</span> est évidente, mais c’est aussi juste un nombre :</p>
+<p>Bien qu’il existe de nombreux autres arguments en faveur de <span class="inline_math">\( \tau \)</span>, la
+<a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> peut être l’un qui est le plus frappante.<span class="intersentencespace"></span> On voit
+aussi sur la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> le génie de l’identification par Bob
+Palais de la constante du cercle comme
+«<span class="thinspace"> </span><a href="https://fr.wikipedia.org/wiki/Tour_(angle)" target="_blank" rel="noopener">un tour</a><span class="thinspace"> </span>» : <span class="inline_math">\( \tau \)</span> est la
+mesure d’angle en radians pour un <em>tour</em> d’un cercle.<span class="intersentencespace"></span> De plus, on remarque
+qu’avec <span class="inline_math">\( \tau \)</span> il n’y a <em>rien à mémoriser</em> : une douzième de tour est
+<span class="inline_math">\( \tau/12 \)</span>, un huitième de tour est <span class="inline_math">\( \tau/8 \)</span>, et ainsi de suite.<span class="intersentencespace"></span> L’utilisation de
+<span class="inline_math">\( \tau \)</span> on donne le meilleur des deux mondes en combinant la clarté conceptuelle
+avec tous les avantages concrets des radians<span class="thinspace"> </span>; la signification abstraite de,
+disons, <span class="inline_math">\( \tau/12 \)</span> est évidente, mais c’est aussi juste un nombre :</p>
 <div class="equation">\[ 
 \begin{split}
 \mbox{un douzième de tour} = \frac{\tau}{12} &amp; \approx \frac{6{,}283\,185}{12} \\
                                              &amp; = 0{,}523\,598\,8.
 \end{split}
  \]
-</div><p class="noindent">Enfin, en comparant la <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">figure <span class="ref">8</span></a> à la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a>, on voit d’où viennent ces facteurs embêtants de 2<span class="inline_math">\( \pi \)</span> : un tour de cercle vaut 1<span class="inline_math">\( \tau \)</span>, mais 2<span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> Numériquement, ils sont égaux, mais conceptuellement, ils sont assez distincts.</p>
+</div><p class="noindent">Enfin, en comparant la <a href="tau_manifesto.html#fig-pi_angles" class="hyperref">figure <span class="ref">8</span></a> à la
+<a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a>, on voit d’où viennent ces facteurs embêtants de
+2<span class="inline_math">\( \pi \)</span> : un tour de cercle vaut 1<span class="inline_math">\( \tau \)</span>, mais 2<span class="inline_math">\( \pi \)</span>.<span class="intersentencespace"></span> Numériquement, ils sont
+égaux, mais conceptuellement, ils sont assez distincts.</p>
 <div id="sec-the_ramifications" data-tralics-id="uid23" class="subsubsection" data-number="2.1.1"><h4><a href="#sec-the_ramifications" class="heading">Les ramifications</a></h4>
-<p>Les facteurs inutiles de 2 qui résultent de l’utilisation de <span class="inline_math">\( \pi \)</span> sont assez ennuyeux en eux-mêmes, mais beaucoup plus grave est leur tendance à <em>s’annuler</em> lorsqu’ils sont divisés par un nombre pair.<span class="intersentencespace"></span> Les résultats absurdes, comme un <em>demi</em>-<span class="inline_math">\( \pi \)</span> pour un <em>quart</em> de tour, obscurcissent la relation sous-jacente entre la mesure d’angle et la constante du cercle.<span class="intersentencespace"></span> À celui qui soutient que «<span class="thinspace"> </span>peu n’importe<span class="thinspace"> </span>» que l’on utilise <span class="inline_math">\( \pi \)</span> ou <span class="inline_math">\( \tau \)</span> pour enseigner la trigonométrie, je lui demande simplement de visualiser la figure  <a href="tau_manifesto.html#fig-pi_angles" class="hyperref"><span class="ref">8</span></a>, la <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">figure <span class="ref">9</span></a> et la <a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> à travers les yeux d’un enfant.<span class="intersentencespace"></span> On verra que, du point de vue d’un débutant, <em>l’utilisation de <span class="inline_math">\( \pi \)</span> au lieu de <span class="inline_math">\( \tau \)</span> est un désastre pédagogique</em>.</p>
+<p>Les facteurs inutiles de 2 qui résultent de l’utilisation de <span class="inline_math">\( \pi \)</span> sont assez
+ennuyeux en eux-mêmes, mais beaucoup plus grave est leur tendance à
+<em>s’annuler</em> lorsqu’ils sont divisés par un nombre pair.<span class="intersentencespace"></span> Les résultats
+absurdes, comme un <em>demi</em>-<span class="inline_math">\( \pi \)</span> pour un <em>quart</em> de tour, obscurcissent
+la relation sous-jacente entre la mesure d’angle et la constante du cercle.<span class="intersentencespace"></span> À
+celui qui soutient que «<span class="thinspace"> </span>peu n’importe<span class="thinspace"> </span>» que l’on utilise <span class="inline_math">\( \pi \)</span> ou <span class="inline_math">\( \tau \)</span> pour
+enseigner la trigonométrie, je lui demande simplement de visualiser la
+<a href="tau_manifesto.html#fig-pi_angles" class="hyperref">figure <span class="ref">8</span></a>, la <a href="tau_manifesto.html#fig-angle_fractions" class="hyperref">figure <span class="ref">9</span></a> et la
+<a href="tau_manifesto.html#fig-tau_angles" class="hyperref">figure <span class="ref">10</span></a> à travers les yeux d’un enfant.<span class="intersentencespace"></span> On verra que, du
+point de vue d’un débutant, <em>l’utilisation de <span class="inline_math">\( \pi \)</span> au lieu de <span class="inline_math">\( \tau \)</span> est
+un désastre pédagogique</em>.</p>
 </div></div>
 <div id="sec-the_circle_functions" data-tralics-id="uid24" class="subsection" data-number="2.2"><h3><a href="#sec-the_circle_functions" class="heading"><span class="number">2.2 </span>Les fonctions circulaires</a></h3>
 <p>Bien que la mesure d’angle radian fournisse certains des arguments les plus convaincants pour la vraie constante du cercle, il vaut également la peine de comparer les vertus de <span class="inline_math">\( \pi \)</span> et <span class="inline_math">\( \tau \)</span> dans d’autres contextes.<span class="intersentencespace"></span> On commence en considérant les fonctions élémentaires importantes <span class="inline_math">\( \sin\theta \)</span> et <span class="inline_math">\( \cos\theta \)</span>.<span class="intersentencespace"></span> Connus comme les «<span class="thinspace"> </span>fonctions circulaires<span class="thinspace"> </span>» parce qu’ils donnent les coordonnées d’un point sur le cercle unité (c’est-à-dire un cercle de rayon 1), le sinus et le cosinus sont les fonctions fondamentales de la trigonométrie (la <a href="tau_manifesto.html#fig-circle_functions" class="hyperref">figure <span class="ref">11</span></a>).</p>

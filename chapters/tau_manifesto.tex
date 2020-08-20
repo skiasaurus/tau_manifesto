@@ -225,16 +225,26 @@ $\tau$.
   \subsection{Cercles et angles} % (fold)
   \label{sec:circles_and_angles}
 
-Il y a une relation intime entre les cercles et les angles, comme le montre la figure~\ref{fig:angle_arclength}. Puisque les cercles concentriques de la figure~\ref{fig:angle_arclength} ont des rayons différents, les lignes de la figure coupent différentes longueurs d'arc, mais l'angle~$\theta$ (thêta) est le même dans chaque cas. En d'autres termes, la taille de l'angle ne dépend pas du rayon du cercle utilisé pour définir l'arc. La tâche principale de la mesure d'angle est de créer un système qui capture cette invariance de rayon.
+Il y a une relation intime entre les cercles et les angles, comme le montre la
+figure~\ref{fig:angle_arclength}. Puisque les cercles concentriques de la
+figure~\ref{fig:angle_arclength} ont des rayons différents, les lignes de la
+figure coupent différentes longueurs d'arc, mais l'angle~$\theta$ (thêta) est le
+même dans chaque cas. En d'autres termes, la taille de l'angle ne dépend pas du
+rayon du cercle utilisé pour définir l'arc. La tâche principale de la mesure
+d'angle est de créer un système qui capture cette invariance de rayon.
 
 \begin{figure}
 \begin{center}
 \image{images/figures/angle-arclength.pdf}
 \end{center}
-\caption{Un angle $\theta$ avec deux cercles concentriques.\label{fig:angle_arclength}}
+\caption{Un angle $\theta$ avec deux cercles
+concentriques.\label{fig:angle_arclength}}
 \end{figure}
 
-Le système d'angle le plus élémentaire est peut-être les \emph{degrés}, qui divisent un cercle en 360 parties égales. Un resultat de ce système est l'ensemble des angles spéciaux (familiers aux étudiants en trigonométrie) montrés sur la figure~\ref{fig:degree_angles}.
+Le système d'angle le plus élémentaire est peut-être les \emph{degrés}, qui
+divisent un cercle en 360 parties égales. Un resultat de ce système est
+l'ensemble des angles spéciaux (familiers aux étudiants en trigonométrie)
+montrés sur la figure~\ref{fig:degree_angles}.
 
 \begin{figure}
 \begin{center}
@@ -243,7 +253,11 @@ Le système d'angle le plus élémentaire est peut-être les \emph{degrés}, qui
 \caption{Des angles spéciaux, en degrés.\label{fig:degree_angles}}
 \end{figure}
 
-Un système plus fondamental de mesure d'angle implique une comparaison directe de la longueur d'arc $s$ avec le rayon $r$. Bien que les longueurs de la figure~\ref{fig:angle_arclength} diffèrent, la longueur de l'arc augmente proportionnellement au rayon, de sorte que le \emph{rapport} de la longueur de l'arc au rayon est le même dans chaque cas~:
+Un système plus fondamental de mesure d'angle implique une comparaison directe
+de la longueur d'arc $s$ avec le rayon $r$. Bien que les longueurs de la
+figure~\ref{fig:angle_arclength} diffèrent, la longueur de l'arc augmente
+proportionnellement au rayon, de sorte que le \emph{rapport} de la longueur de
+l'arc au rayon est le même dans chaque cas~:
 \[
 s\propto r \Rightarrow \frac{s_1}{r_1} = \frac{s_2}{r_2}.
 \]
@@ -252,11 +266,21 @@ Cela suggère la définition suivante de la \emph{mesure d'angle radian}:
 \label{eq:radians}
 \theta \equiv \frac{s}{r}.
 \end{equation}
-Cette définition a la propriété requise d'invariance de rayon, et puisque $s$ et $r$ ont tous deux des unités de longueur, les radians sont \href{https://fr.wikipedia.org/wiki/Grandeur_sans_dimension}{\emph{sans dimension}} par construction. L'utilisation de la mesure d'angle radian conduit à des formules succinctes et élégantes tout au long des mathématiques\,; par exemple, la formule habituelle pour la dérivée de $\sin\theta$ n'est vraie que lorsque $\theta$ est exprimé en radians~:
+Cette définition a la propriété requise d'invariance de rayon, et puisque $s$ et
+$r$ ont tous deux des unités de longueur, les radians sont
+\href{https://fr.wikipedia.org/wiki/Grandeur_sans_dimension}{\emph{sans
+dimension}} par construction. L'utilisation de la mesure d'angle radian conduit
+à des formules succinctes et élégantes tout au long des mathématiques\,; par
+exemple, la formule habituelle pour la dérivée de $\sin\theta$ n'est vraie que
+lorsque $\theta$ est exprimé en radians~:
 \[
   \frac{d}{d\theta}\sin\theta = \cos\theta. \qquad\mbox{(seulement en radians)}
 \]
-Naturellement, les angles spéciaux de la figure~\ref{fig:degree_angles} peuvent être exprimés en radians, et lorsque l'on a appris la trigonométrie au lycée, on a probablement mémorisé les valeurs spéciales indiquées sur la figure~\ref{fig:pi_angles}. (J'appelle ce système de mesure «\,radians-de-$\pi$\,» pour souligner qu'ils sont écrits en termes de $\pi$.)
+Naturellement, les angles spéciaux de la figure~\ref{fig:degree_angles} peuvent
+être exprimés en radians, et lorsque l'on a appris la trigonométrie au lycée, on
+a probablement mémorisé les valeurs spéciales indiquées sur la
+figure~\ref{fig:pi_angles}. (J'appelle ce système de mesure
+«\,radians-de-$\pi$\,» pour souligner qu'ils sont écrits en termes de $\pi$.)
 
 \begin{figure}
 \begin{center}
@@ -269,12 +293,19 @@ Naturellement, les angles spéciaux de la figure~\ref{fig:degree_angles} peuvent
 \begin{center}
 \image{images/figures/angle-fractions.pdf}
 \end{center}
-\caption{Les angles «\,spéciaux\,» sont des fractions d'un cercle complet.\label{fig:angle_fractions}}
+\caption{Les angles «\,spéciaux\,» sont des fractions d'un cercle
+complet.\label{fig:angle_fractions}}
 \end{figure}
 
-Un instant de réflexion montre que les angles dits «\,spéciaux\,» ne sont que des fractions rationnelles particulièrement simples d'un cercle complet, comme le montre la figure~\ref{fig:angle_fractions}. Cela suggère de revoir l'équation~\eqref{eq:radians}, en réécrivant la longueur d'arc~$s$ en termes de la fraction~$f$ de la circonférence complète~$C$, c'est-à-dire $s = f C$~:
+Un instant de réflexion montre que les angles dits «\,spéciaux\,» ne sont que
+des fractions rationnelles particulièrement simples d'un cercle complet, comme
+le montre la figure~\ref{fig:angle_fractions}. Cela suggère de revoir
+l'équation~\eqref{eq:radians}, en réécrivant la longueur d'arc~$s$ en termes de
+la fraction~$f$ de la circonférence complète~$C$, c'est-à-dire $s = f C$~:
 \[ \theta = \frac{s}{r} = \frac{fC}{r} =  f\left(\frac{C}{r}\right) \equiv f\tau. \]
-On remarque comment naturellement $\tau$ sort de cette analyse. Si l'on croit en $\pi$, je crains que le diagramme des angles spéciaux qui résulte (la figure~\ref{fig:tau_angles}) ébranle sa foi en son cœur.
+On remarque comment naturellement $\tau$ sort de cette analyse. Si l'on croit en
+$\pi$, je crains que le diagramme des angles spéciaux qui résulte (la
+figure~\ref{fig:tau_angles}) ébranle sa foi en son cœur.
 
 \begin{figure}
 \begin{center}
@@ -283,21 +314,44 @@ On remarque comment naturellement $\tau$ sort de cette analyse. Si l'on croit en
 \caption{Des angles spéciaux, en radians.\label{fig:tau_angles}}
 \end{figure}
 
-Bien qu'il existe de nombreux autres arguments en faveur de $\tau$, la figure~\ref{fig:tau_angles} peut être l'un qui est le plus frappante. On voit aussi sur la figure~\ref{fig:tau_angles} le génie de l'identification par Bob Palais de la constante du cercle comme «\,\href{https://fr.wikipedia.org/wiki/Tour_(angle)}{un tour}\,»~: $\tau$ est la mesure d'angle en radians pour un \emph{tour} d'un cercle. De plus, on remarque qu'avec $\tau$ il n'y a \emph{rien à mémoriser}~: une douzième de tour est $\tau/12$, un huitième de tour est $\tau/8$, et ainsi de suite. L'utilisation de $\tau$ on donne le meilleur des deux mondes en combinant la clarté conceptuelle avec tous les avantages concrets des radians\,; la signification abstraite de, disons, $\tau/12$ est évidente, mais c'est aussi juste un nombre~:
+Bien qu'il existe de nombreux autres arguments en faveur de $\tau$, la
+figure~\ref{fig:tau_angles} peut être l'un qui est le plus frappante. On voit
+aussi sur la figure~\ref{fig:tau_angles} le génie de l'identification par Bob
+Palais de la constante du cercle comme
+«\,\href{https://fr.wikipedia.org/wiki/Tour_(angle)}{un tour}\,»~: $\tau$ est la
+mesure d'angle en radians pour un \emph{tour} d'un cercle. De plus, on remarque
+qu'avec $\tau$ il n'y a \emph{rien à mémoriser}~: une douzième de tour est
+$\tau/12$, un huitième de tour est $\tau/8$, et ainsi de suite. L'utilisation de
+$\tau$ on donne le meilleur des deux mondes en combinant la clarté conceptuelle
+avec tous les avantages concrets des radians\,; la signification abstraite de,
+disons, $\tau/12$ est évidente, mais c'est aussi juste un nombre~:
 \[
 \begin{split}
 \mbox{un douzième de tour} = \frac{\tau}{12} & \approx \frac{6{,}283\,185}{12} \\
                                              & = 0{,}523\,598\,8.
 \end{split}
 \]
-Enfin, en comparant la figure~\ref{fig:pi_angles} à la figure~\ref{fig:tau_angles}, on voit d'où viennent ces facteurs embêtants de 2$\pi$~: un tour de cercle vaut 1$\tau$, mais 2$\pi$. Numériquement, ils sont égaux, mais conceptuellement, ils sont assez distincts.
+Enfin, en comparant la figure~\ref{fig:pi_angles} à la
+figure~\ref{fig:tau_angles}, on voit d'où viennent ces facteurs embêtants de
+2$\pi$~: un tour de cercle vaut 1$\tau$, mais 2$\pi$. Numériquement, ils sont
+égaux, mais conceptuellement, ils sont assez distincts.
 
     \subsubsection{Les ramifications} % (fold)
     \label{sec:the_ramifications}
 
     % subsubsection the_ramifications (end)
 
-Les facteurs inutiles de 2 qui résultent de l'utilisation de $\pi$ sont assez ennuyeux en eux-mêmes, mais beaucoup plus grave est leur tendance à \emph{s'annuler} lorsqu'ils sont divisés par un nombre pair. Les résultats absurdes, comme un \emph{demi}-$\pi$ pour un \emph{quart} de tour, obscurcissent la relation sous-jacente entre la mesure d'angle et la constante du cercle. À celui qui soutient que «\,peu n'importe\,» que l'on utilise $\pi$ ou $\tau$ pour enseigner la trigonométrie, je lui demande simplement de visualiser la figure ~\ref{fig:pi_angles}, la figure~\ref{fig:angle_fractions} et la figure~\ref{fig:tau_angles} à travers les yeux d'un enfant. On verra que, du point de vue d'un débutant, \emph{l'utilisation de $\pi$ au lieu de $\tau$ est un désastre pédagogique}.
+Les facteurs inutiles de 2 qui résultent de l'utilisation de $\pi$ sont assez
+ennuyeux en eux-mêmes, mais beaucoup plus grave est leur tendance à
+\emph{s'annuler} lorsqu'ils sont divisés par un nombre pair. Les résultats
+absurdes, comme un \emph{demi}-$\pi$ pour un \emph{quart} de tour, obscurcissent
+la relation sous-jacente entre la mesure d'angle et la constante du cercle. À
+celui qui soutient que «\,peu n'importe\,» que l'on utilise $\pi$ ou $\tau$ pour
+enseigner la trigonométrie, je lui demande simplement de visualiser la
+figure~\ref{fig:pi_angles}, la figure~\ref{fig:angle_fractions} et la
+figure~\ref{fig:tau_angles} à travers les yeux d'un enfant. On verra que, du
+point de vue d'un débutant, \emph{l'utilisation de $\pi$ au lieu de $\tau$ est
+un désastre pédagogique}.
 
   \subsection{Les fonctions circulaires} % (fold)
   \label{sec:the_circle_functions}
