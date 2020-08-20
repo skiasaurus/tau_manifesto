@@ -612,47 +612,81 @@ plan complexe.\label{fig:tau_euler_circle}}
 \section{La superficie circulaire~: le coup de grâce} % (fold)
 \label{sec:circular_area}
 
-Si quelqu'un est arrivé ici en tant que croyant $\pi$, il doit maintenant remettre en question sa foi. $\tau$ est tellement naturel, sa signification tellement transparente---n'y a-t-il pas d'exemple où $\pi$ brille dans toute sa splendeur rayonnante\,? Une mémoire remue---oui, il existe une telle formule---c'est la formule de la superficie du cercle\,! Voici~:
+Si quelqu'un est arrivé ici en tant que croyant $\pi$, il doit maintenant
+remettre en question sa foi. $\tau$ est tellement naturel, sa signification
+tellement transparente---n'y a-t-il pas d'exemple où $\pi$ brille dans toute sa
+splendeur rayonnante\,? Une mémoire remue---oui, il existe une telle
+formule---c'est la formule de la superficie du cercle\,! Voici~:
 \[ A = \tfrac{1}{4} \pi D^2. \]
-Non, attends. La formule de la superficie est toujours écrite en termes de \emph{rayon}, comme suit~:
+Non, attends. La formule de la superficie est toujours écrite en termes de
+\emph{rayon}, comme suit~:
 \[ A = \pi r^2. \]
-On voit ici $\pi$, sans fioritures, dans l'une des équations les plus importantes en mathématiques---une formule prouvée premièrement par \href{https://fr.wikipedia.org/wiki/Archimède}{Archimède} lui-même. L'ordre est rétabli\,! Et pourtant, le nom de cette section semble inquiétant\textellipsis\ Si cette équation est le couronnement de $\pi$, comment peut-elle aussi être le coup de grâce\,?
+On voit ici $\pi$, sans fioritures, dans l'une des équations les plus
+importantes en mathématiques---une formule prouvée premièrement par
+\href{https://fr.wikipedia.org/wiki/Archimède}{Archimède} lui-même. L'ordre est
+rétabli\,! Et pourtant, le nom de cette section semble inquiétant\textellipsis\
+Si cette équation est le couronnement de $\pi$, comment peut-elle aussi être le
+coup de grâce\,?
 
 
   \subsection{Formes quadratiques} % (fold)
   \label{sec:quadratic_forms}
 
-On fait examiner ce parangon de $\pi$, $A = \pi r^2$. On remarque qu'il implique le diamètre---non, attends, le \emph{rayon}---élevé à la deuxième puissance. Cela en fait une \emph{forme quadratique} simple. De telles formes surviennent dans de nombreux contextes\,; je suis \href{https://thesis.library.caltech.edu/1940/}{physicien}, donc mes exemples préférés viennent du cursus de physique élémentaire. On fait maintenant en considérer plusieurs successivement.
+On fait examiner ce parangon de $\pi$, $A = \pi r^2$. On remarque qu'il implique
+le diamètre---non, attends, le \emph{rayon}---élevé à la deuxième puissance.
+Cela en fait une \emph{forme quadratique} simple. De telles formes surviennent
+dans de nombreux contextes\,; je suis
+\href{https://thesis.library.caltech.edu/1940/}{physicien}, donc mes exemples
+préférés viennent du cursus de physique élémentaire. On fait maintenant en
+considérer plusieurs successivement.
 
     \subsubsection{Tomber dans un champ gravitationnel uniforme} % (fold)
     \label{sec:falling_in_a_uniform_gravitational_field}
 
-\href{https://fr.wikipedia.org/wiki/Galil%C3%A9e_(savant)}{Galilée} a constaté que le vecteur vitesse d'un objet qui tombe dans un champ gravitationnel uniforme est proportionnel au temps tomber~:
+\href{https://fr.wikipedia.org/wiki/Galil%C3%A9e_(savant)}{Galilée} a constaté
+que le vecteur vitesse d'un objet qui tombe dans un champ gravitationnel
+uniforme est proportionnel au temps tomber~:
 \[ v \propto t. \]
 La constante de proportionnalité est l'accélération de la pesanteur~$g$~:
 \[ v = g t. \]
-Puisque le vecteur vitesse est la dérivée de la position, on peut calculer la distance tombée par intégration\,\footnote{\href{https://bit.ly/32mB2CF}{Techniquement}, toutes les intégrales doivent être définies et la variable d'intégration doit être différente de la limite supérieure (par exemple, $\int_{0}^{t} gt'\, dt'$, que l'on prononce «\,l'intégrale de zéro à té de gé té prime dé té prime\,»). Ces \href{https://fr.wikipedia.org/wiki/Abus_de_notation}{abus mineurs de notation} sont courants en physique et dans d'autres contextes mathématiques moins formels comme celui que l'on considère ici.}~:
+Puisque le vecteur vitesse est la dérivée de la position, on peut calculer la
+distance tombée par
+intégration\,\footnote{\href{https://bit.ly/32mB2CF}{Techniquement}, toutes les
+intégrales doivent être définies et la variable d'intégration doit être
+différente de la limite supérieure (par exemple, $\int_{0}^{t} gt'\, dt'$, que
+l'on prononce «\,l'intégrale de zéro à té de gé té prime dé té prime\,»). Ces
+\href{https://fr.wikipedia.org/wiki/Abus_de_notation}{abus mineurs de notation}
+sont courants en physique et dans d'autres contextes mathématiques moins formels
+comme celui que l'on considère ici.}~:
 \[ y = \int v\,dt = \int_0^t gt\,dt = \textstyle{\frac{1}{2}} gt^2. \]
 
 
     \subsubsection{Énergie potentielle dans un ressort linéaire} % (fold)
     \label{sec:potential_energy_in_a_linear_spring}
 
-\href{https://fr.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} a constaté que la force externe requise pour étirer un ressort est proportionnelle à la distance étirée~:
+\href{https://fr.wikipedia.org/wiki/Robert_Hooke}{Robert Hooke} a constaté que
+la force externe requise pour étirer un ressort est proportionnelle à la
+distance étirée~:
 \[ F \propto x. \]
-La constante de proportionnalité est la constante de rappel~$k$\,\footnote{On peut avoir vu ceci écrit comme $F=-kx$. Dans ce cas, $F$ fait référence à la force qu'exerce le \emph{ressort}. Selon la troisième loi de Newton, la force externe discutée ci-dessus est le \emph{négatif} de la force du ressort.}~:
+La constante de proportionnalité est la constante de rappel~$k$\,\footnote{On
+peut avoir vu ceci écrit comme $F=-kx$. Dans ce cas, $F$ fait référence à la
+force qu'exerce le \emph{ressort}. Selon la troisième loi de Newton, la force
+externe discutée ci-dessus est le \emph{négatif} de la force du ressort.}~:
 \[ F = k x. \]
-L'énergie potentielle du ressort est alors égale au travail fourni par la force externe~:
+L'énergie potentielle du ressort est alors égale au travail fourni par la force
+externe~:
 \[ U = \int F\,dx = \int_0^x kx\,dx = \textstyle{\frac{1}{2}} kx^2. \]
 
     \subsubsection{Énergie de mouvement} % (fold)
     \label{sec:energy_of_motion}
 
-\href{https://fr.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} a constaté que la force sur un objet est proportionnelle à son accélération~:
+\href{https://fr.wikipedia.org/wiki/Isaac_Newton}{Isaac Newton} a constaté que
+la force sur un objet est proportionnelle à son accélération~:
 \[ F \propto a. \]
 La constante de proportionnalité est la masse $m$~:
 \[ F = m a. \]
-L'énergie de mouvement, ou l'\emph{énergie cinétique}, est égale au travail total fourni en accélérant la masse au vecteur vitesse~$v$~:
+L'énergie de mouvement, ou l'\emph{énergie cinétique}, est égale au travail
+total fourni en accélérant la masse au vecteur vitesse~$v$~:
 \[
 \begin{split}
 K = \int F\,dx = \int ma\,dx & = \int m\frac{dv}{dt}\,dx \\ & = \int m\frac{dx}{dt}\,dv \\ & = \int_0^v mv\,dv \\ & = \textstyle{\frac{1}{2}} mv^2.
@@ -662,7 +696,9 @@ K = \int F\,dx = \int ma\,dx & = \int m\frac{dv}{dt}\,dx \\ & = \int m\frac{dx}{
   \subsection{Un sentiment nerveux} % (fold)
   \label{sec:a_sense_of_foreboding}
 
-Après avoir vu plusieurs exemples de formes quadratiques simples en physique, on a maintenant peut-être un sentiment nerveux en retournant à la géométrie du cercle. Ce sentiment est justifié.
+Après avoir vu plusieurs exemples de formes quadratiques simples en physique, on
+a maintenant peut-être un sentiment nerveux en retournant à la géométrie du
+cercle. Ce sentiment est justifié.
 
 \begin{figure}
 \begin{center}
@@ -672,7 +708,9 @@ Après avoir vu plusieurs exemples de formes quadratiques simples en physique, o
 \end{figure}
 
 
-Comme le montre la figure~\ref{fig:circular_area}, on peut calculer la superficie d'un cercle en le décomposant en anneaux circulaires de longueur $C$ et de largeur $dr$, où la superficie de chaque anneau est $C\,dr$~:
+Comme le montre la figure~\ref{fig:circular_area}, on peut calculer la
+superficie d'un cercle en le décomposant en anneaux circulaires de longueur $C$
+et de largeur $dr$, où la superficie de chaque anneau est $C\,dr$~:
 \[ dA = C\,dr. \]
 La circonférence d'un cercle est proportionnelle à son rayon~:
 \[ C \propto r. \]
@@ -681,11 +719,18 @@ La constante de proportionnalité est $\tau$~:
 La superficie du cercle est alors l'intégrale sur tous les anneaux~:
 \[ A = \int dA = \int_0^r C\,dr = \int_0^r \tau\,r\,dr = \textstyle{\frac{1}{2}} \tau\,r^2. \]
 
-Si l'on était encore partisan de $\pi$ au début de cette section, sa tête a maintenant explosé. Car on voit que même dans ce cas, où $\pi$ brille soi-disant, en fait il manque un facteur 2. En effet, la démonstration originale d'Archimède montre non pas que la superficie d'un cercle est $\pi r^2$, mais qu'elle est égale à la superficie d'un triangle rectangle de base $C$ et de hauteur $r$. L'application de la formule pour la superficie triangulaire donne alors
+Si l'on était encore partisan de $\pi$ au début de cette section, sa tête a
+maintenant explosé. Car on voit que même dans ce cas, où $\pi$ brille
+soi-disant, en fait il manque un facteur 2. En effet, la démonstration originale
+d'Archimède montre non pas que la superficie d'un cercle est $\pi r^2$, mais
+qu'elle est égale à la superficie d'un triangle rectangle de base $C$ et de
+hauteur $r$. L'application de la formule pour la superficie triangulaire donne
+alors
 \[
   A = \textstyle{\frac{1}{2}} bh = \textstyle{\frac{1}{2}}Cr = \textstyle{\frac{1}{2}}\tau\,r^2.
 \]
-Il est tout simplement impossible d'éviter ce facteur de demi (le tableau~\ref{table:quadratic_forms}).
+Il est tout simplement impossible d'éviter ce facteur de demi (le
+tableau~\ref{table:quadratic_forms}).
 
 \begin{table}
 \begin{center}
@@ -703,7 +748,11 @@ Superficie circulaire & $A$ & $\textstyle{\frac{1}{2}}\tau\,r^2$
     \subsubsection{Quod erat demonstrandum} % (fold)
     \label{sec:quod_erat_demonstrandum}
 
-On a voulu dans ce manifeste montrer que $\tau$ est la vraie constante du cercle. Étant donné que la formule de la superficie circulaire était à peu près le dernier, le meilleur argument que $\pi$ avait pour lui, je vais ici être effronté et dire~: \href{https://fr.wikipedia.org/wiki/CQFD_(math%C3%A9matiques)}{QED}.
+On a voulu dans ce manifeste montrer que $\tau$ est la vraie constante du
+cercle. Étant donné que la formule de la superficie circulaire était à peu près
+le dernier, le meilleur argument que $\pi$ avait pour lui, je vais ici être
+effronté et dire~:
+\href{https://fr.wikipedia.org/wiki/CQFD_(math%C3%A9matiques)}{QED}.
 
     % subsubsection quod_erat_demonstrandum (end)
 
