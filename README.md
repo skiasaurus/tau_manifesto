@@ -1,28 +1,17 @@
-# The Tau Manifesto
+# Le Manifeste de tau
 
-This is the LaTeX source of [*The Tau Manifesto*](https://tauday.com/tau-manifesto). Copyright © 2010–2020 by Michael Hartl.
+Ceci est le code source LaTeX de la version française de [*The Tau Manifesto*](https://tauday.com/tau-manifesto).
 
-## Translations
+(Insert translation of the rest of the English below.)
 
-Existing translations:
+-----------------
 
-* [Spanish](https://tauday.com/el-manifiesto-tau)
-* [Italian](https://tauday.com/il-tau-manifesto)
-* [Portuguese](https://tauday.com/o-manifesto-tau)
-* [Russian](https://tauday.com/tau-manifesto-ru)
-* [Chinese](https://tauday.com/tau-manifesto-cn)
+This is the LaTeX source for the French-language version of [*The Tau Manifesto*](https://tauday.com/tau-manifesto).
+Copyright © 2010–2020 by Michael Hartl.
 
-The steps for translating the manifesto into a new language depend on a number of factors.
+The translation is published at http://tauday.com/le-manifeste-de-tau.
 
-If you are translating to an “easy” language (e.g., one that uses the Latin alphabet) and have deep technical skills:
-
-1. [Fork the repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and add me (`mhartl`) as a collaborator.
-2. Install the `softcover` Ruby gem and get the document to build locally by following the instructions in [*The Softcover Book*](https://manual.softcover.io/book). (If your system isn't already configured as a Ruby development environment, see [*Learn Enough Dev Environment to Be Dangerous*](https://www.learnenough.com/dev-environment-tutorial).)
-3. Edit the file `chapters/tau_manifesto.tex` to make the translation. See especially the section “[Foreign-language support](https://manual.softcover.io/book/customization#sec-foreign_language)” in the Softcover manual.
-4. Once the translation is nearing completion, send email to michael@michaelhartl.com for further instructions.
-
-If you are translating to a “hard” language (e.g., Russian or Chinese) or aren’t as comfortable with technology:
-
-1. [Fork the repository](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and add me (`mhartl`) as a collaborator.
-2. Edit the file `html/tau_manifesto.html` directly, taking care to preview it in a web browser to make sure it looks OK.
-3. Once the translation is complete, send an email to michael@michaelhartl.com with the HTML attached as a separate file.
+In producing this translation, we (@draialexis and @skiasaurus) have endeavored to reproduce
+the content and tone of the original English version to the best of our abilities, but neither
+of us is either a mathematician or a professional translator. If you have comments or
+suggestions on the translation, please feel free to open an issue (in English or French).
