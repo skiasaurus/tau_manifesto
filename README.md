@@ -1,8 +1,14 @@
 # Le Manifeste de tau
 
 Ceci est le code source LaTeX de la version française de [*The Tau Manifesto*](https://tauday.com/tau-manifesto).
+Copyright © 2010–2020 par Michael Hartl.
 
-(Insert translation of the rest of the English below.)
+La traduction se trouve sur http://tauday.com/le-manifeste-de-tau.
+
+Pendant ce travail de traduction, nous avons tâché de reproduire le plus fidèlement possible
+le contenu et le ton de la version originale en anglais, mais aucun de nous deux ne sommes
+mathématiciens ou traducteurs professionnels. Si vous avez des commentaires ou des
+suggestions sur la traduction, n'hésitez pas à ouvrir une _issue_ (en anglais ou en français).
 
 -----------------
 
