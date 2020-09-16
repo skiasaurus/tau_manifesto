@@ -5,7 +5,7 @@ Copyright © 2010–2020 par Michael Hartl.
 
 La traduction se trouve sur http://tauday.com/le-manifeste-de-tau.
 
-Pendant ce travail de traduction, nous avons tâché de reproduire le plus fidèlement possible
+Pendant ce travail de traduction, nous (@draialexis et @skiasaurus) avons tâché de reproduire le plus fidèlement possible
 le contenu et le ton de la version originale en anglais, mais aucun de nous deux ne sommes
 mathématiciens ou traducteurs professionnels. Si vous avez des commentaires ou des
 suggestions sur la traduction, n'hésitez pas à ouvrir une _issue_ (en anglais ou en français).
