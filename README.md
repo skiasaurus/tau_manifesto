@@ -3,7 +3,7 @@
 Ceci est le code source LaTeX de la version française de [*The Tau Manifesto*](https://tauday.com/tau-manifesto).
 Copyright © 2010–2020 par Michael Hartl.
 
-La traduction se trouve sur http://tauday.com/le-manifeste-de-tau.
+<!-- La traduction se trouve sur http://tauday.com/le-manifeste-de-tau. -->
 
 Pendant ce travail de traduction, nous (@draialexis et @skiasaurus) avons tâché de reproduire le plus fidèlement possible
 le contenu et le ton de la version originale en anglais, mais aucun de nous deux ne sommes
@@ -15,7 +15,7 @@ suggestions sur la traduction, n'hésitez pas à ouvrir une _issue_ (en anglais 
 This is the LaTeX source for the French-language version of [*The Tau Manifesto*](https://tauday.com/tau-manifesto).
 Copyright © 2010–2020 by Michael Hartl.
 
-The translation is published at http://tauday.com/le-manifeste-de-tau.
+<!-- The translation is published at http://tauday.com/le-manifeste-de-tau. -->
 
 In producing this translation, we (@draialexis and @skiasaurus) have endeavored to reproduce
 the content and tone of the original English version to the best of our abilities, but neither
